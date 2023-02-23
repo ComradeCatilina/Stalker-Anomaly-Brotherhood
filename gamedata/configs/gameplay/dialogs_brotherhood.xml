@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+
+<game_dialogs>
+
+---- Hunter Guild ----
+<dialog id="butcher_1">
+		<dont_has_info>butcher_1_start</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>butcher_1_start_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">
+				
+				<text>butcher_1_start_1</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>butcher_1_start_2</text>
+				
+			</phrase>
+			<phrase id="3">
+				<text>butcher_1_start_3</text>
+				<give_info>butcher_1_start</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>	
+	
+	
+	
+---- Fake Artifact ----
+
+---Sidorovich---
+
+<dialog id="sidorovich_fake_artifact">
+		<dont_has_info>sidorovich_fake_artifact_start</dont_has_info>
+		<has_info>bar_deactivate_radar_done</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>sidorovich_fake_artifact_start_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">
+				
+				<text>sidorovich_fake_artifact_start_1</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>sidorovich_fake_artifact_start_2</text>
+				
+			</phrase>
+			<phrase id="3">
+				<text>sidorovich_fake_artifact_start_3</text>
+				<give_info>sidorovich_fake_artifact_start</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+
+
+
+
+
+
+
+</game_dialogs>
