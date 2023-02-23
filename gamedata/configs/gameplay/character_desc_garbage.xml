@@ -35,8 +35,8 @@
 		<actor_dialog>about_baraholka_hunter_trader</actor_dialog>
 		<actor_dialog>dm_lifestyle</actor_dialog>
 		
-		<!----------SFTZ/Lyoshik--------->
-		<actor_dialog>butcher_comrades</actor_dialog>
+		<!----------SFTZ/brotherhood--------->
+		<actor_dialog>butcher_1</actor_dialog>
 		
 		<actor_dialog>actor_break_dialog</actor_dialog>
 		
