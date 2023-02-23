@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+
+<game_dialogs>
+<!-- Stories from the Zone -->
+----- Lyhosik Tasks ------
+
+
+---Sidorovich--- 
+<dialog id="sidorovich_comrades">
+		
+		<dont_has_info>sidorovich_comrades_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>sidorovich_comrades_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>sidorovich_comrades_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>33</next>
+			</phrase>
+			<phrase id="2">
+				<dont_has_info>sidorovich_danila_done</dont_has_info>
+				<text>sidorovich_comrades_2</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="3">
+				<dont_has_info>sidorovich_sergey_done</dont_has_info>
+				<text>sidorovich_comrades_3</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="4">
+				<dont_has_info>sidorovich_boris_done</dont_has_info>
+				<text>sidorovich_comrades_4</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="5">
+				<give_info>sidorovich_danila_done</give_info>
+				<text>sidorovich_comrades_5</text>
+				<next>28</next>
+				<next>3</next>
+				<next>4</next>
+			</phrase>
+			<phrase id="6">	
+				<text>sidorovich_comrades_6</text>
+				<next>8</next>
+				<next>9</next>
+				<next>10</next>
+				<next>11</next>
+			</phrase>
+			<phrase id="7">
+				<text>sidorovich_comrades_7</text>
+				<next>18</next>
+				<next>19</next>
+			</phrase>
+			<phrase id="8">
+				<text>sidorovich_comrades_8</text>
+				<next>29</next>
+			</phrase>
+			<phrase id="9">
+				<text>sidorovich_comrades_9</text>
+				<next>30</next>
+			</phrase>
+			<phrase id="10">
+				<precondition>dialogs_stories.faction_friend_test_sido</precondition>
+				<text>sidorovich_comrades_10</text>
+				<next>31</next>
+			</phrase>
+			<phrase id="11">
+				<precondition>dialogs_stories.reputation_test</precondition>
+				<text>sidorovich_comrades_11</text>
+				<next>32</next>
+			</phrase>
+			<phrase id="12">				
+				<text>sidorovich_comrades_12</text>
+				<next>27</next>
+			</phrase>
+			<phrase id="13">				
+				<text>sidorovich_comrades_13</text>
+				<next>35</next>
+			</phrase>
+			<phrase id="14">				
+				<text>sidorovich_comrades_14</text>
+				<action>dialogs_stories.comrades_pay_for_info</action>
+				<next>16</next>
+			</phrase>
+			<phrase id="15">
+				<give_info>sidorovich_pay_info_sergey</give_info>
+				<text>sidorovich_comrades_15</text>
+				<next>2</next>
+				<next>3</next>
+				<next>28</next>
+			</phrase>
+			<phrase id="16">
+				<give_info>sidorovich_sergey_done</give_info>
+				<give_info>sergey_malatov_where</give_info>
+				<text>sidorovich_comrades_16</text>
+				<next>28</next>
+				<next>2</next>
+				<next>4</next>
+			</phrase>
+			<phrase id="17">				
+				<text>sidorovich_comrades_17</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="18">				
+				<text>sidorovich_comrades_18</text>
+				<next>20</next>
+			</phrase>
+			<phrase id="19">				
+				<text>sidorovich_comrades_19</text>
+				<next>21</next>
+			</phrase>
+			<phrase id="20">
+				<give_info>sidorovich_boris_done</give_info>
+				<give_info>aprox_location_boris</give_info>
+				<text>sidorovich_comrades_20</text>
+				<next>2</next>
+				<next>3</next>
+				<next>28</next>
+			</phrase>
+			<phrase id="21">
+				<give_info>sidorovich_boris_done</give_info>
+				<give_info>aprox_location_boris</give_info>
+				<text>sidorovich_comrades_21</text>
+				<next>2</next>
+				<next>3</next>
+				<next>28</next>
+			</phrase>
+				<phrase id="22">
+				<has_info>sidorovich_boris_done</has_info>
+				<has_info>sidorovich_danila_done</has_info>
+				<has_info>sidorovich_sergey_done</has_info>
+				<dont_has_info>sidorovich_knows</dont_has_info>
+				<text>sidorovich_comrades_22</text>
+				<next>24</next>
+				<next>25</next>
+				<next>26</next>
+			</phrase>
+			<phrase id="23">				
+				<text>sidorovich_comrades_23</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="24">				
+				<text>sidorovich_comrades_24</text>
+				<next>27</next>
+			</phrase>
+			<phrase id="25">				
+				<text>sidorovich_comrades_25</text>
+				<next>38</next>
+			</phrase>
+			<phrase id="26">				
+				<text>sidorovich_comrades_26</text>
+				
+			</phrase>
+			<phrase id="27">
+				<give_info>sidorovich_knows</give_info>
+				<text>sidorovich_comrades_27</text>
+				<action>dialogs_stories.comrades_receive_for_info_2</action>
+				<next>34</next>
+			</phrase>
+			<phrase id="28">
+				<text>sidorovich_comrades_28</text>
+				<next>22</next>
+			</phrase>
+			<phrase id="29">				
+				<text>sidorovich_comrades_29</text>
+				<next>12</next>
+				<next>13</next>
+			</phrase>
+			<phrase id="30">
+				<give_info>sidorovich_sergey_done</give_info>			
+				<text>sidorovich_comrades_30</text>
+				<next>28</next>
+				<next>2</next>
+				<next>4</next>
+			</phrase>
+			<phrase id="31">
+				<give_info>sergey_malatov_where</give_info>
+				<give_info>sidorovich_sergey_done</give_info>
+				<text>sidorovich_comrades_31</text>
+				<next>28</next>
+				<next>2</next>
+				<next>4</next>
+			</phrase>
+			<phrase id="32">
+				<text>sidorovich_comrades_32</text>
+				<next>14</next>
+				<next>15</next>
+			</phrase>
+			<phrase id="33">
+				<has_info>sidorovich_pay_info_sergey</has_info>
+				<text>sidorovich_comrades_33</text>
+				<next>32</next>
+			</phrase>
+			<phrase id="34">		
+				<dont_has_info>sergey_malatov_where</dont_has_info>
+				<text>sidorovich_comrades_34</text>
+				<next>37</next>
+			</phrase>
+			<phrase id="35">				
+				<text>sidorovich_comrades_35</text>
+				<next>36</next>
+				<next>12</next>
+			</phrase>
+			<phrase id="36">				
+				<text>sidorovich_comrades_36</text>
+				<next>30</next>
+			</phrase>
+			<phrase id="37">
+				<give_info>sidorovich_sergey_done</give_info>
+				<give_info>sergey_malatov_where</give_info>
+				<give_info>sidorovich_knows</give_info>
+				<text>sidorovich_comrades_37</text>
+				<next>28</next>
+				<next>2</next>
+				<next>4</next>
+			</phrase>
+			<phrase id="38">
+				<action>dialogs_stories.comrades_receive_for_info_1</action>
+				<text>sidorovich_comrades_38</text>
+				<next>40</next>
+			</phrase>
+			<phrase id="40">				
+				<text>sidorovich_comrades_40</text>
+				<next>39</next>
+			</phrase>
+			<phrase id="39">
+				<give_info>sidorovich_knows</give_info>
+				<text>sidorovich_comrades_39</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+
+---Barman --- 
+
+<dialog id="barman_comrades">
+		<precondition>dialogs_stories.comrades_barman_money</precondition>
+		<dont_has_info>barman_comrades_start</dont_has_info>
+		
+		<phrase_list>
+			<phrase id="0">
+				<text>barman_comrades_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<action>dialogs_stories.comrades_barman_pay</action>
+				<text>barman_comrades_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+			</phrase>
+			<phrase id="2">
+				<text>barman_comrades_2</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="3">
+				<text>barman_comrades_3</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="4">
+				<text>barman_comrades_4</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="5">				
+				<text>barman_comrades_5</text>
+				<next>3</next>
+				<next>4</next>
+				<next>8</next>
+			</phrase>
+			<phrase id="6">
+				<give_info>danila_bagrov_approx</give_info>
+				<text>barman_comrades_6</text>
+				<next>2</next>
+				<next>4</next>
+				<next>8</next>
+			</phrase>
+			<phrase id="7">				
+				<text>barman_comrades_7</text>
+				<next>2</next>
+				<next>3</next>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">				
+				<text>barman_comrades_8</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="9">
+				<text>barman_comrades_9</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="10">				
+				<text>barman_comrades_10</text>
+				<give_info>barman_comrades_start</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+--- Butcher ---
+<dialog id="hunter comrades">
+		<dont_has_info>hunter_comrades_start</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>hunter_comrades_0</text>
+				<next>2</next>				
+			</phrase>
+			<phrase id="2">
+				<text>hunter_comrades_2</text>
+				<next>3</next>
+				<next>4</next>	
+				<next>5</next>	
+			</phrase>
+			<phrase id="3">
+				<text>hunter_comrades_3</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="4">
+				<text>hunter_comrades_4</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="5">
+				<text>hunter_comrades_5</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="6">
+				<text>hunter_comrades_6</text>
+				<next>4</next>
+				<next>5</next>
+				<next>9</next>
+			</phrase>
+			<phrase id="7">
+				<text>hunter_comrades_7</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="8">
+				<text>hunter_comrades_8</text>
+				<next>3</next>
+				<next>4</next>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>hunter_comrades_9</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>hunter_comrades_10</text>
+				<give_info>hunter_comrades_start</give_info>
+			</phrase>
+			<phrase id="11">
+				<text>hunter_comrades_11</text>
+				<next>12</next>
+			</phrase>
+			<phrase id="12">
+				<give_info>danila_bagrov_where</give_info>
+				<text>hunter_comrades_12</text>
+				<next>3</next>
+				<next>5</next>
+				<next>9</next>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+
+
+
+
+
+<!-- Sergey Malatov -->
+	<dialog id="sergey_malatov_start">
+		<dont_has_info>sergey_malatov_start</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>sergey_malatov_start_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">
+				<has_info>quest_give_lyoshik_5_sergey</has_info>
+				<text>sergey_malatov_start_1</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>sergey_malatov_start_2</text>	
+				<next>7</next>				
+			</phrase>
+			<phrase id="3">
+				<text>sergey_malatov_start_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>sergey_malatov_start_4</text>
+				<next>5</next>				
+			</phrase>
+			<phrase id="5">
+				<text>sergey_malatov_start_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>sergey_malatov_start_6</text>
+				<give_info>sergey_malatov_start</give_info>
+				<action>dialogs_stories.give_task_kill_hitsquad_sergey</action>
+			</phrase>
+			<phrase id="7">
+				<text>sergey_malatov_start_7</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+<dialog id="sergey_malatov_quest_done">
+		<dont_has_info>sergey_malatov_quest_done</dont_has_info>
+		<has_info>sergey_malatov_hitsquad_dead</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>sergey_malatov_task_1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>sergey_malatov_task_1_1</text>
+				<give_info>sergey_malatov_hitsquad_dead_reward</give_info>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>sergey_malatov_task_1_2</text>
+				<next>3</next>				
+			</phrase>
+			<phrase id="3">
+				<text>sergey_malatov_task_1_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>sergey_malatov_task_1_4</text>
+				<next>5</next>				
+			</phrase>
+			<phrase id="5">
+				<text>sergey_malatov_task_1_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>sergey_malatov_task_1_5</text>
+				<give_info>sergey_malatov_quest_done</give_info>
+				<give_info>quest_meet_sergey_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+
+
+
+
+
+<!-- Monday Starts on Saturday -->
+
+<!-- Merlin -->
+
+	<dialog id="merlin_start_dialog">
+		<dont_has_info>merlin_start</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>merlin_start_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">
+				
+				<text>merlin_start_1</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>merlin_start_2</text>
+				
+			</phrase>
+			<phrase id="3">
+				<text>merlin_start_3</text>
+				<give_info>merlin_start</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+
+<!-- vybegallo -->
+
+
+	<dialog id="roman_kill_satisfied_man_dialog">
+		<dont_has_info>roman_kill_satisfied_man_start</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>vybegallo_start_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">
+				
+				<text>vybegallo_start_1</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>vybegallo_start_2</text>
+				
+			</phrase>
+			<phrase id="3">
+				<text>vybegallo_start_3</text>
+				<action>dialogs_stories.give_task_kill_satisfied_man_1</action>
+				<give_info>roman_kill_satisfied_man_start</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+---- Universal Translator ----	
+
+<!-- Roman Oira Oira -->
+	
+<dialog id="roman_oiraoira_start_dialog">
+		<dont_has_info>roman_oiraoira_start</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>roman_oiraoira_start_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">				
+				<text>roman_oiraoira_start_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>roman_oiraoira_start_2</text>
+				<next>3</next>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+				<dont_has_info>roman_niichavo</dont_has_info>
+				<text>roman_oiraoira_start_3</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="4">
+				<dont_has_info>roman_vybegallo</dont_has_info>
+				<text>roman_oiraoira_start_4</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="5">
+				<give_info>roman_niichavo</give_info>			
+				<text>roman_oiraoira_start_5</text>
+				<next>4</next>
+				<next>17</next>
+			</phrase>
+			<phrase id="6">
+				<text>roman_oiraoira_start_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>roman_oiraoira_start_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>roman_oiraoira_start_8</text>
+				<next>9</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="9">				
+				<text>roman_oiraoira_start_9</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="10">
+				<text>roman_oiraoira_start_10</text>
+				<next>12</next>
+			</phrase>
+			<phrase id="11">
+				<text>roman_oiraoira_start_11</text>
+				<next>13</next>
+			</phrase>
+			<phrase id="12">
+				<text>roman_oiraoira_start_12</text>
+				<next>13</next>
+			</phrase>
+			<phrase id="13">				
+				<text>roman_oiraoira_start_13</text>
+				<next>14</next>
+			</phrase>
+			<phrase id="14">
+				<text>roman_oiraoira_start_14</text>
+				<next>15</next>
+			</phrase>
+			<phrase id="15">
+				<text>roman_oiraoira_start_15</text>
+				<next>16</next>
+			</phrase>
+			<phrase id="16">
+				<give_info>roman_vybegallo</give_info>
+				<text>roman_oiraoira_start_16</text>
+				<next>3</next>
+				<next>17</next>
+			</phrase>
+			<phrase id="17">
+				<has_info>roman_niichavo</has_info>
+				<has_info>roman_vybegallo</has_info>
+				<text>roman_oiraoira_start_17</text>
+				<next>18</next>
+			</phrase>
+			<phrase id="18">
+				<text>roman_oiraoira_start_18</text>
+				<next>19</next>
+			</phrase>
+			<phrase id="19">
+				<text>roman_oiraoira_start_19</text>
+				<next>20</next>
+			</phrase>
+			<phrase id="20">
+				<text>roman_oiraoira_start_20</text>
+				<give_info>roman_oiraoira_start</give_info>
+				<action>dialogs_stories.give_task_find_translator</action>
+			</phrase>
+			
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="oiraoira_tuna_bag">
+		<has_info>vybegallo_tuna_found_done</has_info>		
+		<dont_has_info>oiraoira_tuna_bag_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>oiraoira_tuna_bag_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">				
+				<text>oiraoira_tuna_bag_1</text>
+				<next>2</next>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<has_info>sido_tuna_1</has_info>
+				<text>oiraoira_tuna_bag_2</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+				<dont_has_info>sido_tuna_1</dont_has_info>
+				<text>oiraoira_tuna_bag_3</text>
+				<next>5</next>
+			</phrase>			
+			<phrase id="4">
+				<action>dialogs_stories.transfer_veles_vybegallo</action>
+				<text>oiraoira_tuna_bag_4</text>
+				<give_info>oiraoira_tuna_bag_done</give_info>
+			</phrase>
+			<phrase id="5">
+				<action>dialogs_stories.transfer_money_oiraoira</action>
+				<text>oiraoira_tuna_bag_5</text>
+				<give_info>oiraoira_tuna_bag_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+<!-- vybegallo -->
+
+
+	<dialog id="vybegallo_start_dialog">
+		<dont_has_info>vybegallo_start</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>vybegallo_start_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">
+				<has_info>roman_oiraoira_start</has_info>
+				<text>vybegallo_start_1</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="2">
+				<text>vybegallo_start_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>vybegallo_start_3</text>
+			</phrase>
+			<phrase id="4">
+				<text>vybegallo_start_4</text>
+				<next>6</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>vybegallo_start_5</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="6">
+				<text>vybegallo_start_6</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="7">
+				<text>vybegallo_start_7</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="8">
+				<text>vybegallo_start_8</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="9">
+				<text>vybegallo_start_9</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="10">
+				<text>vybegallo_start_10</text>
+				<next>12</next>
+			</phrase>
+			<phrase id="11">
+				<text>vybegallo_start_11</text>
+				<give_info>vybegallo_start</give_info>
+				<give_info>vybegallo_start_1</give_info>
+			</phrase>
+			<phrase id="12">
+				<text>vybegallo_start_12</text>
+				<give_info>vybegallo_start</give_info>
+				<give_info>vybegallo_start_2</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="translator_vybegallo_1">
+		<has_info>vybegallo_start_1</has_info>
+		<precondition>dialogs_stories.is_has_tuna_can_vybegallo_1</precondition>
+		<dont_has_info>translator_vybegallo_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>translator_vybegallo_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">				
+				<action>dialogs_stories.transfer_tuna_can_to_vybegallo_1</action>
+				<text>translator_vybegallo_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>translator_vybegallo_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>translator_vybegallo_3</text>
+				<action>xr_effects.spawn_translator_carrier</action>
+				<give_info>translator_vybegallo_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="translator_vybegallo_2">
+		<has_info>vybegallo_start_2</has_info>
+		<precondition>dialogs_stories.is_has_tuna_can_vybegallo_2</precondition>
+		<dont_has_info>translator_vybegallo_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>translator_vybegallo_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">				
+				<action>dialogs_stories.transfer_tuna_can_to_vybegallo_2</action>
+				<text>translator_vybegallo_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>translator_vybegallo_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>translator_vybegallo_3</text>
+				<action>xr_effects.spawn_translator_carrier</action>
+				<give_info>translator_vybegallo_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="vybegallo_tuna_man">
+		<has_info>translator_vybegallo_done</has_info>
+		<dont_has_info>vybegallo_tuna_man_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>vybegallo_tuna_man_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">				
+				<text>vybegallo_tuna_man_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>vybegallo_tuna_man_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>vybegallo_tuna_man_3</text>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="4">				
+				<text>vybegallo_tuna_man_4</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="5">
+				<text>vybegallo_tuna_man_5</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="6">
+				<text>vybegallo_tuna_man_6</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="7">				
+				<text>vybegallo_tuna_man_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>vybegallo_tuna_man_8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>vybegallo_tuna_man_9</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>vybegallo_tuna_man_10</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>vybegallo_tuna_man_11</text>
+				<give_info>vybegallo_tuna_man_done</give_info>
+				<action>dialogs_stories.give_task_find_tuna_bag</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="vybegallo_tuna_found">
+		<has_info>sidorovich_tuna_bag_done</has_info>
+		<precondition>dialogs_stories.is_has_tuna_bag_vybegallo</precondition>
+		<dont_has_info>vybegallo_tuna_found_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>vybegallo_tuna_found_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">				
+				<action>dialogs_stories.transfer_tuna_bag_to_vybegallo</action>
+				<text>vybegallo_tuna_found_1</text>
+				<next>2</next>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<has_info>sido_tuna_1</has_info>
+				<text>vybegallo_tuna_found_2</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+				<dont_has_info>sido_tuna_1</dont_has_info>
+				<text>vybegallo_tuna_found_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">			
+				<give_info>vybegallo_tuna_found_done</give_info>
+				<text>vybegallo_tuna_found_4</text>
+			</phrase>			
+		</phrase_list>
+	</dialog>
+---Sidorovich---
+<dialog id="sidorovich_tuna_bag">
+		<has_info>vybegallo_tuna_man_done</has_info>
+		<dont_has_info>sidorovich_tuna_bag_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>sidorovich_tuna_bag_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">				
+				<text>sidorovich_tuna_bag_1</text>
+				<next>2</next>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>sidorovich_tuna_bag_2</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+				<text>sidorovich_tuna_bag_3</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="4">				
+				<text>sidorovich_tuna_bag_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>sidorovich_tuna_bag_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<give_info>sido_tuna_1</give_info>
+				<text>sidorovich_tuna_bag_6</text>
+				<next>16</next>
+			</phrase>
+			<phrase id="7">				
+				<text>sidorovich_tuna_bag_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>sidorovich_tuna_bag_8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>sidorovich_tuna_bag_9</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>sidorovich_tuna_bag_10</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">				
+				<text>sidorovich_tuna_bag_11</text>
+				<next>12</next>
+				<next>13</next>
+			</phrase>
+			<phrase id="12">
+				<text>sidorovich_tuna_bag_12</text>
+				<next>14</next>
+			</phrase>
+			<phrase id="13">
+				<precondition>dialogs_stories.sido_tuna_exp</precondition>
+				<text>sidorovich_tuna_bag_13</text>
+				<next>15</next>
+			</phrase>
+			<phrase id="14">
+				<give_info>sido_tuna_2</give_info>
+				<text>sidorovich_tuna_bag_14</text>
+				<next>16</next>
+			</phrase>
+			<phrase id="15">
+				<give_info>sido_tuna_3</give_info>
+				<text>sidorovich_tuna_bag_15</text>
+				<next>16</next>
+			</phrase>
+			<phrase id="16">
+				<text>sidorovich_tuna_bag_16</text>
+				<next>17</next>
+			</phrase>
+			<phrase id="17">
+				<text>vybegallo_tuna_man_17</text>
+				<action>xr_effects.spawn_tuna_bag</action>
+				<action>xr_effects.spawn_tuna_trail_1</action>
+				<action>xr_effects.spawn_tuna_trail_3</action>
+				<action>xr_effects.spawn_tuna_trail_2</action>
+				<action>xr_effects.spawn_tuna_trail_4</action>
+				<give_info>sidorovich_tuna_bag_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="sido_reward_tuna">
+		<has_info>vybegallo_tuna_found_done</has_info>
+		<dont_has_info>sido_reward_tuna_start</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>sido_reward_tuna_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">				
+				<text>sido_reward_tuna_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>6</next>
+			</phrase>
+			<phrase id="2">
+				<action>dialogs_stories.transfer_veles_to_sido</action>
+				<has_info>sido_tuna_1</has_info>
+				<text>sido_reward_tuna_2</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="3">
+				<action>dialogs_stories.reward_tuna_sidorovich_2</action>
+				<has_info>sido_tuna_2</has_info>
+				<text>sido_reward_tuna_3</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="4">
+				<action>dialogs_stories.reward_tuna_sidorovich_1</action>
+				<has_info>sido_tuna_3</has_info>
+				<text>sido_reward_tuna_4</text>		
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>sido_reward_tuna_5</text>
+				<give_info>sido_reward_tuna_start</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="carrier_translator_start">
+		<dont_has_info>carrier_translator_start</dont_has_info>
+		<has_info>translator_vybegallo_done</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>carrier_translator_start_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">				
+				<text>carrier_translator_start_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>carrier_translator_start_2</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">				
+				<text>carrier_translator_start_3</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="4">
+				<text>carrier_translator_start_4</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="5">				
+				<text>carrier_translator_start_5</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="6">
+				<text>carrier_translator_start_6</text>
+				<next>2</next>				
+			</phrase>
+			<phrase id="7">
+				<text>carrier_translator_start_7</text>
+				<give_info>carrier_translator_start</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	
+	
+	
+---- Satisfied Man ----
+	
+	
+	
+	<dialog id="killed_satisfied_man">
+		<dont_has_info>killed_satisfied_man_done</dont_has_info>
+		<has_info>satisfied_man_dead</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>killed_satisfied_man_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>killed_satisfied_man_1</text>
+				<give_info>give_task_kill_satisfied_man_1_done</give_info>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>killed_satisfied_man_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>killed_satisfied_man_3</text>
+				<give_info>killed_satisfied_man_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+<!-- A Hero of Our Time/Duel -->
+
+	<dialog id="pechorin_start_dialog">
+		<dont_has_info>pechorin_start</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>pechorin_start_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">
+				
+				<text>pechorin_start_1</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>pechorin_start_2</text>
+				
+			</phrase>
+			<phrase id="3">
+				<text>pechorin_start_3</text>
+				<give_info>pechorin_start</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+
+---- Fake Artifact ----
+
+---Sidorovich---
+
+<dialog id="sidorovich_fake_artifact">
+		<dont_has_info>sidorovich_fake_artifact_start</dont_has_info>
+		<has_info>bar_deactivate_radar_done</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>sidorovich_fake_artifact_start_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">
+				
+				<text>sidorovich_fake_artifact_start_1</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>sidorovich_fake_artifact_start_2</text>
+				
+			</phrase>
+			<phrase id="3">
+				<text>sidorovich_fake_artifact_start_3</text>
+				<give_info>sidorovich_fake_artifact_start</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+
+
+
+
+
+
+
+</game_dialogs>
