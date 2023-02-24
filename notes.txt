@@ -1,0 +1,61 @@
+
+-1 test expect if you have enough renown: a pack of dogs
+
+-2 a family of boars (mama boar and her children)
+
+-3 a pack of snorks which escaped Agroprom
+
+-4 culling snorks in Agroprom
+
+-4bis (sidequest) first contact with vybegallo: go see him (bring him pseudo giant hide and eyes etc) - later bring him a shit ton of tuna - later kill the fully satisfied man
+
+-5 	- introduction to the guild: 5 members (Butcher, Forester, guy in Yantar, guy in Jupiter, guy in ???)
+	- find out what is driving out snorks from Agroprom towards Garbage (- kill the Chimera)
+
+-5bis (sidequest) 
+
+-6 bring supplies to Forester
+
+-7 join the faction: bring a mutant part from: Chimera, Pseudogiant, Bloodsucker, Burrer, Controller, Snork
+
+-8 something is stalking the forest: kill it ?
+
+-9 a brother didn't return from a mission - find him (he died by a bullet - retrieve the bullet and bring it to Forester - Forester asks you to identify it - find a weaponssmith who identifies to bullet for you)
+
+- 10 
+
+
+https://www.moddb.com/mods/stalker-anomaly/forum/thread/non-used-mutants
+
+
+
+
+Butcher_0
+
+Do you have some special jobs for me?
+
+No offense friend, but you look like a rookie. I don’t want to send you to your death.
+
+Butcher_1
+
+Do you have some special jobs for me?
+
+I heard of some of your exploits, you seem like the capable kind… Tell you what, there is a large pack of dogs in the valley north of here – you take care of them and I will have some tasks suited for your experience. Consider it a test of your capabilities. What do you say?
+
+Sure, I’m up for it.
+
+Thanks, but I’m not ready yet.
+
+Alright, come back when the job is done – I’ll have some booze ready.
+
+No problem, come back later.
+
+Butcher_1_done
+
+I took care of these dogs for you.
+
+Well done! Here, have some booze and some food – on the house! And of course, a reward for your troubles. Have a rest and if you want more work – you know where to find me.
+
+Butcher_2
+
+Hey man, you have some more work?
