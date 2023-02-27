@@ -59,3 +59,66 @@ Well done! Here, have some booze and some food – on the house! And of course, 
 Butcher_2
 
 Hey man, you have some more work?
+
+For science?
+Part 1
+0 Do you know a fellow scientist called « Vybegallo » ?
+1 Vybegallo? Well, yes I know him… do you want to tell me something about him?
+
+2 No, I only met him recently.
+- Okay… did he tell you something?
+- No, we barely spoke.
+- Alright… Please tell me if you know something about what he is up to. He himself is not dangerous, but his scientific research on the other hand… My advice, don’t get caught up in his dealings.
+
+3 He asked me to help him with his science experiment.
+-  He asked you for help? No offence, but you don’t look like a lab assistant. Why would Vybegallo need a Stalker?
+- He asked me to find some artifact for him.
+- An artifact? This seems unusual for him, but maybe he finally found a normal research topic…
+- He asked me to find some pseudogiant part for him.
+- What? This is horrible!!! \n\n… \n\nYou see, years ago Vybegallo got into his head to create the “ideal man” – or the “fully satisfied man” as he calls it, but his experiments were one disaster after another. After one especially egregious attempt which nearly cost the life of half his department, his research institute kicked him out. But Vybegallo somehow managed to pull some strings and wound up here! I’m afraid he didn’t give up on this experiment… Who knows what he will unleash?  \n\nI implore you, don’t help him out! \n\n No this is not enough, here take this order to him and make him understand that he has to cease any dangerous experiments immediately. I don’t know how much he promised you, I can’t put much on the table at the moment, but I will find some reward. \n\nWill you help us out?
+- Sure, I will deliver the letter and not help him out any further.
+- No deal, I honour my contracts. 
+ Vybegallo:  the tsarist gendarmerie did not frighten me, and Sakharov will not frighten me
+Part 2
+- I delivered the letter to Vybegallo.
+- And? How did he take it? Did he see reason?
+- Not exactly, he was cursing me out and screamed something about the tsarist gendarmerie which didn’t frighten him.
+- I fear there is no reasoning with him… we have to intervene even further. Can I count on your help? Can you bring this announcement to the Barman in 100 Rad bar? Vybegallo is to be declared a sanctioned individual – anyone who trades in mutant parts with him will be excluded from trading with us. The Barman will take care of making it public knowledge.
+- Sure, I’ll head there now.
+- Great, but please hurry, time is of essence here!
+- I don’t know, let me think about it.
+- Alright, but please don’t take too long, time is of essence.
+Part 2 – time
+- About Vybegallo.
+- Yes? Can you deliver the announcement to the Barman?
+
+Part 2 – Barman
+- I have an announcement from Professor Sakharov – the scientist Vybegallo is under sanctions.
+- Vybegallo sanctioned? Let me see. \n\n… \n\nI see, excluded from mutant part trading. Alright, I will spread this information. I don’t know the reasons, but maybe this sanction is a bit late.
+- What do you mean?
+- There was a group of Stalkers here yesterday. Looked like the shady type, maybe even Mercs in disguise. They were asking about the best way to get to Agroprom. Later I overheard one of them pronouncing the name “Vybegallo” and something about a special delivery.
+- Shit. Thanks for the information!
+- You’re welcome.
+Part 3 
+- I talked to the Barman. We might be too late; some people are already on their way to deliver the pseudogiant part to Vybegallo.
+- Damn. The situation has become quite bad. We have to stop him at all cost! Yes… at all cost. \n\nI didn’t think we had
+
+
+
+
+
+
+
+
+Market share:
+
+- powerbase: get your hands on weapons for Vova
+- broker a deal with one of the factions to be able to : Ecologists, Duty or Freedom
+- sway Beard:
+	- violent way: kill Beard’s right hand man
+	- diplomatic way: convince Beard to shift his support in favour of “Vova”
+- change in management:
+	- a new guard: 	- find information about the habits of the old general?
+- kill Sidorovich’s general
+	- the old guard remains: protect Sidorovich’s general
+
