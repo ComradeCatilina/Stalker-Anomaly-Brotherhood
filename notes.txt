@@ -122,3 +122,16 @@ Market share:
 - kill Sidorovich’s general
 	- the old guard remains: protect Sidorovich’s general
 
+Scientist :
+- Can you find out what this meat is made of? [Pack of strange meat]
+- Heh, afraid for your health? Sure, I can run a test, but you know, I’m not supposed to use government property for private requests… if you would be generous on the other hand, let’s say a small contribution to our research of… 20.000 roubles, that would be another story. What do you say?
+[Alternative Sakharov after finishing Vybegallo quest in favor of him]
+- Heh, afraid for your health? I’m not supposed to use government property for private requests, but considering your help with this Vybegallo affair, I guess I can make an exception.
+- Thanks, I appreciate it
+- That’s quite a mighty contribution, but health knows no price. [20.000 roubles]
+- Alright, let me check. \n\n… \n\nHmm, alright, a bit rotten, but that is not unusual in our environment \n\n… \n\nStrange… doesn’t seem to be any of the usual mutant meat… but let me see \n\n… \n\nSeems to be close to snork meat, but not exactly… what is this? \n\n… \n\nAh shit dude, what the fuck??? This is fucking human meat!!! How did you get your hands on this shit?
+- I bought it from Hawaiian!
+- Hawaiian? I would have a serious talk with him about his suppliers, this shit is unacceptable.  
+	- Hawaiian? Shit, tell him to sort out this 
+- That’s too much for me.
+- Then bon appétit.
