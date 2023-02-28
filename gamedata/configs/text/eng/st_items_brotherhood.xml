@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+	Stories from the Zone items
+-->
+
+<string_table>
+
+--- Strange Kolbosa ---
+
+
+	<string id="st_kolbasa_strange">
+		<text>Pack of strange meat</text>
+	</string>
+	<string id="st_kolbasa_strange_descr">
+		<text>A package containing something looking like the usual pack of old meat: old bread and some smelly meat of unknown origin wrapped in brown paper. But the look and smell is even worse than usual...\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_red] • %c[ui_gray_2] low quality\n</text>
+	</string>
+	
+	
+</string_table>

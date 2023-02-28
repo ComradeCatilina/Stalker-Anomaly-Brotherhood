@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<xml>
+
+<specific_character id="vybegallo" team_default = "1">
+		<name>vybegallo_name</name>
+		<icon>ui_inGame2_ecolog_orange</icon>
+		<map_icon x="0" y="6"></map_icon>
+		<bio></bio>
+		<class>vybegallo</class>
+		<community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<rank>20</rank>
+		<money min="30000" max="30000" infinitive="1"/>
+		<reputation>-500</reputation>
+		<visual>actors\stalker_ecologist\stalker_ecolog</visual>
+		<snd_config>characters_voice\human\ecolog_3\</snd_config>
+		<crouch_type>1</crouch_type>
+		<supplies>
+        [spawn] \n
+        wpn_protecta \n
+        ammo_12x76_zhekan = 2 \n
+        wpn_walther \n
+        ammo_9x19_fmj \n
+        detector_simple \n
+		</supplies>
+#include "gameplay\character_criticals.xml"
+		<start_dialog>vybegallo_start_dialog</start_dialog>
+		<actor_dialog>vybegallo_1</actor_dialog>
+		<actor_dialog>vybegallo_2</actor_dialog>
+		
+		<actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+
+
+
+
+
+
+
+
+
+
+----- Cordon -----
+
+<specific_character id="assault_stalker_leader_esc_5_9" team_default = "1">
+		<name>assault_stalker_leader_esc_5_9_name</name>
+		<icon>ui_inGame2_neutral_1</icon>
+		<bio></bio>
+		<class>assault_stalker_leader_esc_5_9</class>
+		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<map_icon x="1" y="0"/>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>6053</rank>
+		<reputation>830</reputation>
+		<money min="600" max="2000" infinitive="0"/>
+		<snd_config>characters_voice\human\stalker_1\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\stalker_neutral\stalker_neutral_1</visual>
+		<supplies>
+        [spawn] \n
+        wpn_pm \n
+        ammo_9x18_fmj = 2 \n
+        wpn_ak74_old \n
+        ammo_5.45x39_fmj = 3 \n
+        device_torch \n
+        hand_radio \n
+		</supplies>
+#include "gameplay\character_criticals.xml"
+
+		<start_dialog>assault_stalker_leader_esc_5_9_start_dialog</start_dialog>
+		
+		<actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+
+<specific_character id="assault_csky_leader_esc_5_7" team_default = "1">
+		<name>assault_csky_leader_esc_5_7_name</name>
+		<icon>ui_inGame2_csky_sun</icon>
+		<bio></bio>
+		<class>assault_csky_leader_esc_5_7</class>
+		<community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<map_icon x="1" y="0"/>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>7853</rank>
+		<reputation>1131</reputation>
+		<money min="600" max="2000" infinitive="0"/>
+		<snd_config>characters_voice\human\csky_1\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\stalker_nebo\stalker_nebo_smask2</visual>
+		<supplies>
+        [spawn] \n
+        wpn_pm \n
+        ammo_9x18_fmj = 2 \n
+        wpn_ak74_old \n
+        ammo_5.45x39_fmj = 3 \n
+        device_torch \n
+        hand_radio \n
+		</supplies>
+#include "gameplay\character_criticals.xml"
+
+		<start_dialog>assault_csky_leader_esc_5_7_start_dialog</start_dialog>
+		
+		<actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+
+
+
+
+
+
+
+
+
+
+
+
+</xml>

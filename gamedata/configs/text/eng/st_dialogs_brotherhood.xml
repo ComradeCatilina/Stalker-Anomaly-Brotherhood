@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+----Stories from the Zone----
+
+---Btucher---
+
+--Quest1--
+	
+<string id="butcher_1_start_0">
+		<text>Do you have some special jobs for me?</text>
+	</string>
+	<string id="butcher_1_start_1">
+		<text>I heard of some of your exploits, you seem like the capable kind… Tell you what, there is a large pack of dogs in the valley north of here – you take care of them and I will have some tasks suited for your experience. Consider it a test of your capabilities. What do you say? </text>
+	</string>
+	<string id="butcher_1_start_2">
+		<text>Sure, I’m up for it.</text>
+	</string>
+	<string id="butcher_1_start_3">
+		<text>Thanks, but I’m not ready yet.</text>
+	</string>	
+	<string id="butcher_1_start_4">
+		<text>Alright, come back when the job is done – I’ll have some booze ready.</text>
+	</string>
+	<string id="butcher_1_start_5">
+		<text>No problem, come back later.</text>
+	</string>	
+
+
+<string id="butcher_1_done_0">
+		<text>I took care of your dog problem.</text>
+	</string>	
+	<string id="butcher_1_done_1">
+		<text>Well done! Here, have some booze and some food – on the house! And of course, a reward for your troubles. Have a rest and if you want more work – you know where to find me.</text>
+	</string>
+	
+-- Quest 2 --
+
+<string id="butcher_2_start_0">
+		<text>You said you have more work?</text>
+	</string>
+	<string id="butcher_2_start_1">
+		<text>Indeed. \n \nYou see, Duty pays me to keep the road from Cordon to Rostov free from particularly dangerous mutant threats – the sort the rookies wouldn’t be able to handle. You know, good for business and so on. Luckily the really dangerous mutants are rather rare in these parts. \n \n Most of the times my problems here are rather that packs of animals grow to a threatening number -  and exactly such a problem emerged. A sow gave birth to a litter of piglets a couple of months ago, reports vary on their number. Some say three, others believe to have seen six. Be as it may, I need you to put and end to them before the piglets grow to adult boars – I don’t need to tell you what a problem that would be. So what do you say?</text>
+	</string>
+	<string id="butcher_2_start_2">
+		<text>Consider it done.</text>
+	</string>
+	<string id="butcher_2_start_3">
+		<text>I need some time to prepare.</text>
+	</string>	
+	<string id="butcher_2_start_4">
+		<text>That’s the spirit! They inhabit the small wood in the south east, behind the Witches Jelly anomaly. Here take these, they should come in handy! Come see me when they’re dead, I’ll have put some vodka put to the side for you.</text>
+	</string>
+	<string id="butcher_2_start_5">
+		<text>No problem, come see me when you’re ready!</text>
+	</string>		
+	
+	<string id="butcher_2_time_0">
+		<text>Concerning that job.</text>
+	</string>	
+	<string id="butcher_2_time_1">
+		<text>Are you ready to take on the boars?</text>
+	</string>
+	
+	<string id="butcher_2_done_0">
+		<text>The boars are no more.</text>
+	</string>	
+	<string id="butcher_2_done_1">
+		<text>Well done! Here, have some booze and some food – on the house! And of course, a reward for your troubles. Have a rest and if you want more work – there is something urgent.</text>
+	</string>
+	
+	
+-- Quest 3 --
+
+<string id="butcher_3_start_0">
+		<text>You said there was an urgent task?</text>
+	</string>
+	<string id="butcher_3_start_1">
+		<text>Indeed. \n \n A group of snorks got lost and wandered over here from Agroprom. This happens sometimes, but in the past it always was one or two who found a way here - this time the reports talk about four! We can't let them dwell there, they pose too large a threat to the rookies. So what do you say?</text>
+	</string>
+	<string id="butcher_3_start_2">
+		<text>They are as good as dead.</text>
+	</string>
+	<string id="butcher_3_start_3">
+		<text>I need some time to prepare.</text>
+	</string>	
+	<string id="butcher_3_start_4">
+		<text>Alright! They took up residence south west from here,near the southern path to Agroprom... Here take this, they should come in handy! Come see me when they’re dead, we'll raise a glass to your deeds!</text>
+	</string>
+	<string id="butcher_3_start_5">
+		<text>No problem, come see me when you’re ready!</text>
+	</string>		
+	
+	<string id="butcher_3_time_0">
+		<text>Concerning that job.</text>
+	</string>	
+	<string id="butcher_3_time_1">
+		<text>Are you ready to take on the snorks?</text>
+	</string>
+	
+	<string id="butcher_3_done_0">
+		<text>The snorks are dead.</text>
+	</string>	
+	<string id="butcher_3_done_1">
+		<text>Well done! Here, have a drink and some ... bacon – ah I saw it in your eyes, you feared that I would serve you snork hand hahaha! No, I'm not an asshole, you don't need to fear my friend. Here, have a smoke too. And of course, a reward for your troubles. Have a rest and come see me, we have to do something about this snork problem.</text>
+	</string>	
+	
+-- Quest 4 --
+
+<string id="butcher_4_start_0">
+		<text>You said you wanted to talk to me about the snork problem?</text>
+	</string>
+	<string id="butcher_4_start_1">
+		<text>Yes. \n \n You see, this snork incursion worries me. It sometimes happend in the past, but never in these numbers! I've been thinking, probably the snork population in Agroprom grew too much and that's the reason why they come over in larger numbers now... Can you have a look and if my suspicion is right - cull them? </text>
+	</string>
+	<string id="butcher_4_start_2">
+		<text>I will take a look.</text>
+	</string>
+	<string id="butcher_4_start_3">
+		<text>I need some time to prepare.</text>
+	</string>	
+	<string id="butcher_4_start_4">
+		<text>Alright! Travel over to Agroprom, if my suspicions are true, they should be somewhere between the southern and the northern path to Garbage. There is a hill there, chances are good that's where you'll find them. Take this, you will need it. \n \n Ah, and if you're already in Agroprom, seek out a man called Vybegallo - he's a scientist, you know of the more... peculiar kind. But his money is good. He needs something from me but he wants to keep it on the low. As you're already headed into his direction, pay him a visit and find out what he needs.</text>
+	</string>
+	<string id="butcher_4_start_5">
+		<text>No problem, come see me when you’re ready!</text>
+	</string>		
+	
+	<string id="butcher_4_time_0">
+		<text>Concerning that job.</text>
+	</string>	
+	<string id="butcher_4_time_1">
+		<text>Are you ready to cull the snork population?</text>
+	</string>
+	
+	<string id="butcher_4_done_0">
+		<text>The snorks are dead.</text>
+	</string>	
+	<string id="butcher_4_done_1">
+		<text>Well done! Here, have a drink and some ... bacon – ah I saw it in your eyes, you feared that I would serve you snork hand hahaha! No, I'm not an asshole, you don't need to fear my friend. Here, have a smoke too. And of course, a reward for your troubles. Have a rest and come see me, I need your gun.</text>
+	</string>		
+	
+	
+--- Vybegallo and the Scientists---
+
+--Quest 1--
+
+- Vybegallo-
+
+<string id="vybegallo_start_0">
+		<text>What to you want? I'm busy!</text>
+	</string>
+	<string id="vybegallo_start_1">
+		<text>Greetings Vybegallo. Butcher told me to find you.</text>
+	</string>
+	<string id="vybegallo_start_2">
+		<text>Nothing.</text>
+	</string>
+	<string id="vybegallo_start_3">
+		<text>Then might I ask you to not stand in the way of science?</text>	
+	</string>
+	<string id="vybegallo_start_4">
+		<text>Ah yes, so you work with Butcher? Well, very well... you can be discrete, right?</text>
+	</string>
+	<string id="vybegallo_start_5">
+		<text>Yes of course.</text>
+	</string>
+	<string id="vybegallo_start_6">
+		<text>I don't like the direction this is going. What do you want?</text>	
+	</string>
+	<string id="vybegallo_start_7">
+		<text>Excellent! You see mon cher, I need a sample from a Pseudogiant - for scientific reasons of course! For the sake of progress, mon cher. Doesn't matter what, a hand, and eye, it's hide. Bring it to me and I'll compensate you for your troubles. Deal?</text>
+	</string>
+	<string id="vybegallo_start_8">
+		<text>Mon cher, why this attitude? I'm a scientist, a man dedicated to science! I need a sample from a Pseudogiant - for strictly scientific reasons of course! For the sake of progress, mon cher. Doesn't matter what, a hand, and eye, it's hide. Bring it to me and I'll compensate you for your troubles.</text>	
+	</string>
+	<string id="vybegallo_start_9">
+		<text>Alright, I see what I can do.</text>
+	</string>
+	<string id="vybegallo_start_10">
+		<text>I don't know, I have to think about it.</text>
+	</string>
+	<string id="vybegallo_start_11">
+		<text>Perfect!</text>
+	</string>
+	<string id="vybegallo_start_12">
+		<text>Think, but don't take too long, time is of an essence for me!</text>
+	</string>
+	
+<string id="vybegallo_time_0">
+		<text>Concerning that job.</text>
+	</string>	
+	<string id="vybegallo_time_1">
+		<text>Oui mon cher, will you help science out?</text>
+	</string>	
+
+
+<string id="vybegallo_2_0">
+		<text>About your pseudogiant body part.</text>
+	</string>
+	<string id="vybegallo_2_1">
+		<text>Oui mon cher? Did you find something?</text>
+	</string>
+	<string id="vybegallo_2_2">
+		<text>I found a pseudogiant eye.</text>
+	</string>
+	<string id="vybegallo_2_3">
+		<text>I found a pseudogiant hand.</text>
+	</string>
+	<string id="vybegallo_2_4">
+		<text>I found a pseudogiant hide.</text>
+	</string>
+	<string id="vybegallo_2_5">
+		<text>No I didn't find anything yet.</text>
+	</string>
+	<string id="vybegallo_2_6">
+		<text>What are you waiting for?</text>
+	</string>
+	<string id="vybegallo_2_7">
+		<text>This is marvellous, mon cher! Your contribution to science will not be forgotten! Here take this, for your troubles! And if you're interested, I would need your assistance for another task.</text>
+	</string>
+	<string id="vybegallo_2_8">
+		<text>I've talked to your collegues Vybegallo. This letter is for you.</text>
+	</string>
+	<string id="vybegallo_2_9">
+		<text>Wha-what? What did you do? What did you tell them? What is this??? \n \n...\n \nHow dare he! The tsarist gendarmerie did not frighten me, and Sakharov will not frighten me!! \n \n And you, you traitor!!! You rat!!! Out of my sight!!!</text>
+	</string>
+	
+-the others-
+<string id="sakharov_vybegallo_start_0">
+		<text>Do you know a fellow scientist called "Vybegallo"?</text>
+	</string>
+	<string id="sakharov_vybegallo_start_1">
+		<text>Vybegallo? Well, yes I know him… is there something with him?</text>
+	</string>
+	<string id="sakharov_vybegallo_start_2">
+		<text>No, I only met him recently.</text>
+	</string>
+	<string id="sakharov_vybegallo_start_3">
+		<text>Okay… did he tell you something?</text>
+	</string>
+	<string id="sakharov_vybegallo_start_4">
+		<text>No, we barely spoke.</text>
+	</string>
+	<string id="sakharov_vybegallo_start_5">
+		<text>Alright… Please tell me if you know something about what he is up to. He himself is not dangerous, but his scientific research on the other hand… My advice to you, don’t get caught up in his dealings.</text>
+	</string>
+	<string id="sakharov_vybegallo_start_6">
+		<text>He asked me to help him with his science experiment.</text>
+	</string>
+	<string id="sakharov_vybegallo_start_7">
+		<text>He asked you for help? No offence, but you don’t look like a lab assistant. Why would Vybegallo need a Stalker?</text>
+	</string>
+	<string id="sakharov_vybegallo_start_8">
+		<text>He asked me to find some artifact for him.</text>
+	</string>
+	<string id="sakharov_vybegallo_start_9">
+		<text>An artifact? This seems unusual for him, but maybe he finally found a normal research topic…</text>
+	</string>
+	<string id="sakharov_vybegallo_start_10">
+		<text>He asked me to find some pseudogiant part for him.</text>
+	</string>
+	<string id="sakharov_vybegallo_start_11">
+		<text>What? This is horrible!!! \n\n… \n\nYou see, years ago Vybegallo got into his head to create the “ideal man” – or the “fully satisfied man” as he calls it, but his experiments were one disaster after another. After one especially egregious attempt which nearly cost the life of half his department, his research institute kicked him out. But Vybegallo somehow managed to pull some strings and wound up here! I’m afraid he didn’t give up on this experiment… Who knows what he will unleash?  \n\nI implore you, don’t help him out! \n\n No this is not enough, here take this order to him and make him understand that he has to cease any dangerous experiments immediately. I don’t know how much he promised you, I can’t put much on the table at the moment, but I will find some reward. \n\nWill you help us out?</text>
+	</string>
+	<string id="sakharov_vybegallo_start_12">
+		<text>Sure, I will deliver the letter and not help him out any further.</text>
+	</string>
+	<string id="sakharov_vybegallo_start_13">
+		<text>No deal, I honour my contracts.</text>
+	</string>
+	
+
+
+
+
+
+
+
+
+
+
+
+	
+</string_table>

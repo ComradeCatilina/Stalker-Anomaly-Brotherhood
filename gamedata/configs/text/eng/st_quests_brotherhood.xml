@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+
+<!--===========================================================
+<
+< TEXT STRINGS FOR STORIES FROM THE ZONE
+<	Anomaly 1.5.1.2 - 
+<
+<	Made by: Catilina
+<	Last revised: wip
+<
+<===========================================================-->
+
+<string_table>
+
+	----Brotherhood----
+	
+	<string id="give_task_kill_pack_dogs_1_name">
+		<text>Taking the dogs out</text>
+	</string>
+	<string id="give_task_kill_pack_dogs_1_descr">
+		<text>There is a pack of dogs in the valley north of the train hangar, on the other side of the hill. Butcher wants them dead.</text>
+	</string>
+	<string id="give_task_kill_pack_dogs_2_descr">
+		<text>I should report to Butcher and tell him that his problem is solved.</text>
+	</string>
+	
+	<string id="give_task_kill_pack_boars_1_name">
+		<text>No future for a boar</text>
+	</string>
+	<string id="give_task_kill_pack_boars_1_descr">
+		<text>There is a herd of boars in the wood, behind the Witches Jelly anomaly in the south eastern part of the sector. Butcher wants them dead.</text>
+	</string>
+	<string id="give_task_kill_pack_boars_2_descr">
+		<text>I should report to Butcher and tell him that his problem is solved.</text>
+	</string>
+	
+	<string id="give_task_kill_pack_snorks_1_name">
+		<text>Lost snorks</text>
+	</string>
+	<string id="give_task_kill_pack_snorks_1_descr">
+		<text>There is a group of snorks to the south west of the train hangar close to the southern path to Agroprom. Butcher wants them dead.</text>
+	</string>
+	<string id="give_task_kill_pack_snorks_2_descr">
+		<text>I should report to Butcher and tell him that his problem is solved.</text>
+	</string>
+	
+	<string id="give_task_kill_pack_snorks_2_name">
+		<text>The great culling</text>
+	</string>
+	<string id="ggive_task_kill_pack_snorks_2_1_descr">
+		<text>Butcher wants me to check if the snork population oin Agroprom on the border to Garbage has grown too large. He told me to check the hill between the two passages to Garbage, and kill everz snork I see.</text>
+	</string>
+	<string id="give_task_kill_pack_snorks_2_2_descr">
+		<text>I should report to Butcher and tell him that the snorks shouldn't be a problem anymore.</text>
+	</string>
+	
+	
+--- Vybegallo ---	
+	
+<string id="give_meet_vybegallo_quest_name">
+		<text>Meet Vybegallo</text>
+	</string>
+	<string id="give_meet_vybegallo_quest_descr">
+		<text>Butcher told me to find a scientist called Vybegallo in Agroprom</text>
+	</string>	
+	
+<string id="bring_pseudogiant_vybegallo_name">
+		<text>Vybegallo: for science!</text>
+	</string>
+	<string id="bring_eye_vybegallo_descr">
+		<text>I found a pseudogiant eye - I should bring it to Vybegallo</text>
+	</string>
+	<string id="bring_hand_vybegallo_descr">
+		<text>I found a pseudogiant hand - I should bring it to Vybegallo</text>
+	</string>
+	<string id="bring_hide_vybegallo_descr">
+		<text>I found a pseudogiant hide - I should bring it to Vybegallo</text>
+	</string>	
+	<string id="bring_part_vybegallo_descr">
+		<text>Vybegallo wants me to find him a pseudogiant body part: an eye, an hand or it's hide</text>
+	</string>	
+
+
+
+
+
+
+
+
+	
+</string_table>

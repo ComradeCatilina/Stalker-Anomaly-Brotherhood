@@ -2,31 +2,567 @@
 
 <game_dialogs>
 
+To do: Vybegallo start 1  add: has_info butcher_vybegallo has_info
+
+
+
 ---- Hunter Guild ----
+
+--Quest1--
 <dialog id="butcher_1">
 		<dont_has_info>butcher_1_start</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
 				<text>butcher_1_start_0</text>
-				<next>1</next>
-				<next>2</next>
+				<next>1</next>				
 			</phrase>
-			<phrase id="1">
-				
+			<phrase id="1">				
 				<text>butcher_1_start_1</text>
+				<next>2</next>
 				<next>3</next>
 			</phrase>
 			<phrase id="2">
 				<text>butcher_1_start_2</text>
-				
+				<next>4</next>
 			</phrase>
 			<phrase id="3">
 				<text>butcher_1_start_3</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="4">
+				<text>butcher_1_start_4</text>
+				<action>dialogs_brotherhood.give_task_kill_pack_dogs_1</action>
 				<give_info>butcher_1_start</give_info>
+			</phrase>
+			<phrase id="5">
+				<text>butcher_1_start_5</text>
 			</phrase>
 		</phrase_list>
 	</dialog>	
 	
+
+<dialog id="butcher_1_done">
+		<has_info>pack_dogs_1_dead</has_info>
+		<dont_has_info>butcher_1_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>butcher_1_done_0</text>
+				<next>1</next>				
+			</phrase>
+			<phrase id="1">				
+				<text>butcher_1_done_1</text>
+				<give_info>butcher_1_done</give_info>
+				
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+--Quest2--
+
+<dialog id="butcher_2">
+		<dont_has_info>butcher_2_start</dont_has_info>
+		<has_info>butcher_1_done</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>butcher_2_start_0</text>
+				<next>1</next>				
+			</phrase>
+			<phrase id="1">				
+				<text>butcher_2_start_1</text>
+				<next>2</next>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>butcher_2_start_2</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+				<text>butcher_2_start_3</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="4">
+				<text>butcher_2_start_4</text>
+				<action>dialogs_brotherhood.give_task_kill_pack_boars_1</action>
+				<action>dialogs_brotherhood.transfer_grenades_boars</action>
+				<give_info>butcher_2_start</give_info>
+			</phrase>
+			<phrase id="5">
+				<text>butcher_2_start_5</text>
+				<give_info>butcher_2_start</give_info>
+				<give_info>butcher_2_time</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>	
+	
+	<dialog id="butcher_2_time">
+		<has_info>butcher_2_time</has_info>
+		<dont_has_info>butcher_2_time_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>butcher_2_time_0</text>
+				<next>1</next>				
+			</phrase>
+			<phrase id="1">				
+				<text>butcher_2_time_1</text>
+				<next>2</next>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>butcher_2_start_2</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+				<text>butcher_2_start_3</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="4">
+				<text>butcher_2_start_4</text>
+				<action>dialogs_brotherhood.give_task_kill_pack_boars_1</action>
+				<action>dialogs_brotherhood.transfer_grenades_boars</action>
+				<give_info>butcher_2_time_done</give_info>
+			</phrase>
+			<phrase id="5">
+				<text>butcher_2_start_5</text>
+			</phrase>
+		</phrase_list>
+	</dialog>		
+
+<dialog id="butcher_2_done">
+		<has_info>pack_boars_1_dead</has_info>
+		<dont_has_info>butcher_2_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>butcher_2_done_0</text>
+				<next>1</next>				
+			</phrase>
+			<phrase id="1">				
+				<text>butcher_2_done_1</text>
+				<give_info>butcher_2_done</give_info>
+				
+			</phrase>
+		</phrase_list>
+	</dialog>		
+	
+--Quest3--
+
+<dialog id="butcher_3">
+		<dont_has_info>butcher_3_start</dont_has_info>
+		<has_info>butcher_2_done</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>butcher_3_start_0</text>
+				<next>1</next>				
+			</phrase>
+			<phrase id="1">				
+				<text>butcher_3_start_1</text>
+				<next>2</next>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>butcher_3_start_2</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+				<text>butcher_3_start_3</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="4">
+				<text>butcher_3_start_4</text>
+				<action>dialogs_brotherhood.give_task_kill_pack_snorks_1</action>
+				<action>dialogs_brotherhood.transfer_bandage_snorks</action>
+				<give_info>butcher_3_start</give_info>
+			</phrase>
+			<phrase id="5">
+				<text>butcher_3_start_5</text>
+				<give_info>butcher_3_start</give_info>
+				<give_info>butcher_3_time</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>	
+	
+	<dialog id="butcher_3_time">
+		<has_info>butcher_3_time</has_info>
+		<dont_has_info>butcher_3_time_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>butcher_3_time_0</text>
+				<next>1</next>				
+			</phrase>
+			<phrase id="1">				
+				<text>butcher_3_time_1</text>
+				<next>2</next>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>butcher_3_start_2</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+				<text>butcher_3_start_3</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="4">
+				<text>butcher_3_start_4</text>
+				<action>dialogs_brotherhood.give_task_kill_pack_snorks_1</action>
+				<action>dialogs_brotherhood.transfer_bandage_snorks</action>
+				<give_info>butcher_3_time_done</give_info>
+			</phrase>
+			<phrase id="5">
+				<text>butcher_3_start_5</text>
+			</phrase>
+		</phrase_list>
+	</dialog>		
+
+<dialog id="butcher_3_done">
+		<has_info>pack_snorks_1_dead</has_info>
+		<dont_has_info>butcher_3_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>butcher_3_done_0</text>
+				<next>1</next>				
+			</phrase>
+			<phrase id="1">				
+				<text>butcher_3_done_1</text>
+				<give_info>butcher_3_done</give_info>
+				
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+
+--- Quest 4 ---
+
+<dialog id="butcher_4">
+		<dont_has_info>butcher_4_start</dont_has_info>
+		<has_info>butcher_3_done</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>butcher_4_start_0</text>
+				<next>1</next>				
+			</phrase>
+			<phrase id="1">				
+				<text>butcher_4_start_1</text>
+				<next>2</next>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>butcher_4_start_2</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+				<text>butcher_4_start_3</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="4">
+				<text>butcher_4_start_4</text>
+				<action>dialogs_brotherhood.give_task_kill_pack_snorks_2</action>
+				<action>dialogs_brotherhood.give_meet_vybegallo_quest</action>
+				<action>dialogs_brotherhood.transfer_bandages_snorks</action>
+				<action>dialogs_brotherhood.transfer_grenades_boars</action>
+				<give_info>butcher_3_start</give_info>
+				<give_info>butcher_vybegallo</give_info>
+			</phrase>
+			<phrase id="5">
+				<text>butcher_4_start_5</text>
+				<give_info>butcher_4_start</give_info>
+				<give_info>butcher_4_time</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>	
+	
+	<dialog id="butcher_4_time">
+		<has_info>butcher_4_time</has_info>
+		<dont_has_info>butcher_4_time_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>butcher_4_time_0</text>
+				<next>1</next>				
+			</phrase>
+			<phrase id="1">				
+				<text>butcher_4_time_1</text>
+				<next>2</next>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>butcher_4_start_2</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+				<text>butcher_4_start_3</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="4">
+				<text>butcher_4_start_4</text>
+				<action>dialogs_brotherhood.give_task_kill_pack_snorks_2</action>
+				<action>dialogs_brotherhood.give_meet_vybegallo_quest</action>
+				<action>dialogs_brotherhood.transfer_bandages_snorks</action>
+				<action>dialogs_brotherhood.transfer_grenades_boars</action>
+				<give_info>butcher_4_time_done</give_info>
+				<give_info>butcher_vybegallo</give_info>
+			</phrase>
+			<phrase id="5">
+				<text>butcher_4_start_5</text>
+			</phrase>
+		</phrase_list>
+	</dialog>		
+
+<dialog id="butcher_4_done">
+		<has_info>pack_snorks_2_dead</has_info>
+		<dont_has_info>butcher_3_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>butcher_3_done_0</text>
+				<next>1</next>				
+			</phrase>
+			<phrase id="1">				
+				<text>butcher_3_done_1</text>
+				<give_info>butcher_3_done</give_info>
+				
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+
+
+
+
+---Sidequest---
+--Vybegallo--
+
+<dialog id="vybegallo_start_dialog">
+		<dont_has_info>vybegallo_start_dialog_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>vybegallo_start_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">				
+				<text>vybegallo_start_1</text>
+				<give_info>give_meet_vybegallo_quest_done</give_info>
+				<next>4</next>
+			</phrase>
+			<phrase id="2">
+				<text>vybegallo_start_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>vybegallo_start_3</text>				
+			</phrase>
+			<phrase id="4">
+				<text>vybegallo_start_4</text>
+				<next>5</next>
+				<next>6</next>
+			</phrase>
+			<phrase id="5">				
+				<text>vybegallo_start_5</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="6">
+				<text>vybegallo_start_6</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="7">				
+				<text>vybegallo_start_7</text>
+				<next>9</next>
+				<next>10</next>
+				<give_info>vybegallo_snitch</give_info>
+			</phrase>
+			<phrase id="8">
+				<text>vybegallo_start_8</text>
+				<give_info>vybegallo_snitch</give_info>
+				<next>9</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="9">
+				<text>vybegallo_start_9</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="10">
+				<text>vybegallo_start_10</text>
+				<next>12</next>
+			</phrase>
+			<phrase id="11">
+				<text>vybegallo_start_11</text>
+				<give_info>vybegallo_start_dialog_done</give_info>
+				<give_info>vybegallo_quest_1</give_info>
+			</phrase>
+			<phrase id="12">
+				<text>vybegallo_start_12</text>
+				<give_info>vybegallo_start_dialog_done</give_info>
+				<give_info>vybegallo_start_time</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	<dialog id="vybegallo_1">
+		<has_info>vybegallo_start_time</has_info>
+		<dont_has_info>vybegallo_start_time_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>vybegallo_time_0</text>
+				<next>1</next>				
+			</phrase>
+			<phrase id="1">				
+				<text>vybegallo_time_1</text>
+				<next>2</next>	
+				<next>3</next>
+				<next>6</next>
+			</phrase>
+			<phrase id="2">
+				<text>vybegallo_start_9</text>
+				<next>4</next>				
+			</phrase>
+			<phrase id="3">				
+				<text>vybegallo_start_10</text>
+				<next>5</next>	
+			</phrase>
+			<phrase id="4">
+				<text>vybegallo_start_11</text>
+				<give_info>vybegallo_start_time_done</give_info>
+				<give_info>vybegallo_quest_1</give_info>				
+			</phrase>
+			<phrase id="5">				
+				<text>vybegallo_start_12</text>
+			</phrase>
+			<phrase id="6">
+				<text>vybegallo_2_8</text>
+				<next>7</next>				
+			</phrase>
+			<phrase id="7">				
+				<text>vybegallo_2_9</text>
+				<action>dialogs.break_dialog</action>
+				<give_info>vybegallo_start_time_done</give_info>
+				<give_info>vybegallo_quest_1_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+--- Quest 1 ---
+<dialog id="vybegallo_2">
+		<has_info>vybegallo_quest_1</has_info>
+		<dont_has_info>vybegallo_quest_1_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>vybegallo_2_0</text>
+				<next>1</next>				
+			</phrase>
+			<phrase id="1">				
+				<text>vybegallo_2_1</text>
+				<next>2</next>	
+				<next>3</next>
+				<next>4</next>
+				<next>8</next>
+				<next>5</next>	
+			</phrase>
+			<phrase id="2">
+				<precondition>dialogs_brotherhood.is_has_eye_vybegallo</precondition>
+				<text>vybegallo_2_2</text>
+				<action>dialogs_brotherhood.transfer_eye_to_vybegallo</action>
+				<give_info>vybegallo_quest_1_done</give_info>
+				<next>7</next>				
+			</phrase>
+			<phrase id="3">
+				<precondition>dialogs_brotherhood.is_has_hand_vybegallo</precondition>
+				<text>vybegallo_2_3</text>
+				<action>dialogs_brotherhood.transfer_hand_to_vybegallo</action>
+				<give_info>vybegallo_quest_1_done</give_info>
+				<next>7</next>	
+			</phrase>
+			<phrase id="4">
+				<precondition>dialogs_brotherhood.is_has_hide_vybegallo</precondition>
+				<text>vybegallo_2_4</text>
+				<action>dialogs_brotherhood.transfer_hide_to_vybegallo</action>
+				<give_info>vybegallo_quest_1_done</give_info>
+				<next>7</next>	
+			</phrase>
+			<phrase id="5">				
+				<text>vybegallo_2_5</text>
+				<next>6</next>	
+			</phrase>
+			<phrase id="6">				
+				<text>vybegallo_2_6</text>
+			</phrase>
+			<phrase id="7">				
+				<text>vybegallo_2_7</text>
+			</phrase>
+			<phrase id="8">				
+				<text>vybegallo_2_8</text>
+				<next>9</next>	
+			</phrase>
+			<phrase id="9">				
+				<text>vybegallo_2_9</text>
+				<give_info>vybegallo_quest_1_done</give_info>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+					
+		</phrase_list>
+	</dialog>	
+	
+<dialog id="sakharov_vybegallo_1">
+		<has_info>vybegallo_snitch</has_info>
+		<dont_has_info>sakharov_vybegallo_start</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>sakharov_vybegallo_start_0</text>
+				<next>1</next>				
+			</phrase>
+			<phrase id="1">				
+				<text>sakharov_vybegallo_start_1</text>
+				<next>2</next>	
+				<next>6</next>					
+			</phrase>
+			<phrase id="2">
+				<text>sakharov_vybegallo_start_2</text>
+				<next>3</next>				
+			</phrase>
+			<phrase id="3">				
+				<text>sakharov_vybegallo_start_3</text>
+				<next>4</next>
+				<next>6</next>	
+			</phrase>
+			<phrase id="4">
+				<text>sakharov_vybegallo_start_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">				
+				<text>sakharov_vybegallo_start_5</text>
+			</phrase>
+			<phrase id="6">
+				<text>sakharov_vybegallo_start_6</text>
+				<next>7</next>				
+			</phrase>
+			<phrase id="7">				
+				<text>sakharov_vybegallo_start_7</text>
+				<next>8</next>
+				<next>10</next>	
+			</phrase>
+			<phrase id="8">
+				<text>sakharov_vybegallo_start_8</text>
+				<next>9</next>	
+			</phrase>
+			<phrase id="9">				
+				<text>sakharov_vybegallo_start_9</text>
+			</phrase>
+			<phrase id="10">
+				<text>sakharov_vybegallo_start_10</text>
+				<next>11</next>				
+			</phrase>
+			<phrase id="11">				
+				<text>sakharov_vybegallo_start_11</text>
+				<next>12</next>
+				<next>13</next>	
+			</phrase>
+			<phrase id="12">
+				<text>sakharov_vybegallo_start_12</text>
+				<give_info>sakharov_vybegallo_start</give_info>
+			</phrase>
+			<phrase id="13">				
+				<text>sakharov_vybegallo_start_13</text>
+				<give_info>sakharov_vybegallo_start</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>	
 	
 	
 ---- Fake Artifact ----

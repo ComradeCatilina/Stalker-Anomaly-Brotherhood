@@ -1,0 +1,97 @@
+
+------- GENERAL Functions --------
+
+
+function poluchit_po_litsu(actor, npc)                                            
+    npc:force_set_goodwill(-5000, actor)
+end
+
+function give_task(name)
+	task_manager.get_task_manager():give_task(name)
+end
+
+-------Stories from the Zone --------
+
+------Butcher Quest 1 ------
+
+function give_task_kill_pack_dogs_1()
+	dialogs_brotherhood.give_task('give_task_kill_pack_dogs_1')
+end
+
+------Butcher Quest 2 ------
+
+function give_task_kill_pack_boars_1()
+	dialogs_brotherhood.give_task('give_task_kill_pack_boars_1')
+end
+
+function transfer_grenades_boars(first_speaker, second_speaker)
+  dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "grenade_f1", 2)
+end
+
+------Butcher Quest 3 ------
+
+function give_task_kill_pack_snorks_1()
+	dialogs_brotherhood.give_task('give_task_kill_pack_snorks_1')
+end
+
+function transfer_bandage_snorks(first_speaker, second_speaker)
+  dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "bandage")
+end
+
+------Butcher Quest 4 ------
+
+function give_task_kill_pack_snorks_2()
+	dialogs_brotherhood.give_task('give_task_kill_pack_snorks_2')
+end
+
+function give_meet_vybegallo_quest()
+	dialogs_brotherhood.give_task('give_meet_vybegallo_quest')
+end
+
+function transfer_bandages_snorks(first_speaker, second_speaker)
+  dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "bandage", 2)
+end
+
+
+
+
+---- Vybegallo ----
+function give_vybegallo_pseudogiant()
+	dialogs_brotherhood.give_task('give_vybegallo_pseudogiant')
+end
+
+function is_has_eye_vybegallo()
+  if db.actor:object("mutant_part_pseudogiant_eye") then
+    return true
+  end
+  return false
+end
+
+function transfer_eye_to_vybegallo(first_speaker, second_speaker)
+  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "mutant_part_pseudogiant_eye")
+  dialogs.relocate_money_to_actor(first_speaker, second_speaker, 10000)
+end
+
+function is_has_hand_vybegallo()
+  if db.actor:object("mutant_part_pseudogiant_hand") then
+    return true
+  end
+  return false
+end
+
+function transfer_hand_to_vybegallo(first_speaker, second_speaker)
+  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "mutant_part_pseudogiant_hand")
+  dialogs.relocate_money_to_actor(first_speaker, second_speaker, 10000)
+end
+
+function is_has_hide_vybegallo()
+  if db.actor:object("hide_pseudogiant") then
+    return true
+  end
+  return false
+end
+
+function transfer_hide_to_vybegallo(first_speaker, second_speaker)
+  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "hide_pseudogiant")
+  dialogs.relocate_money_to_actor(first_speaker, second_speaker, 10000)
+end

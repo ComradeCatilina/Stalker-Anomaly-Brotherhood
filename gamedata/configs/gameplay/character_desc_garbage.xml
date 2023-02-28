@@ -37,9 +37,20 @@
 		
 		<!----------SFTZ/brotherhood--------->
 		<actor_dialog>butcher_1</actor_dialog>
+		<actor_dialog>butcher_1_done</actor_dialog>
+		<actor_dialog>butcher_2</actor_dialog>
+		<actor_dialog>butcher_2_time</actor_dialog>
+		<actor_dialog>butcher_2_done</actor_dialog>
+		<actor_dialog>butcher_3</actor_dialog>
+		<actor_dialog>butcher_3_time</actor_dialog>
+		<actor_dialog>butcher_3_done</actor_dialog>
+		<actor_dialog>butcher_4</actor_dialog>
+		<actor_dialog>butcher_4_time</actor_dialog>
+		<actor_dialog>butcher_4_done</actor_dialog>
+		
+		
 		
 		<actor_dialog>actor_break_dialog</actor_dialog>
-		
 	</specific_character>
 
 
