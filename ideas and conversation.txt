@@ -1,0 +1,35 @@
+Ideas:
+
+- find mixtape quest
+	- Barman wants Sektor Gaza - Koshey Bessmertny
+
+
+0. I need some money Sidorovich, do you have a better paying job to offer?
+1. You’re in luck, I’m indeed hiring some guns at the moment… I’m putting together a team to take back the railway bridge crossing. 
+2. What happened?
+3. The bandits recently reinforced that crossing and are asking for quite a high bribe to let people pass – very bad for business. 
+4. An assault? What’s the plan?
+5. We will effectuate a pincer movement. [CKSY Leader] send a squad over to help out, under the leadership of a certain “Rodion Oslyabya”, they should arrive soon at the northern farm. My team will gather at the mill under the leadership of Alexander Peresvet. You will take on the role of messenger – you’ll first need to bypass the railway bridge to make contact with Rodion and check if they are ready for the assault. If they are ready, you return to the Mill where Rodion will wait. If everyone is in place, tell Rodion that the assault can begin. Any questions?
+6. Why do I need to make contact in person. Can’t we use the PDA messenger to communicate with the Clear Sky squad?
+7. You are aware that PDA communication is far from being secure? Surprise is primordial in this assault – the PDA stays silent until the very moment the assault begins. Any other questions?
+8. How do I bypass the railway bridge unseen?
+9. You really are a rookie… well there is a small underway to the west of the bridge and the mill. It’s small, badly lit and a little dangerous but will suit our needs perfectly. Any other questions?
+10. How much are you willing to pay?
+11. Considering that you are a rookie, you get a rookies pay. Any other question?
+12. About the plan.
+13. Yes, do you have any questions?
+14. Can you tell me the plan again?
+15. What about the vehicle park to the east of the bridge? Won’t the bandits come in reinforcement?
+16. That is very possible, and the reason why the assault has to be over as quick as possible. If the bandits send reinforcement, you beat them off.
+17. Can we not make a diversionary attack on the vehicle park?
+18. I like that idea, but we don’t have enough manpower to make such an attack. The plan stays, we overwhelm the bridge defences and dig in our heels if they send reinforcement.
+19. What if I take on the vehicle park by myself?
+20. Damn dude, did you watch too many movies? This is not Rambo! But if you really want to prove yourself, be my guest. Any other questions?
+21. No other questions.
+22. Alright, so what do you say? Are you in?
+23. I’m in!
+24. I need some time to think about it.
+25. I have some more questions.
+26. Alright, better now than later. Ask away.
+27. Alright! Gear up, and come see me if you’re ready!
+28. Alright. Think about it, but hurry, Clear Sky is on their way.
