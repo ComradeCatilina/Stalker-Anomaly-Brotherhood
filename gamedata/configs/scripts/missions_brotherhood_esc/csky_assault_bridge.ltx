@@ -1,0 +1,46 @@
+[section@squad]
+target@base = esc_smart_terrain_5_7
+
+[section@logic]
+logic@csky_1
+logic@csky_2
+logic@csky_3
+logic@csky_leader
+
+logic@csky_assault_1
+logic@csky_assault_2
+logic@csky_assault_3
+logic@csky_assault_leader
+
+[logic@base]
+post_combat_time = 0,0
+net_spawn = pt1
+
+[logic@combat_camper]
+combat_type = camper
+
+[logic@csky]:logic@base,logic@combat_camper
+suitable = {-esc_railway_assault_go} true
+
+[logic@csky_1]:logic@csky
+active = beh@csky_1
+[logic@csky_2]:logic@csky
+active = beh@duty_2
+[logic@csky_3]:logic@csky
+active = beh@duty_3
+[logic@csky_leader]:logic@duty
+active = beh@csky_leader
+
+
+[logic@csky_assault]:logic@base
+suitable = {+esc_railway_assault_go} true
+
+[logic@csky_assault_1]:csky_assault
+active = {-bandit_guards_esc_6_8_dead} beh@csky_assault_1, beh@csky_guard_1
+[logic@csky_assault_2]:csky_assault
+active = {-bandit_guards_esc_6_8_dead} beh@csky_assault_2, beh@csky_guard_2
+[logic@csky_assault_3]:csky_assault
+active = {-bandit_guards_esc_6_8_dead} beh@csky_assault_3, beh@csky_guard_3
+[logic@csky_assault_leader]:csky_assault
+active = {-bandit_guards_esc_6_8_dead} beh@csky_assault_leader, beh@csky_guard_leader
+
