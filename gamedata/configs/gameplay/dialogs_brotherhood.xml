@@ -569,6 +569,35 @@ To do: Vybegallo start 1  add: has_info butcher_vybegallo has_info
 
 ---Sidorovich---
 
+-- take the railway bridge --
+
+<dialog id="sidorovich_railway_1">
+		<dont_has_info>sidorovich_railway_1_start</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>sidorovich_railway_1_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">
+				
+				<text>sidorovich_railway_1_1</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>sidorovich_railway_1_2</text>
+				
+			</phrase>
+			<phrase id="3">
+				<text>sidorovich_railway_1_3</text>
+				<give_info>sidorovich_railway_1_start</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	
+	
+-- fake artifact--	
 <dialog id="sidorovich_fake_artifact">
 		<dont_has_info>sidorovich_fake_artifact_start</dont_has_info>
 		<has_info>bar_deactivate_radar_done</has_info>
