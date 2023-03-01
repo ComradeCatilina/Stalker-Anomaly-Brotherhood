@@ -715,7 +715,6 @@ To do: Vybegallo start 1  add: has_info butcher_vybegallo has_info
 			</phrase>
 			<phrase id="28">
 				<text>sidorovich_railway_1_28</text>
-				<next>5</next>
 			</phrase>
 		</phrase_list>
 	</dialog>
