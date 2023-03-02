@@ -713,6 +713,7 @@ To do: Vybegallo start 1  add: has_info butcher_vybegallo has_info
 			<phrase id="27">
 				<text>sidorovich_railway_1_27</text>
 				<give_info>sidorovich_railway_1_start</give_info>
+				<action>dialogs_brotherhood.give_sidorovich_railway_assault</action>
 			</phrase>
 			<phrase id="28">
 				<text>sidorovich_railway_1_28</text>
