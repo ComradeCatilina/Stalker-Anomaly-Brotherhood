@@ -67,7 +67,7 @@
 #include "gameplay\character_criticals.xml"
 
 		<start_dialog>assault_stalker_leader_esc_5_9_start_dialog</start_dialog>
-		<actor_dialog>assault_stalker_leader_esc_5_7_1</actor_dialog>
+		<actor_dialog>assault_stalker_leader_esc_5_9_1</actor_dialog>
 		
 		<actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
