@@ -673,6 +673,7 @@ To do: Vybegallo start 1  add: has_info butcher_vybegallo has_info
 			</phrase>
 			<phrase id="20">				
 				<text>sidorovich_railway_1_20</text>
+				<give_info>sidorovich_railway_assault_alternative</give_info>
 				<next>6</next>
 				<next>8</next>
 				<next>10</next>
