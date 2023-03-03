@@ -111,3 +111,7 @@ end
 function give_sidorovich_railway_assault()
 	dialogs_brotherhood.give_task('give_sidorovich_railway_assault')
 end
+
+function transfer_grenade_railway_assault(first_speaker, second_speaker)
+  dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "grenade_f1")
+end
