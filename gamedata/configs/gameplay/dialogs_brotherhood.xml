@@ -793,6 +793,7 @@ To do: 	- Vybegallo start 1  add: has_info butcher_vybegallo has_info
 			<phrase id="10">
 				<text>assault_stalker_leader_esc_5_9_start_dialog_10</text>				
 				<give_info>assault_stalker_leader_esc_5_9_start_dialog_done</give_info>
+				<action>dialogs.break_dialog</action>
 			</phrase>
 
 		</phrase_list>
