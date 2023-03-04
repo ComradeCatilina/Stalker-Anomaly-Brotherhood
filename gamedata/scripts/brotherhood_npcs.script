@@ -1,0 +1,52 @@
+local HI = has_alife_info
+local GI = give_info
+local DI = disable_info
+function NI(str)
+	return not (has_alife_info(str))
+end
+------- GENERAL Functions --------
+function actor_on_first_update()
+	marlo_stanfield_init()
+	zaton_eitri_init()
+	zaton_brokkr_init()
+end
+
+function on_game_start()
+	RegisterScriptCallback("actor_on_first_update",actor_on_first_update)
+end
+
+function marlo_stanfield_init()
+    if (NI("marlo_stanfield_init")) then
+        if not (get_story_se_object("marlo_stanfield_squad")) then            
+            local smart = SIMBOARD.smarts_by_names["esc_smart_terrain_2_12"]           
+            local squad = SIMBOARD:create_squad(smart,"marlo_stanfield_squad")
+        end        
+        if (get_story_se_object("marlo_stanfield_squad")) then            
+            GI("marlo_stanfield_init")
+        end
+    end
+end
+
+function zaton_brokkr_init()
+    if (NI("zaton_brokkr_init")) then
+        if not (get_story_se_object("zaton_brokkr_squad")) then            
+            local smart = SIMBOARD.smarts_by_names["zat_stalker_base_smart"]           
+            local squad = SIMBOARD:create_squad(smart,"zaton_brokkr_squad")
+        end        
+        if (get_story_se_object("zaton_brokkr_squad")) then            
+            GI("zaton_brokkr_init")
+        end
+    end
+end
+
+function zaton_eitri_init()
+    if (NI("zaton_eitri_init")) then
+        if not (get_story_se_object("zaton_eitri_squad")) then            
+            local smart = SIMBOARD.smarts_by_names["zat_stalker_base_smart"]           
+            local squad = SIMBOARD:create_squad(smart,"zaton_eitri_squad")
+        end        
+        if (get_story_se_object("zaton_eitri_squad")) then            
+            GI("zaton_eitri_init")
+        end
+    end
+end

@@ -844,7 +844,57 @@ To do: 	- Vybegallo start 1  add: has_info butcher_vybegallo has_info
 		</phrase_list>
 	</dialog>	
 	
--- fake artifact--	
+-- fake artifact--
+<dialog id="zaton_eitri_start_dialog">
+		<dont_has_info>zaton_eitri_start_dialog_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>zaton_eitri_start_dialog_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">
+				
+				<text>zaton_eitri_start_dialog_1</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>zaton_eitri_start_dialog_2</text>
+				
+			</phrase>
+			<phrase id="3">
+				<text>zaton_eitri_start_dialog_3</text>
+				<give_info>zaton_eitri_start_dialog_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+<dialog id="zaton_brokkr_start_dialog">
+		<dont_has_info>zaton_brokkr_start_dialog_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>zaton_brokkr_start_dialog_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">
+				
+				<text>zaton_brokkr_start_dialog_1</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>zaton_brokkr_start_dialog_2</text>
+				
+			</phrase>
+			<phrase id="3">
+				<text>zaton_brokkr_start_dialog_3</text>
+				<give_info>zaton_brokkr_start_dialog_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+
+
+	
 <dialog id="sidorovich_fake_artifact">
 		<dont_has_info>sidorovich_fake_artifact_start</dont_has_info>
 		<has_info>bar_deactivate_radar_done</has_info>

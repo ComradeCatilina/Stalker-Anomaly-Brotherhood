@@ -1,0 +1,11 @@
+[logic@zaton_eitri]
+   suitable = {=check_npc_name(zaton_eitri)} true
+   prior = 100
+   active = beh@zaton_eitri_job
+
+[beh@zaton_eitri_job]
+	behaviour_state = beh_move
+	target = waypoint
+	path_end = loop
+	pt1 = 88860000,idle | pos:137.37091064453,-7.3407878875732,177.73092651367 look:136.46004533768,-7.3407878875732,178.14130082726
+	

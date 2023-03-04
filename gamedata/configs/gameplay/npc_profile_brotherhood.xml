@@ -8,10 +8,17 @@
 <character id="assault_stalker_leader_esc_5_9">
 		<class>assault_stalker_leader_esc_5_9</class>
 	</character>
-	<character id="assault_csky_leader_esc_5_7">
+<character id="assault_csky_leader_esc_5_7">
 		<class>assault_csky_leader_esc_5_7</class>
 	</character>
-
-
+<character id="zaton_brokkr">
+		<class>zaton_brokkr</class>
+	</character>
+<character id="zaton_eitri">
+		<class>zaton_eitri</class>
+	</character>
+<character id="marlo_stanfield">
+		<class>marlo_Stanfield</class>
+	</character>
 
 </xml>

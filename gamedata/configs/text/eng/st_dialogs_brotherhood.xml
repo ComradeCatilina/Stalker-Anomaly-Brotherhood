@@ -11,16 +11,16 @@
 		<text>Do you have some special jobs for me?</text>
 	</string>
 	<string id="butcher_1_start_1">
-		<text>I heard of some of your exploits, you seem like the capable kind‚Ä¶ Tell you what, there is a large pack of dogs in the valley north of here ‚Äì you take care of them and I will have some tasks suited for your experience. Consider it a test of your capabilities. What do you say? </text>
+		<text>I heard of some of your exploits, you seem like the capable kindÖ Tell you what, there is a large pack of dogs in the valley north of here ñ you take care of them and I will have some tasks suited for your experience. Consider it a test of your capabilities. What do you say? </text>
 	</string>
 	<string id="butcher_1_start_2">
-		<text>Sure, I‚Äôm up for it.</text>
+		<text>Sure, Iím up for it.</text>
 	</string>
 	<string id="butcher_1_start_3">
-		<text>Thanks, but I‚Äôm not ready yet.</text>
+		<text>Thanks, but Iím not ready yet.</text>
 	</string>	
 	<string id="butcher_1_start_4">
-		<text>Alright, come back when the job is done ‚Äì I‚Äôll have some booze ready.</text>
+		<text>Alright, come back when the job is done ñ Iíll have some booze ready.</text>
 	</string>
 	<string id="butcher_1_start_5">
 		<text>No problem, come back later.</text>
@@ -31,7 +31,7 @@
 		<text>I took care of your dog problem.</text>
 	</string>	
 	<string id="butcher_1_done_1">
-		<text>Well done! Here, have some booze and some food ‚Äì on the house! And of course, a reward for your troubles. Have a rest and if you want more work ‚Äì you know where to find me.</text>
+		<text>Well done! Here, have some booze and some food ñ on the house! And of course, a reward for your troubles. Have a rest and if you want more work ñ you know where to find me.</text>
 	</string>
 	
 -- Quest 2 --
@@ -40,7 +40,7 @@
 		<text>You said you have more work?</text>
 	</string>
 	<string id="butcher_2_start_1">
-		<text>Indeed. \n \nYou see, Duty pays me to keep the road from Cordon to Rostov free from particularly dangerous mutant threats ‚Äì the sort the rookies wouldn‚Äôt be able to handle. You know, good for business and so on. Luckily the really dangerous mutants are rather rare in these parts. \n \n Most of the times my problems here are rather that packs of animals grow to a threatening number -  and exactly such a problem emerged. A sow gave birth to a litter of piglets a couple of months ago, reports vary on their number. Some say three, others believe to have seen six. Be as it may, I need you to put and end to them before the piglets grow to adult boars ‚Äì I don‚Äôt need to tell you what a problem that would be. So what do you say?</text>
+		<text>Indeed. \n \nYou see, Duty pays me to keep the road from Cordon to Rostov free from particularly dangerous mutant threats ñ the sort the rookies wouldnít be able to handle. You know, good for business and so on. Luckily the really dangerous mutants are rather rare in these parts. \n \n Most of the times my problems here are rather that packs of animals grow to a threatening number -  and exactly such a problem emerged. A sow gave birth to a litter of piglets a couple of months ago, reports vary on their number. Some say three, others believe to have seen six. Be as it may, I need you to put and end to them before the piglets grow to adult boars ñ I donít need to tell you what a problem that would be. So what do you say?</text>
 	</string>
 	<string id="butcher_2_start_2">
 		<text>Consider it done.</text>
@@ -49,10 +49,10 @@
 		<text>I need some time to prepare.</text>
 	</string>	
 	<string id="butcher_2_start_4">
-		<text>That‚Äôs the spirit! They inhabit the small wood in the south east, behind the Witches Jelly anomaly. Here take these, they should come in handy! Come see me when they‚Äôre dead, I‚Äôll have put some vodka put to the side for you.</text>
+		<text>Thatís the spirit! They inhabit the small wood in the south east, behind the Witches Jelly anomaly. Here take these, they should come in handy! Come see me when theyíre dead, Iíll have put some vodka put to the side for you.</text>
 	</string>
 	<string id="butcher_2_start_5">
-		<text>No problem, come see me when you‚Äôre ready!</text>
+		<text>No problem, come see me when youíre ready!</text>
 	</string>		
 	
 	<string id="butcher_2_time_0">
@@ -66,7 +66,7 @@
 		<text>The boars are no more.</text>
 	</string>	
 	<string id="butcher_2_done_1">
-		<text>Well done! Here, have some booze and some food ‚Äì on the house! And of course, a reward for your troubles. Have a rest and if you want more work ‚Äì there is something urgent.</text>
+		<text>Well done! Here, have some booze and some food ñ on the house! And of course, a reward for your troubles. Have a rest and if you want more work ñ there is something urgent.</text>
 	</string>
 	
 	
@@ -85,10 +85,10 @@
 		<text>I need some time to prepare.</text>
 	</string>	
 	<string id="butcher_3_start_4">
-		<text>Alright! They took up residence south west from here,near the southern path to Agroprom... Here take this, they should come in handy! Come see me when they‚Äôre dead, we'll raise a glass to your deeds!</text>
+		<text>Alright! They took up residence south west from here,near the southern path to Agroprom... Here take this, they should come in handy! Come see me when theyíre dead, we'll raise a glass to your deeds!</text>
 	</string>
 	<string id="butcher_3_start_5">
-		<text>No problem, come see me when you‚Äôre ready!</text>
+		<text>No problem, come see me when youíre ready!</text>
 	</string>		
 	
 	<string id="butcher_3_time_0">
@@ -102,7 +102,7 @@
 		<text>The snorks are dead.</text>
 	</string>	
 	<string id="butcher_3_done_1">
-		<text>Well done! Here, have a drink and some ... bacon ‚Äì ah I saw it in your eyes, you feared that I would serve you snork hand hahaha! No, I'm not an asshole, you don't need to fear my friend. Here, have a smoke too. And of course, a reward for your troubles. Have a rest and come see me, we have to do something about this snork problem.</text>
+		<text>Well done! Here, have a drink and some ... bacon ñ ah I saw it in your eyes, you feared that I would serve you snork hand hahaha! No, I'm not an asshole, you don't need to fear my friend. Here, have a smoke too. And of course, a reward for your troubles. Have a rest and come see me, we have to do something about this snork problem.</text>
 	</string>	
 	
 -- Quest 4 --
@@ -123,7 +123,7 @@
 		<text>Alright! Travel over to Agroprom, if my suspicions are true, they should be somewhere between the southern and the northern path to Garbage. There is a hill there, chances are good that's where you'll find them. Take this, you will need it. \n \n Ah, and if you're already in Agroprom, seek out a man called Vybegallo - he's a scientist, you know of the more... peculiar kind. But his money is good. He needs something from me but he wants to keep it on the low. As you're already headed into his direction, pay him a visit and find out what he needs.</text>
 	</string>
 	<string id="butcher_4_start_5">
-		<text>No problem, come see me when you‚Äôre ready!</text>
+		<text>No problem, come see me when youíre ready!</text>
 	</string>		
 	
 	<string id="butcher_4_time_0">
@@ -137,7 +137,7 @@
 		<text>The snorks are dead.</text>
 	</string>	
 	<string id="butcher_4_done_1">
-		<text>Well done! Here, have a drink and some ... bacon ‚Äì ah I saw it in your eyes, you feared that I would serve you snork hand hahaha! No, I'm not an asshole, you don't need to fear my friend. Here, have a smoke too. And of course, a reward for your troubles. Have a rest and come see me, I need your gun.</text>
+		<text>Well done! Here, have a drink and some ... bacon ñ ah I saw it in your eyes, you feared that I would serve you snork hand hahaha! No, I'm not an asshole, you don't need to fear my friend. Here, have a smoke too. And of course, a reward for your troubles. Have a rest and come see me, I need your gun.</text>
 	</string>		
 	
 	
@@ -231,37 +231,37 @@
 		<text>Do you know a fellow scientist called "Vybegallo"?</text>
 	</string>
 	<string id="sakharov_vybegallo_start_1">
-		<text>Vybegallo? Well, yes I know him‚Ä¶ is there something with him?</text>
+		<text>Vybegallo? Well, yes I know himÖ is there something with him?</text>
 	</string>
 	<string id="sakharov_vybegallo_start_2">
 		<text>No, I only met him recently.</text>
 	</string>
 	<string id="sakharov_vybegallo_start_3">
-		<text>Okay‚Ä¶ did he tell you something?</text>
+		<text>OkayÖ did he tell you something?</text>
 	</string>
 	<string id="sakharov_vybegallo_start_4">
 		<text>No, we barely spoke.</text>
 	</string>
 	<string id="sakharov_vybegallo_start_5">
-		<text>Alright‚Ä¶ Please tell me if you know something about what he is up to. He himself is not dangerous, but his scientific research on the other hand‚Ä¶ My advice to you, don‚Äôt get caught up in his dealings.</text>
+		<text>AlrightÖ Please tell me if you know something about what he is up to. He himself is not dangerous, but his scientific research on the other handÖ My advice to you, donít get caught up in his dealings.</text>
 	</string>
 	<string id="sakharov_vybegallo_start_6">
 		<text>He asked me to help him with his science experiment.</text>
 	</string>
 	<string id="sakharov_vybegallo_start_7">
-		<text>He asked you for help? No offence, but you don‚Äôt look like a lab assistant. Why would Vybegallo need a Stalker?</text>
+		<text>He asked you for help? No offence, but you donít look like a lab assistant. Why would Vybegallo need a Stalker?</text>
 	</string>
 	<string id="sakharov_vybegallo_start_8">
 		<text>He asked me to find some artifact for him.</text>
 	</string>
 	<string id="sakharov_vybegallo_start_9">
-		<text>An artifact? This seems unusual for him, but maybe he finally found a normal research topic‚Ä¶</text>
+		<text>An artifact? This seems unusual for him, but maybe he finally found a normal research topicÖ</text>
 	</string>
 	<string id="sakharov_vybegallo_start_10">
 		<text>He asked me to find some pseudogiant part for him.</text>
 	</string>
 	<string id="sakharov_vybegallo_start_11">
-		<text>What? This is horrible!!! \n\n‚Ä¶ \n\nYou see, years ago Vybegallo got into his head to create the ‚Äúideal man‚Äù ‚Äì or the ‚Äúfully satisfied man‚Äù as he calls it, but his experiments were one disaster after another. After one especially egregious attempt which nearly cost the life of half his department, his research institute kicked him out. But Vybegallo somehow managed to pull some strings and wound up here! I‚Äôm afraid he didn‚Äôt give up on this experiment‚Ä¶ Who knows what he will unleash?  \n\nI implore you, don‚Äôt help him out! \n\n No this is not enough, here take this order to him and make him understand that he has to cease any dangerous experiments immediately. I don‚Äôt know how much he promised you, I can‚Äôt put much on the table at the moment, but I will find some reward. \n\nWill you help us out?</text>
+		<text>What? This is horrible!!! \n\nÖ \n\nYou see, years ago Vybegallo got into his head to create the ìideal manî ñ or the ìfully satisfied manî as he calls it, but his experiments were one disaster after another. After one especially egregious attempt which nearly cost the life of half his department, his research institute kicked him out. But Vybegallo somehow managed to pull some strings and wound up here! Iím afraid he didnít give up on this experimentÖ Who knows what he will unleash?  \n\nI implore you, donít help him out! \n\n No this is not enough, here take this order to him and make him understand that he has to cease any dangerous experiments immediately. I donít know how much he promised you, I canít put much on the table at the moment, but I will find some reward. \n\nWill you help us out?</text>
 	</string>
 	<string id="sakharov_vybegallo_start_12">
 		<text>Sure, I will deliver the letter and not help him out any further.</text>
@@ -277,31 +277,31 @@
 		<text>I need some money Sidorovich, do you have a better paying job to offer?</text>
 	</string>
 	<string id="sidorovich_railway_1_1">
-		<text>You‚Äôre in luck, I‚Äôm indeed hiring some guns at the moment‚Ä¶ I‚Äôm putting together a team to take back the railway bridge crossing. </text>
+		<text>Youíre in luck, Iím indeed hiring some guns at the momentÖ Iím putting together a team to take back the railway bridge crossing. </text>
 	</string>
 	<string id="sidorovich_railway_1_2">
 		<text>What happened?</text>
 	</string>
 	<string id="sidorovich_railway_1_3">
-		<text>The bandits recently reinforced that crossing and are asking for quite a high bribe to let people pass ‚Äì very bad for business. </text>
+		<text>The bandits recently reinforced that crossing and are asking for quite a high bribe to let people pass ñ very bad for business. </text>
 	</string>
 	<string id="sidorovich_railway_1_4">
-		<text>An assault? What‚Äôs the plan?</text>
+		<text>An assault? Whatís the plan?</text>
 	</string>
 	<string id="sidorovich_railway_1_5">
-		<text>We will effectuate a pincer movement. [CKSY Leader] send a squad over to help out, under the leadership of a certain ‚ÄúRodion Oslyabya‚Äù, they should arrive soon at the northern farm. My team will gather at the mill under the leadership of Alexander Peresvet. \n\nYou will take on the role of messenger ‚Äì you‚Äôll first need to bypass the railway bridge to make contact with Rodion and check if they are ready for the assault. If they are ready, you return to the Mill where Rodion will wait. If everyone is in place, tell Rodion that the assault can begin. \n\nAny questions?</text>
+		<text>We will effectuate a pincer movement. Cold send a squad over to help out, under the leadership of a certain ìRodion Oslyabyaî, they should arrive soon at the northern farm. My team will gather at the mill under the leadership of Alexander Peresvet. \n\nYou will take on the role of messenger ñ youíll first need to bypass the railway bridge to make contact with Rodion and check if they are ready for the assault. If they are ready, you return to the Mill where Rodion will wait. If everyone is in place, tell Rodion that the assault can begin. \n\nAny questions?</text>
 	</string>
 	<string id="sidorovich_railway_1_6">
-		<text>Why do I need to make contact in person. Can‚Äôt we use the PDA messenger to communicate with the Clear Sky squad?</text>
+		<text>Why do I need to make contact in person. Canít we use the PDA messenger to communicate with the Clear Sky squad?</text>
 	</string>
 	<string id="sidorovich_railway_1_7">
-		<text>Are you aware that PDA communication is far from being secure? Surprise is primordial in this assault ‚Äì the PDA stays silent until the very moment the assault begins. \n\nAny other questions?</text>
+		<text>Are you aware that PDA communication is far from being secure? Surprise is primordial in this assault ñ the PDA stays silent until the very moment the assault begins. \n\nAny other questions?</text>
 	</string>
 	<string id="sidorovich_railway_1_8">
 		<text>How do I bypass the railway bridge unseen?</text>
 	</string>
 	<string id="sidorovich_railway_1_9">
-		<text>You really are a rookie‚Ä¶ well there is a small underway to the west of the bridge and the mill. It‚Äôs small, badly lit and a little dangerous but will suit our needs perfectly. \n\nAny other questions?</text>
+		<text>You really are a rookieÖ well there is a small underway to the west of the bridge and the mill. Itís small, badly lit and a little dangerous but will suit our needs perfectly. \n\nAny other questions?</text>
 	</string>
 	<string id="sidorovich_railway_1_10">
 		<text>How much are you willing to pay?</text>
@@ -319,7 +319,7 @@
 		<text>Can you tell me the plan again?</text>
 	</string>
 	<string id="sidorovich_railway_1_15">
-		<text>What about the vehicle park to the east of the bridge? Won‚Äôt the bandits come in reinforcement?</text>
+		<text>What about the vehicle park to the east of the bridge? Wonít the bandits come in reinforcement?</text>
 	</string>
 	<string id="sidorovich_railway_1_16">
 		<text>That is very possible, and the reason why the assault has to be over as quick as possible. If the bandits send reinforcement, you beat them off.</text>
@@ -328,7 +328,7 @@
 		<text>Can we not make a diversionary attack on the vehicle park?</text>
 	</string>
 	<string id="sidorovich_railway_1_18">
-		<text>I like that idea, but we don‚Äôt have enough manpower to make such an attack. The plan stays, we overwhelm the bridge defences and dig in our heels if they send reinforcement.</text>
+		<text>I like that idea, but we donít have enough manpower to make such an attack. The plan stays, we overwhelm the bridge defences and dig in our heels if they send reinforcement.</text>
 	</string>
 	<string id="sidorovich_railway_1_19">
 		<text>What if I take on the vehicle park by myself?</text>
@@ -343,7 +343,7 @@
 		<text>Alright, so what do you say? Are you in?</text>
 	</string>
 	<string id="sidorovich_railway_1_23">
-		<text>I‚Äôm in!</text>
+		<text>Iím in!</text>
 	</string>
 	<string id="sidorovich_railway_1_24">
 		<text>I need some time to think about it.</text>
@@ -355,12 +355,11 @@
 		<text>Alright, better now than later. Ask away.</text>
 	</string>
 	<string id="sidorovich_railway_1_27">
-		<text>Alright! Gear up, and come see me if you‚Äôre ready!</text>
+		<text>Alright! Gear up, and come see me if youíre ready!</text>
 	</string>
 	<string id="sidorovich_railway_1_28">
 		<text>Alright. Think about it, but hurry, Clear Sky is on their way.</text>
 	</string>
-
 
 <string id="assault_stalker_leader_esc_5_9_start_dialog_0">
 		<text>Who are you?</text>
@@ -375,25 +374,48 @@
 		<text>They are. When does the rest of our guys arrive?</text>
 	</string>
 	<string id="assault_stalker_leader_esc_5_9_start_dialog_4">
-		<text>This is all there is. Sidorovich tends to be ‚Äúfrugal‚Äù in his hiring.</text>
+		<text>This is all there is. Sidorovich tends to be ìfrugalî in his hiring.</text>
 	</string>
 	<string id="assault_stalker_leader_esc_5_9_start_dialog_5">
-		<text>Fuck. At least the guys from Clear Sky came prepared‚Ä¶</text>
+		<text>Fuck. At least the guys from Clear Sky came preparedÖ</text>
 	</string>
 	<string id="assault_stalker_leader_esc_5_9_start_dialog_6">
-		<text>Yeah those guys are reliable. Let us hope we will catch these banditfuckers with their pants down. The plan is easy; we approach ‚Äì throw our grenades and assault. Are you ready?</text>
+		<text>Yeah those guys are reliable. Let us hope we will catch these banditfuckers with their pants down. The plan is easy; we approach ñ throw our grenades and assault. Are you ready?</text>
 	</string>
 	<string id="assault_stalker_leader_esc_5_9_start_dialog_7">
-		<text>Yes I‚Äôm ready.</text>
+		<text>Yes Iím ready.</text>
 	</string>
 	<string id="assault_stalker_leader_esc_5_9_start_dialog_8">
-		<text>Grenades? I don‚Äôt have any‚Ä¶</text>
+		<text>Grenades? I donít have anyÖ</text>
 	</string>
 	<string id="assault_stalker_leader_esc_5_9_start_dialog_9">
-		<text>Shit mate, who comes to an assault without grenades? Here take this one ‚Äì pay me a drink when we survived this bullshit. \n\nWell, enough chatting, we have to earn our pay now. Ready?</text>
+		<text>Shit mate, who comes to an assault without grenades? Here take this one ñ pay me a drink when we survived this bullshit. \n\nWell, enough chatting, we have to earn our pay now. Ready?</text>
 	</string>
 	<string id="assault_stalker_leader_esc_5_9_start_dialog_10">
-		<text>Let‚Äôs go!</text>
+		<text>Letís go!</text>
+	</string>
+
+
+----Fake Artifact---
+<string id="zaton_eitri_start_dialog_0">
+		<text>How can I help you?</text>
+	</string>
+	<string id="zaton_eitri_start_dialog_1">
+		<text>Who are you?</text>
+	</string><string id="zaton_eitri_start_dialog_2">
+		<text>Nothing.</text>
+	</string><string id="zaton_eitri_start_dialog_3">
+		<text>I'm Eitri, the brother of Brokkr.</text>
+	</string>
+<string id="zaton_brokkr_start_dialog_0">
+		<text>How can I help you?</text>
+	</string>
+	<string id="zaton_brokkr_start_dialog_1">
+		<text>Who are you?</text>
+	</string><string id="zaton_brokkr_start_dialog_2">
+		<text>Nothing.</text>
+	</string><string id="zaton_brokkr_start_dialog_3">
+		<text>I'm Brokkr, the brother of Eitri.</text>
 	</string>
 
 
