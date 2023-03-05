@@ -198,5 +198,34 @@
 		<actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
 
+<specific_character id="chris_partlow" team_default = "1">
+		<name>chris_partlow_name</name>
+		<icon>ui_inGame2_neutral_2_gp5</icon>
+		<bio></bio>
+		<class>chris_partlow</class>
+		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<map_icon x="1" y="0"/>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>12026</rank>
+		<reputation>-2830</reputation>
+		<money min="600" max="2000" infinitive="0"/>
+		<snd_config>characters_voice\human\stalker_3\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\stalker_neutral\stalker_neutral2a_gp5</visual>
+		<supplies>
+        [spawn] \n
+        wpn_pm \n
+        ammo_9x18_fmj = 2 \n
+        wpn_ak74_old \n
+        ammo_5.45x39_fmj = 3 \n
+        device_torch \n
+        hand_radio \n
+		</supplies>
+#include "gameplay\character_criticals.xml"
+
+		<start_dialog>chris_partlow_start_dialog</start_dialog>
+		
+		<actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
 
 </xml>

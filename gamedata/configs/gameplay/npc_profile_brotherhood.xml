@@ -20,5 +20,7 @@
 <character id="marlo_stanfield">
 		<class>marlo_Stanfield</class>
 	</character>
-
+<character id="chris_partlow">
+		<class>chris_partlow</class>
+	</character>
 </xml>

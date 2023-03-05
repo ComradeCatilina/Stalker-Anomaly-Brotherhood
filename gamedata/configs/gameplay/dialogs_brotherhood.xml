@@ -876,14 +876,12 @@ To do: 	- Vybegallo start 1  add: has_info butcher_vybegallo has_info
 				<next>1</next>
 				<next>2</next>
 			</phrase>
-			<phrase id="1">
-				
+			<phrase id="1">				
 				<text>zaton_brokkr_start_dialog_1</text>
 				<next>3</next>
 			</phrase>
 			<phrase id="2">
-				<text>zaton_brokkr_start_dialog_2</text>
-				
+				<text>zaton_brokkr_start_dialog_2</text>				
 			</phrase>
 			<phrase id="3">
 				<text>zaton_brokkr_start_dialog_3</text>
@@ -923,7 +921,49 @@ To do: 	- Vybegallo start 1  add: has_info butcher_vybegallo has_info
 
 
 
-
+---- Market Share----
+<dialog id="marlo_stanfield_start_dialog">
+		<dont_has_info>marlo_stanfield_start_dialog_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>marlo_stanfield_start_dialog_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">				
+				<text>marlo_stanfield_start_dialog_1</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>marlo_stanfieldr_start_dialog_2</text>				
+			</phrase>
+			<phrase id="3">
+				<text>marlo_stanfield_start_dialog_3</text>
+				<give_info>marlo_stanfield_start_dialog_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+<dialog id="chris_partlow_start_dialog">
+		<dont_has_info>chris_partlow_start_dialog_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>chris_partlow_start_dialog_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">				
+				<text>chris_partlow_start_dialog_1</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>chris_partlow_start_dialog_2</text>				
+			</phrase>
+			<phrase id="3">
+				<text>chris_partlow_start_dialog_3</text>
+				<give_info>chris_partlow_start_dialog_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>	
 
 
 

@@ -418,6 +418,27 @@
 		<text>I'm Brokkr, the brother of Eitri.</text>
 	</string>
 
+---- Market Share----
+<string id="marlo_stanfield_start_dialog_0">
+		<text>How can I help you?</text>
+	</string>
+	<string id="marlo_stanfield_start_dialog_1">
+		<text>Who are you?</text>
+	</string><string id="zmarlo_stanfield_start_dialog_2">
+		<text>Nothing.</text>
+	</string><string id="marlo_stanfield_start_dialog_3">
+		<text>I'm Marlo.</text>
+	</string>
+<string id="chris_partlow_start_dialog_0">
+		<text>How can I help you?</text>
+	</string>
+	<string id="chris_partlow_start_dialog_1">
+		<text>Who are you?</text>
+	</string><string id="chris_partlow_start_dialog_2">
+		<text>Nothing.</text>
+	</string><string id="chris_partlow_start_dialog_3">
+		<text>I'm Chris.</text>
+	</string>
 
 
 	
