@@ -2,7 +2,8 @@
 
 <game_dialogs>
 
-To do: Vybegallo start 1  add: has_info butcher_vybegallo has_info
+To do: 	- Vybegallo start 1  add: has_info butcher_vybegallo has_info
+	- Check if Vybegallo break dialog action let people read his text first before breaking
 
 
 
@@ -640,7 +641,7 @@ To do: Vybegallo start 1  add: has_info butcher_vybegallo has_info
 			</phrase>
 			<phrase id="12">
 				<text>sidorovich_railway_1_12</text>
-				<next>3</next>
+				<next>13</next>
 			</phrase>
 			<phrase id="13">
 				<text>sidorovich_railway_1_13</text>
@@ -673,6 +674,7 @@ To do: Vybegallo start 1  add: has_info butcher_vybegallo has_info
 			</phrase>
 			<phrase id="20">				
 				<text>sidorovich_railway_1_20</text>
+				<give_info>sidorovich_railway_assault_alternative</give_info>
 				<next>6</next>
 				<next>8</next>
 				<next>10</next>
@@ -712,6 +714,8 @@ To do: Vybegallo start 1  add: has_info butcher_vybegallo has_info
 			<phrase id="27">
 				<text>sidorovich_railway_1_27</text>
 				<give_info>sidorovich_railway_1_start</give_info>
+				<give_info>sidorovich_railway_assault_start</give_info>
+				<action>dialogs_brotherhood.give_sidorovich_railway_assault</action>
 			</phrase>
 			<phrase id="28">
 				<text>sidorovich_railway_1_28</text>
@@ -719,9 +723,176 @@ To do: Vybegallo start 1  add: has_info butcher_vybegallo has_info
 		</phrase_list>
 	</dialog>
 	
+<dialog id="assault_csky_leader_esc_5_7_start_dialog">
+		<dont_has_info>assault_csky_leader_esc_5_7_start_dialog_done</dont_has_info>
+		<has_info>sidorovich_railway_assault_start</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>assault_csky_leader_esc_5_7_start_dialog_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">				
+				<text>assault_csky_leader_esc_5_7_start_dialog_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>assault_csky_leader_esc_5_7_start_dialog_2</text>
+				
+				<give_info>assault_csky_leader_esc_5_7_start_dialog_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>	
+
+<dialog id="assault_stalker_leader_esc_5_9_start_dialog">
+		<dont_has_info>assault_stalker_leader_esc_5_9_start_dialog_done</dont_has_info>
+		<has_info>assault_csky_leader_esc_5_9_start_dialog_done</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>assault_stalker_leader_esc_5_9_start_dialog_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">				
+				<text>assault_stalker_leader_esc_5_9_start_dialog_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">				
+				<text>assault_stalker_leader_esc_5_9_start_dialog_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">				
+				<text>assault_stalker_leader_esc_5_9_start_dialog_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">				
+				<text>assault_stalker_leader_esc_5_9_start_dialog_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">				
+				<text>assault_stalker_leader_esc_5_9_start_dialog_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">				
+				<text>assault_stalker_leader_esc_5_9_start_dialog_6</text>
+				<next>7</next>
+				<next>8</next>
+			</phrase>
+			<phrase id="7">				
+				<text>assault_stalker_leader_esc_5_9_start_dialog_7</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="8">				
+				<text>assault_stalker_leader_esc_5_9_start_dialog_8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">				
+				<text>assault_stalker_leader_esc_5_9_start_dialog_9</text>
+				<next>10</next>
+				<give_info>give_grenade_railway_assault</give_info>
+				<action>dialogs_brotherhood.transfer_grenade_railway_assault</action>
+			</phrase>
+			<phrase id="10">
+				<text>assault_stalker_leader_esc_5_9_start_dialog_10</text>				
+				<give_info>assault_stalker_leader_esc_5_9_start_dialog_done</give_info>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+
+		</phrase_list>
+	</dialog>
+
+<dialog id="assault_csky_leader_esc_5_7_1">
+		
+		<has_info>bandit_guards_esc_6_8_dead</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>assault_csky_leader_esc_5_7_1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">				
+				<text>assault_csky_leader_esc_5_7_1_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>assault_csky_leader_esc_5_7_1_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>assault_csky_leader_esc_5_7_1_3</text>
+				
+			</phrase>
+		</phrase_list>
+	</dialog>
+<dialog id="assault_stalker_leader_esc_5_9_1">
+		
+		<has_info>bandit_guards_esc_6_8_dead</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>assault_stalker_leader_esc_5_9_1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">				
+				<text>assault_stalker_leader_esc_5_9_1_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>assault_stalker_leader_esc_5_9_1_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>assault_stalker_leader_esc_5_9_1_3</text>
+				
+			</phrase>
+		</phrase_list>
+	</dialog>	
 	
+-- fake artifact--
+<dialog id="zaton_eitri_start_dialog">
+		<dont_has_info>zaton_eitri_start_dialog_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>zaton_eitri_start_dialog_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">
+				
+				<text>zaton_eitri_start_dialog_1</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>zaton_eitri_start_dialog_2</text>
+				
+			</phrase>
+			<phrase id="3">
+				<text>zaton_eitri_start_dialog_3</text>
+				<give_info>zaton_eitri_start_dialog_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+<dialog id="zaton_brokkr_start_dialog">
+		<dont_has_info>zaton_brokkr_start_dialog_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>zaton_brokkr_start_dialog_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">				
+				<text>zaton_brokkr_start_dialog_1</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>zaton_brokkr_start_dialog_2</text>				
+			</phrase>
+			<phrase id="3">
+				<text>zaton_brokkr_start_dialog_3</text>
+				<give_info>zaton_brokkr_start_dialog_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+
+
 	
--- fake artifact--	
 <dialog id="sidorovich_fake_artifact">
 		<dont_has_info>sidorovich_fake_artifact_start</dont_has_info>
 		<has_info>bar_deactivate_radar_done</has_info>
@@ -750,7 +921,49 @@ To do: Vybegallo start 1  add: has_info butcher_vybegallo has_info
 
 
 
-
+---- Market Share----
+<dialog id="marlo_stanfield_start_dialog">
+		<dont_has_info>marlo_stanfield_start_dialog_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>marlo_stanfield_start_dialog_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">				
+				<text>marlo_stanfield_start_dialog_1</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>marlo_stanfieldr_start_dialog_2</text>				
+			</phrase>
+			<phrase id="3">
+				<text>marlo_stanfield_start_dialog_3</text>
+				<give_info>marlo_stanfield_start_dialog_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+<dialog id="chris_partlow_start_dialog">
+		<dont_has_info>chris_partlow_start_dialog_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>chris_partlow_start_dialog_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">				
+				<text>chris_partlow_start_dialog_1</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>chris_partlow_start_dialog_2</text>				
+			</phrase>
+			<phrase id="3">
+				<text>chris_partlow_start_dialog_3</text>
+				<give_info>chris_partlow_start_dialog_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>	
 
 
 

@@ -272,13 +272,173 @@
 	
 
 
+---- Sidorovich----
+<string id="sidorovich_railway_1_0">
+		<text>I need some money Sidorovich, do you have a better paying job to offer?</text>
+	</string>
+	<string id="sidorovich_railway_1_1">
+		<text>You’re in luck, I’m indeed hiring some guns at the moment… I’m putting together a team to take back the railway bridge crossing. </text>
+	</string>
+	<string id="sidorovich_railway_1_2">
+		<text>What happened?</text>
+	</string>
+	<string id="sidorovich_railway_1_3">
+		<text>The bandits recently reinforced that crossing and are asking for quite a high bribe to let people pass – very bad for business. </text>
+	</string>
+	<string id="sidorovich_railway_1_4">
+		<text>An assault? What’s the plan?</text>
+	</string>
+	<string id="sidorovich_railway_1_5">
+		<text>We will effectuate a pincer movement. Cold send a squad over to help out, under the leadership of a certain “Rodion Oslyabya”, they should arrive soon at the northern farm. My team will gather at the mill under the leadership of Alexander Peresvet. \n\nYou will take on the role of messenger – you’ll first need to bypass the railway bridge to make contact with Rodion and check if they are ready for the assault. If they are ready, you return to the Mill where Rodion will wait. If everyone is in place, tell Rodion that the assault can begin. \n\nAny questions?</text>
+	</string>
+	<string id="sidorovich_railway_1_6">
+		<text>Why do I need to make contact in person. Can’t we use the PDA messenger to communicate with the Clear Sky squad?</text>
+	</string>
+	<string id="sidorovich_railway_1_7">
+		<text>Are you aware that PDA communication is far from being secure? Surprise is primordial in this assault – the PDA stays silent until the very moment the assault begins. \n\nAny other questions?</text>
+	</string>
+	<string id="sidorovich_railway_1_8">
+		<text>How do I bypass the railway bridge unseen?</text>
+	</string>
+	<string id="sidorovich_railway_1_9">
+		<text>You really are a rookie… well there is a small underway to the west of the bridge and the mill. It’s small, badly lit and a little dangerous but will suit our needs perfectly. \n\nAny other questions?</text>
+	</string>
+	<string id="sidorovich_railway_1_10">
+		<text>How much are you willing to pay?</text>
+	</string>
+	<string id="sidorovich_railway_1_11">
+		<text>Considering that you are a rookie, you get a rookies pay. \n\nAny other question?</text>
+	</string>
+	<string id="sidorovich_railway_1_12">
+		<text>About the plan.</text>
+	</string>
+	<string id="sidorovich_railway_1_13">
+		<text>Yes, do you have any questions?</text>
+	</string>
+	<string id="sidorovich_railway_1_14">
+		<text>Can you tell me the plan again?</text>
+	</string>
+	<string id="sidorovich_railway_1_15">
+		<text>What about the vehicle park to the east of the bridge? Won’t the bandits come in reinforcement?</text>
+	</string>
+	<string id="sidorovich_railway_1_16">
+		<text>That is very possible, and the reason why the assault has to be over as quick as possible. If the bandits send reinforcement, you beat them off.</text>
+	</string>
+	<string id="sidorovich_railway_1_17">
+		<text>Can we not make a diversionary attack on the vehicle park?</text>
+	</string>
+	<string id="sidorovich_railway_1_18">
+		<text>I like that idea, but we don’t have enough manpower to make such an attack. The plan stays, we overwhelm the bridge defences and dig in our heels if they send reinforcement.</text>
+	</string>
+	<string id="sidorovich_railway_1_19">
+		<text>What if I take on the vehicle park by myself?</text>
+	</string>
+	<string id="sidorovich_railway_1_20">
+		<text>Damn dude, did you watch too many movies? This is not Rambo! But if you really want to prove yourself, be my guest. \n\nAny other questions?</text>
+	</string>
+	<string id="sidorovich_railway_1_21">
+		<text>No other questions.</text>
+	</string>
+	<string id="sidorovich_railway_1_22">
+		<text>Alright, so what do you say? Are you in?</text>
+	</string>
+	<string id="sidorovich_railway_1_23">
+		<text>I’m in!</text>
+	</string>
+	<string id="sidorovich_railway_1_24">
+		<text>I need some time to think about it.</text>
+	</string>
+	<string id="sidorovich_railway_1_25">
+		<text>I have some more questions.</text>
+	</string>
+	<string id="sidorovich_railway_1_26">
+		<text>Alright, better now than later. Ask away.</text>
+	</string>
+	<string id="sidorovich_railway_1_27">
+		<text>Alright! Gear up, and come see me if you’re ready!</text>
+	</string>
+	<string id="sidorovich_railway_1_28">
+		<text>Alright. Think about it, but hurry, Clear Sky is on their way.</text>
+	</string>
+
+<string id="assault_stalker_leader_esc_5_9_start_dialog_0">
+		<text>Who are you?</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_start_dialog_1">
+		<text>I am the guy Sidorovich sent as a messenger.</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_start_dialog_2">
+		<text>Good. Is the Clear Sky squad in place?</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_start_dialog_3">
+		<text>They are. When does the rest of our guys arrive?</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_start_dialog_4">
+		<text>This is all there is. Sidorovich tends to be “frugal” in his hiring.</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_start_dialog_5">
+		<text>Fuck. At least the guys from Clear Sky came prepared…</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_start_dialog_6">
+		<text>Yeah those guys are reliable. Let us hope we will catch these banditfuckers with their pants down. The plan is easy; we approach – throw our grenades and assault. Are you ready?</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_start_dialog_7">
+		<text>Yes I’m ready.</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_start_dialog_8">
+		<text>Grenades? I don’t have any…</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_start_dialog_9">
+		<text>Shit mate, who comes to an assault without grenades? Here take this one – pay me a drink when we survived this bullshit. \n\nWell, enough chatting, we have to earn our pay now. Ready?</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_start_dialog_10">
+		<text>Let’s go!</text>
+	</string>
 
 
+----Fake Artifact---
+<string id="zaton_eitri_start_dialog_0">
+		<text>How can I help you?</text>
+	</string>
+	<string id="zaton_eitri_start_dialog_1">
+		<text>Who are you?</text>
+	</string><string id="zaton_eitri_start_dialog_2">
+		<text>Nothing.</text>
+	</string><string id="zaton_eitri_start_dialog_3">
+		<text>I'm Eitri, the brother of Brokkr.</text>
+	</string>
+<string id="zaton_brokkr_start_dialog_0">
+		<text>How can I help you?</text>
+	</string>
+	<string id="zaton_brokkr_start_dialog_1">
+		<text>Who are you?</text>
+	</string><string id="zaton_brokkr_start_dialog_2">
+		<text>Nothing.</text>
+	</string><string id="zaton_brokkr_start_dialog_3">
+		<text>I'm Brokkr, the brother of Eitri.</text>
+	</string>
 
-
-
-
-
+---- Market Share----
+<string id="marlo_stanfield_start_dialog_0">
+		<text>How can I help you?</text>
+	</string>
+	<string id="marlo_stanfield_start_dialog_1">
+		<text>Who are you?</text>
+	</string><string id="zmarlo_stanfield_start_dialog_2">
+		<text>Nothing.</text>
+	</string><string id="marlo_stanfield_start_dialog_3">
+		<text>I'm Marlo.</text>
+	</string>
+<string id="chris_partlow_start_dialog_0">
+		<text>How can I help you?</text>
+	</string>
+	<string id="chris_partlow_start_dialog_1">
+		<text>Who are you?</text>
+	</string><string id="chris_partlow_start_dialog_2">
+		<text>Nothing.</text>
+	</string><string id="chris_partlow_start_dialog_3">
+		<text>I'm Chris.</text>
+	</string>
 
 
 	

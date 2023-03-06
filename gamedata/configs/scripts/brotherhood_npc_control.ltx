@@ -1,0 +1,32 @@
+[logic]
+active = beh@general
+post_combat_time = 0,0
+;======================
+; default logic
+;======================
+[beh@general_no_companion]
+sound_idle = state
+behavior_state = beh_move
+target = waypoint
+walk_dist = 100
+jog_dist = 220
+wait_anim = guard
+walk_anim = patrol
+jog_anim = patrol
+run_anim = panic
+delay_anim = guard
+meet = meet
+combat_ignore_cond = {=actor_enemy =check_enemy_name(actor)} false, true
+combat_ignore_keep_when_attacked = true
+gather_items_enabled = false
+help_wounded_enabled = false
+corpse_detection_enabled = false
+use_camp = false
+invulnerable = true
+
+[beh@general]
+actor_dialogs = actor_dialogs
+behavior_state = beh_wait
+target = actor
+
+

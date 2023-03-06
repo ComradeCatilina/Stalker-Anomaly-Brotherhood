@@ -11,5 +11,26 @@
 <string id="assault_csky_leader_esc_5_7_name">
 		<text>Rodion Oslyabya</text>
 	</string>	
+<string id="zaton_brokkr_name">
+		<text>Brokkr</text>
+	</string>	
+<string id="zaton_eitri_name">
+		<text>Eitri</text>
+	</string>	
+<string id="marlo_stanfield_name">
+		<text>Marlo Stanfield</text>
+	</string>
+<string id="chris_partlow_name">
+		<text>Chris Partlow</text>
+	</string>
+<string id="paranoia_man_name">
+		<text>Poprishchin</text>
+	</string>
+
+
+
+
+
+
 	
 </string_table>

@@ -1,0 +1,80 @@
+[section@squad]
+target@base = esc_smart_terrain_5_7
+
+[section@logic]
+logic@csky_1
+logic@csky_2
+logic@csky_3
+logic@csky_leader
+
+logic@csky_assault_1
+logic@csky_assault_2
+logic@csky_assault_3
+logic@csky_assault_leader
+
+[logic@base]
+post_combat_time = 0,0
+net_spawn = pt1
+
+[logic@combat_camper]
+combat_type = camper
+
+[logic@csky]:logic@base,logic@combat_camper
+suitable = {-esc_railway_assault_go} true
+
+[logic@csky_1]:logic@csky
+suitable = {=check_npc_name(sim_default_csky)} true
+active = beh@csky_1
+[logic@csky_2]:logic@csky
+suitable = {=check_npc_name(sim_default_csky)} true
+active = beh@csky_2
+[logic@csky_3]:logic@csky
+suitable = {=check_npc_name(sim_default_csky)} true
+active = beh@csky_3
+[logic@csky_leader]:logic@csky
+suitable = {=check_npc_name(assault_csky_leader_esc_5_7)} true
+active = beh@csky_leader
+
+
+[logic@csky_assault]:logic@base
+suitable = {+esc_railway_assault_go} true
+
+[logic@csky_assault_1]:logic@csky_assault
+suitable = {=check_npc_name(sim_default_csky)} true
+active = {-bandit_guards_esc_6_8_dead} beh@csky_assault_1, beh@csky_guard_1
+[logic@csky_assault_2]:logic@csky_assault
+suitable = {=check_npc_name(sim_default_csky)} true
+active = {-bandit_guards_esc_6_8_dead} beh@csky_assault_2, beh@csky_guard_2
+[logic@csky_assault_3]:logic@csky_assault
+suitable = {=check_npc_name(sim_default_csky)} true
+active = {-bandit_guards_esc_6_8_dead} beh@csky_assault_3, beh@csky_guard_3
+[logic@csky_assault_leader]:logic@csky_assault
+suitable = {=check_npc_name(assault_csky_leader_esc_5_7)} true
+active = {-bandit_guards_esc_6_8_dead} beh@csky_assault_leader, beh@csky_guard_leader
+
+[beh@base]
+dont_keep_items						= true
+gather_items_enabled				= false
+help_wounded_enabled				= false
+corpse_detection_enabled			= false
+combat_ignore_keep_when_attacked	= true
+target								= waypoint
+path_end							= loop
+
+[beh@csky]:beh@base
+run_anim = rush
+combat_ignore_cond	= {=is_enemy_actor()} true, {!dist_to_beh(30)} true
+
+
+[beh@csky_1]:beh@csky
+pt1 = 999999,salut	| pos:3.6652841567993,0.51852452754974,283.45083618164 look:3.6996459551156,0.51852452754974,282.49736833572
+on_info = {+esc_railway_assault_go} beh@csky_assault_1
+[beh@csky_2]:beh@csky
+pt1 = 999999,salut	| pos:0.87985223531723,0.52847683429718,283.41256713867 look:0.88906348031014,0.52847683429718,282.45534539223
+on_info = {+esc_railway_assault_go} beh@csky_assault_2
+[beh@csky_3]:beh@csky
+pt1 = 999999,salut	| pos:-1.74551653862,0.55057615041733,284.39331054688 look:-1.5467946827412,0.55057615041733,283.43283855915
+on_info = {+esc_railway_assault_go} beh@csky_assault_3
+[beh@csky_leader]:beh@csky
+pt1 = 999999,salut	| pos:-2.1205856800079,0.53000444173813,280.92181396484 look:-1.1208168268204,0.53000444173813,280.91343748569
+on_info = {+esc_railway_assault_go} beh@csky_assault_leader

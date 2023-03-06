@@ -1,0 +1,152 @@
+local HI = has_alife_info
+local GI = give_info
+local DI = disable_info
+function NI(str)
+	return not (has_alife_info(str))
+end
+------- GENERAL Functions --------
+function actor_on_first_update()
+    marlo_stanfield_init()
+    chris_partlow_init()
+    zaton_eitri_init()
+    zaton_brokkr_init()
+end
+
+
+
+function on_game_start()
+    RegisterScriptCallback("actor_on_first_update",actor_on_first_update)
+    RegisterScriptCallback("npc_on_net_spawn", npc_on_net_spawn_1)
+	RegisterScriptCallback("npc_on_net_spawn", npc_on_net_spawn_2)
+end
+
+function marlo_stanfield_init()
+    if (NI("marlo_stanfield_init")) then
+        if not (get_story_se_object("marlo_stanfield")) then            
+            local pos = vector():set( -7.0992422103882,23.103616714478,245.94242858887 )           
+            local se_obj = alife_create( "marlo_stanfield", pos, 703991, 4556 )
+			
+			
+        end        
+        if (get_story_se_object("marlo_stanfield")) then            
+            GI("marlo_stanfield_init")
+        end
+    end
+	
+end
+
+function chris_partlow_init()
+    if (NI("chris_partlow_init")) then
+        if not (get_story_se_object("chris_partlow")) then            
+            local pos = vector():set( -9.5265302658081,23.103614807129,245.18560791016 )           
+            local se_obj = alife_create( "chris_partlow", pos, 699550, 4556 )
+			
+        end        
+        if (get_story_se_object("chris_partlow")) then            
+            GI("chris_partlow_init")
+        end
+    end
+	
+end
+
+function zaton_brokkr_init()
+    if (NI("zaton_brokkr_init")) then
+        if not (get_story_se_object("zaton_brokkr_squad")) then            
+            local smart = SIMBOARD.smarts_by_names["zat_stalker_base_smart"]           
+            local squad = SIMBOARD:create_squad(smart,"zaton_brokkr_squad")
+        end        
+        if (get_story_se_object("zaton_brokkr_squad")) then            
+            GI("zaton_brokkr_init")
+        end
+    end
+end
+
+function zaton_eitri_init()
+    if (NI("zaton_eitri_init")) then
+        if not (get_story_se_object("zaton_eitri_squad")) then            
+            local smart = SIMBOARD.smarts_by_names["zat_stalker_base_smart"]           
+            local squad = SIMBOARD:create_squad(smart,"zaton_eitri_squad")
+        end        
+        if (get_story_se_object("zaton_eitri_squad")) then            
+            GI("zaton_eitri_init")
+        end
+    end
+end
+
+function npc_on_net_spawn_1(npc,se_obj)
+    local chris_partlow = get_story_object("chris_partlow")
+    if chris_partlow and npc:id() == chris_partlow:id() then
+      setup_npc_logic_brotherhood_1()
+    end
+end
+
+function npc_on_net_spawn_2(npc,se_obj)
+    local marlo_stanfield = get_story_object("marlo_stanfield")
+    if marlo_stanfield and npc:id() == marlo_stanfield:id() then
+      setup_npc_logic_brotherhood_2()
+    end
+end
+
+function setup_npc_logic_brotherhood_1()
+	
+		local npc = get_story_object("chris_partlow")
+		npc:give_info_portion("npc_not_move")
+	
+			
+		local ltx_name = "scripts\\brotherhood_npc_control.ltx"
+		local ltx = ini_file(ltx_name)
+		if not (ltx) then 
+			log("ERROR: do not have access to scripts\\brotherhood_npc_control.ltx! Make sure you installed properly!")
+		return
+		end
+	
+		local id = npc:id()
+		local sim = alife()
+		local se_npc = sim:object(id)
+		local unreg_id = se_npc and se_npc.m_smart_terrain_id
+		if (unreg_id and unreg_id ~= 65535) then
+			local unreg = sim:object(unreg_id)
+			if (unreg) then
+				unreg:unregister_npc(se_npc)
+			end
+		end
+	
+		xr_logic.configure_schemes(npc, ltx, ltx_name, modules.stype_stalker, loaded and st.loaded_section_logic or "logic", "")
+	
+		local section = loaded and st.loaded_active_section or xr_logic.determine_section_to_activate(npc, ltx, "logic", db.actor)
+		xr_logic.activate_by_section(npc, ltx, section, "", loaded)
+		--printf("setup complete")
+	
+end 
+
+function setup_npc_logic_brotherhood_2()
+	
+		local npc = get_story_object("marlo_stanfield")
+		npc:give_info_portion("npc_not_move")
+	
+			
+		local ltx_name = "scripts\\brotherhood_npc_control.ltx"
+		local ltx = ini_file(ltx_name)
+		if not (ltx) then 
+			log("ERROR: do not have access to scripts\\brotherhood_npc_control.ltx! Make sure you installed properly!")
+		return
+		end
+	
+		local id = npc:id()
+		local sim = alife()
+		local se_npc = sim:object(id)
+		local unreg_id = se_npc and se_npc.m_smart_terrain_id
+		if (unreg_id and unreg_id ~= 65535) then
+			local unreg = sim:object(unreg_id)
+			if (unreg) then
+				unreg:unregister_npc(se_npc)
+			end
+		end
+	
+		xr_logic.configure_schemes(npc, ltx, ltx_name, modules.stype_stalker, loaded and st.loaded_section_logic or "logic", "")
+	
+		local section = loaded and st.loaded_active_section or xr_logic.determine_section_to_activate(npc, ltx, "logic", db.actor)
+		xr_logic.activate_by_section(npc, ltx, section, "", loaded)
+		--printf("setup complete")
+	
+end 
