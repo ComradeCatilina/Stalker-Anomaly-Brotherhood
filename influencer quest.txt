@@ -1,0 +1,72 @@
+The Influencer Saga
+
+1) Normal Influencer
+- asks which is the most iconic gun and borrows it from you
+- asks for a shiny artifact and borrows it from you
+ - asks you to dress like a bandit 
+- asks for a mutant part as souvenir & a bandit patch as souvenir
+
+2) Advanced Influencer
+- asks you to bring him to a landmark (Church in Swamps, Hangar in Garbage, Railway in Escape, Rostov, Agroprom
+- asks you to kill some bandits and make a photo with them
+- asks you to bring him an even more rare artifact for photos
+- asks you to bring him an advanced suit & gun
+
+3) Youtuber (Paul Logan)
+- Fanatic asks you to stop doing this
+- Sidorovich gives you something for free "to show his appreciation for all the business you bring him"
+- asks you to bring him around some landmarks (Church in Swamps & Rostov) and to kill some bandits with him.
+- a father comes looking for his dead son (bring him to his dead son and talk to Fanatic who again asks you to stop this 1) agree, 
+2) tell him you will not bring anyone away from the rookie village anymore but will not stop it, 3) tell him the Zone is unfrogiving, but you will do whatever to survive)
+
+4) Downfall
+- asks you to bring him a rare artifact (option if you tell Fanat that you will not bring influencers away) - Are you the Stalker who helps influencers?
+Yes, but I Won't bring you away from the village - no problem, I only want a photo with...rare artifact and a good gun?
+- asks you to bring him to Darkscape into an ambush (option if you tell Fanatic that you won't stop)
+
+
+
+Influencer
+0. Are you a Stalker?
+0.1. Ehm yes... I mean, are you not?
+1.1. Oh no, I am only visiting. You see, I'm a content creator and I'm looking for a Stalker to help me out.
+0.2. Of course I'm a Stalker, why are you asking?
+2.1. Oh great! You see, I'm a content creator and I'm looking for a Stalker to help me out.
+0.3. No, I am only visiting.
+3.1. Oh, like me! Do you know where I can find a real Stalker who wants to talk to me?
+3.2. I was joking, I am a Stalker. What are you doing here?
+3.2.1 No clue, ask someone else.
+3.3.1 Oh, alright, thanks for your help.
+
+
+Help you out? What do you need?
+I want to take some authentic photos around here, but I don't know where to start.
+
+Authentic photos? What do you mean?
+
+I want to dress liek the locals, authentic you know... like you! With a gun, some artifacts, maybe a gas mask. Do you think you can bring these to me?
+Can you not ask Sidorovich? He will be happy to sell you those things...
+I asked him, but he is asking quite a hefty sum of money. Besides, I don't really want to keep those things, all I need is to borrow it for some time, say a day, and I'll take a couple of photos with them. Aferwards, I'll give them back to you. So what do you say?
+
+
+- Concerning a weapon
+
+0. What would you say would be the most iconic gun for a Stalker?
+1. Probably a version of the Kalashnikov.
+1.1. Ah yes, the classic. Of course they are also popular here. Could you fine me one?
+2. Probably a SVD sniper.
+2.1. Oh great, could you find me one? For like one day? I'd like to take some photos with it.
+3. Probably a TOZ shotgun.
+3.1. Are you sure? They look kind of cheap, like my grandfather would have in his Dasha... well if you think so. Could you borrow me one? I'd like to take some photos with it.
+4. The most iconic gun in the Zone would probably be a version of the Vintorez.
+4.1. Oh yes, I've heard of those! They look super epic. Could you find me one? For like one day? I'd like to take some photos with one.
+4.2. What, you want to borrow a Vintorez for a photo shoot? 
+5.1. You want to borrow a gun? For a photo shoot? 
+5.2. You know what, I changed my opinion.
+5.2.1. Ah, which gun is more iconic then?
+
+- Concerning an artifact
+0. I need an artifact to pose with it. Preferably something shiny, nice looking, you know for the camera.
+
+
+- Concerning the payment
