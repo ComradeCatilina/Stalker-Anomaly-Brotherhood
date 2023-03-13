@@ -1,0 +1,55 @@
+Chris:
+
+0. Yo, my man Marlo wants to talk to you.
+1. Marlo? Who are you guys?
+2. Talk to him first.
+
+Marlo:
+
+0. Hey Dude, are you the guy who deactivated the Brain Scorcher?
+1. I am, what can I do for you?
+2. What is it to you?
+3. Straight to the point, I like it. I wanted to say, me and my man Chris over here are big fans of your work. 
+4. Not of the trusting kind are you? Don’t worry, I get you, distrust makes you live longer. \n \nKnow what? How about we let our deeds talk for us – have a drink on us in the station and ask around.
+
+Hawaiian:
+0. Do you know some Stalkers by the name of “Marlo” and “Chris”?
+1. I do. They are serious guys, a bit like you. They get the job done, no matter what.
+2. What can you tell me about them?
+3. They made a name for themselves something like two years ago, although they entered the Zone much longer ago.
+2. What is their reputation?
+3. They never shy away from violence: you need some taken care off? – Done. You need some muscle? – Chris and Marlo are your guys. Mutant problem? – you guessed it. \n \nWhy are you asking?
+4. What do you mean, like me?
+5. I mean they
+6. I just met them- they want me to work with them.
+7. Hmm, be careful. They never shied away from violence. 
+
+Marlo:
+0. First, how do you feel about Sidorovich?
+1. Sidorovich? Fuck that greedy pig – the guy got rich by scamming rookies and leeching off the misery in the Zone!
+2. Sidorovich? He is businessman – buying low selling high. I got no problems with him.
+3. Sidorovich? I like him why?
+4. Alright, I see. What do you think 
+5. Alright, I respect your attitude. Do you have any qualms about taking over his business?
+6. You like him huh? So you work for him? 
+
+
+
+Marlo: 
+0. I’m interested in what you have to propose. 
+1. We followed your career in the Zone with great interest. No disrespect, but you ain’t the business kind of person – you always do jobs for someone else. We were also like that, but grew tired of taking care of other people’s problems, making them rich but . That’s about to change – we propose you a joint venture. 
+2. Sounds interesting, what’s the plan?
+3. I don’t know, I need some time to think.
+3. Think of it like a – the young ones would call it a “start up”. First step of doing anything in the Zone is gearing up – weapons. We won’t be able to do anything without enough firepower. 
+4. Alright, what’s the plan?
+5. As we see it, we have two options: either buy them or steal them. Plata o plomo like the saying goes.
+6. What about the buying option?
+7. Obviously the easiest option but also the most expensive. We have a potential seller lined up – buying price would be 300.000 roubles or 100.000 each. 
+8. What about the stealing option?
+9. Chris and me worked on a plan to steal weapons from the mercenaries. The short version is: The mercenaries in Zaton get their supply from the headquarters in the Dead City. We will intercept such a delivery and steal their weapons. Keep some for us, sell the rest.
+10. How are we going to do that?
+11. First we need to get our hands on their decryption key. You see, these guys take security seriously – all their important communications are encrypted. Trouble is, we can’t simply steal one of their PDAs – they will change the key immediately. Which means, in order to get the decryption key we need to intercept one of their couriers and finish the delivery ourselves – so that they don’t notice the interception and use the key. Afterwards, it’s a waiting game – they set up a meeting and we bust it.
+10. Steal weapons from the mercenaries? Are you crazy?
+11. Steal weapons from the mercenaries? I hope your plan is solid.
+12. Crazy? No man, ain’t nothing crazy about that. 
+13. I have to admit, that’s a plan with some chest hair. 
