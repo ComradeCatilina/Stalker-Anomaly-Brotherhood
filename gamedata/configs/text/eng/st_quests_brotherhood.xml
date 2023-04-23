@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+
+<!--===========================================================
+<
+< TEXT STRINGS FOR STORIES FROM THE ZONE
+<	Anomaly 1.5.2 - 
+<
+<	Made by: Catilina
+<	Last revised: wip
+<
+<===========================================================-->
+
+<string_table>
+
+	---- Cordon ----
+<string id="give_sidorovich_railway_assault_name">
+		<text>Bloody Railway Bridge</text>
+	</string>
+	<string id="give_sidorovich_railway_assault_1_descr">
+		<text>Sidorovich hired me to take part in the assault on the railway bridge. 
+		I have to make contact with the Clear Sky leader "Rodion Oslyabya" at the northern farm.</text>
+	</string>
+	<string id="give_sidorovich_railway_assault_2_descr">
+		<text>Sidorovich hired me to take part in the assault on the railway bridge. 
+		The Clear Sky squad is in place, I have to go back to the mill and find the Loner squad under "Alexander Peresvet".</text>
+	</string>
+	<string id="give_sidorovich_railway_assault_3_descr">
+		<text>Everyone is in place, time to assault the Railway Bridge!</text>
+	</string>
+	<string id="give_sidorovich_railway_assault_4_descr">
+		<text>We took back the Railway Bridge, now we have to beat back the bandit reinforcment!</text>
+	</string>
+	<string id="give_sidorovich_railway_assault_5_descr">
+		<text>We took back the Railway Bridge and the bandit reinforcment is defeated. I should report back to Sidorovich to report our victory.</text>
+	</string>
+
+<string id="give_sidorovich_railway_assault_2_name">
+		<text>Bloody Railway Bridge: Diversion</text>
+	</string>
+	<string id="give_sidorovich_railway_assault_2_1_descr">
+		<text>Sidorovich hired me to take part in the assault on the railway bridge. 
+		I am to assault the vehicle part to the east and eliminate the bandits there.</text>
+	</string>
+	<string id="give_sidorovich_railway_assault_2_2_descr">
+		<text>I eliminated the bandits in the vehicle park. I should go see if the guys need assistance with the railway bridge.</text>
+	</string>
+	<string id="give_sidorovich_railway_assault_2_3_descr">
+		<text>I eliminated the bandits in the vehicle park and the assault on the railway bridge has been a success. I should report back to Sidorovich.</text>
+	</string>
+	----Brotherhood----
+	
+	<string id="give_task_kill_pack_dogs_1_name">
+		<text>No Glovo in the Zone</text>
+	</string>
+	<string id="give_task_kill_pack_dogs_1_descr">
+		<text>I have to recover a package lost to a pack of dogs. It should be in the Great Swamp, near an old construction site. 
+		The delivery guy made his way past the Pump Station and kept the village with the water tower to his left, and the village the military sometimes uses to his right</text>
+	</string>
+	<string id="give_task_kill_pack_dogs_2_descr">
+		<text>I found the package. I should bring it to Vybegallo in Agroprom, somewhere in the factory.</text>
+	</string>
+	<string id="give_task_kill_pack_dogs_3_descr">
+		<text>I delivered the package. I should report back to Butcher.</text>
+	</string>
+	
+	<string id="give_task_kill_pack_boars_1_name">
+		<text>No future for a boar</text>
+	</string>
+	<string id="give_task_kill_pack_boars_1_descr">
+		<text>There is a herd of boars in the wood, behind the Witches Jelly anomaly in the south eastern part of the sector. Butcher wants them dead.</text>
+	</string>
+	<string id="give_task_kill_pack_boars_2_descr">
+		<text>I should report to Butcher and tell him that his problem is solved.</text>
+	</string>
+	
+	<string id="give_task_kill_pack_snorks_1_name">
+		<text>Lost snorks</text>
+	</string>
+	<string id="give_task_kill_pack_snorks_1_descr">
+		<text>There is a group of snorks to the south west of the train hangar close to the southern path to Agroprom. Butcher wants them dead.</text>
+	</string>
+	<string id="give_task_kill_pack_snorks_2_descr">
+		<text>I should report to Butcher and tell him that his problem is solved.</text>
+	</string>
+	
+	<string id="give_task_kill_pack_snorks_2_name">
+		<text>The great culling</text>
+	</string>
+	<string id="give_task_kill_pack_snorks_2_1_descr">
+		<text>Butcher wants me to check if the snork population oin Agroprom on the border to Garbage has grown too large. He told me to check the hill between the two passages to Garbage, and kill everz snork I see.</text>
+	</string>
+	<string id="give_task_kill_pack_snorks_2_2_descr">
+		<text>I should report to Butcher and tell him that the snorks shouldn't be a problem anymore.</text>
+	</string>
+	
+	
+---- Duty Hunter ----
+<string id="give_meet_aspirin_quest_1_name">
+		<text>A potential client: Aspirin</text>
+	</string>
+	<string id="give_meet_aspirin_quest_1_descr">
+		<text>Butcher said Aspirin, the Duty Medic, might have a job for me. I should go see him.</text>
+	</string>
+
+<string id="give_meet_aspirin_quest_2_name">
+		<text>Come see me: Aspirin</text>
+	</string>
+	<string id="give_meet_aspirin_quest_2_descr">
+		<text>Aspirin wrote me that he might have a job for me. I should go see him.</text>
+	</string>
+
+<string id="give_meet_voronin_quest_1_name">
+		<text>Come see me: Voronin</text>
+	</string>
+	<string id="give_meet_voronin_quest_1_descr">
+		<text>Voronin wrote me that he has a problem. I should go see him.</text>
+	</string>
+
+<string id="give_dolg_bloodsucker_village_2_name">
+		<text>Cleaning up</text>
+	</string>
+	<string id="give_dolg_bloodsucker_village_2_1_descr">
+		<text>Voronin wants me to replace the Duty patches with Mercenary ones on the dead soldiers in the Bloodsucker village.</text>
+	</string>
+	<string id="give_dolg_bloodsucker_village_2_2_descr">
+		<text>I replaced all the Duty patches with Mercenary ones. I should report back to Voronin.</text>
+	</string>
+	<string id="give_dolg_bloodsucker_village_2_3_descr">
+		<text>I replaced all the Duty patches with Mercenary ones, but I wasn't able to do it before sunrise. I should report back to Voronin.</text>
+	</string>
+	
+<string id="give_dolg_bloodsucker_village_3_name">
+		<text>Payback!</text>
+	</string>
+	<string id="give_dolg_bloodsucker_village_3_1_descr">
+		<text>The Duty soldiers want to take vengeance on the Blooduscker. I should meet their squad in Army Warehouse in the farmstead south of the path to Rostok.</text>
+	</string>	
+	
+	
+---- Alyosha Karmov----
+<string id="give_alyosha_karmov_trouble_1_name">
+		<text>A cry for help</text>
+	</string>
+	<string id="give_alyosha_karmov_trouble_1_1_descr">
+		<text>An Ecologist called "Alyosha Karmov" is besieged by Snorks in the Agroprom train tunnel. He is calling for help.</text>
+	</string>	
+	<string id="give_alyosha_karmov_trouble_1_2_descr">
+		<text>Accompany Alyosha Karmov to the Agroprom Factory.</text>
+	</string>
+	<string id="give_alyosha_karmov_trouble_1_3_descr">
+		<text>Tell Alyosha Karmov that you arrived.</text>
+	</string>
+	
+--- Vybegallo ---	
+	
+<string id="give_meet_vybegallo_quest_name">
+		<text>Meet Vybegallo: has science gone too far?</text>
+	</string>
+	<string id="give_meet_vybegallo_quest_descr">
+		<text>Vybegallo requested my urgent help. I should go see him.</text>
+	</string>	
+	
+<string id="bring_pseudogiant_vybegallo_name">
+		<text>Vybegallo: for science!</text>
+	</string>
+	<string id="bring_eye_vybegallo_descr">
+		<text>I found a pseudogiant eye - I should bring it to Vybegallo</text>
+	</string>
+	<string id="bring_hand_vybegallo_descr">
+		<text>I found a pseudogiant hand - I should bring it to Vybegallo</text>
+	</string>
+	<string id="bring_hide_vybegallo_descr">
+		<text>I found a pseudogiant hide - I should bring it to Vybegallo</text>
+	</string>	
+	<string id="bring_part_vybegallo_descr">
+		<text>Vybegallo wants me to find him a pseudogiant body part: an eye, an hand or it's hide</text>
+	</string>	
+
+<string id="give_sakharov_order_vybegallo_quest_name">
+		<text>Vybegallo: for science?</text>
+	</string>
+	<string id="give_sakharov_order_vybegallo_quest_1_descr">
+		<text>Sakharov explained to me the danger of Vybegallo's experiments and he want me to bring him a cease order.</text>
+	</string>	
+	<string id="give_sakharov_order_vybegallo_quest_2_descr">
+		<text>I brought the order to Vybegallo who didn't take the news lightly. I should go see Sakharov.</text>
+	</string>	
+<string id="give_vybegallo_must_die_name">
+		<text>Tu quoque mon cher?</text>
+	</string>
+	<string id="give_vybegallo_must_die_1_descr">
+		<text>Sakharov wants Vybegallo dead. This mission is off the books, I have to be careful.</text>
+	</string>	
+	<string id="give_vybegallo_must_die_2_descr">
+		<text>Vybegallo is dead, I should report to Sakharov.</text>
+	</string>	
+
+
+----- Market Share-----
+<string id="give_marlo_pda_name">
+		<text>Market Share: Startup - </text>
+	</string>
+	<string id="bring_pda_marlo_3_descr">
+		<text>Harald Virtanen is dead and I have his PDA. I should bring it to Chris.</text>
+	</string>
+	<string id="bring_pda_marlo_2_descr">
+		<text>Harald Virtanen is dead. I have to pick up his PDA now.</text>
+	</string>
+	<string id="bring_pda_marlo_1_descr">
+		<text>Chris wants me to kill a mercenary called "Harald Virtanen" in the Waste Processing Station. \n \nAllegedly he likes to sneak out to have a drink late night, somewhere around the garages in the east-southern part of the compound.</text>
+	</string>
+
+<string id="give_intercept_courrier_1_name">
+		<text>Market Share: Startup - </text>
+	</string>
+	<string id="bring_usb_marlo_2_descr">
+		<text>I got the USB. I should bring it to Chris now.</text>
+	</string>
+	<string id="bring_usb_marlo_1_descr">
+		<text>Chris wants me to intercept the mercenary courrier. They will seek shelter somewhere in the south western part of Yanov - I should look for building or structures there.</text>
+	</string>
+
+<string id="give_intercept_courrier_2_name">
+		<text>Market Share: Startup - </text>
+	</string>
+	<string id="bring_usb_marlo_2_1_descr">
+		<text>I have to disguise myself as a Mercenary, infiltrate their base in Zaton and deliver the USB to an officer called "Aivar Kuusk".</text>
+	</string>
+	<string id="bring_usb_marlo_2_2_descr">
+		<text>I managed to fool the mercenaries. I should report back to Chris and thell him that everything is going as planned.</text>
+	</string>
+	
+	
+	
+	
+---Fake Artifact---
+
+<string id="give_sidorovich_fake_artifact_1_name">
+		<text>The Forgery</text>
+	</string>
+	<string id="give_sidorovich_fake_artifact_1_descr">
+		<text>Sidorovich got scammed - find out who forged the fake [Artifact]</text>
+	</string>
+
+
+
+
+
+
+
+<string id="give_tambov_debt_1_name">
+		<text>A debt unpaid</text>
+	</string>
+	<string id="give_tambov_debt_1_descr">
+		<text>Take care of the bandits who Tambov owes money. They are waiting for him in the pig farm, in the south western part of Dark Valley.</text>
+	</string>
+	
+
+
+<string id="give_tambov_debt_2_name">
+		<text>A debt unpaid</text>
+	</string>
+	<string id="give_tambov_debt_2_1_descr">
+		<text>Take care of the bandits who Tambov owes money. They are waiting for him in the pig farm, in the south western part of Dark Valley.</text>
+	</string>
+	<string id="give_tambov_debt_2_2_descr">
+		<text>The bandits are dead - I have to return to Tambov to get my money.</text>
+	</string>
+
+
+
+
+
+
+	
+</string_table>

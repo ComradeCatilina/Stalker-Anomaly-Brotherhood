@@ -1,0 +1,1722 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+----Stories from the Zone----
+
+---Btucher---
+
+--Quest1 now 3--
+	
+<string id="butcher_1_start_0">
+		<text>You said there was a lost cargo?</text>
+	</string>
+	<string id="butcher_1_start_1">
+		<text>Yeah - a scientist, Vybegallo, over in Agroprom contacted me because his order got lost in the marshes. A substantial food delivery apparently - the small probably attracted a dogs 
+		and the delivery guy decided his life was more important than the job and threw the cargo to them in order to distract the pack. Everything happened quite fast, so he doesn't remember the exact size of that pack, but he said there were a shit ton of them, so I guess there should be a dozen.
+		\n \n Do you think you can recover the package and deliver it to that scientist?</text>
+	</string>
+	<string id="butcher_1_start_2">
+		<text>Sure, I’m up for it.</text>
+	</string>
+	<string id="butcher_1_start_3">
+		<text>Thanks, but I’m not ready yet.</text>
+	</string>	
+	<string id="butcher_1_start_4">
+		<text>Alright. According to his report he got jumped by them near an old construction site. The guy made his way past the Pump Station and kept the village with the water tower to his left, and the village the military sometimes uses to his right. Your job is to recover the package, there is no bounty on the dogs.
+	If you found the package, deliver it to Vybegallo, he is somewhere in the Agroprom fabric.</text>
+	</string>
+	<string id="butcher_1_start_5">
+		<text>No problem, come back later.</text>
+	</string>	
+
+<string id="butcher_1_time_0">
+		<text>About your lost package.</text>
+	</string>	
+	<string id="butcher_1_time_1">
+		<text>Yes, are you ready?</text>
+	</string>
+
+<string id="butcher_1_done_0">
+		<text>I delivered the package.</text>
+	</string>	
+	<string id="butcher_1_done_1">
+		<text>Well done! Keep the reward money, you deserve it. If you're ready, the snork problem requires some more attention.</text>
+	</string>
+	
+-- Quest 2 --
+
+<string id="butcher_2_start_0">
+		<text>Do you have some special jobs for me?</text>
+	</string>
+	<string id="butcher_2_start_1">
+		<text>I heard of some of your exploits, you seem like the capable kind… \n \nYou see, Duty pays me to keep the road from Cordon to Rostok free from particularly dangerous mutant threats – the sort the rookies wouldn’t be able to handle. You know, good for business and so on. Luckily the really dangerous mutants are rather rare in these parts. 
+		\n \n Most of the times my problems here are rather that packs of animals grow to a threatening number -  and exactly such a problem emerged. A sow gave birth to a litter of piglets a couple of months ago, reports vary on their number. Some say three, others believe to have seen six. 
+		Be as it may, I need you to put and end to them before the piglets grow to adult boars – I don’t need to tell you what a problem that would be. So what do you say?</text>
+	</string>
+	<string id="butcher_2_start_2">
+		<text>Consider it done.</text>
+	</string>
+	<string id="butcher_2_start_3">
+		<text>I need some time to prepare.</text>
+	</string>	
+	<string id="butcher_2_start_4">
+		<text>That’s the spirit! They inhabit the small wood in the south east, behind the Witches Jelly anomaly. Here take these, they should come in handy! Come see me when they’re dead, I’ll have put some vodka put to the side for you.</text>
+	</string>
+	<string id="butcher_2_start_5">
+		<text>No problem, come see me when you’re ready!</text>
+	</string>		
+	
+	<string id="butcher_2_time_0">
+		<text>Concerning that job.</text>
+	</string>	
+	<string id="butcher_2_time_1">
+		<text>Are you ready to take on the boars?</text>
+	</string>
+	
+	<string id="butcher_2_done_0">
+		<text>The boars are no more.</text>
+	</string>	
+	<string id="butcher_2_done_1">
+		<text>Well done! Here, have some booze and some food – on the house! And of course, a reward for your troubles. Have a rest and if you want more work – there is something urgent.</text>
+	</string>
+	
+	
+-- Quest 3 --
+
+<string id="butcher_3_start_0">
+		<text>You said there was an urgent task?</text>
+	</string>
+	<string id="butcher_3_start_1">
+		<text>Indeed. \n \n A group of snorks got lost and wandered over here from Agroprom. This happens sometimes, but in the past it always was one or two who found a way here - this time the reports talk about four! We can't let them dwell there, they pose too large a threat to the rookies. So what do you say?</text>
+	</string>
+	<string id="butcher_3_start_2">
+		<text>They are as good as dead.</text>
+	</string>
+	<string id="butcher_3_start_3">
+		<text>I need some time to prepare.</text>
+	</string>	
+	<string id="butcher_3_start_4">
+		<text>Alright! They took up residence south west from here,near the southern path to Agroprom... Here take this, they should come in handy! Come see me when they’re dead, we'll raise a glass to your deeds!</text>
+	</string>
+	<string id="butcher_3_start_5">
+		<text>No problem, come see me when you’re ready!</text>
+	</string>		
+	
+	<string id="butcher_3_time_0">
+		<text>Concerning that job.</text>
+	</string>	
+	<string id="butcher_3_time_1">
+		<text>Are you ready to take on the snorks?</text>
+	</string>
+	
+	<string id="butcher_3_done_0">
+		<text>The snorks are dead.</text>
+	</string>	
+	<string id="butcher_3_done_1">
+		<text>Well done! Here, have a drink and some food. Here, have a smoke too. And of course, a reward for your troubles. Have a rest and come see me, we have to do something about this snork problem.</text>
+	</string>	
+	
+-- Quest 4 --
+
+<string id="butcher_4_start_0">
+		<text>You said you wanted to talk to me about the snork problem?</text>
+	</string>
+	<string id="butcher_4_start_1">
+		<text>Yes. \n \nYou see, this snork incursion worries me. It sometimes happend in the past, but never in these numbers! I've been thinking, probably the snork population in Agroprom grew too much and that's the reason why they come over in larger numbers now... Can you have a look and if my suspicion is right - cull them? </text>
+	</string>
+	<string id="butcher_4_start_2">
+		<text>I will take a look.</text>
+	</string>
+	<string id="butcher_4_start_3">
+		<text>I need some time to prepare.</text>
+	</string>	
+	<string id="butcher_4_start_4">
+		<text>Alright! Don't go alone, Ilya over there will accompany you - fear not he's a capable fighter. Travel over to Agroprom, if my suspicions are true, they should be somewhere between the southern and the northern path to Garbage. 
+		There is a hill there, chances are good that's where you'll find them. Take this, you will need it. </text>
+	</string>
+	<string id="butcher_4_start_5">
+		<text>No problem, come see me when you’re ready!</text>
+	</string>		
+	
+	<string id="butcher_4_time_0">
+		<text>Concerning that job.</text>
+	</string>	
+	<string id="butcher_4_time_1">
+		<text>Are you ready to cull the snork population?</text>
+	</string>
+	
+	<string id="butcher_4_done_0">
+		<text>The snorks are dead.</text>
+	</string>	
+	<string id="butcher_4_done_1">
+		<text>Well done! Here, have a drink and a bite. So tell me, how is the snork situation over there?</text>
+	</string>
+	<string id="butcher_4_done_2">
+		<text>You were right, we killed at least ten snorks! It was a massacre, I'm glad we made it out alive!</text>
+	</string>		
+	<string id="butcher_4_done_3">
+		<text>Ten of these pieces of shit? Fuck... good that I send both you and Ilya to take care of the problem... We will have to keep an eye on this situation - this is very strange. 
+		\n \nThanks for your help! Take a rest, and if you feel able to do some work again, go meet Aspirin, the Duty medic. He contacted me, seems they need some discrete help. </text>
+	</string>			
+
+--- Ilya Muromets ---
+<string id="ilya_muromets_start_dialog_0">
+		<text>Hello Stalker, how can I help you?</text>
+	</string>	
+	<string id="ilya_muromets_start_dialog_1">
+		<text>Hello, who are you?</text>
+	</string>	
+	<string id="ilya_muromets_start_dialog_2">
+		<text>I'm Ilya Muromets, but you can call me Ilya. I'm an old friend of Butcher. </text>
+	</string>	
+
+<string id="ilya_muromets_1_0">
+		<text>Are you ready to go hunt some snorks?</text>
+	</string>	
+	<string id="ilya_muromets_1_1">
+		<text>Yeah, butcher told me to give you a hand. Lead the way, I'm behind you.</text>
+	</string>
+
+	
+--- Hunter Duty ---	
+	
+<string id="bar_dolg_medic_hunter_0_0">
+		<text>Butcher told me you might have a job for me.</text>
+	</string>	
+	<string id="bar_dolg_medic_hunter_0_1">
+		<text>Ah right! Thanks for coming.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_0_2">
+		<text>No problem, how can I help?</text>
+	</string>	
+	<string id="bar_dolg_medic_hunter_0_3">
+		<text>Right. To make it short, the boys here have some trouble on their hands. Voronin recently went to a meeting with Sakharov and Kuznetsov to discuss some general matters. During that meeting, Sakharov asked Voronin to help them by clearing the Bloodsucker Village, a proposition Kuznetsov apparently laughed at, saying Duty wasn't able to manage that and he proposed the help of his soldiers instead.
+			Voronin took that very badly, and started to boast about our boys capabilities. Nothing bad at defending the honour of our soldiers, but he lost any touch to reality and promised Sakharov to clear out the Bloodsucker Village for them. Problem is, he wants to do it overnight in order for the Ecologists to show up in the morning and find a safe village... Over fucking night! Can you imagine? 
+		He wants to show off in front of the military, you understand - and this asshole doesn't care about the fact that some of them won't survive the night. \n \nOf course the boys are less than enthusiastic to lose their lifes for the General's ego, they are soldiers after all, no Spetsnaz.
+		So they came to me, and I promised to see what I can do - I thought of Butcher and asked if he couldn't send us an experiencied hunter who is up to the job. Of course you need to be discrete, Vornonin can't know anything about this.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_0_4">
+		<text>I'm all ears.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_0_5">
+		<text>Clearing out the Bloodsucker Village during night? That's suicide!</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_0_6">
+		<text>"We are not to reason why, we are but to do and die." Orders are orders, I don't condone insubordination!</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_0_7">
+		<text>I'm glad to hear that, it is always nice to talk to professionals. Of course we don't expect you doing it for free, the boys will pitch in to reward you for your help! 
+		They even managed to bribe Mangun to give them a nightvision device - so you won't have to go in blind like a mole. So you're in?</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_0_8">
+		<text>Yes it's tough, but think about it - if someone can do it, it's certainly you! Butcher told me about your skills hunting mutants - that's more than I can say about our boys. Of course we don't expect you doing it for free, the boys will pitch in to reward you for your help! 
+		They even managed to bribe Mangun to give them a nightvision device - so you won't have to go in blind like a mole. Will you help us? </text>
+	</string>
+	<string id="bar_dolg_medic_hunter_0_9">
+		<text>I understand the need for a soldier to follow orders of his superiors, but this is objectively not a sane mission! These are actual people being send for a mission they haven't trained for! Think of it! You on the other hand have experience in these matters, 
+		at least Butcher told me that you are skilled in hunting mutants. And of course we don't expect you doing it for free, the boys will pitch in to reward you for your help! 
+		They even managed to bribe Mangun to give them a nightvision device - so you won't have to go in blind like a mole. So you're in?</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_0_10">
+		<text>Alright, I will do it.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_0_11">
+		<text>I can do it, but I want Voronin to know it was me!</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_0_12">
+		<text>I need some time to think about it.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_0_13">
+		<text>No way, they can do it themselves!</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_0_14">
+		<text>God bless you. Come see me the night you want to do it, I'll give you the nightvision device and warn the boys they should pretend to leave for the raid.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_0_15">
+		<text>That's not possible, Voronin wants it to be the guys designated by him. Can you not do it for them?</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_0_16">
+		<text>Alright, but please don't take too long, Voronin grows impatient.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_0_17">
+		<text>Are you sure? Think about it, the guys would really appreciate it!</text>
+	</string>
+	
+<string id="bar_dolg_medic_hunter_0_time_0">
+		<text>About the Bloodsucker Village.</text>
+	</string>	
+	<string id="bar_dolg_medic_hunter_0_time_1">
+		<text>Yeah? Are you up to it?</text>
+	</string>
+	
+<string id="bar_dolg_medic_hunter_0_no_1">
+		<text>Yeah? Did you change your mind?</text>
+	</string>	
+	<string id="bar_dolg_medic_hunter_0_no_13">
+		<text>I decided, I will certainly not do it!</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_0_no_17">
+		<text>*Sigh* A shame, I had high hopes for you, but alright... I'll ask Butcher if he can send me someone else...</text>
+	</string>
+	
+<string id="bar_dolg_medic_hunter_0_yes_0">
+		<text>About the Bloodsucker Village.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_0_yes_1">
+		<text>Yes, what about it?</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_0_yes_2">
+		<text>I am ready.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_0_yes_3">
+		<text>I am ready.</text>
+	</string>	
+	<string id="bar_dolg_medic_hunter_0_yes_4">
+		<text>I am not ready yet.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_0_yes_5">
+		<text>Good to hear that, come see me this night before you set off.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_0_yes_6">
+		<text>Perfect. Here is your nightvision device - I also packed some batteries so that you won't find yourself in the middle of night without juice. Take these medics too, hopefully you won't need them, but better safe than sorry.
+		You have to be back in six hours, before the Ecologists will set off! Good hunting Stalker, and thanks for helping us out!</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_0_yes_7">
+		<text>Alright, come see me when you are.</text>
+	</string>	
+
+<string id="bar_dolg_medic_hunter_0_snitch_0">
+		<text>What happend in the Bloodsucker Village?</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_0_snitch_1">
+		<text>You ratted us out, that's was happened. And afterwards, our fears became true, the boys were unprepared for what waited for them in that cursed village.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_0_snitch_2">
+		<text>I believe in following orders.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_0_snitch_3">
+		<text>FINISH DIALOG</text>
+	</string>	
+
+
+<string id="voronin_bloodsucker_snitch_0">
+		<text>I need to tell you something.</text>
+	</string>
+	<string id="voronin_bloodsucker_snitch_1">
+		<text>What are you waiting for, speak up!</text>
+	</string>
+	<string id="voronin_bloodsucker_snitch_2">
+		<text>Your men tried to pay me to clear the Bloodsucker village for them.</text>
+	</string>
+	<string id="voronin_bloodsucker_snitch_3">
+		<text>Nothing.</text>
+	</string>
+	<string id="voronin_bloodsucker_snitch_4">
+		<text>What? Why?</text>
+	</string>
+	<string id="voronin_bloodsucker_snitch_5">
+		<text>Then stop wasting my time.</text>
+	</string>
+	<string id="voronin_bloodsucker_snitch_6">
+		<text>They are afraid to do it - they say that they are not trained for such a night mission.</text>
+	</string>
+	<string id="voronin_bloodsucker_snitch_7">
+		<text>These cowards... I will beat bravery into them - thanks for telling me!</text>
+	</string>
+	<string id="voronin_bloodsucker_snitch_8">
+		<text>It was me who cleared the Bloodsucker Village - your men payed me to do the job in their stead.</text>
+	</string>
+	<string id="voronin_bloodsucker_snitch_9">
+		<text>What? Why?</text>
+	</string>
+	<string id="voronin_bloodsucker_snitch_10">
+		<text>They were too afraid to do it - they said that they are not trained for such a night mission.</text>
+	</string>
+	<string id="voronin_bloodsucker_snitch_11">
+		<text>These cowards... I will beat bravery into them - thanks for telling me! 
+		Here have a "fee" to keep your mouth shut, we can't have this disgrace be known in the Zone.</text>
+	</string>
+
+<string id="voronin_bloodsucker_botched_0">
+		<text>You wanted to see me?</text>
+	</string>	
+	<string id="voronin_bloodsucker_botched_1">
+		<text>Yes... I'm afraid that the mission failed. Of the four men I send only one made it back - badly wounded and out of his mind. 
+				We barely got anything out of him, but it seems that it went to shit the moment they set foot into that Village.</text>
+	</string>	
+	<string id="voronin_bloodsucker_botched_2">
+		<text>What happened?</text>
+	</string>	
+	<string id="voronin_bloodsucker_botched_3">
+		<text>Artyom wasn't able to give a full report...  from what I understood, they didn’t follow protocol and separated which resulted in a mission failure. 
+		He's with Aspirin at the moment, maybe you can get something out of him. </text>
+	</string>
+	<string id="voronin_bloodsucker_botched_4">
+		<text>What do you want me to do about the situation?</text>
+	</string>	
+	<string id="voronin_bloodsucker_botched_5">
+		<text>No one can know about this failure and my men refuse to go back to that Village during night. 
+			I need someone to sneak into the village during night and swap the fallen men's Duty patch with Mercenary ones... </text>
+	</string>	
+	<string id="voronin_bloodsucker_botched_6">
+		<text>What? Are you fucking kidding me?</text>
+	</string>	
+	<string id="voronin_bloodsucker_botched_7">
+		<text>Understandable.</text>
+	</string>
+	<string id="voronin_bloodsucker_botched_8">
+		<text>Not at all, this is vital for the reputation of Duty - we can not be allowed to show weakness!</text>
+	</string>	
+	<string id="voronin_bloodsucker_botched_9">
+		<text>I'm glad that we are on the same page - the reputation of Duty is after all paramount.</text>
+	</string>	
+	<string id="voronin_bloodsucker_botched_10">
+		<text>Can you not simply recover their bodies?</text>
+	</string>	
+	<string id="voronin_bloodsucker_botched_11">
+		<text>Out of question! That would draw too much attention to the failure - I cannot allow it!</text>
+	</string>
+	<string id="voronin_bloodsucker_botched_111">
+		<text>But these man died in the line of duty! You have to recover them!</text>
+	</string>
+	<string id="voronin_bloodsucker_botched_112">
+		<text>These men knew for what they signed up. Besides, the reputation of Duty is larger than the memory of a few men.</text>
+	</string>
+	<string id="voronin_bloodsucker_botched_12">
+		<text>Why Mercenary patches?</text>
+	</string>	
+	<string id="voronin_bloodsucker_botched_13">
+		<text>Isn't it obvious? To make it look as if some Mercenaries dressed as Duty soldiers in order to bypass Rostok without unnecessary attention, but got caught in the Bloodsucker Village. </text>
+	</string>
+	<string id="voronin_bloodsucker_botched_14">
+		<text>Alright, I will help you clean up the evidence.</text>
+	</string>	
+	<string id="voronin_bloodsucker_botched_15">
+		<text>I have to think about it.</text>
+	</string>
+	<string id="voronin_bloodsucker_botched_16">
+		<text>I don't want to be involved in this.</text>
+	</string>
+	
+	<string id="voronin_bloodsucker_botched_17">
+		<text>Good. Prepare for the mission and come see me during the night before you set off.</text>
+	</string>	
+	<string id="voronin_bloodsucker_botched_18">
+		<text>Then do it fast, the more time passes the more people will notice.</text>
+	</string>
+	<string id="voronin_bloodsucker_botched_19">
+		<text>Are you sure? I'm ready to pay a good price for this, let's say 20.000 roubles?</text>
+	</string>
+	<string id="voronin_bloodsucker_botched_20">
+		<text>For that price I can do it.</text>
+	</string>	
+	<string id="voronin_bloodsucker_botched_21">
+		<text>No forget it.</text>
+	</string>
+	<string id="voronin_bloodsucker_botched_22">
+		<text>Good. Prepare for the mission and come see me during the night before you set off.</text>
+	</string>	
+	<string id="voronin_bloodsucker_botched_23">
+		<text>Think about it.</text>
+	</string>
+
+<string id="voronin_bloodsucker_botched_1_0">
+		<text>About the mission.</text>
+	</string>
+	<string id="voronin_bloodsucker_botched_1_1">
+		<text>Yes?</text>
+	</string>
+	<string id="voronin_bloodsucker_botched_1_2">
+		<text>I am ready. Tell me about the details.</text>
+	</string>
+	<string id="voronin_bloodsucker_botched_1_3">
+		<text>Perfect. The mission is rather simple, you find the bodies of Vadim, Sergey and Sasha and replace their Duty patch with these ones. But be careful to finsih the job before sunrise, we can't have anyone seeing you.</text>
+	</string>
+	<string id="voronin_bloodsucker_botched_1_4">
+		<text>I need some more time.</text>
+	</string>
+	<string id="voronin_bloodsucker_botched_1_5">
+		<text>Alright, but please hurry up.</text>
+	</string>
+	<string id="voronin_bloodsucker_botched_1_6">
+		<text>I have changed my mind - I will assist you with your cover up..</text>
+	</string>
+	<string id="voronin_bloodsucker_botched_1_7">
+		<text>Alright, good to hear! Come see me when you are ready.</text>
+	</string>
+	<string id="voronin_bloodsucker_botched_1_8">
+		<text>Nothing.</text>
+	</string>
+	<string id="voronin_bloodsucker_botched_1_9">
+		<text>Okay...?</text>
+	</string>
+	<string id="voronin_bloodsucker_botched_1_10">
+		<text>I am ready, tell me about the details.</text>
+	</string>
+	<string id="voronin_bloodsucker_botched_1_11">
+		<text>Good, come see me during the night beofre setting of.</text>
+	</string>
+
+<string id="voronin_bloodsucker_botched_2_0">
+		<text>It is done.</text>
+	</string>
+	<string id="voronin_bloodsucker_botched_2_1">
+		<text>Excellent work Stalker - now no one will be able to pin anything on Duty. Here is your reward - I hope I can count on your discression.</text>
+	</string>
+
+<string id="voronin_bloodsucker_botched_3_0">
+		<text>It is done.</text>
+	</string>
+	<string id="voronin_bloodsucker_botched_3_1">
+		<text>You mean you failed - there is chatter about a Stalker fumbling with Duty bodies in the Bloodsucker village. Here some compensation, but I believe it's also in your best interest to keept your failure secret.</text>
+	</string>	
+
+	
+<string id="st_dolg_voronin_bloodsucker_news_0">
+		<text>Voronin: Stalker, we have a problem on our hands. Please come see me as soon as possible!</text>
+	</string>
+<string id="st_dolg_aspirin_bloodsucker_news_0">
+		<text>Aspirin: Stalker, come see me - we have a job proposition for you.</text>
+	</string>	
+<string id="st_dolg_aspirin_bloodsucker_news_1">
+		<text>Aspirin: Stalker, come see me - we got a problem for which we need your help.</text>
+	</string>	
+<string id="st_freedom_voronin_bloodsucker_news_0">
+		<text>Yo guys, there is a Stalker looting... Duty soldiers? Dead Duty soldiers in the Bloodsucker Village? What are they doing there?</text>
+	</string>	
+	
+	
+
+<string id="bar_dolg_medic_hunter_3_0">
+		<text>You said you have a job offer.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_3_1">
+		<text>Yes - the boys want to get vengeance on these Bloodsuckers and considering that you have... 
+	experience with that Village, they would like you to join them on their expedition.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_3_2">
+		<text>So you're not taking it badly that I told Voronin and accepted his job?</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_3_3">
+		<text>Well... obviously that was not very cool of you - we could have hired someone else who would have done it instead of you.
+	But... I - We understand that the Zone is not very conductive for morals and that people like you are here for... their personal gains.
+	Water under the Bridge, you didn't kill Sasha, Sergey and Vadim, these fucking Bloodsuckers did it... now we would like to hire you for payback. 
+	A lot of money Stalker, the boys didn't clutch their wallets in order to get payback.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_3_4">
+		<text>No bad feelings about Artyom?</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_3_5">
+		<text>Artyom, yes, that was - to be frank - quite stupid of you to give him that much morphine. Poor Artyom... He didn't deserve to die like this. 
+	But life goes on ... let's not talk about Artyom, yes? His death is still very painfull to me.</text>
+	</string>	
+	<string id="bar_dolg_medic_hunter_3_6">
+		<text>What is the plan? Isn't a night raid too dangerous?</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_3_7">
+		<text>No night raid needed Stalker, the plan is quite different. We bought all the explosives we could get our hands on, and we will set them up in different locations of the village showing Bloodsucker activity.
+		When they creep out during the night, we will blow them up like firework!</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_3_8">
+		<text>Alright, I'm in.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_3_9">
+		<text>I have to think about it.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_3_10">
+		<text>No, I think I will not help you out.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_3_11">
+		<text>We are glad to hear that! Come see me when you're ready, and I tell you the details!</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_3_12">
+		<text>Alright, but please hurry! The boys are getting restless waiting for their vengeance.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_3_13">
+		<text>Are you sure? There is a lot of money to be made and the job is quite easy if I dare to say so.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_3_14">
+		<text>Let me think about it.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_3_15">
+		<text>No, my answer is final.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_3_16">
+		<text>Alright, take your time.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_3_17">
+		<text>Please consider the job offer! We will be waiting if you change your mind.</text>
+	</string>	
+	
+<string id="bar_dolg_medic_hunter_4_0">
+		<text>About the payback mission.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_4_1">
+		<text>Yes?</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_4_2">
+		<text>I am ready. Tell me about the details.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_4_3">
+		<text>Good, very good. Ilya Kovalyov is your contact person - you will meet him in Army Warehouse in the farm south of the path leading here.
+	Wait for him there - he will explain the rest of the mission to you.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_4_4">
+		<text>I need some more time.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_4_5">
+		<text>Alright, but please hurry up.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_4_6">
+		<text>I have changed my mind - I will assist you taking vengeance on these Bloodsuckers.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_4_7">
+		<text>Alright, the boys will be happy to hear that! Come see me when you are ready.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_4_8">
+		<text>Nothing.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_4_9">
+		<text>Okay...?</text>
+	</string>
+
+
+
+	
+<string id="dolg_ilya_bloodsucker_start_0">
+		<text>Good day asshole.</text>
+	</string>
+	<string id="dolg_ilya_bloodsucker_start_1">
+		<text>What? What is your problem?</text>
+	</string>
+	<string id="dolg_ilya_bloodsucker_start_2">
+		<text>Was it not enough for you to rat us out? 
+	Did you have to accept Voronin's request and let our boys lie abandoned in that fucking Village while everyone is supposed to pretend they are mercenaries?</text>
+	</string>
+	<string id="dolg_ilya_bloodsucker_start_3">
+		<text>Relax, it was not personal, only business.</text>
+	</string>
+	<string id="dolg_ilya_bloodsucker_start_4">
+		<text>Aspirin told us to give you a good beating, but you don't deserve that. This is for the boys.</text>
+	</string>
+	<string id="dolg_ilya_bloodsucker_start_5">
+		<text>Woah what are you doing?</text>
+	</string>
+	<string id="dolg_ilya_bloodsucker_start_7">
+		<text>What? And Artyom? Did you have to kill that poor soul? You're scum!</text>
+	</string>
+	<string id="dolg_ilya_bloodsucker_start_8">
+		<text>I - it was not my intention!</text>
+	</string>
+	
+<string id="dolg_artyom_bloodsucker_start_dialog_0">
+		<text>Ah ah ah... it hurts... please help me...</text>
+	</string>	
+	
+<string id="dolg_artyom_bloodsucker_0_0">
+		<text>Artyom, I need to ask you something.</text>
+	</string>
+	<string id="dolg_artyom_bloodsucker_0_1">
+		<text>Ah ah ah...</text>
+	</string>
+	<string id="dolg_artyom_bloodsucker_0_2">
+		<text>Where can I find the bodies of the other soldiers?</text>
+	</string>
+	<string id="dolg_artyom_bloodsucker_0_3">
+		<text>Ah ah ah... my leg, it hurts. Mother please! I want to go home</text>
+	</string>
+	<string id="dolg_artyom_bloodsucker_0_4">
+		<text>[Morphine] Here take the morphine, it will help with the pain. Can you remember what happened during that night?</text>
+	</string>
+	<string id="dolg_artyom_bloodsucker_0_5">
+		<text>Aaaaah... fuck... \n \n... \n \nWhere am I, what happened?</text>
+	</string>
+	<string id="dolg_artyom_bloodsucker_0_6">
+		<text>Relax, you're back in the base. I need you to remember what happened during the raid.</text>
+	</string>
+	<string id="dolg_artyom_bloodsucker_0_7">
+		<text>What? The raid? ... Yes the raid ... \n \n ... \n \nfuck the raid ... it was a massacer, we should never have gone into that Village. We entered from the south-west, and everything was quiet - we even made it across the dirt raod withouth incident...
+			But when we approached the wooden house everything... everything... oh my god Vadim! Vadim! Aaaaah!!! </text>
+	</string>
+	<string id="dolg_artyom_bloodsucker_0_8">
+		<text>Relax Artyom, relax! Tell me what happened next?</text>
+	</string>
+	<string id="dolg_artyom_bloodsucker_0_9">
+		<text>I believe that is enough... rest well Artyom.</text>
+	</string>
+	<string id="dolg_artyom_bloodsucker_0_10">
+		<text>Vadim! Aaah it hurts... Vadim!!! Sergey!!! Mother!!! HELP! </text>
+	</string>
+	<string id="dolg_artyom_bloodsucker_0_11">
+		<text>[Morphine] Here take the morphine... Artyom, what happened after Vadim died?</text>
+	</string>
+	<string id="dolg_artyom_bloodsucker_0_12">
+		<text>Aaaaah... \n \n ... \n \nWhat? Ah yes... after the Bloodsucker slaughtered Vadim we turned around and ran for our lifes... Sergey was first ... faster than Sasha and me ... he ran into the first house he saw... \n \n ... \n \n
+			We heard ... we heard a horrible screach ... followed by a scream! They got Sasha ... they got Sasha... oh my god, why? Why? Ohhhhhhh...</text>
+	</string>
+	<string id="dolg_artyom_bloodsucker_0_13">
+		<text>Artyom relax! We are nearly done Artyom! What happened next?</text>
+	</string>
+	<string id="dolg_artyom_bloodsucker_0_14">
+		<text>Aaaaah!!! They're everywhere! Help! Please help!</text>
+	</string>
+	<string id="dolg_artyom_bloodsucker_0_15">
+		<text>[Morphine] Here some more morphine... Artyom, we nearly finished, what happened after Sergey died?</text>
+	</string>
+	<string id="dolg_artyom_bloodsucker_0_16">
+		<text>Oh... aaaaah... \n \n ... \n \n yes the raid... we ... we didn't follow Sergey into that ... house. Sasha went totally mad ... went off towards the heart of the village... I... didn't think ... followed him ... we ... ran ... until we ... north of village...
+			There we found... a house ... empty... we rested... yes rested ... I'm tired ... I need to rest ... </text>
+	</string>
+	<string id="dolg_artyom_bloodsucker_0_17">
+		<text>Artyom! Artyom!!! Don't fall asleep!!! Artyom, wake up!!!</text>
+	</string>
+	
+	
+	
+---- Doctor Alyosha Karmov ----	
+	
+<string id="st_karmov_trouble_1_info">
+		<text>Alyosha Karmov: Emergency! I request help of any nearby Stalker. I'm Doctor Alyosha Karmov - I'm surrounded by a horde of Snorks in the Agroprom Train tunnel. I request emergency extradition by any nearby Stalker.</text>
+	</string>
+<string id="st_karmov_trouble_2_info">
+		<text>Alyosha Karmov: This is an Emergency! I request urgent help. I'm Doctor Alyosha Karmov - I'm surrounded by a horde of Snorks in the Agroprom Train tunnel. Please, they are getting closer.</text>
+	</string>
+<string id="st_karmov_trouble_3_info">
+		<text>Alyosha Karmov: I'm Doctor Alyosha Karmov - I'm surrounded by a horde of Snorks in the Agroprom Train tunnel. Make haste - they have trapped me!</text>
+	</string>	
+	
+<string id="alyosha_karmov_start_dialog_0">
+		<text>A-a-are they gone?</text>
+	</string>
+	<string id="alyosha_karmov_start_dialog_1">
+		<text>Who?</text>
+	</string>
+	<string id="alyosha_karmov_start_dialog_2">
+		<text>The Snorks of course!</text>
+	</string>
+	<string id="alyosha_karmov_start_dialog_3">
+		<text>I guess so - I only saw a couple at the entrance, but I have no idea where the others went.</text>
+	</string>
+	<string id="alyosha_karmov_start_dialog_4">
+		<text>Ah, I must have scarred them off! You're welcome!</text>
+	</string>
+	<string id="alyosha_karmov_start_dialog_5">
+		<text>Right... Are you Alyosha?</text>
+	</string>
+	<string id="alyosha_karmov_start_dialog_6">
+		<text>Doctor Alyosha Karmov - for you Doctor Karmov - proper etiquette has to be kept after all, even in such a forsaken place like this.</text>
+	</string>
+	<string id="alyosha_karmov_start_dialog_7">
+		<text>Alright ... Doctor Karmov, what are you doing here?</text>
+	</string>
+	<string id="alyosha_karmov_start_dialog_8">
+		<text>Whatever Alyosha, what are you doing here?</text>
+	</string>
+	<string id="alyosha_karmov_start_dialog_9">
+		<text>I was on an expedition for Sakharov - gathering mutant samples. We are scientists after all. Suddenly I heard a terrible screech and I turned around - a horde of Snorks! I immediately retreated into the tunnel to fend them off.</text>
+	</string>
+	<string id="alyosha_karmov_start_dialog_10">
+		<text>I will allow these familiarities, considering we fought together and forged a bond in blood together. 
+			I was on an expedition for Sakharov - gathering mutant samples. We are scientists after all. Suddenly I heard a terrible screech and I turned around - a horde of Snorks! I immediately retreated into the tunnel to fend them off.</text>
+	</string>
+	<string id="alyosha_karmov_start_dialog_11">
+		<text>Hmm, alright. What would you consider to be an appropriate reward for my troubles?</text>
+	</string>
+	<string id="alyosha_karmov_start_dialog_12">
+		<text>For your troubles? You just said that there were no Snorks outsides!</text>
+	</string>
+	<string id="alyosha_karmov_start_dialog_13">
+		<text>Ah I see. I'll be on my way then, I lost enough time with you - good luck with your mutant samples.</text>
+	</string>
+	<string id="alyosha_karmov_start_dialog_14">
+		<text>What the fuck? You were begging on the channels for help!</text>
+	</string>
+	<string id="alyosha_karmov_start_dialog_15">
+		<text>Wait! Considering your altruistic - although unrequired - inclination to help me, I will return the favor!
+				I'll be escorting you back to the Agroprom Factories!</text>
+	</string>
+	<string id="alyosha_karmov_start_dialog_16">
+		<text>Begging for help? Me? I protest: I was calmly updating the other Stalkers on my situation - like any professional would do.
+			\n \nBut you're right, considering your altruistic - although unrequired - inclination to help me, I will return the favor!
+			I'll be escorting you back to the Agroprom Factories!</text>
+	</string>
+	<string id="alyosha_karmov_start_dialog_17">
+		<text>Ehm, that's kind of you, but I don't need to go there.</text>
+	</string>
+	<string id="alyosha_karmov_start_dialog_18">
+		<text>Alright, I wanted to go there either way.</text>
+	</string>
+	<string id="alyosha_karmov_start_dialog_19">
+		<text>I insist! The Zone is dangerous out there - you'll be safer with my trusted Nosrog and Scar as your companions.</text>
+	</string>
+	<string id="alyosha_karmov_start_dialog_20">
+		<text>I see... well then let's get going, I don't have all day.</text>
+	</string>
+	<string id="alyosha_karmov_start_dialog_21">
+		<text>Excellent! Lead the way!</text>
+	</string>
+	
+	
+	<string id="alyosha_karmov_0_0">
+		<text>Seems that we arrived.</text>
+	</string>
+	<string id="alyosha_karmov_0_1">
+		<text>Thanks mate</text>
+	</string>
+
+	
+--- Vybegallo and the Scientists---
+
+--Quest 1--
+
+- Vybegallo-
+
+<string id="vybegallo_start_0">
+		<text>What to you want? I'm busy!</text>
+	</string>
+	<string id="vybegallo_start_1">
+		<text>Greetings Vybegallo. I got your Tuna Bag.</text>
+	</string>
+	<string id="vybegallo_start_2">
+		<text>Nothing.</text>
+	</string>
+	<string id="vybegallo_start_3">
+		<text>Then might I ask you to not stand in the way of science?</text>	
+	</string>
+	<string id="vybegallo_start_111">
+		<text>Ah marvelous! Thank you mon cher! Science will not forget your contribution to progress! I believe a reward is in order.</text>
+	</string>
+	<string id="vybegallo_start_112">
+		<text>Thanks. Why is that much tuna important to science?</text>
+	</string>
+	<string id="vybegallo_start_113">
+		<text>Thanks. I'll be on my way then.</text>
+	</string>
+	<string id="vybegallo_start_114">
+		<text>That's food for my satis... no that doesn't concern you, mon cher. But yes ... maybe you can help me out? You work with Butcher, right? So you must be a hunter too...
+		Well, very well... you can be discrete, right?</text>
+	</string>
+	<string id="vybegallo_start_115">
+		<text>Yes, yes ... ah wait, wait mon cher! Maybe you can help me out? You work with Butcher, right? So you must be a hunter too...
+		Well, very well... you can be discrete, right?</text>
+	</string>
+	<string id="vybegallo_start_4">
+		<text>Ah yes, so you work with Butcher? Well, very well... you can be discrete, right?</text>
+	</string>
+	<string id="vybegallo_start_5">
+		<text>Yes of course.</text>
+	</string>
+	<string id="vybegallo_start_6">
+		<text>I don't like the direction this is going. What do you want?</text>	
+	</string>
+	<string id="vybegallo_start_7">
+		<text>Excellent! You see mon cher, I need a sample from a Pseudogiant - for scientific reasons of course! For the sake of progress, mon cher. Doesn't matter what, a hand, and eye, it's hide. Bring it to me and I'll compensate you for your troubles. Deal?</text>
+	</string>
+	<string id="vybegallo_start_8">
+		<text>Mon cher, why this attitude? I'm a scientist, a man dedicated to science! I need a sample from a Pseudogiant - for strictly scientific reasons of course! For the sake of progress, mon cher. Doesn't matter what, a hand, and eye, it's hide. Bring it to me and I'll compensate you for your troubles.</text>	
+	</string>
+	<string id="vybegallo_start_9">
+		<text>Alright, I see what I can do.</text>
+	</string>
+	<string id="vybegallo_start_10">
+		<text>I don't know, I have to think about it.</text>
+	</string>
+	<string id="vybegallo_start_11">
+		<text>Perfect!</text>
+	</string>
+	<string id="vybegallo_start_12">
+		<text>Think, but don't take too long, time is of an essence for me!</text>
+	</string>
+	
+<string id="vybegallo_time_0">
+		<text>Concerning that job.</text>
+	</string>	
+	<string id="vybegallo_time_1">
+		<text>Oui mon cher, will you help science out?</text>
+	</string>	
+
+
+<string id="vybegallo_2_0">
+		<text>About your pseudogiant body part.</text>
+	</string>
+	<string id="vybegallo_2_1">
+		<text>Oui mon cher? Did you find something?</text>
+	</string>
+	<string id="vybegallo_2_2">
+		<text>I found a pseudogiant eye.</text>
+	</string>
+	<string id="vybegallo_2_3">
+		<text>I found a pseudogiant hand.</text>
+	</string>
+	<string id="vybegallo_2_4">
+		<text>I found a pseudogiant hide.</text>
+	</string>
+	<string id="vybegallo_2_5">
+		<text>No I didn't find anything yet.</text>
+	</string>
+	<string id="vybegallo_2_6">
+		<text>What are you waiting for?</text>
+	</string>
+	<string id="vybegallo_2_7">
+		<text>This is marvellous, mon cher! Your contribution to science will not be forgotten! Here take this, for your troubles!</text>
+	</string>
+	<string id="vybegallo_2_8">
+		<text>I've talked to your collegues Vybegallo. This letter is for you.</text>
+	</string>
+	<string id="vybegallo_2_9">
+		<text>Wha-what? What did you do? What did you tell them? What is this??? \n \n...\n \nHow dare he! The tsarist gendarmerie did not frighten me, and Sakharov will not frighten me!! \n \n And you, you traitor!!! You rat!!! Out of my sight!!!</text>
+	</string>
+	<string id="vybegallo_2_10">
+		<text>...</text>
+	</string>
+
+<string id="vybegallo_3_0">
+		<text>You wanted to see me?</text>
+	</string>
+	<string id="vybegallo_3_1">
+		<text>Yes mon cher, we... we have a problem. My experiment has been a tremendous success, but...</text>
+	</string>
+	<string id="vybegallo_3_2">
+		<text>PLACE HOLDER</text>
+	</string>
+	<string id="vybegallo_3_3">
+		<text>PLACE HOLDER</text>
+	</string>
+
+
+
+	
+-the others-
+<string id="sakharov_vybegallo_start_0">
+		<text>Do you know a fellow scientist called "Vybegallo"?</text>
+	</string>
+	<string id="sakharov_vybegallo_start_1">
+		<text>Vybegallo? Well, yes I know him… is there something with him?</text>
+	</string>
+	<string id="sakharov_vybegallo_start_2">
+		<text>No, I only met him recently.</text>
+	</string>
+	<string id="sakharov_vybegallo_start_3">
+		<text>Okay… did he tell you something?</text>
+	</string>
+	<string id="sakharov_vybegallo_start_4">
+		<text>No, we barely spoke.</text>
+	</string>
+	<string id="sakharov_vybegallo_start_5">
+		<text>Alright… Please tell me if you know something about what he is up to. He himself is not dangerous, but his scientific research on the other hand… My advice to you, don’t get caught up in his dealings.</text>
+	</string>
+	<string id="sakharov_vybegallo_start_6">
+		<text>He asked me to help him with his science experiment.</text>
+	</string>
+	<string id="sakharov_vybegallo_start_7">
+		<text>He asked you for help? No offence, but you don’t look like a lab assistant. Why would Vybegallo need a Stalker?</text>
+	</string>
+	<string id="sakharov_vybegallo_start_8">
+		<text>He asked me to find some artifact for him.</text>
+	</string>
+	<string id="sakharov_vybegallo_start_9">
+		<text>An artifact? This seems unusual for him, but maybe he finally found a normal research topic…</text>
+	</string>
+	<string id="sakharov_vybegallo_start_10">
+		<text>He asked me to find some pseudogiant part for him.</text>
+	</string>
+	<string id="sakharov_vybegallo_start_11">
+		<text>What? This is horrible!!! \n \n… \n \nYou see, years ago Vybegallo got into his head to create the “ideal man” – or the “fully satisfied man” as he calls it, but his experiments were one disaster after another. I'm not talking about the ethical aspects, my god, although they are bad enough. His first version, the fully unsatisfied man, was a miserable creature who dwindled away under our very eyes... But Vybegallo was not discouraged and continued his experiments.
+		\n \nAfter one especially egregious attempt which nearly cost the life of half his department, his research institute kicked him out. But Vybegallo somehow managed to pull some strings and wound up here! I’m afraid he didn’t give up on this experiment… Who knows what he will unleash?  \n \nI implore you, don’t help him out! \n \n No this is not enough, here take this order to him and make him understand that he has to cease any dangerous experiments immediately. I don’t know how much he promised you, I can’t put much on the table at the moment, but I will find some reward. \n\nWill you help us out?</text>
+	</string>
+	<string id="sakharov_vybegallo_start_12">
+		<text>Sure, I will deliver the letter and not help him out any further.</text>
+	</string>
+	<string id="sakharov_vybegallo_start_13">
+		<text>No deal, I honour my contracts.</text>
+	</string>
+	<string id="sakharov_vybegallo_start_14">
+		<text>Thanks I appreciate it.</text>
+	</string>
+	<string id="sakharov_vybegallo_start_15">
+		<text>You fool.</text>
+	</string>
+	
+<string id="sakharov_vybegallo_2_0">
+		<text>I brought the order to Vybegallo.</text>
+	</string>
+	<string id="sakharov_vybegallo_2_1">
+		<text>And? How did he take it?</text>
+	</string>
+	<string id="sakharov_vybegallo_2_2">
+		<text>Not very well, he screamed something about the tsarist gendarmerie and that you won't frighten him.</text>
+	</string>
+	<string id="sakharov_vybegallo_2_3">
+		<text>I feared as much... Nevertheless thanks for your help, here your reward: it's not much but I hope it can help you out there.</text>
+	</string>
+	<string id="sakharov_vybegallo_2_4">
+		<text>What will you do about Vybegallo?</text>
+	</string>
+	<string id="sakharov_vybegallo_2_5">
+		<text>I don't know, I have to council with the director... \n \nIn the meantime I'll send a global message to everyone that Sakharov is under sanction and that whoever trades in mutant parts with him will be excluded from any business with us.</text>
+	</string>
+	<string id="sakharov_vybegallo_2_6">
+		<text>Sanctioned? Does that work here?</text>
+	</string>
+	<string id="sakharov_vybegallo_2_7">
+		<text>To be honest, no. The largest traders will maybe refrein from doing business with him, but individual Stalkers don't give a shit about sanctions. But we have to do something, and it will make at least some people think twice about working with him.</text>
+	</string>
+	
+<string id="st_sakharov_vybegallo_1_info">
+		<text>Attention! Important announcement: \n \nThe scientist Amvrosiy Vybegallo is under sanction! \n \nAnyone who is caught trading with him in mutant parts will be sanctioned too!</text>
+	</string>	
+	
+<string id="sakharov_vybegallo_3_0">
+		<text>I found this in the mercenary base in Zaton. [Pseudogiant parts order]</text>
+	</string>
+	<string id="sakharov_vybegallo_3_1">
+		<text>What is it? \n \n...\n \nThat shit head. \n \nListen to me; what I tell you now is off the record, noone will acknowledge this: I talked to the director and he agrees with me, Vybegallo has to stopped By.All.Means! He sanctioned the liquidation of Vybegallo if he continues his dangerous experiment. Well this is it! 
+		I ask you - no I insist: kill Vybegallo. He cannot continue doing his experiments. \n \nI understand that you are a Stalker and won't do it for free. We have prototypes here, and I'm willing to let one fall of the truck for you. So what do you say?</text>
+	</string>
+	<string id="sakharov_vybegallo_3_2">
+		<text>Amvrosiy Vybegallo will sleep with the snorks.</text>
+	</string>
+	<string id="sakharov_vybegallo_3_3">
+		<text>No way, I am not an assassin.</text>
+	</string>
+	<string id="sakharov_vybegallo_3_4">
+		<text>Thank you. Remember, we never had this conversation.</text>
+	</string>
+	<string id="sakharov_vybegallo_3_5">
+		<text>I understand. Remember, we never had this conversation.</text>
+	</string>
+	
+<string id="sakharov_vybegallo_4_0">
+		<text>Vybegallo is no more.</text>
+	</string>
+	<string id="sakharov_vybegallo_4_1">
+		<text>I don't know what you're talking about.</text>
+	</string>	
+
+<string id="st_vybegallo_help_satisfied_man_info">
+		<text>Vybegallo: Mon cher, we might have a problem on our hands... Can you come urgently?</text>
+	</string>	
+	
+	
+	
+---- Sidorovich----
+<string id="sidorovich_railway_1_0">
+		<text>I need some money Sidorovich, do you have a better paying job to offer?</text>
+	</string>
+	<string id="sidorovich_railway_1_1">
+		<text>You’re in luck, I’m indeed hiring some guns at the moment… I’m putting together a team to take back the railway bridge crossing. </text>
+	</string>
+	<string id="sidorovich_railway_1_2">
+		<text>What happened?</text>
+	</string>
+	<string id="sidorovich_railway_1_3">
+		<text>The bandits recently reinforced that crossing and are asking for quite a high bribe to let people pass – very bad for business. </text>
+	</string>
+	<string id="sidorovich_railway_1_4">
+		<text>An assault? What’s the plan?</text>
+	</string>
+	<string id="sidorovich_railway_1_5">
+		<text>We will effectuate a pincer movement. Cold send a squad over to help out, under the leadership of a certain “Rodion Oslyabya”, they should arrive soon at the northern farm. 
+		My team will gather at the mill under the leadership of Alexander Peresvet. \n\nYou will take on the role of messenger – you’ll first need to bypass the railway bridge to make contact with Rodion and check if they are ready for the assault. 
+		If they are ready, you return to the Mill where Rodion will wait. If everyone is in place, tell Rodion that the assault can begin. \n\nAny questions?</text>
+	</string>
+	<string id="sidorovich_railway_1_6">
+		<text>Why do I need to make contact in person. Can’t we use the PDA messenger to communicate with the Clear Sky squad?</text>
+	</string>
+	<string id="sidorovich_railway_1_7">
+		<text>Are you aware that to render PDA communication secure is a complicated procedure? You would have to exchange encryption and decryption keys manually - a huge hazzle. 
+		Surprise is primordial in this assault – the PDA stays silent until the very moment the assault begins. \n\nAny other questions?</text>
+	</string>
+	<string id="sidorovich_railway_1_8">
+		<text>How do I bypass the railway bridge unseen?</text>
+	</string>
+	<string id="sidorovich_railway_1_9">
+		<text>You really are a rookie… well there is a small underway to the west of the bridge and the mill. It’s small, badly lit and a little dangerous but will suit our needs perfectly. \n\nAny other questions?</text>
+	</string>
+	<string id="sidorovich_railway_1_10">
+		<text>How much are you willing to pay?</text>
+	</string>
+	<string id="sidorovich_railway_1_11">
+		<text>Considering that you are a rookie, you get a rookies pay. \n\nAny other question?</text>
+	</string>
+	<string id="sidorovich_railway_1_12">
+		<text>About the plan.</text>
+	</string>
+	<string id="sidorovich_railway_1_13">
+		<text>Yes, do you have any questions?</text>
+	</string>
+	<string id="sidorovich_railway_1_14">
+		<text>Can you tell me the plan again?</text>
+	</string>
+	<string id="sidorovich_railway_1_15">
+		<text>What about the vehicle park to the east of the bridge? Won’t the bandits come in reinforcement?</text>
+	</string>
+	<string id="sidorovich_railway_1_16">
+		<text>That is very possible, and the reason why the assault has to be over as quick as possible. If the bandits send reinforcement, you beat them off.</text>
+	</string>
+	<string id="sidorovich_railway_1_17">
+		<text>Can we not make a diversionary attack on the vehicle park?</text>
+	</string>
+	<string id="sidorovich_railway_1_18">
+		<text>I like that idea, but we don’t have enough manpower to make such an attack. The plan stays, we overwhelm the bridge defences and dig in our heels if they send reinforcement.</text>
+	</string>
+	<string id="sidorovich_railway_1_19">
+		<text>What if I take on the vehicle park by myself?</text>
+	</string>
+	<string id="sidorovich_railway_1_20">
+		<text>Damn dude, did you watch too many movies? This is not Rambo! But if you really want to prove yourself, be my guest. \n\nAny other questions?</text>
+	</string>
+	<string id="sidorovich_railway_1_21">
+		<text>No other questions.</text>
+	</string>
+	<string id="sidorovich_railway_1_22">
+		<text>Alright, so what do you say? Are you in?</text>
+	</string>
+	<string id="sidorovich_railway_1_23">
+		<text>I’m in!</text>
+	</string>
+	<string id="sidorovich_railway_1_24">
+		<text>I need some time to think about it.</text>
+	</string>
+	<string id="sidorovich_railway_1_25">
+		<text>I have some more questions.</text>
+	</string>
+	<string id="sidorovich_railway_1_26">
+		<text>Alright, better now than later. Ask away.</text>
+	</string>
+	<string id="sidorovich_railway_1_27">
+		<text>Alright! Gear up, and come see me if you’re ready!</text>
+	</string>
+	<string id="sidorovich_railway_1_28">
+		<text>Alright. Think about it, but hurry, Clear Sky is on their way.</text>
+	</string>
+
+<string id="sidorovich_railway_2_0">
+		<text>About the Railway Bridge assault.</text>
+	</string>
+	<string id="sidorovich_railway_2_1">
+		<text>Yes, tell me?</text>
+	</string>
+	<string id="sidorovich_railway_2_2">
+		<text>I am ready. Tell me what to do.</text>
+	</string>
+	<string id="sidorovich_railway_2_3">
+		<text>I am ready. I'll take part in the main assault.</text>
+	</string>
+	<string id="sidorovich_railway_2_4">
+		<text>I am ready. I'll make the diversionary attack on the vehicle park.</text>
+	</string>
+	<string id="sidorovich_railway_2_5">
+		<text>I need more time. </text>
+	</string>
+	<string id="sidorovich_railway_2_6">
+		<text>Alright. Let me remind you of your task so you don't fuck it up. You are to bypass the bandit forces and establish contact with Rodion Oslyabya, the leader of the Clear Sky forces, in the northern village.
+			If he's there, you're to return back to the mill and report to Alexander Peresvet, my guy. If everything is in place, you're to take part in the assault. \n \nEverything clear?</text>
+	</string>
+	<string id="sidorovich_railway_2_7">
+		<text>Alright. Let me remind you of your task so you don't fuck it up. You are to bypass the bandit forces and establish contact with Rodion Oslyabya, the leader of the Clear Sky forces, in the northern village.
+			If he's there, you're to return back to the mill and report to Alexander Peresvet, my guy. If everything is in place, you're to take part in the assault. \n \nEverything clear?</text>
+	</string>
+	<string id="sidorovich_railway_2_8">
+		<text>Are you sure? If that's how you want it, be my guest. It certainly will help the assault. I'll tell Alexander to send someone else to establish contact with Clear Sky. Is everything else clear?</text>
+	</string>
+	<string id="sidorovich_railway_2_9">
+		<text>Alright, but get moving, we don't have much time left! Remember, suprise is of essence!</text>
+	</string>
+	<string id="sidorovich_railway_2_10">
+		<text>Everything clear. I'm on my way.</text>
+	</string>
+	<string id="sidorovich_railway_2_11">
+		<text>Wait! I changed my mind.</text>
+	</string>
+	<string id="sidorovich_railway_2_12">
+		<text>Better now than later. What is it?</text>
+	</string>
+	<string id="sidorovich_railway_2_14">
+		<text>About the plan.</text>
+	</string>
+	<string id="sidorovich_railway_2_15">
+		<text>What is it?</text>
+	</string>
+
+
+
+
+<string id="st_assault_railway_info_1">
+		<text>Let's fuck those bandits up! URRRAAAAAAAA!!!!!</text>
+	</string>
+	<string id="st_assault_railway_info_2">
+		<text>URRRAAAAAAAA!!!!!</text>
+	</string>
+
+
+<string id="assault_csky_leader_esc_5_7_start_dialog_0">
+		<text>Get lost Stalker, we're occupied.</text>
+	</string>
+	<string id="assault_csky_leader_esc_5_7_start_dialog_1">
+		<text>Are you the guys Cold send in order to assault the railway bridge?</text>
+	</string>
+	<string id="assault_csky_leader_esc_5_7_start_dialog_2">
+		<text>Yes we are - and you're the messenger? As you can see we're ready, I hope you guys too. So tell me, can we begin, can we get this over with?</text>
+	</string>
+	<string id="assault_csky_leader_esc_5_7_start_dialog_3">
+		<text>Yeah, I'll join up with the guys on the other side and we'll give the sign.</text>
+	</string>
+	<string id="assault_csky_leader_esc_5_7_start_dialog_4">
+		<text>Alright, we'll be waiting.</text>
+	</string>
+	
+<string id="assault_csky_leader_esc_5_7_1_0">
+		<text>What a fight, I'm glad you made it!</text>
+	</string>
+	<string id="assault_csky_leader_esc_5_7_1_1">
+		<text>Yeah, that was quite tough. Thanks for the help!</text>
+	</string>
+	<string id="assault_csky_leader_esc_5_7_1_2">
+		<text>What are you going to do?</text>
+	</string>
+	<string id="assault_csky_leader_esc_5_7_1_3">
+		<text>I have orders to guard this checkpoint.</text>
+	</string>
+
+<string id="assault_stalker_leader_esc_5_9_start_dialog_0">
+		<text>Who are you?</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_start_dialog_1">
+		<text>I am the guy Sidorovich sent as a messenger.</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_start_dialog_2">
+		<text>Good. Is the Clear Sky squad in place?</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_start_dialog_3">
+		<text>They are. When does the rest of our guys arrive?</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_start_dialog_4">
+		<text>This is all there is. Sidorovich tends to be “frugal” in his hiring.</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_start_dialog_5">
+		<text>Fuck. At least the guys from Clear Sky came prepared…</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_start_dialog_6">
+		<text>Yeah those guys are reliable. Let us hope we will catch these banditfuckers with their pants down. The plan is easy; we approach – throw our grenades and assault. Are you ready?</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_start_dialog_7">
+		<text>Yes I’m ready.</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_start_dialog_8">
+		<text>Grenades? I don’t have any…</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_start_dialog_9">
+		<text>Shit mate, who comes to an assault without grenades? Here take this one – pay me a drink when we survived this bullshit. \n\nWell, enough chatting, we have to earn our pay now. Ready?</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_start_dialog_10">
+		<text>Let’s go!</text>
+	</string>
+
+<string id="assault_stalker_leader_esc_5_9_1_0">
+		<text>What a fight! We made it!</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_1_1">
+		<text>Yeah mate, that was crazy! I'm glad to see you made it!</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_1_2">
+		<text>Yeah man, I'm glad to see you to! What will you do?</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_1_3">
+		<text>I'll stay here and guard the passage.</text>
+	</string>
+
+<string id="assault_stalker_leader_esc_5_9_2_0">
+		<text>Hey mate, I wanted to thank you for the grenade you gave me.</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_2_1">
+		<text>No problem, I'm sure the bandits would disagree.</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_2_2">
+		<text>[Zone Vodka] Here, this is for you.</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_2_3">
+		<text>[Nemiroff] Here, this is for you.</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_2_4">
+		<text>[Putinka] Here, this is for you.</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_2_8">
+		<text>[Stolichnaya] Here, this is for you.</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_2_5">
+		<text>Wait, I'll get a drink to thank you!</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_2_6">
+		<text>That's mighty cool of you to remember, I will remember this.</text>
+	</string>
+	<string id="assault_stalker_leader_esc_5_9_2_7">
+		<text>No problem mate.</text>
+	</string>
+
+---- Market Share----
+<string id="marlo_stanfield_start_dialog_0">
+		<text>Yo, what's up?</text>
+	</string>
+	<string id="marlo_stanfield_start_dialog_1">
+		<text>I got your message. What do you want?</text>
+	</string>
+	<string id="marlo_stanfield_start_dialog_2">
+		<text>Nothing.</text>
+	</string>
+	<string id="marlo_stanfield_start_dialog_3">
+		<text>Ah, you're the Stalker who disabled the Brainscorcher?</text>
+	</string>
+	<string id="marlo_stanfield_start_dialog_4">
+		<text>I am, what is it to you?</text>
+	</string>
+	<string id="marlo_stanfield_start_dialog_5">
+		<text>Who is asking?</text>
+	</string>
+	<string id="marlo_stanfield_start_dialog_6">
+		<text>Me and my man Chris over there followed your work, and we are fans of your work ethic. We want to propose a collab.</text>
+	</string>
+	<string id="marlo_stanfield_start_dialog_7">
+		<text>Not of the trusting kind are you? Don’t worry, I get you, distrust makes you live longer.
+		\n \nKnow what? Have a drink on us in the station and ask about Marlo Stanfield and Chris Partlow - people will fill you in.</text>
+	</string>
+	<string id="marlo_stanfield_start_dialog_8">
+		<text>A collab? What is the goal?</text>
+	</string>
+	<string id="marlo_stanfield_start_dialog_9">
+		<text>The goal is money and renown of course - what else is there to be wanted? The way to achieve it? That's the juicy part.</text>
+	</string>
+	<string id="marlo_stanfield_start_dialog_10">
+		<text>I've never heard of you - why should we work together?</text>
+	</string>
+	<string id="marlo_stanfield_start_dialog_11">
+		<text>Haven't heard of me yet you mean. Don't worry, that will change. 
+		\n \nKnow what? Have a drink on us in the station and ask about Marlo Stanfield and Chris Partlow - people will fill you in.</text>
+	</string>
+	
+	
+	
+	
+<string id="chris_partlow_start_dialog_0">
+		<text>Yo, talk to my man Marlo first.</text>
+	</string>
+	
+
+
+
+<string id="hawaiian_about_marlo_0">
+		<text>Do you know some Stalkers by the name of “Marlo Stanfield” and “Chris Partlow”?</text>
+	</string>
+	<string id="hawaiian_about_marlo_1">
+		<text>I do... some serious guys, made a name for themselves two years ago. Violent guys too - and that means something here.</text>
+	</string>
+	<string id="hawaiian_about_marlo_2">
+		<text>Can you be more specific about them?</text>
+	</string>
+	<string id="hawaiian_about_marlo_3">
+		<text>I only saw them a couple of times when they passed through so I didn't have any close dealings with them, but I heard some stories. I assume that 
+		they started off like normal guys - bribed their way past the checkpoint and started to do some minor work here and there. The first time their name rang out was two years ago, some bandits were making trouble in Zaton and 
+		Sidorovich recruited them amongst others to put them back in place. Story goes that there was a traitor amongst the group which lead them into an ambush - those who weren't killed were taken as hostage. 
+		Marlo and Chris [FINISH STORY]</text>
+	</string>
+	<string id="hawaiian_about_marlo_4">
+		<text>Can you tell me something about them?</text>
+	</string>
+	<string id="hawaiian_about_marlo_5">
+		<text>Are they reliable? </text>
+	</string>
+
+
+<string id="marlo_stanfield_0_1">
+		<text>I asked around about you.</text>
+	</string>
+	<string id="marlo_stanfield_0_2">
+		<text>And, did you like what you were hearing?</text>
+	</string>
+	<string id="marlo_stanfield_0_3">
+		<text>Depends. What is your proposition?</text>
+	</string>
+	<string id="marlo_stanfield_0_4">
+		<text>Not really, you sound like brutes. I'm not interested in working with you.</text>
+	</string>
+	<string id="marlo_stanfield_0_5">
+		<text>We are not that different you and us. We are always working for someone else and his pockets - yes we get paid but in the end it's them who are profiting from our work, it's them who gain in influence and importance. 
+			If you're someone's dog - you'll always be a dog. A fierce dog maybe, even a feared one, but there's no respect for the dog himself - only for the dog's owner. I don't know about you, but I've had enough. That's the reason why we propose you a joint-venture. </text>
+	</string>
+	<string id="marlo_stanfield_0_6">
+		<text>I'm all ears.</text>
+	</string>
+	<string id="marlo_stanfield_0_7">
+		<text>I've got no problems with working for other people.</text>
+	</string>
+	<string id="marlo_stanfield_0_8">
+		<text>Aight. First, how do you feel about Sidorovich?</text>
+	</string>
+	<string id="marlo_stanfield_0_9">
+		<text>Sidorovich? Fuck that greedy pig – the guy got rich by scamming rookies and leeching off the misery in the Zone!</text>
+	</string>
+	<string id="marlo_stanfield_0_10">
+		<text>Sidorovich? He is businessman – buying low selling high, profiting from people if it so happens. A by-product of the Zone, I got no problems with him.</text>
+	</string>
+	<string id="marlo_stanfield_0_11">
+		<text>Sidorovich? I like him, why?</text>
+	</string>
+	<string id="marlo_stanfield_0_12">
+		<text>Very well. So I believe you will not have any qualms about taking over his business?</text>
+	</string>
+	<string id="marlo_stanfield_0_13">
+		<text>Yeah, here the strong eat the weak, and Sidorovich knows it. What he doesn't know is that his turn has come too - he grew too complacent, too comfortable in his little damp bunker.
+		When was the last time that fat fuck went outside? Who knows - his </text>
+	</string>
+	<string id="marlo_stanfield_0_14">
+		<text>You like Sidorovich? What, are you his bitch?</text>
+	</string>
+	<string id="marlo_stanfield_0_15">
+		<text>Taking over his business? What do you mean?</text>
+	</string>
+	<string id="marlo_stanfield_0_16">
+		<text>I like the sound of it - what do you have in mind?</text>
+	</string>
+	<string id="marlo_stanfield_0_17">
+		<text>You like Sidorovich? What, are you his bitch?</text>
+	</string>
+	<string id="marlo_stanfield_0_18">
+		<text>Taking over his business? What do you mean?</text>
+	</string>
+	<string id="marlo_stanfield_0_19">
+		<text>I like the sound of it - what do you have in mind?</text>
+	</string>
+
+
+
+
+---- Quest 1 -----
+<string id="chris_partlow_1_0">
+		<text>How do we get started?</text>
+	</string>
+	<string id="chris_partlow_1_1">
+		<text>Your target is an officer called "Harald Virtanen". He is stationed at the Zaton Waste Processing Station: you have to kill him and steal his PDA.</text>
+	</string>
+	<string id="chris_partlow_1_2">
+		<text>How should I do that? There are at least a dozen of heavily armed mercenaries stationed at that place?</text>
+	</string>
+	<string id="chris_partlow_1_3">
+		<text>Don't worry - we already have a plan. It's no coincidence that Harald is our target - it seems that the guy is an alcoholic and sneaks out during night to get his buzz.
+	His favourite drinking spot is a garage in the south east corner of the compound. Sneak up on him and kill him - remember to take his PDA too! That will trigger the procedure.
+	And while you're at it - if you still haven't found a mercenary outfit, maybe you can also "borrow" his - he won't need it anymore.
+	\n \nAre you ready?</text>
+	</string>
+	<string id="chris_partlow_1_4">
+		<text>Yes.</text>
+	</string>
+	<string id="chris_partlow_1_5">
+		<text>No, I will need some time preparing.</text>
+	</string>
+	<string id="chris_partlow_1_6">
+		<text>Alright - remember to take his PDA or else everything will be for nothing.</text>
+	</string>
+	<string id="chris_partlow_1_7">
+		<text>Alright - make your preparations.</text>
+	</string>
+
+<string id="chris_partlow_2_0">
+		<text>I got the PDA.</text>
+	</string>
+	<string id="chris_partlow_2_1">
+		<text>Well done! Now we have to wait - I will send you a message when they are doing their move. In the meantime take a rest and get ready for the next stage: repair your costume and stock up on ammo. Here, I managed to get you a repair kit for a light outfit and a gun.</text>
+	</string>
+
+
+<string id="zaton_mercenary_1_start_dialog_0">
+		<text>What do you want? Can't you see I'm occupied?</text>
+	</string>
+	<string id="zaton_mercenary_1_start_dialog_1">
+			<text>Marlo and Chris say hello.</text>
+		</string>
+		<string id="zaton_mercenary_1_start_dialog_2">
+			<text>What the fuck are you talking about?</text>
+		</string>
+		<string id="zaton_mercenary_1_start_dialog_3">
+			<text>...</text>
+	</string>
+
+--- Quest 2 part 1 ----
+
+
+<string id="st_zaton_mercenary_courrier_deathrattle_info">
+		<text>Jan Baran: Urgent Stalker ambushed usweareattackkkkkkkkkkkkkkkkkkkkkkkkkkkkk</text>
+	</string>
+
+<string id="chris_partlow_3_0">
+		<text>Are the courriers on their way?</text>
+	</string>
+	<string id="chris_partlow_3_1">
+		<text>They are: they left their base yesterday and travelled from Limansk to Yanov using their secret path. They should arrive soon and will look for a place to camp overnight - that's when you will strike.</text>
+	</string>
+	<string id="chris_partlow_3_2">
+		<text>Do you know where they will camp?</text>
+	</string>
+	<string id="chris_partlow_3_3">
+		<text>No, we were not able to find out their plans. It should be somewhere close to where their path emerges, somewhere around the Bandit camp in the South-West. It won't be in the open, so look for any buildings or structures giving shelter.</text>
+	</string>
+	<string id="chris_partlow_3_4">
+		<text>Why don't they stay at the bandit camp over night?</text>
+	</string>
+	<string id="chris_partlow_3_5">
+		<text>Would you sleep with a dozen gopniks around you? That's unnecessary trouble - you don't know if you're going to wake up with all your money - or teeths.</text>
+	</string>
+	<string id="chris_partlow_3_6">
+		<text>Alright - I will be on my way then.</text>
+	</string>
+	
+<string id="chris_partlow_4_0">
+		<text>Yo Chris, I got the USB. Here, make a copy!</text>
+	</string>
+	<string id="chris_partlow_4_1">
+		<text>Excellent work! Alright, let me make a copy \n \n...\n \nHere, take the USB. Now deliver it to an officer called "Aivar Kuusk". He should be somwhere inside the Waste Processing Station. \n \n
+		Don't forget your Mercenary suit! Remember: no stupid movement like running or jumping - and don't wave your weapon around! I hope your suit and helmet are repaired - and don't forget to take a weapon with you which is used by these assholes. Go in, deliver the USB and get out. </text>
+	</string>
+
+--- Quest 2 part 2 ----
+
+<string id="zaton_mercenary_2_start_dialog_0">
+		<text>What do you want? Who are you?</text>
+	</string>
+	<string id="zaton_mercenary_2_start_dialog_1">
+			<text>I am the courrier - I bring you your USB stick with the encryption and decryption key for this section.</text>
+		</string>
+		<string id="zaton_mercenary_2_start_dialog_2">
+			<text>Ah yes, thanks.</text>
+		</string>
+		<string id="zaton_mercenary_2_start_dialog_3">
+			<text>...</text>
+	</string>
+
+
+<string id="jupiter_monk_start_dialog_0">
+		<text>Yo you're Marlo's guy. What's the word, are we crashing their party?</text>
+	</string>
+	<string id="jupiter_monk_start_dialog_1">
+			<text>Yeah, we can go.</text>
+		</string>
+		<string id="jupiter_monk_start_dialog_2">
+			<text>Wait, I'll be back shortly.</text>
+		</string>
+		<string id="jupiter_monk_start_dialog_3">
+			<text>Alright men, let's roll out!</text>
+	</string>
+	<string id="jupiter_monk_start_dialog_4">
+			<text>...</text>
+	</string>
+----Stage 4----
+---Takeover---
+--Marlo--
+
+<string id="marlo_stanfield_11_0">
+		<text>So, what is the next stage in your plan?</text>
+	</string>
+	<string id="marlo_stanfield_11_1">
+		<text>Now my friend we take over the Skadovsk.</text>
+	</string>
+	<string id="marlo_stanfield_11_2">
+		<text>The Skadovsk? Why?</text>
+	</string>
+	<string id="marlo_stanfield_11_3">
+		<text>The Skadovsk is the key to the north - most Loners here sell and buy from Beard and Owl. Until now Sidorovich and Beard had a deal: Beard, and with him the Skadovsk, trade with Sidorovich - he gets the artifacts and they get weapons, money and men in exchange.
+	If we own the Skadovsk, the north belongs to us - and Sidorovich will lose a huge source of financial revenues thus weakening his position. And what is most important - it's ripe for the taking.</text>
+	</string>
+	<string id="marlo_stanfield_11_4">
+		<text>How do you plan to take it over?</text>
+	</string>
+	<string id="marlo_stanfield_11_5">
+		<text>You see, Beard is under a lot of pressure - Monolith activities are growing and their raids become more frequent. He can only protect with difficulty the Stalkers there and people are getting restless.
+	Sidorovich on the other hands tries to cheap out on support - he only sends the bare minimum citing difficult supply lines as an excuse. 
+	If we increase their difficulties, the support for Beard and Sidorovich will drop and we swoop in offering protection and supplies taking the Skadovsk for us - Beard will have no choice.</text>
+	</string>
+	<string id="marlo_stanfield_11_6">
+		<text>How do you know all of this?</text>
+	</string>
+	<string id="marlo_stanfield_11_7">
+		<text>We already made a proposition to Owl to co-op - let's say he's quite enthusiastic about this takeover. He told us about the weak points we can exploit - he's also your main contact partner during this operation.</text>
+	</string>
+	<string id="marlo_stanfield_11_8">
+		<text>How do you plan on increasing the pressure on Beard?</text>
+	</string>
+	<string id="marlo_stanfield_11_9">
+		<text>Beard mostly relies on two Stalkers for protecting the Skadovsk: Spartacus and Achilles. Both of them are fearsome warriors and they enjoy the popularity and support of many Loners in the north . men who are ready to fight with them.
+	If both of them die, Beard will have lost most of his military powerbase and he will be forced to accept our protection. 
+\n \nIn the same time, we will increase hostile activity in Zaton through the bandits - we will pay some of them to make trouble in Zaton, thus increasing pressure on Beard to accept our protection.</text>
+	</string>
+	<string id="marlo_stanfield_11_10">
+		<text>Will killing Spartacus and Achilles not make us extremly unpopular with the Skadovsk?</text>
+	</string>
+	<string id="marlo_stanfield_11_11">
+		<text>Yes - that is why you cannot kill them outright: you will have to arrange an accident or do it in disguise. We cannot be linked to these assassinations! Talk to Owl for the details, he should have an idea how to get them.</text>
+	</string>
+	<string id="marlo_stanfield_11_12">
+		<text>Isn't the Zone harsh enough, do we now need to kill fellow Loners?</text>
+	</string>
+	<string id="marlo_stanfield_11_13">
+		<text>Are you a moron? Or some fucking pacifistic idealist? Do you think Sidorovich achieved his influence by asking nicely? Only because you are not able to see the violence does not mean it is not there! 
+		The Zone is not a fucking birthday party, it's ride or die here - you have to be willing to fight for your place, because the next motherfucker will not think twice about putting a bullet in your brain.</text>
+	</string>
+	<string id="marlo_stanfield_11_14">
+		<text>Relax, I understand - you're right.</text>
+	</string>
+	<string id="marlo_stanfield_11_15">
+		<text>All I'm saying is that there might be another way. Let me at least try to convince Beard that working with us is better for him and the Skadovsk. Besides - it's also good for business, more men on our side.</text>
+	</string>
+	<string id="marlo_stanfield_11_16">
+		<text>Maybe you're not so stupid after all. Do you have another question or can we proceed with business?</text>
+	</string>
+	<string id="marlo_stanfield_11_17">
+		<text>You're a fucking moron. \n \n... \n \nFine, but don't fuck it up! It will be harder if they know that we're coming for them!</text>
+	</string>
+	<string id="marlo_stanfield_11_18">
+		<text>Alright, where do we begin?</text>
+	</string>
+	<string id="marlo_stanfield_11_19">
+		<text>Go see Owl - he will tell you what to do. We'll stay in touch if there is anything coming up.</text>
+	</string>
+	<string id="marlo_stanfield_11_20">
+		<text>Wait, I have a question.</text>
+	</string>
+	<string id="marlo_stanfield_11_21">
+		<text>What is it?</text>
+	</string>
+	<string id="marlo_stanfield_11_22">
+		<text>Alright, where do we begin?</text>
+	</string>
+	<string id="marlo_stanfield_11_23">
+		<text>How should I know? But if you change your mind and want to go with our plan - go see Owl.</text>
+	</string>
+	<string id="marlo_stanfield_11_24">
+		<text>Alright, I'll head to the Skadovsk now.</text>
+	</string>
+	<string id="marlo_stanfield_11_25">
+		<text>Alright, I'll head to the Skadovsk now.</text>
+	</string>
+
+
+
+
+
+
+---- What a Night ----
+
+<string id="sasha_tolstoy_1_0">
+		<text>Hey man, how you're doing?</text>
+	</string>
+	<string id="sasha_tolstoy_1_1">
+		<text>Horrible, my head is splitting itself.</text>
+	</string>
+	
+	
+<string id="sasha_tolstoy_2_0">
+		<text>Hey man, how you're doing?</text>
+	</string>
+	<string id="sasha_tolstoy_2_1">
+		<text>I'm doing formidable my friend, do you want a shot?</text>
+	</string>
+	<string id="sasha_tolstoy_2_2">
+		<text>You seem to be in high spirit, what happened?</text>
+	</string>
+	<string id="sasha_tolstoy_2_3">
+		<text>God smiled upon me my friend, my financial worries are no more!</text>
+	</string>
+	<string id="sasha_tolstoy_2_4">
+		<text>Congrats!</text>
+	</string>
+	<string id="sasha_tolstoy_2_5">
+		<text>Here have a drink with me!</text>
+	</string>
+	<string id="sasha_tolstoy_2_6">
+		<text>Sure let it flow!</text>
+	</string>
+	<string id="sasha_tolstoy_2_7">
+		<text>Nah, I'm fine.</text>
+	</string>
+	<string id="sasha_tolstoy_2_8">
+		<text>Aaaah... \n \n C'mon, between the first and the second, the break is short!</text>
+	</string>
+	<string id="sasha_tolstoy_2_9">
+		<text>You don't want, as you want.</text>
+	</string>
+	<string id="sasha_tolstoy_2_10">
+		<text>I can only agree with you!</text>
+	</string>
+	<string id="sasha_tolstoy_2_11">
+		<text>Thanks, but I don't want to become drunk.</text>
+	</string>
+	<string id="sasha_tolstoy_2_12">
+		<text>Here have some meat to chase the burn.</text>
+	</string>
+	<string id="sasha_tolstoy_2_13">
+		<text>Thanks. So tell me, what happened?</text>
+	</string>
+	<string id="sasha_tolstoy_2_14">
+		<text>You won't believe it! Yesterday I was drinking with the boys and we played some cards. My luck turned bad and I lost all my money to Andrey.
+	So, this morning I set out in order to make my money back - I figured if I managed to hunt some Flesh or Boars, I could sell their parts for some good money. I set off a bit later int the morning, but
+	the sun was heavy, so I decided to take a short rest in the shadow of the old Church: I had a few bites and some sips of Vodka - to fight my headache, you understand?
+	Suddenly I heard some guys talking behind the wall,  what a foul language, you can't imagine! Fuck, I thought, tongues like this only grow on these Renegade Gopniks,
+	so I took my feet into my hands and ran away to the north. Luckily they didn't see me, so my skin was safe... might have forgotten my bottle though now that I think of it.
+	Fuck it! I bypassed the cemetery and made my way to the pond -
+	I figured that maybe I might catch some of these pigs watering. Aah, my friend, my intuition was right, there were two pigs taking a rest on the shore. 
+	I snuck up and BAM - shot and missed. My hands were probably still shaky from yesterday evening... doesn't matter! The two pigs squeal up taking off in the direction of the burned farmstead. 
+	I lunch myself in pursuit, but I gave those two such a fright that one run straight into the flame anomaly! The pillar engulfed him immediatly, roasting him on the spot.
+	I cursed the heavens, impossible to make money of that pile of ashes now I thought. But then I noticed it... the pig probably kicked a Flame while running through the anomaly,
+	and the artifact landed outside, ripe for the taking! Can you imagine it?</text>
+	</string>
+	<string id="sasha_tolstoy_2_15">
+		<text>Incredible! What luck!</text>
+	</string>
+	<string id="sasha_tolstoy_2_16">
+		<text>Indeed, indeed! Let's have a drink to that!</text>
+	</string>
+	<string id="sasha_tolstoy_2_17">
+		<text>Let's drink!</text>
+	</string>
+	<string id="sasha_tolstoy_2_18">
+		<text>Ah my friend, I quite enjoy drinking with you! Let's have another one, to friendship!</text>
+	</string>
+	<string id="sasha_tolstoy_2_19">
+		<text>I like drinking with you too! To friendship!</text>
+	</string>
+	<string id="sasha_tolstoy_2_20">
+		<text>Here my friend, have a bite.</text>
+	</string>
+	<string id="sasha_tolstoy_2_21">
+		<text>Alright, my turn to propose a toast!</text>
+	</string>
+	<string id="sasha_tolstoy_2_22">
+		<text>Let it hear!</text>
+	</string>
+	<string id="sasha_tolstoy_2_23">
+		<text>Our will shall not break, we drank, drink and will drink again!</text>
+	</string>
+	<string id="sasha_tolstoy_2_24">
+		<text>To you, to us, to our Zone!</text>
+	</string>
+	<string id="sasha_tolstoy_2_25">
+		<text>God is not stupid, he loves fives!</text>
+	</string>
+
+
+<string id="barman_sektor_gaza_0_0">
+		<text>Here is your CD.</text>
+	</string>
+	<string id="barman_sektor_gaza_0_1">
+		<text>My man!</text>
+	</string>
+
+<string id="st_forester_legendary_1_info">
+		<text>Forester: You are getting close to their hunting spot. </text>
+	</string>
+	<string id="st_forester_legendary_2_info">
+		<text>Forester: My wounds start aching again, Vlad and Drakul are coming out of their hiding. Good luck Stalker!</text>
+	</string>
+	<string id="st_forester_legendary_3_info">
+		<text>Forester: You  managed to kill the younger Bloodsuckers, but the sun is already rising and Vlad and Drakul will not dare to fight during the day. You will have to try another time.</text>
+	</string>
+
+	
+</string_table>

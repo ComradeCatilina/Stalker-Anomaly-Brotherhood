@@ -1,0 +1,88 @@
+﻿<?xml version='1.0' encoding="UTF-8"?>
+<xml>
+
+
+<character id="vybegallo">
+		<class>vybegallo</class>
+	</character>
+	
+<character id="ilya_muromets">
+		<class>ilya_muromets</class>
+	</character>
+	
+	
+	
+	
+<character id="assault_stalker_leader_esc_5_9">
+		<class>assault_stalker_leader_esc_5_9</class>
+	</character>
+<character id="assault_csky_leader_esc_5_7">
+		<class>assault_csky_leader_esc_5_7</class>
+	</character>
+<character id="zaton_brokkr">
+		<class>zaton_brokkr</class>
+	</character>
+<character id="zaton_eitri">
+		<class>zaton_eitri</class>
+	</character>
+<character id="marlo_stanfield">
+		<class>marlo_Stanfield</class>
+	</character>
+<character id="chris_partlow">
+		<class>chris_partlow</class>
+	</character>
+<character id="paranoia_man">
+		<class>paranoia_man</class>
+	</character>	
+<character id="zaton_mercenary_1">
+		<class>zaton_mercenary_1</class>
+	</character>	
+<character id="zaton_mercenary_courrier_1">
+		<class>zaton_mercenary_courrier_1</class>
+	</character>		
+<character id="zaton_mercenary_2">
+		<class>zaton_mercenary_2</class>
+	</character>	
+	
+<character id="anna_morphine">
+		<class>anna_morphine</class>
+	</character>		
+
+<character id="ecologist_sidorovich">
+		<class>ecologist_sidorovich</class>
+	</character>	
+
+<character id="alyosha_karmov">
+		<class>alyosha_karmov</class>
+	</character>		
+
+<character id="zaton_achilles">
+		<class>zaton_achilles</class>
+	</character>	
+<character id="sasha_tolstoy">
+		<class>sasha_tolstoy</class>
+	</character>
+
+<character id="dolg_vadim_bloodsucker">
+		<class>dolg_vadim_bloodsucker</class>
+	</character>	
+<character id="dolg_sergey_bloodsucker">
+		<class>dolg_sergey_bloodsucker</class>
+	</character>	
+<character id="dolg_sasha_bloodsucker">
+		<class>dolg_sasha_bloodsucker</class>
+	</character>	
+<character id="dolg_artyom_bloodsucker">
+		<class>dolg_artyom_bloodsucker</class>
+	</character>
+<character id="dolg_ilya_bloodsucker">
+		<class>dolg_ilya_bloodsucker</class>
+	</character>
+
+<character id="jupiter_monk">
+		<class>jupiter_monk</class>
+	</character>
+
+
+	
+</xml>

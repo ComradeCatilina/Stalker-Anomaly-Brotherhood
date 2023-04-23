@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+	Stories from the Zone items
+-->
+
+<string_table>
+
+--- Strange Kolbosa ---
+	<string id="quest_package_vybegallo_name">
+		<text>Bag of Tuna Conserves</text>
+	</string>
+	<string id="quest_package_vybegallo_desc">
+		<text>Heavy bag, filled with Tuna Conserves. Vybegallo will be happy.</text>
+	</string>
+
+	<string id="st_kolbasa_strange">
+		<text>Pack of strange meat</text>
+	</string>
+	<string id="st_kolbasa_strange_descr">
+		<text>A package containing something looking like the usual pack of old meat: old bread and some smelly meat of unknown origin wrapped in brown paper. But the look and smell is even worse than usual...\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_red] • %c[ui_gray_2] low quality\n</text>
+	</string>
+	
+	<string id="st_af_gold_fish_fake_1_descr">
+		<text>Looks and feels like a Goldfish Artifact</text>
+	</string>
+	<string id="st_af_gold_fish_fake_1_name">
+		<text>Sidorovich's Goldfish</text>
+	</string>
+	<string id="st_af_gold_fish_fake_1_lead_box_name">
+		<text>LLMC w/ Sidorovich's Goldfish</text>
+	</string>
+	<string id="st_af_gold_fish_fake_1_lead_box_descr">
+		<text>LLMC containing Sidorovich's Goldfish.</text>
+	</string>
+	
+	<string id="st_af_gold_fish_fake_2_descr">
+		<text>Looks and feels like a real Goldfish Artifact. Has exactly the same weight and radiation, shows up on the detector, but hasn't got any other properties.</text>
+	</string>
+	<string id="st_af_gold_fish_fake_2_name">
+		<text>Fake Goldfish Artifact</text>
+	</string>
+	<string id="st_af_gold_fish_fake_2_lead_box_name">
+		<text>LLMC w/ a fake Goldfish</text>
+	</string>
+	<string id="st_af_gold_fish_fake_2_lead_box_descr">
+		<text>LLMC containing a fake Goldfish.</text>
+	</string>
+	
+	
+	<string id="st_itm_usb_mercenary_1_name">
+		<text>USB decryption key</text>
+	</string>
+	<string id="st_itm_usb_mercenary_1_descr">
+		<text>The encryption and decryption key for the new mercenary communication encryption.</text>
+	</string>
+	
+	<string id="st_pda_mercenary_1_name">
+		<text>Lt. Harald Virtanen's PDA</text>
+	</string>
+	<string id="st_pda_mercenary_1_descr">
+		<text>PDA of Lt. Harald Virtanen with the decryption key for the mercenary's communication. \n \nWill be obsolete soon.</text>
+	</string>
+	
+	<string id="st_sakharov_order_vybegallo_descr">
+		<text>A strongly worded order from Sakharov telling Vybegallo to stop his experiments immediatly.</text>
+	</string>
+	<string id="st_sakharov_order_vybegallo_name">
+		<text>Sakharov's cease order to Vybegallo</text>
+	</string>
+	
+	<string id="st_vybegallo_order_mercenary_name">
+		<text>Order from headquarters</text>
+	</string>
+	<string id="st_vybegallo_order_mercenary_descr">
+		<text>From the headquarter: \n \nA scientist recently contacted us with an urgent order for some Pseudogiant parts. Go hunt one and send Dushman his parts. And no word about it, discretion is of essence.</text>
+	</string>
+	
+	<string id="st_af_grid_prototype_name">
+		<text>Prototype Titanium Grid</text>
+	</string>
+	<string id="st_af_grid_prototype_descr">
+		<text>A prototype version of the titanium grid. \nInstead of simply carrying a backpack secured by a pair of shoulder straps, one can attach it to the suit by means of a titanium grid, which optimises your carrying capabilities. The prototype grid is made of titanium which is the material of choice due to its light weight and high durability, and some external elements are made of plastic in order to attain desired flexibility while sprinting. The whole construction is equipped with a system of straps and webbing to provide a high degree of adjustability. This quality design allows the shoulder straps to be adjusted up or down so as to make wearing a backpack comfortable regardless of one's torso size. A single grid replaces only the main framework of your backpack, but it's possible to use more grids to further improve your carrying capabilities. Grids are created from very high quality titanium, thus disassembled grid can be used as an effective combat outfit or helmet repair supplement.\n \n
+		%c[ui_gray_2]PROPERTIES:\n
+		%c[d_cyan] • %c[ui_gray_2] everyday item\n
+		%c[d_cyan] • %c[ui_gray_2] high quality\n
+		%c[d_cyan] • %c[ui_gray_2] effectiveness of mult. units is stackable\n</text>
+	</string>
+
+
+	<string id="st_ms_owl_documents_1_name">
+		<text>[Documents for Owl]</text>
+	</string>
+	<string id="st_ms_owl_documents_1_desc">
+		<text>[to be done: proper name and description]</text>
+	</string>
+	
+	
+	<string id="st_trenchcoat_green_outfit_brotherhood_forester_name">
+		<text>Forester's old Trenchcoat</text>
+	</string>
+	<string id="st_trenchcoat_green_outfit_brotherhood_forester_descr">
+		<text>Forester's old trenchcoat. According to Forester, the coat was never washed and should smell strongly like him (in fact one could say it stinks). \n \n 
+			With the coat I should be able to attract Vlad and Drakul.</text>
+	</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<string id="st_polyakov_note_1_name">
+		<text>Notes of Dr. Sergey Palyakov #1</text>
+	</string>
+	<string id="st_polyakov_note_1_descr">
+		<text>20th January 2017
+\n... and a good thing too. The more remote the better, thank God. I don’t want to see
+people and here I shall see no one, apart from sick peasants, and I don’t suppose they
+are likely to open up my wound. The others, incidentally, have been assigned to
+practices quite as remote as mine. Our graduating year, not being liable for active
+service (second-line reservists of the 2016 class), has been posted to local government
+clinics all over the country. But who cares, anyway? Of my friends, I have only had
+news of Ivanov and Bomhart, who now goes by the name "Solid". Ivanov chose to go to Archangel Province (question of taste…)
+and Solid (I will continue to call him by his nom-de-guerre), so Bonesetter tells me, is in some godforsaken spot three districts
+away from here, at Army Warehouse. I thought of writing to him, but changed my mind. I don’t want to have anything to do with people.</text>
+	</string>
+
+
+<string id="st_polyakov_note_2_name">
+		<text>Notes of Dr. Sergey Palyakov #2</text>
+	</string>
+	<string id="st_polyakov_note_2_descr">
+		<text>25th January
+\nBrilliant sunset. Slight attack of migraine—mixture of aminopyrine, ca?eine and citric
+acid, 1.0 gramme in powder form. Is it all right to take one gramme? Of course it is.
+\n \n3rd February
+\nToday someone send me a photo from last week’s newspapers. I didn’t read them, but couldn’t help looking at
+the theatre page all the same. Aida was on last week. That means she was walking on
+stage and singing: ‘Oh, my beloved, come to me ...’
+She has an extraordinary voice. How strange it is that such a clear powerful voice
+should belong to a woman with such a mean little soul ...
+\n \n(here there is a gap, where two or three pages have been torn out)
+\n \n... of course, you’re being unreasonable, Doctor Polyakov. And what schoolboyish
+idiocy to use so much ?lthy language on a woman because she left you! She didn’t want
+to go on living with you, so she went. That’s all. Very simple, really. An opera singer
+fell for a young doctor, lived with him for a year and then walked out.
+\nDid I really want to kill her? Kill her? How stupid and pointless. Hopeless. I don’t
+want to think about it anymore.</text>
+	</string>
+
+<string id="st_polyakov_note_3_name">
+		<text>Notes of Dr. Sergey Palyakov #3</text>
+	</string>
+	<string id="st_polyakov_note_3_descr">
+		<text>15th February
+\nLast night an interesting thing happened. I was just going to bed when I suddenly felt
+pain in the region of my stomach. And what pain! I came out in a cold sweat. I must say
+that medicine as we know it is a most dubious science. Why, when someone has
+absolutely nothing wrong with his stomach or gut (such as appendicitis), when his liver
+and kidneys are in perfect shape, and his bowels are functioning perfectly normally,
+why should he be stricken one night with such pain that he starts to writhe all over the
+bed?
+\nGroaning, I reached the kitchen, where the cook and her husband Hawaiian sleep. I sent
+Hawaiian for Anna Kirillovna. She came to my room and had to give me a morphine
+injection. She said I had turned quite green. From what?
+\nI don’t like Bonesetter. He’s unsociable, but Anna Kirillovna is very kind and
+intelligent. I am amazed that a woman like her, who is still young, can live completely
+alone in this snowbound tomb. Her husband is a prisoner of war in Syria.
+\nI must give due praise to the man who first extracted morphine from poppyheads. He
+was a true benefactor of mankind. The pain stopped seven minutes after the injection.
+Interesting: the pain passed over me in ceaseless waves, so that I had to gasp for breath,
+as though a red-hot crowbar were being thrust into my stomach and rotated. Four
+minutes after the injection I was able to distinguish the wave-like nature of the pain.
+\nIt would be a good thing if a doctor were able to test many more drugs on himself. He
+would then have a completely different understanding of their effect. After the injection
+I slept soundly and well for the first time in months—and I forgot completely about the
+woman who deceived me.</text>
+	</string>
+
+
+<string id="st_polyakov_note_4_name">
+		<text>Notes of Dr. Sergey Palyakov #4</text>
+	</string>
+	<string id="st_polyakov_note_4_descr">
+		<text>16th February
+\nDuring surgery today Anna Kirillovna enquired how I felt and said that this was the first time she had seen me without a frown on my face.
+\n‘Do I frown?’
+\n‘Very much,’ she replied ?rmly, adding that she had been struck by how taciturn I
+always was.
+\n‘I’m that sort of person.’
+\nBut that was a lie. I had always been very cheerful before my disastrous love affair.
+Dusk has set in early. I am alone in my quarters. The pain came again this evening,
+but it was not acute—a mere shadow of yesterday’s pain. I felt it somewhere behind my
+breast bone. Fearing a recurrence of yesterday’s attack, I injected myself in the thigh
+with one centigramme. The pain ceased almost instantaneously. A good thing Anna
+Kirillovna left the phial behind.
+
+\n \n18th
+\nFour injections. No harm in that.</text>
+	</string>
+
+
+<string id="st_polyakov_note_5_name">
+		<text>Notes of Dr. Sergey Palyakov #5</text>
+	</string>
+	<string id="st_polyakov_note_5_descr">
+		<text>21st February
+\nAnna Kirillovna is behaving very oddly—just as though I weren’t a doctor at all! 1?
+syringes = 0.015 grammes morph.? Yes.
+\n \n1st March
+\nTake care, Doctor Polyakov!
+\nNonsense.
+\n \nTwilight.
+\nIt is two weeks now since I last thought about the woman who deceived me. I no longer
+have the tune of her aria as Amneris on the brain. I am very proud of that. I am a man.
+Anna Kirillovna has become my mistress. It was inevitable. We are imprisoned on a
+desert island.
+\nA change has come over the snow; it seems to have turned greyer. There are no more
+savage frosts, but snowstorms still blow up from time to time.
+\nFor the first minute there is a sensation of being touched on my neck. The touch grows
+warmer and spreads. In the second minute there is a sudden surge of cold in the pit of
+my stomach, after which I start to think with unusual clarity and experience a burst of
+mental energy. All unpleasant sensations stop completely. Man’s inner powers are
+manifested at their absolute peak. And if I had not been spoiled by my medical training,
+I would say that a man can only work normally after an injection of morphine. After
+all, what good is a man when the slightest attack of neuralgia can knock him completely
+off balance?
+\nAnna K. is frightened. Calmed her, saying that since childhood I have been remarkable
+for having tremendous willpower.</text>
+	</string>
+
+<string id="st_polyakov_note_6_name">
+		<text>Notes of Dr. Sergey Palyakov #6</text>
+	</string>
+	<string id="st_polyakov_note_6_descr">
+		<text>19th March
+\nLast night I had a quarrel with Anna K.
+\n‘I’m not going to make up the solution any more.’
+\nI started to try and persuade her.
+\n‘Don’t be silly, my dear. I’m not a little boy, am I?’
+\n‘I won’t do it. It’ll kill you.’
+\n‘All right, please yourself. Don’t you realise, though, that I’ve got pains in my chest?’
+\n‘Get it treated.’
+\n‘Where?’
+\n‘Take a holiday. Morphine’s not a cure.’ Then after a moment’s thought she added: \n‘I can never forgive myself for having made up a second phial for you.’
+\n‘What do you think I am—an addict?’
+\n‘Yes, you’re becoming an addict.’
+\n‘So you won’t?’
+\n‘No, I won’t.’
+\nIt was then that I first discovered in myself a nasty tendency to lose my temper and, worse, to shout at people when I am in the wrong.
+However, this did not happen at once. I went into my bedroom and had a look: there
+was a very little left in the bottom of the phial. I drew it into the syringe, and it only
+filled a quarter of it. I threw the syringe away, almost breaking it, and shuddered.
+Carefully, I picked it up and examined it—not a single crack. I sat in the bedroom for
+twenty minutes. When I came out, she was gone.
+Imagine—I couldn’t bear it and went to look for her. I knocked on the lighted window
+of her quarters. Wrapped in a scarf, she came out on to the porch. The night was silent,
+the snow powdery and dry. Far away in the sky was a hint of coming spring.
+\n‘Please, Anna Kirillovna, give me the keys to the dispensary.’
+\nShe whispered: ‘No, I won’t.’</text>
+	</string>
+	
+	
+	<string id="st_polyakov_note_7_name">
+		<text>Notes of Dr. Sergey Palyakov #6 continuation</text>
+	</string>
+	<string id="st_polyakov_note_7_descr">
+		<text>‘Kindly give me the keys to the dispensary. I’m speaking as a doctor.’
+\nIn the twilight I saw her expression change. She turned very white, her eyes seemed to
+sink into her head and they darkened. She replied in a voice which stirred me to pity.
+But at once my anger surged up again.
+\nShe said: ‘Why, why must you talk like this? Oh Sergei Vasilievich—I pity you.’
+\n Just then she drew her hands from under her shawl and I saw that she was holding the
+keys. She had obviously gone over to my consulting room and removed them.
+\n‘Give me the keys!’ I said roughly.
+\nAnd I snatched them out of her hand.
+I set off towards the white-painted hospital building, picking my way along the
+rotten, swaying duckboards. Rage was boiling inside me, chiefly because I had not the
+slightest idea how to make up a morphine solution for hypodermic injection. I’m a
+doctor, not an assistant! I trembled as I went.
+I could hear her walking behind me like a faithful dog. Tenderness welled up inside
+me, but I suppressed it. I turned round, bared my teeth and said:
+\n‘Are you going to do it or not?’
+\nShe gave a despairing gesture as much as to say ‘What does it matter?’ and answered
+quietly:
+\n‘All right, I’ll do it.’
+\nAn hour later I was myself again, and I naturally asked her to forgive me for my
+absurd rudeness. I don’t know what happened to me: I was always polite before.
+Then she did something extraordinary. She fell to her knees, clasped my hands and
+said:
+\n‘I’m not angry with you. I know now that you’re lost. I know it now. And I curse
+myself for giving you that first injection.’
+I calmed her down as best I could, assuring her that none of this was her doing, that I
+was responsible for my own behaviour. I promised her that the very next day I would
+make a serious start on breaking the habit and would reduce the dosage.
+\n‘How much did you inject just now?’
+\n‘Not much. Three syringes of a 1% solution.’
+\nShe clasped her head and said nothing.
+\n‘There’s no cause for you to worry.’
+\nIn my heart of hearts I understood her concern. The fact is that hydrochloric
+morphium is terrifying stuff. You can very quickly get used to it. But surely mild
+habituation is not the same as becoming an addict?
+To tell the truth, this woman is the only person I can really trust. She ought really to
+be my wife. I’ve forgotten the other woman, quite forgotten her. However, I have
+morphine to thank for that.</text>
+	</string>
+
+<string id="st_polyakov_note_8_name">
+		<text>Notes of Dr. Sergey Palyakov #7</text>
+	</string>
+	<string id="st_polyakov_note_8_descr">
+		<text>8th April 2017
+\nThis is torture.
+\n \n9th April
+\nThis horrible spring weather.
+\nThe devil is in this phial. Cocaine—the devil in a phial!
+\nThis is its effect: on injecting one syringe of a 2% solution, you feel almost
+immediately a state of calm, which quickly grows into a delightful euphoria. This lasts
+for only a minute or two, then it vanishes without a trace as though it had never been.
+Then comes pain, horror, darkness.
+\n \nI pace diagonally across the big, empty, lonely room in my quarters, from the door to
+the window and back again. How many times can I cover that stretch of floor? Fifteen
+or sixteen times, not more; then I have to turn round and go into the bedroom. Lying on
+a piece of gauze beside a phial is the syringe. I pick it up and after giving my puncture-
+riddled thigh a careless smear of iodine, I dig the needle into the skin. Far from feeling
+any pain, I have a foretaste of the euphoria which will overtake me in a moment. And
+here it comes. I am aware of its onset, for as Hawaiian sits in the porch
+playing the accordion, the faint, muted snatches of music sound like angelic voices,
+and the harsh bass chords wheezing from the bellows ring out like a celestial choir. But now comes the moment when, by some mysterious law that is not to be found in any book on pharmacology, the cocaine inside me turns into something different. I know what it is: it is a mixture of my blood and the devil himself. The sound of Hawaiians accordion
+music falters and I hate the man, while the sunset growls restlessly and burns my
+entrails. This feeling comes over me several times in the course of the evening, until I
+realise that I have poisoned myself. My heart begins to beat so hard that I can feel it
+thumping when I put my hands to my temples ... Then my whole being sinks into the
+abyss and there are moments when I wonder whether Doctor Polyakov will ever comeback to life.</text>
+	</string>
+
+<string id="st_polyakov_note_9_name">
+		<text>Notes of Dr. Sergey Palyakov #8</text>
+	</string>
+	<string id="st_polyakov_note_9_descr">
+		<text>13th April
+\nI, the unfortunate Doctor Polyakov, who became addicted to morphine in February of
+this year, warn anyone who may suffer the same fate not to attempt to replace
+morphine with cocaine. Cocaine is a most foul and insidious poison. Yesterday Anna
+barely managed to revive me with camphor injections and today I am half dead.
+\n \n6th May 2017
+\nIt is a long time since I last wrote anything in my diary. A pity, because in fact this is
+not a diary but a pathological history. Not only do I have a natural professional interest
+in it, but it is my only friend in the world (if one doesn’t count my sad and often tearful
+mistress Anna). So if I am to record the progress of my disease, here it is: I inject myself
+with morphine twice every twenty-four hours—at five o’clock in the afternoon (after
+supper) and at midnight before going to bed. Two syringes of a 3% solution; my dose is
+thus 50 milligrammes. A fair amount!</text>
+	</string>
+
+
+<string id="st_polyakov_note_10_name">
+		<text>Notes of Dr. Sergey Palyakov #8 continuation</text>
+	</string>
+	<string id="st_polyakov_note_10_descr">
+		<text>My previous notes must sound somewhat hysterical. In fact there is nothing particularly
+unusual or alarming about my condition. It does not in the least affect my capacity to
+work. On the contrary, I live through the day on the previous night’s injection. I cope
+splendidly with operations, I am irreproachably careful when prescribing, and I give my
+professional oath that my addiction causes no harm to my patients. I pray that it never
+will. But something else does worry me: I keep thinking that other people may ?nd out
+about my vice. During consultation hours I am disturbed by the thought of my assistant’s
+grim, searching look behind my back.
+\nNonsense! He’ll never guess. There’s nothing to give me away. The pupils of my eyes
+can only betray me in the evening, and I never see him in the evening.
+\nTo make up for the terrible drain on the stock of morphine in our dispensary, I went to the Mobile Lab. There, too, I went through a nasty few minutes. I had taken care to
+fill out my order with all kinds of stuff such as caffeine (of which we had plenty), but as
+Hermann took it he said dubiously:
+\n‘Forty grammes of morphine?’
+\nI did not know where to look, and felt myself blushing like a guilty schoolboy. He
+said:
+\n‘We haven’t got that much. I can give you ten grammes.’
+\nHe really did not have that quantity, but I had the impression that he had discovered
+my secret; his probing eyes were boring into me and this made me nervous and jumpy.
+My pupils, I have decided, are the only danger signs, and for that reason I shall make
+it a rule not to see anyone in the evening. For this, incidentally, there could be no more
+convenient place than my isolated practice; it is six months since I have seen anyone
+except my patients, and they have not the slightest interest in me.</text>
+	</string>
+
+<string id="st_polyakov_note_11_name">
+		<text>Notes of Dr. Sergey Palyakov #9</text>
+	</string>
+	<string id="st_polyakov_note_11_descr">
+		<text>18th May
+\nA sultry night. A thunderstorm is brewing, black storm clouds building up beyond the
+forest. A moment ago there came a pale warning flash of lightning. The storm has
+begun.
+A book is open in front of me and this is what it has to say about the symptoms of
+morphine withdrawal:
+\n‘... morbid anxiety, a nervous depressed condition, irritability, weakening of the
+memory, occasional hallucinations and a mild impairment of consciousness ...’
+\nI have not experienced any hallucinations, but I can only say that the rest of this
+description is dull, pedestrian and totally inadequate. ‘Depressed condition’ indeed!
+Having suffered from this appalling malady, I hereby enjoin all doctors to be more
+compassionate toward their patients. What overtakes the addict deprived of morphine
+for a mere hour or two is not a ‘depressed condition’: it is slow death.
+\nDeath. A dry, slow death. That is what lurks behind that clinical, academic phrase ‘a
+depressed condition’.
+I can’t hold out. I have just had to inject myself. A deep breath. And another.
+Feeling better. Ah ... there it is ... a stab of cold in the pit of my stomach, a taste of
+peppermint ...
+\nThree syringes of a 3% solution. That will last me until midnight.
+\n \nNonsense. That last entry was nonsense. It’s not as bad as that. Sooner or later I’ll give
+it up ... but now I need sleep, sleep.
+This idiotic, agonising battle against morphine is wearing me out.
+\n(The next couple of dozen or so pages are torn out.)
+\n...ing.
+\n... gain vomited at 4.30 a.m.
+\nWhen I feel better I shall record this appalling experience.</text>
+	</string>
+
+
+
+
+
+
+	
+</string_table>

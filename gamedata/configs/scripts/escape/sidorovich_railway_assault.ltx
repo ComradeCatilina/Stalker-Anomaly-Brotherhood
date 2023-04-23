@@ -1,0 +1,135 @@
+[logic@csky_assault_esc_5_7_1]
+suitable = {=check_npc_name(assault_csky_leader_esc_5_7)} true
+active = beh@csky_leader
+prior = 500
+
+[logic@csky_assault_esc_5_7_2]
+suitable = {=target_squad_name(csky_assault_esc_5_7)} true
+active = beh@csky_1
+prior = 500
+
+[logic@csky_assault_esc_5_7_3]
+suitable = {=target_squad_name(csky_assault_esc_5_7)} true
+active = beh@csky_2
+prior = 500
+
+[logic@csky_assault_esc_5_7_4]
+suitable = {=target_squad_name(csky_assault_esc_5_7)} true
+active = beh@csky_3
+prior = 500
+
+
+[beh@base]
+dont_keep_items						= true
+gather_items_enabled				= false
+help_wounded_enabled				= false
+corpse_detection_enabled			= false
+combat_ignore_keep_when_attacked	= false
+target								= waypoint
+path_end							= loop
+
+[beh@csky]:beh@base
+run_anim = rush
+
+
+
+[beh@csky_1]:beh@csky
+pt1 = 999999,guard	| pos:-0.97017461061478,0.57503372430801,270.77743530273 look:0.02721381187439,0.57503372430801,270.70910585672
+on_info = {+esc_railway_assault_go} beh@assault_railway
+[beh@csky_2]:beh@csky
+pt1 = 999999,guard	| pos:-0.58207929134369,0.48372256755829,278.76675415039 look:0.41685009002686,0.48372256755829,278.75596022699
+on_info = {+esc_railway_assault_go} beh@assault_railway
+[beh@csky_3]:beh@csky
+pt1 = 999999,guard	| pos:-0.57437670230865,0.47155845165253,276.30578613281 look:0.41855996847153,0.47155845165253,276.18726325035
+on_info = {+esc_railway_assault_go} beh@assault_railway
+[beh@csky_leader]:beh@csky
+pt1 = 999999,idle	| pos:1.4632341861725,0.52213138341904,274.15490722656 look:2.4606368541718,0.52213138341904,274.15132021927
+on_info = {+esc_railway_assault_go} beh@assault_railway
+
+
+
+
+
+
+
+
+
+[logic@stalker_assault_esc_5_9_1]
+suitable = {=check_npc_name(assault_stalker_leader_esc_5_9)} true
+active = beh@stalker_leader
+prior = 500
+
+[logic@stalker_assault_esc_5_9_2]
+suitable = {=target_squad_name(stalker_assault_esc_5_9)} true
+active = beh@stalker_2
+prior = 500
+
+[logic@stalker_assault_esc_5_9_3]
+suitable = {=target_squad_name(stalker_assault_esc_5_9)} true
+active = beh@stalker_3
+prior = 500
+
+[logic@stalker_assault_esc_5_9_4]
+suitable = {=target_squad_name(stalker_assault_esc_5_9)} true
+active = beh@stalker_1
+prior = 500
+
+[beh@stalker_1]:beh@csky
+pt1 = 999999,guard	| pos:-31.98127746582,2.3382940292358,83.832672119141 look:-32.093844458461,2.3382940292358,84.823195934296
+on_info = {+esc_railway_assault_go} beh@assault_railway_2
+
+[beh@stalker_2]:beh@csky
+pt1 = 999999,guard	| pos:-31.75274848938,2.420392036438,81.387847900391 look:-31.865346722305,2.420392036438,82.378646731377
+on_info = {+esc_railway_assault_go} beh@assault_railway_2
+
+[beh@stalker_3]:beh@csky
+pt1 = 999999,guard	| pos:-31.309297561646,2.4102694988251,78.398300170898 look:-31.383918277919,2.4102694988251,79.363494098186
+on_info = {+esc_railway_assault_go} beh@assault_railway_2
+
+[beh@stalker_leader]:beh@csky
+pt1 = 999999,guard	| pos:-33.90230178833,2.3749706745148,81.457176208496 look:-34.014900021255,2.3749706745148,82.447975039482
+on_info = {+esc_railway_assault_go} beh@assault_railway_2
+
+[beh@assault_railway]:beh@csky
+pt1 = 999999,guard	| pos:56.947010040283,1.0190920829773,156.9591217041 look:57.002121996135,1.0190920829773,155.96157598495
+
+[beh@assault_railway_2]:beh@csky
+pt1 = 999999,guard	| pos:60.778995513916,-0.64842540025711,151.97283935547 look:60.841007467359,-0.64842540025711,150.98021924496
+
+
+
+
+
+[logic@esc_bandit_reinforcment_railway_1]
+suitable = {=target_squad_name(bandit_reinforcment_esc_6_8)} true
+active = beh@bandit_1
+prior = 500
+
+[logic@esc_bandit_reinforcment_railway_2]
+suitable = {=target_squad_name(bandit_reinforcment_esc_6_8)} true
+active = beh@bandit_1
+prior = 500
+
+[logic@esc_bandit_reinforcment_railway_3]
+suitable = {=target_squad_name(bandit_reinforcment_esc_6_8)} true
+active = beh@bandit_1
+prior = 500
+
+[logic@esc_bandit_reinforcment_railway_4]
+suitable = {=target_squad_name(bandit_reinforcment_esc_6_8)} true
+active = beh@bandit_1
+prior = 500
+
+[logic@esc_bandit_reinforcment_railway_5]
+suitable = {=target_squad_name(bandit_reinforcment_esc_6_8)} true
+active = beh@bandit_1
+prior = 500
+
+
+[beh@bandit_1]	
+	combat_ignore_cond	= {!dist_to_beh(80)} true
+	run_anim = rush
+	behaviour_state = beh_move
+	target = waypoint	
+	path_end = loop
+	pt1 = 100000,idle | pos:66.513153076172,0.55428129434586,154.61851501465 look:66.534742185846,0.55428129434586,153.61877405643

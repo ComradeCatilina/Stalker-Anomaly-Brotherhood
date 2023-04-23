@@ -1,0 +1,41 @@
+[smart_terrain];esc_smart_terrain_6_8 ;;îáðóøåííûé ìîñò
+squad_id = 18
+max_population = 3
+respawn_idle = 66400
+respawn_params = respawn@esc_smart_terrain_6_8
+
+
+[respawn@esc_smart_terrain_6_8]
+spawn@squad_1
+spawn@squad_2
+spawn@squad_3
+spawn@general
+
+[spawn@squad_1]
+spawn_squads = csky_guards_esc_6_8
+spawn_num = {+esc_railbridge_taken !squad_exist(csky_guards_esc_6_8)} 1, 0
+
+[spawn@squad_2]
+spawn_squads = stalker_guards_1_esc_6_8
+spawn_num = {+esc_railbridge_taken !squad_exist(stalker_guards_1_esc_6_8)} 1, 0
+
+[spawn@squad_3]
+spawn_squads = stalker_guards_2_esc_6_8
+spawn_num = {+esc_railbridge_taken !squad_exist(stalker_guards_2_esc_6_8)} 1, 0
+
+[spawn@general]
+spawn_squads	= bandit_guards_esc_6_8_basic
+spawn_num		= {-esc_railbridge_taken} 1, 0
+
+
+
+[exclusive]
+;----StfZ
+esc_6_8_railway_guard_1 = escape\esc_6_8_railway_guard.ltx
+esc_6_8_railway_guard_2 = escape\esc_6_8_railway_guard.ltx
+esc_6_8_railway_guard_3 = escape\esc_6_8_railway_guard.ltx
+esc_6_8_railway_guard_4 = escape\esc_6_8_railway_guard.ltx
+esc_6_8_railway_guard_5 = escape\esc_6_8_railway_guard.ltx
+esc_6_8_railway_guard_6 = escape\esc_6_8_railway_guard.ltx
+esc_6_8_railway_guard_7 = escape\esc_6_8_railway_guard.ltx
+;----StfZ

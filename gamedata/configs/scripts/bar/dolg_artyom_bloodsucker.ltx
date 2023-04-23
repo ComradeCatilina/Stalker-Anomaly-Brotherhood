@@ -1,0 +1,17 @@
+[logic@dolg_artyom_bloodsucker]
+   suitable = {=check_npc_name(dolg_artyom_bloodsucker)} true
+   prior = 500
+   active = beh@dolg_artyom_bloodsucker_job
+
+[beh@dolg_artyom_bloodsucker_job]
+	gather_items_enabled = false
+	behaviour_state = beh_move
+	
+	target = waypoint
+	combat_ignore_cond = {=is_warfare} false, {=actor_true_enemy =check_enemy_name(actor)} false, true
+	combat_ignore_keep_when_attacked = {=is_warfare} false, true
+	invulnerable = {=is_warfare} false, {!actor_true_enemy} true, false
+	
+	path_end = loop
+	pt1 = 100000,wounded_heavy | pos:212.5617980957,0.49726897478104,103.19502258301 look:212.55772590684,0.49726897478104,102.27910810709
+	

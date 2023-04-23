@@ -1,0 +1,67 @@
+[logic@esc_6_8_railway_guard_1]
+suitable = {+bandit_guards_esc_6_8_dead} true, {+sidorovich_railway_assault_start =target_squad_name(bandit_guards_esc_6_8)} true, {-sidorovich_railway_assault_start =target_squad_name(bandit_guards_esc_6_8_basic)} true
+active = beh@guard_1
+prior = 100
+
+[logic@esc_6_8_railway_guard_2]
+suitable = {+bandit_guards_esc_6_8_dead} true, {+sidorovich_railway_assault_start =target_squad_name(bandit_guards_esc_6_8)} true, {-sidorovich_railway_assault_start =target_squad_name(bandit_guards_esc_6_8_basic)} true
+active = beh@guard_2
+prior = 100
+
+[logic@esc_6_8_railway_guard_3]
+suitable = {+bandit_guards_esc_6_8_dead} true, {+sidorovich_railway_assault_start =target_squad_name(bandit_guards_esc_6_8)} true, {-sidorovich_railway_assault_start =target_squad_name(bandit_guards_esc_6_8_basic)} true
+active = beh@guard_3
+prior = 100
+
+[logic@esc_6_8_railway_guard_4]
+suitable = {+bandit_guards_esc_6_8_dead} true, {+sidorovich_railway_assault_start =target_squad_name(bandit_guards_esc_6_8)} true, {-sidorovich_railway_assault_start =target_squad_name(bandit_guards_esc_6_8_basic)} true
+active = beh@guard_4
+prior = 100
+
+[logic@esc_6_8_railway_guard_5]
+suitable = {+bandit_guards_esc_6_8_dead} true, {+sidorovich_railway_assault_start =target_squad_name(bandit_guards_esc_6_8)} true, {-sidorovich_railway_assault_start =target_squad_name(bandit_guards_esc_6_8_basic)} true
+active = beh@guard_5
+prior = 100
+
+[logic@esc_6_8_railway_guard_6]
+suitable = {+bandit_guards_esc_6_8_dead} true, {+sidorovich_railway_assault_start =target_squad_name(bandit_guards_esc_6_8)} true, {-sidorovich_railway_assault_start =target_squad_name(bandit_guards_esc_6_8_basic)} true
+active = beh@guard_6
+prior = 100
+
+[logic@esc_6_8_railway_guard_7]
+suitable = {+sidorovich_railway_assault_start =target_squad_name(bandit_guards_esc_6_8)} true, {-sidorovich_railway_assault_start =target_squad_name(bandit_guards_esc_6_8_basic)} true
+active = beh@guard_7
+prior = 100
+
+
+
+
+
+[beh@base]
+target								= waypoint
+path_end							= loop
+walk_dist							= 0
+jog_dist							= 0
+run_anim							= patrol
+
+
+[beh@guard_1]:beh@base
+pt1 = 999999,guard | pos:66.513153076172,0.55428129434586,154.61851501465 look:66.534742185846,0.55428129434586,153.61877405643
+
+[beh@guard_2]:beh@base
+pt1 = 999999,guard | pos:45.955604553223,2.0588965415955,146.10258483887 look:46.253153413534,2.0588965415955,145.14877581596
+
+[beh@guard_3]:beh@base
+pt1 = 999999,guard | pos:66.596824645996,0.57818895578384,159.01934814453 look:66.986903965473,0.57818895578384,159.93991649151
+
+[beh@guard_4]:beh@base
+pt1 = 999999,guard | pos:57.583679199219,1.3971667289734,167.20544433594 look:57.411917537451,1.3971667289734,168.17577457428
+
+[beh@guard_5]:beh@base
+pt1 = 999999,guard | pos:58.874450683594,-0.27230915427208,149.22178649902 look:59.119143307209,-0.27230915427208,148.25220829248
+
+[beh@guard_6]:beh@base
+pt1 = 999999,guard | pos:50.634643554688,1.8462357521057,153.6019744873 look:50.646584953181,1.8462357521057,154.59752559662
+
+[beh@guard_7]:beh@base
+pt1 = 999999,guard | pos:60.778995513916,-0.64842540025711,151.97283935547 look:60.841007467359,-0.64842540025711,150.98021924496

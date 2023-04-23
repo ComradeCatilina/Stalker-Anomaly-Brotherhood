@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+
+<game_dialogs>
+
+---------------------------------------
+;Catilina's Stories from the Zone
+;Market Share Questline
+;
+---------------------------------------
+
+
+
+
+---- Marlo and Chris----
+<dialog id="marlo_stanfield_start_dialog">
+		<dont_has_info>marlo_stanfield_start_dialog_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>marlo_stanfield_start_dialog_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">				
+				<text>marlo_stanfield_start_dialog_1</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>marlo_stanfield_start_dialog_2</text>
+				<action>dialogs_brotherhood.give_intercept_delivery_1</action>				
+			</phrase>
+			<phrase id="3">
+				<text>marlo_stanfield_start_dialog_3</text>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="4">
+				<text>marlo_stanfield_start_dialog_4</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="5">				
+				<text>marlo_stanfield_start_dialog_5</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="6">
+				<text>marlo_stanfieldr_start_dialog_6</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="7">
+				<text>marlo_stanfield_start_dialog_7</text>
+				<give_info>marlo_stanfield_start_dialog_done</give_info>
+				<action>dialogs_brotherhood.transfer_drinking_marlo_1</action>
+			</phrase>
+			<phrase id="8">
+				<text>marlo_stanfield_start_dialog_8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">				
+				<text>marlo_stanfield_start_dialog_9</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>marlo_stanfieldr_start_dialog_10</text>
+				<next>11</next>				
+			</phrase>
+			<phrase id="11">
+				<text>marlo_stanfield_start_dialog_11</text>
+				<give_info>marlo_stanfield_start_dialog_done</give_info>
+				<action>dialogs_brotherhood.transfer_drinking_marlo_1</action>
+			</phrase>
+			
+			
+			
+			
+		</phrase_list>
+	</dialog>
+	
+	
+<dialog id="marlo_stanfield_0">
+		<dont_has_info>marlo_stanfield_0_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>marlo_stanfield_0_1</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">				
+				<text>marlo_stanfield_0_1</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>marlo_stanfield_0_2</text>
+				<next>10</next>				
+			</phrase>
+			<phrase id="3">
+				<text>marlo_stanfield_0_3</text>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="4">
+				<text>marlo_stanfield_0_4</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="5">				
+				<text>marlo_stanfield_0_5</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="6">
+				<text>marlo_stanfield_0_6</text>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="7">
+				<text>marlo_stanfield_0_7</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="8">
+				<text>marlo_stanfield_0_8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">				
+				<text>marlo_stanfield_0_9</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>marlo_stanfield_0_10</text>
+				<next>11</next>				
+			</phrase>
+			<phrase id="11">
+				<text>marlo_stanfield_0_11</text>
+				<next>10</next>
+			</phrase>
+			
+			
+			
+			
+		</phrase_list>
+	</dialog>	
+	
+	
+<dialog id="chris_partlow_start_dialog">
+		<dont_has_info>chris_partlow_start_dialog_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>chris_partlow_start_dialog_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">				
+				<text>chris_partlow_start_dialog_1</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>chris_partlow_start_dialog_2</text>				
+			</phrase>
+			<phrase id="3">
+				<text>chris_partlow_start_dialog_3</text>
+				<give_info>chris_partlow_start_dialog_done</give_info>
+				
+			</phrase>
+		</phrase_list>
+	</dialog>	
+	
+	
+----- Quest 1 ------
+
+<dialog id="chris_partlow_1">
+		<dont_has_info>chris_partlow_1_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>chris_partlow_1_0</text>
+				<next>1</next>
+				
+			</phrase>
+			<phrase id="1">				
+				<text>chris_partlow_1_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>chris_partlow_1_2</text>
+				<next>3</next>				
+			</phrase>
+			<phrase id="3">
+				<text>chris_partlow_1_3</text>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="4">
+				<text>chris_partlow_1_4</text>
+				<next>6</next>
+				
+			</phrase>
+			<phrase id="5">				
+				<text>chris_partlow_1_5</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="6">
+				<text>chris_partlow_1_6</text>
+				<give_info>chris_partlow_1_done</give_info>
+				<action>dialogs_brotherhood.give_marlo_pda</action>
+				<action>brotherhood_npcs.zaton_mercenary_1_init</action>
+				
+			</phrase>
+			<phrase id="7">
+				<text>chris_partlow_1_7</text>				
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+<dialog id="chris_partlow_2">
+		<precondition>dialogs_brotherhood.is_has_mercenary_pda_marlo</precondition>
+		<dont_has_info>chris_partlow_2_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>chris_partlow_2_0</text>
+				<next>1</next>
+				<action>dialogs_brotherhood.transfer_mercenary_pda_to_chris</action>	
+			</phrase>
+			<phrase id="1">				
+				<text>chris_partlow_2_1</text>
+				<give_info>chris_partlow_2_done</give_info>
+				<give_info>give_marlo_pda_done</give_info>
+			</phrase>
+			</phrase_list>
+	</dialog>
+
+<dialog id="chris_partlow_3">
+		<has_info>give_marlo_pda_done</has_info>
+		<dont_has_info>chris_partlow_3_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>chris_partlow_3_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">				
+				<text>chris_partlow_3_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>chris_partlow_3_2</text>
+				<next>3</next>				
+			</phrase>
+			<phrase id="3">
+				<text>chris_partlow_3_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>chris_partlow_3_4</text>
+				<next>5</next>				
+			</phrase>
+			<phrase id="5">				
+				<text>chris_partlow_3_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>chris_partlow_3_6</text>
+				<give_info>chris_partlow_3_done</give_info>
+				<action>dialogs_brotherhood.give_intercept_courrier_1</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			
+			</phrase_list>
+	</dialog>
+	
+<dialog id="chris_partlow_4">
+		<precondition>dialogs_brotherhood.is_has_mercenary_usb_marlo</precondition>
+		<dont_has_info>chris_partlow_4_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>chris_partlow_4_0</text>
+				<next>1</next>
+				<give_info>give_intercept_courrier_1_done</give_info>
+				<action>dialogs_brotherhood.transfer_mercenary_usb_to_chris</action>	
+			</phrase>
+			<phrase id="1">				
+				<text>chris_partlow_4_1</text>
+				<give_info>chris_partlow_4_done</give_info>
+				<action>dialogs_brotherhood.transfer_mercenary_usb_back</action>
+				<action>dialogs_brotherhood.give_intercept_courrier_2</action>
+			</phrase>
+			</phrase_list>
+	</dialog>	
+
+<dialog id="zaton_mercenary_1_start_dialog">
+		<dont_has_info>zaton_mercenary_1_start_dialog_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>zaton_mercenary_1_start_dialog_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">				
+				<text>zaton_mercenary_1_start_dialog_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>zaton_mercenary_1_start_dialog_2</text>				
+			</phrase>
+			<phrase id="3">				
+				<text>zaton_mercenary_1_start_dialog_3</text>
+				<give_info>zaton_mercenary_1_start_dialog_done</give_info>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	
+<dialog id="zaton_mercenary_2_start_dialog">
+		<precondition>dialogs_brotherhood.is_has_mercenary_usb_marlo</precondition>
+		<dont_has_info>zaton_mercenary_2_start_dialog_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>zaton_mercenary_2_start_dialog_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">				
+				<text>zaton_mercenary_2_start_dialog_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>zaton_mercenary_2_start_dialog_2</text>
+				<give_info>zaton_mercenary_2_start_dialog_done</give_info>
+				<action>dialogs_brotherhood.transfer_mercenary_usb_to_chris</action>
+				<give_info>zaton_mercenary_2_delivered</give_info>
+			</phrase>
+			<phrase id="3">				
+				<text>zaton_mercenary_2_start_dialog_3</text>
+				
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>	
+	
+<dialog id="jupiter_monk_start_dialog">
+		<dont_has_info>jupiter_monk_start_dialog_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>jupiter_monk_start_dialog_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">				
+				<text>jupiter_monk_start_dialog_1</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>jupiter_monk_start_dialog_2</text>		
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="3">
+				<text>jupiter_monk_start_dialog_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>jupiter_monk_start_dialog_4</text>		
+				<action>dialogs.break_dialog</action>
+				<give_info>jupiter_monk_start_dialog_done</give_info>
+				<give_info>jupiter_mercenary_assault_go</give_info>
+				
+			</phrase>
+		</phrase_list>
+	</dialog>	
+	
+---Stage II---
+---Market Share Takeover---
+
+--Marlo--
+<dialog id="marlo_stanfield_11">
+		
+		<dont_has_info>marlo_stanfield_11_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>marlo_stanfield_11_0</text>
+				<next>1</next>				
+			</phrase>
+			<phrase id="1">				
+				<text>marlo_stanfield_11_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>marlo_stanfield_11_2</text>
+				<next>3</next>				
+			</phrase>
+			<phrase id="3">				
+				<text>marlo_stanfield_11_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>marlo_stanfield_11_4</text>
+				<next>5</next>				
+			</phrase>
+			<phrase id="5">				
+				<text>marlo_stanfield_11_5</text>
+				<next>6</next>
+				<next>8</next>
+			</phrase>
+			<phrase id="6">
+				<text>marlo_stanfield_11_6</text>
+				<next>7</next>				
+			</phrase>
+			<phrase id="7">				
+				<text>marlo_stanfield_11_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>marlo_stanfield_11_8</text>
+				<next>9</next>				
+			</phrase>
+			<phrase id="9">				
+				<text>marlo_stanfield_11_9</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>marlo_stanfield_11_10</text>
+				<next>11</next>				
+			</phrase>
+			<phrase id="11">				
+				<text>marlo_stanfield_11_11</text>
+				<next>18</next>
+				<next>12</next>
+			</phrase>
+			<phrase id="12">
+				<text>marlo_stanfield_11_12</text>
+				<next>13</next>				
+			</phrase>
+			<phrase id="13">				
+				<text>marlo_stanfield_11_13</text>
+				<next>14</next>
+				<next>15</next>
+			</phrase>
+			<phrase id="14">
+				<text>marlo_stanfield_11_14</text>
+				<next>16</next>				
+			</phrase>
+			<phrase id="15">				
+				<text>marlo_stanfield_11_15</text>
+				<next>17</next>
+			</phrase>
+			<phrase id="16">
+				<text>marlo_stanfield_11_16</text>
+				<next>6</next>
+				<next>8</next>
+				<next>18</next>
+			</phrase>
+			<phrase id="17">				
+				<text>marlo_stanfield_11_17</text>
+				<give_info>takeover_diplomatic_possibility</give_info>
+				<next>22</next>
+			</phrase>
+			<phrase id="18">
+				<dont_has_info>takeover_diplomatic_possibility</dont_has_info>
+				<text>marlo_stanfield_11_18</text>
+				<next>19</next>				
+			</phrase>
+			<phrase id="19">				
+				<text>marlo_stanfield_11_19</text>
+				<next>24</next>
+				<next>20</next>
+			</phrase>
+			<phrase id="20">
+				<text>marlo_stanfield_11_20</text>
+				<next>21</next>			
+			</phrase>
+			<phrase id="21">				
+				<text>marlo_stanfield_11_21</text>
+				<next>6</next>
+				<next>8</next>
+				<next>18</next>
+				<next>22</next>				
+			</phrase>
+			<phrase id="22">
+				<has_info>takeover_diplomatic_possibility</has_info>
+				<text>marlo_stanfield_11_22</text>
+				<next>23</next>
+				<next>20</next>
+			</phrase>
+			<phrase id="23">				
+				<text>marlo_stanfield_11_23</text>
+				<next>25</next>
+			</phrase>
+			<phrase id="24">				
+				<text>marlo_stanfield_11_24</text>
+				<give_info>marlo_stanfield_11_done</give_info>
+				<action>dialogs_brotherhood.give_hostile_takeover_main</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="25">				
+				<text>marlo_stanfield_11_25</text>
+				<give_info>marlo_stanfield_11_done</give_info>
+				<action>dialogs_brotherhood.give_hostile_takeover_main</action>
+				<action>dialogs_brotherhood.give_diplomatic_takeover_main</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			
+			</phrase_list>
+	</dialog>		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+</game_dialogs>

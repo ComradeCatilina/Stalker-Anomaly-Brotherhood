@@ -1,0 +1,24 @@
+[logic@zaton_mercenary_2]
+   suitable = {=check_npc_name(zaton_mercenary_2)} true
+   prior = 500
+   active = beh@zaton_mercenary_2_job
+
+[beh@zaton_mercenary_2_job]
+	behaviour_state = beh_move
+	target = waypoint
+	walk_anim = patrol
+	gather_items_enabled = false
+	on_info = {=surge_started} beh@surge
+	path_end = loop
+	pt1 = 600000,guard | pos:344.61651611328,33.242767333984,-400.94937133789 look:344.66410562769,33.242767333984,-399.95866900682
+	pt2 = 9000,smoking_stand | pos:344.61651611328,33.242767333984,-400.94937133789 look:344.66410562769,33.242767333984,-399.95866900682
+
+[beh@surge]
+path_walk = surge_hide_1_walk	;guard_2_walk
+path_look = surge_hide_1_look	;guard_2_look
+on_info = {!surge_started} beh@zaton_mercenary_2_job
+gather_items_enabled = false
+help_wounded_enabled = false
+corpse_detection_enabled = false
+invulnerable = false
+

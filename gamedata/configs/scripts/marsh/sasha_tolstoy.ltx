@@ -1,0 +1,29 @@
+[logic@sasha_tolstoy]
+   suitable = {=check_npc_name(sasha_tolstoy)} true
+   prior = 500
+   active = beh@sasha_tolstoy_job
+
+[beh@sasha_tolstoy_job]
+	on_info = {=is_night} beh@drink_1
+	behaviour_state = beh_move
+	target = waypoint
+	path_end = loop
+	pt1 = 88860000,idle | pos:-176.64476013184,1.8341355323792,-283.72021484375 look:-175.71662169695,1.8341355323792,-283.34909519553
+	
+
+[beh@drink_1]
+behaviour_state = beh_move
+target = waypoint
+walk_anim = patrol
+gather_items_enabled = false
+help_wounded_enabled = false
+corpse_detection_enabled = false
+invulnerable = false
+on_info = {!is_night} beh@sasha_tolstoy_job
+on_game_timer = 2400 | remark@smoking_stand2
+path_end = loop
+pt1 = 88860000,drink_vodka_stand | pos:-135.14944458008,1.3462958335876,-273.25628662109 look:-135.18375352025,1.3462958335876,-274.2086712122
+
+[remark@smoking_stand2]:beh@drink_1
+anim = smoking_stand
+on_game_timer = 900 | beh@drink_1

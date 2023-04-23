@@ -1,0 +1,17 @@
+[logic@ilya_muromets_logic]
+   suitable = {=check_npc_name(ilya_muromets)} true
+   prior = 500
+   active = beh@ilya_muromets_job
+
+[beh@ilya_muromets_job]
+	gather_items_enabled = false
+	behaviour_state = beh_move
+	target = waypoint
+	walk_anim = patrol
+	combat_ignore_cond = {=is_warfare} false, {=actor_true_enemy =check_enemy_name(actor)} false, true
+	combat_ignore_keep_when_attacked = {=is_warfare} false, true
+	invulnerable = {=is_warfare} false, {!actor_true_enemy} true, false
+	
+	path_end = loop
+	pt1 = 100000,sit_ass | pos:-95.646942138672,0.71350866556168,-3.8548483848572 look:-95.672554219142,0.71350866556168,-2.9741134643555
+	

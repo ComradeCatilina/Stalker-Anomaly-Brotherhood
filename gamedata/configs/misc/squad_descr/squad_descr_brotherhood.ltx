@@ -1,0 +1,386 @@
+;--------------------------
+;-- Catilina's Stories from the Zone
+;-- Special Characters
+;
+;--------------------------
+
+--- Brotherhood ---
+
+[ilya_muromets_squad]:online_offline_group
+faction = stalker
+npc = ilya_muromets
+npc_in_squad = 1, 1
+target_smart = gar_smart_terrain_3_5
+story_id = ilya_muromets_squad
+on_death = %+ilya_muromets_dead%
+
+
+
+[satisfied_man]:online_offline_group
+faction         = monster_special
+npc      = gigant_weak
+npc_in_squad    = 1, 1
+on_death = %+satisfied_man_dead%
+
+
+[pack_dogs_1]:online_offline_group
+faction         = monster_special
+npc      = dog_strong_black, dog_strong_bulterier, dog_strong_brown, dog_weak_white, dog_weak_white, dog_weak_red, dog_normal_white, dog_normal_white, dog_normal_bulterier, dog_normal_brown, pseudodog_grey_strong, pseudodog_weak
+npc_in_squad    = 12, 12
+target_smart = mar_smart_terrain_6_4
+on_death = %+pack_dogs_1_dead%
+
+[pack_boars_1]:online_offline_group
+faction         = monster_special
+npc      = boar_01a_hard, boar_01a_weak, boar_01a_weak, boar_01a_weak, boar_normal
+npc_in_squad    = 5, 5
+target_smart = gar_smart_terrain_6_6
+on_death = %+pack_boars_1_dead%
+
+[pack_snorks_1]:online_offline_group
+faction         = monster_special
+npc      = snork_strong3, snork_normal3, snork_normal2, snork_weak3, snork_weak3
+npc_in_squad    = 5, 5
+target_smart = gar_smart_terrain_1_7
+on_death = %+pack_snorks_1_dead%
+
+[pack_snorks_2]:online_offline_group
+faction         = monster_special
+npc      = snork_strong3, snork_normal3, snork_normal2, snork_weak3, snork_strong3, snork_strong3, snork_strong3, snork_weak3, snork_normal3, snork_normal2
+npc_in_squad    = 10, 10
+target_smart = agr_smart_terrain_7_5
+on_death = %+pack_snorks_2_dead%
+
+[vybegallo_squad]:online_offline_group
+faction = ecolog
+npc = vybegallo
+npc_in_squad = 1, 1
+story_id = vybegallo_squad
+target_smart = {+vybegallo_hiding} agr_u_soldiers, agr_smart_terrain_4_4
+on_death = %+vybegallo_dead%
+
+
+
+---Dolg Butcher ---
+
+[pack_bloodsuckers_dolg_1]:online_offline_group
+faction         = monster_special
+npc      = bloodsucker_black_strong, bloodsucker_black_strong
+npc_in_squad    = 2, 2
+target_smart = mil_smart_terrain_4_2
+on_death = %+pack_bloodsuckers_dolg_1_dead%
+
+[pack_bloodsuckers_dolg_2]:online_offline_group
+faction         = monster_special
+npc      = bloodsucker_red_weak, bloodsucker_black_normal
+npc_in_squad    = 2, 2
+target_smart = mil_smart_terrain_4_3
+on_death = %+pack_bloodsuckers_dolg_2_dead%
+
+[pack_bloodsuckers_dolg_3]:online_offline_group
+faction         = monster_special
+npc      = bloodsucker_red_weak, bloodsucker_black_strong
+npc_in_squad    = 2, 2
+target_smart = mil_smart_terrain_2_10
+on_death = %+pack_bloodsuckers_dolg_3_dead%
+
+
+[dolg_sergey_bloodsucker_squad]:online_offline_group
+faction = dolg
+npc = dolg_sergey_bloodsucker
+npc_in_squad = 1, 1
+
+[dolg_sasha_bloodsucker_squad]:online_offline_group
+faction = dolg
+npc = dolg_sasha_bloodsucker
+npc_in_squad = 1, 1
+
+[dolg_vadim_bloodsucker_squad]:online_offline_group
+faction = dolg
+npc = dolg_vadim_bloodsucker
+npc_in_squad = 1, 1
+
+[dolg_artyom_bloodsucker_squad]:online_offline_group
+faction = dolg
+npc = dolg_artyom_bloodsucker
+npc_in_squad = 1, 1
+target_smart = bar_dolg_general
+
+[dolg_ilya_bloodsucker_og_squad]:online_offline_group
+faction = dolg
+npc = dolg_ilya_bloodsucker
+target_smart = actor
+story_id = dolg_ilya_bloodsucker_og_squad
+on_death = %+dolg_ilya_squad_dead%
+
+
+
+[dolg_ilya_bloodsucker_squad]:online_offline_group
+faction = dolg
+npc = sim_default_duty_3, sim_default_duty_3
+npc_in_squad = 2, 2
+target_smart = actor
+story_id = dolg_ilya_bloodsucker_squad
+
+
+
+[dolg_ilya_bloodsucker_2_squad]:online_offline_group
+faction = dolg
+npc_random = sim_default_duty_3, sim_default_duty_4, sim_default_duty_4, sim_default_duty_3
+npc_in_squad = 4, 4
+target_smart = actor
+story_id = dolg_ilya_bloodsucker_2_squad
+
+
+
+[legendary_bloodsucker_1]:online_offline_group
+faction         = monster_special
+npc      = bloodsucker_black_strong, bloodsucker_black_strong, bloodsucker_red_weak, bloodsucker_black_normal
+npc_in_squad    = 4, 4
+target_smart = red_smart_terrain_monsters
+on_death = %+legendary_bloodsucker_1_dead%
+
+[legendary_bloodsucker_2]:online_offline_group
+faction         = monster_special
+npc      = bloodsucker_vlad, bloodsucker_drakul
+npc_in_squad    = 2, 2
+target_smart = red_smart_terrain_monsters
+on_death = %+legendary_bloodsucker_2_dead%
+
+----Sidorovich---- ### replace target_smart with logic ###
+
+[bandit_guards_esc_6_8_basic]:online_offline_group
+faction = bandit
+npc_random = sim_default_bandit_1, sim_default_bandit_2, sim_default_bandit_3, sim_default_bandit_3, sim_default_bandit_3, sim_default_bandit_2, sim_default_bandit_1
+npc_in_squad = 5, 7
+target_smart = esc_smart_terrain_6_8
+
+[bandit_guards_esc_6_8]:online_offline_group
+faction = bandit
+npc = sim_default_bandit_1, sim_default_bandit_2, sim_default_bandit_3, sim_default_bandit_3, sim_default_bandit_3, sim_default_bandit_2, sim_default_bandit_1
+npc_in_squad = 7, 7
+target_smart = esc_smart_terrain_6_8
+on_death = %+bandit_guards_esc_6_8_dead%
+
+[bandit_reinforcment_esc_6_8]:online_offline_group
+faction = bandit
+npc = sim_default_bandit_1, sim_default_bandit_1, sim_default_bandit_2, sim_default_bandit_2, sim_default_bandit_3
+npc_in_squad = 5, 5
+target_smart = esc_smart_terrain_7_11
+on_death = %+bandit_reinforcment_esc_6_8_dead%
+
+[bandit_reinforcment_esc_7_11]:online_offline_group
+faction = bandit
+npc = sim_default_bandit_1, sim_default_bandit_1, sim_default_bandit_2, sim_default_bandit_2, sim_default_bandit_3
+npc_in_squad = 5, 5
+target_smart = esc_smart_terrain_7_11
+on_death = %+bandit_reinforcment_esc_7_11_dead%
+
+[csky_assault_esc_5_7]:online_offline_group
+faction = csky
+npc = sim_default_csky_3, sim_default_csky_3, sim_default_csky_2
+npc_in_squad = 3
+target_smart = {+bandit_guards_esc_6_8_dead} esc_smart_terrain_6_8, esc_smart_terrain_5_7
+
+[csky_assault_esc_5_7_leader]:online_offline_group
+faction = csky
+npc = assault_csky_leader_esc_5_7
+npc_in_squad = 1
+target_smart = {+bandit_guards_esc_6_8_dead} esc_smart_terrain_6_8, esc_smart_terrain_5_7
+
+[stalker_assault_esc_5_9]:online_offline_group
+faction = stalker
+npc = sim_default_stalker_2, sim_default_stalker_1, sim_default_stalker_1
+npc_in_squad = 3
+target_smart = {+bandit_guards_esc_6_8_dead} esc_smart_terrain_6_8, esc_smart_terrain_4_9
+
+[stalker_assault_esc_5_9_leader]:online_offline_group
+faction = stalker
+npc = assault_stalker_leader_esc_5_9
+npc_in_squad = 1
+target_smart = {+bandit_guards_esc_6_8_dead} esc_smart_terrain_6_8, esc_smart_terrain_4_9
+
+
+[csky_guards_esc_6_8]:online_offline_group
+faction = csky
+npc_random =  sim_default_csky_3, sim_default_csky_2
+npc_in_squad = 2, 2
+target_smart = esc_smart_terrain_6_8
+
+[stalker_guards_1_esc_6_8]:online_offline_group
+faction = stalker
+npc_random =  sim_default_stalker_3, sim_default_stalker_2, sim_default_stalker_1
+npc_in_squad = 2, 2
+target_smart = esc_smart_terrain_6_8
+
+[stalker_guards_2_esc_6_8]:online_offline_group
+faction = stalker
+npc_random =  sim_default_stalker_3, sim_default_stalker_2, sim_default_stalker_1
+npc_in_squad = 2, 2
+target_smart = esc_smart_terrain_6_8
+
+
+
+----- Fake Artifact -----
+
+
+[zaton_brokkr_squad]:online_offline_group
+faction = ecolog
+npc = zaton_brokkr
+npc_in_squad = 1, 1
+story_id = zaton_brokkr_squad
+target_smart = jup_b41
+
+[zaton_eitri_squad]:online_offline_group
+faction = ecolog
+npc = zaton_eitri
+npc_in_squad = 1, 1
+story_id = zaton_eitri_squad
+target_smart = zat_stalker_base_smart
+
+[ecologist_sidorovich_squad]:online_offline_group
+faction = ecolog
+npc = ecologist_sidorovich
+npc_in_squad = 1, 1
+story_id = ecologist_sidorovich_squad
+target_smart = esc_smart_terrain_2_12
+
+[bandit_debt_tambov_1]:online_offline_group
+faction = bandit
+npc_random = sim_default_bandit_2, sim_default_bandit_3, sim_default_bandit_3, sim_default_bandit_3, sim_default_bandit_4, sim_default_bandit_2
+npc_in_squad = 5, 5
+target_smart = val_smart_terrain_4_0
+on_death = %+bandit_debt_tambov_1_dead%
+
+[bandit_debt_tambov_2]:online_offline_group
+faction = bandit
+npc_random = sim_default_bandit_2, sim_default_bandit_3, sim_default_bandit_3, sim_default_bandit_3, sim_default_bandit_4, sim_default_bandit_2
+npc_in_squad = 5, 5
+target_smart = val_smart_terrain_4_0
+on_death = %+bandit_debt_tambov_2_dead%
+
+
+
+
+
+
+---Market Share---
+
+[marlo_stanfield_squad]:online_offline_group
+faction = stalker
+npc = marlo_stanfield
+npc_in_squad = 1, 1
+story_id = marlo_stanfield_squad
+
+[chris_partlow_squad]:online_offline_group
+faction = stalker
+npc = chris_partlow
+npc_in_squad = 1, 1
+story_id = chris_partlow_squad
+
+[zaton_mercenary_1_squad]:online_offline_group
+faction = killer
+npc = zaton_mercenary_1
+npc_in_squad = 1, 1
+story_id = zaton_mercenary_1_squad
+target_smart = zat_b40_smart_terrain
+on_death = %+zaton_mercenary_1_dead%
+
+[zaton_mercenary_courrier_1_squad]:online_offline_group
+faction = killer
+npc = zaton_mercenary_courrier_1, sim_default_killer_3, sim_default_killer_3
+npc_in_squad = 3, 3
+story_id = zaton_mercenary_courrier_1_squad
+target_smart = jup_sim_2
+on_death = %+zaton_mercenary_courrier_1_dead =zaton_mercenary_courrier_deathrattle()%
+
+[zaton_mercenary_2_squad]:online_offline_group
+faction = killer
+npc = zaton_mercenary_2
+npc_in_squad = 1, 1
+story_id = zaton_mercenary_2_squad
+target_smart = zat_b40_smart_terrain
+on_death = %+zaton_mercenary_2_dead%
+
+[jupiter_mercenary_1_squad]:online_offline_group
+faction = killer
+npc = sim_default_killer_3, sim_default_killer_3, sim_default_killer_4, sim_default_killer_4, sim_default_killer_4, sim_default_killer_4
+npc_in_squad = 6, 6
+story_id = jupiter_mercenary_1_squad
+target_smart = jup_b207
+on_death = %=spawn_reinforcment_mercenary_1%
+
+[jupiter_mercenary_2_squad]:online_offline_group
+faction = killer
+npc = sim_default_killer_3, sim_default_killer_3, sim_default_killer_4, sim_default_killer_4, sim_default_killer_4, sim_default_killer_4
+npc_in_squad = 6, 6
+story_id = jupiter_mercenary_2_squad
+target_smart = jup_b202
+on_death = %+jupiter_mercenary_2_squad_dead%
+
+[jupiter_stalker_assault_leader_squad]:online_offline_group
+faction = stalker
+npc = jupiter_monk
+story_id = jupiter_stalker_assault_leader_squad
+target_smart = jup_a6
+
+[jupiter_stalker_assault_1_squad]:online_offline_group
+faction = stalker
+npc = sim_default_stalker_3, sim_default_stalker_4, sim_default_stalker_3, sim_default_stalker_4
+npc_in_squad = 4, 4
+story_id = jupiter_stalker_assault_1_squad
+target_smart = jup_a6
+
+[zaton_achilles_squad]:online_offline_group
+faction = stalker
+npc = zaton_achilles
+npc_in_squad = 1, 1
+story_id = zaton_achilles_squad
+target_smart = jup_b41
+on_death = %+zaton_achilles_dead%
+
+---Paranoia---
+[paranoia_man_squad]:online_offline_group
+faction = stalker
+npc = paranoia_man
+npc_in_squad = 1, 1
+story_id = paranoia_man_squad
+
+
+
+
+
+
+--- Morphine ----
+[anna_morphine_squad]:online_offline_group
+faction = stalker
+npc = anna_morphine
+npc_in_squad = 1, 1
+story_id = anna_morphine_squad
+target_smart = jup_a6
+	
+	
+	
+--- Alyosha Karmov ---
+[alyosha_karmov_squad]:online_offline_group
+faction = ecolog
+npc = alyosha_karmov
+npc_in_squad = 1, 1
+target_smart = {+alyosha_karmov_1_you_arrived} agr_smart_terrain_4_4, agr_smart_terrain_6_4 
+on_death = %+alyosha_karmov_dead%
+	
+[karmov_pack_snorks_1]:online_offline_group
+faction         = monster_special
+npc      = snork_weak3, snork_weak3
+npc_in_squad    = 2, 2
+target_smart = agr_smart_terrain_5_3
+on_death = %+karmov_pack_snorks_1_dead%	
+
+
+
+[sasha_tolstoy_squad]:online_offline_group
+faction = csky
+npc = sasha_tolstoy
+npc_in_squad = 1, 1
+story_id = sasha_tolstoy_squad
+target_smart = mar_smart_terrain_base

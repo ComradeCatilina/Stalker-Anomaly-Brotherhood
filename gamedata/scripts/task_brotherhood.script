@@ -1,0 +1,469 @@
+
+------- GENERAL Functions --------
+local HI = has_alife_info
+local GI = give_info
+local DI = disable_info
+function NI(str)
+	return not (has_alife_info(str))
+end
+
+function on_game_start()
+    RegisterScriptCallback("actor_on_update",actor_on_update)
+end
+
+
+function actor_on_update()
+    scouting_esc_smart_terrain_7_11_init()
+end
+
+function scouting_esc_smart_terrain_7_11_init()
+	if NI("scouting_esc_smart_terrain_7_11_done") then
+		local dist = 110
+		local smart = SIMBOARD.smarts_by_names["esc_smart_terrain_7_11"]
+			if smart and smart.online then				
+				local smrt = SIMBOARD.smarts[smart.id]
+				if smrt and (db.actor:position():distance_to(smart.position) < dist) then
+				GI("scouting_esc_smart_terrain_7_11_done")
+				
+				end
+			end
+	end
+end
+--- Brotherhood 1 and 2 ---
+
+function task_status_functor.give_task_kill_pack_boars_1_status_f(tsk,task_id) 
+	if (NI("task_kill_pack_boars_1_init")) then
+		if not (get_story_se_object("pack_boars_1")) then 
+			local dist = 180
+			local smart = SIMBOARD.smarts_by_names["gar_smart_terrain_6_6"]
+			if smart and smart.online then
+				xr_effects.clear_smart_terrain(nil,nil,{"gar_smart_terrain_6_6","true"})
+				local smrt = SIMBOARD.smarts[smart.id]
+				if smrt and (db.actor:position():distance_to(smart.position) < dist) then
+					
+					local smart = SIMBOARD.smarts_by_names["gar_smart_terrain_6_6"]           
+					local squad = SIMBOARD:create_squad(smart,"pack_boars_1")
+				
+					GI("task_kill_pack_boars_1_init")
+					return
+				end
+			end
+		end
+	end
+end
+
+function task_status_functor.give_task_kill_pack_snorks_1_status_f(tsk,task_id) 
+	if (NI("task_kill_pack_snorks_1_init")) then
+		if not (get_story_se_object("pack_snorks_1")) then 
+			local dist = 150
+			local smart = SIMBOARD.smarts_by_names["gar_smart_terrain_1_7"]
+			if smart and smart.online then
+				xr_effects.clear_smart_terrain(nil,nil,{"gar_smart_terrain_1_7","true"})
+				local smrt = SIMBOARD.smarts[smart.id]
+				if smrt and (db.actor:position():distance_to(smart.position) < dist) then
+					
+					local smart = SIMBOARD.smarts_by_names["gar_smart_terrain_1_7"]           
+					local squad = SIMBOARD:create_squad(smart,"pack_snorks_1")
+				
+					GI("task_kill_pack_snorks_1_init")
+					return
+				end
+			end
+		end
+	end
+end
+--- Brotherhood 3 Vybegallo ---
+
+function task_status_functor.give_task_kill_pack_dogs_1_status_f(tsk,task_id) 
+	if (NI("task_kill_pack_dogs_1_init")) then
+		if not (get_story_se_object("pack_dogs_1")) then 
+			local dist = 150
+			local smart = SIMBOARD.smarts_by_names["mar_smart_terrain_6_4"]
+			if smart and smart.online then
+				xr_effects.clear_smart_terrain(nil,nil,{"mar_smart_terrain_6_4","true"})
+				local smrt = SIMBOARD.smarts[smart.id]
+				if smrt and (db.actor:position():distance_to(smart.position) < dist) then
+					
+					local smart = SIMBOARD.smarts_by_names["mar_smart_terrain_6_4"]           
+					local squad = SIMBOARD:create_squad(smart,"pack_dogs_1")
+					xr_effects.spawn_vybegallo_bag()
+					xr_effects.spawn_vybegallo_trail_1()
+					xr_effects.spawn_vybegallo_trail_2()
+					xr_effects.spawn_vybegallo_trail_3()
+					xr_effects.spawn_vybegallo_trail_4()
+					GI("task_kill_pack_dogs_1_init")
+					return
+				end
+			end
+		end
+	end
+end
+
+function xr_effects.spawn_vybegallo_bag()
+	local pos = vector():set( 93.233978271484,1.3431987762451,336.99731445313 )
+    local se_obj = alife_create( "quest_package_vybegallo", pos, 194271, 84 )
+     if ( not se_obj ) then
+          printe("!ERROR: unable to spawn quest_package_vybegallo" )
+     end
+end
+
+function xr_effects.spawn_vybegallo_trail_1()
+	local pos = vector():set( 94.755432128906,1.3435776233673,334.9592590332 )
+     local se_obj = alife_create( "conserva", pos, 195061, 84 )
+     if ( not se_obj ) then
+          printe("!ERROR: unable to spawn quest_package_vybegallo_trail_1" )
+     end
+end
+
+function xr_effects.spawn_vybegallo_trail_2()
+	local pos = vector():set( 98.814163208008,1.2621808052063,335.21612548828 )
+     local se_obj = alife_create( "conserva", pos, 197280, 84 )
+     if ( not se_obj ) then
+          printe("!ERROR: unable to spawn quest_package_vybegallo_trail_2" )
+     end
+end
+
+function xr_effects.spawn_vybegallo_trail_3()
+	local pos = vector():set( 102.38217163086,1.2957384586334,338.11456298828 )
+     local se_obj = alife_create( "conserva", pos, 199367, 84 )
+     if ( not se_obj ) then
+          printe("!ERROR: unable to spawn quest_package_vybegallo_trail_3" )
+     end
+end
+
+function xr_effects.spawn_vybegallo_trail_4()
+	local pos = vector():set( 105.27380371094,1.1134397983551,336.060546875 )
+     local se_obj = alife_create( "conserva", pos, 201262, 84 )
+     if ( not se_obj ) then
+          printe("!ERROR: unable to spawn quest_package_vybegallo_trail_4" )
+     end
+end
+
+function task_status_functor.give_alyosha_karmov_trouble_1_status_f(tsk,task_id) 
+	if (tsk.stage == 0) then	
+		
+		if (NI("alyosha_karmov_trouble_1_init")) then
+		
+			if not (get_story_se_object("karmov_pack_snorks_1")) then 
+				
+				local dist = 100
+				local smart = SIMBOARD.smarts_by_names["agr_smart_terrain_5_3"]
+				if smart and smart.online then
+					
+					xr_effects.clear_smart_terrain(nil,nil,{"agr_smart_terrain_5_3","true"})
+					local smrt = SIMBOARD.smarts[smart.id]
+					if smrt and (db.actor:position():distance_to(smart.position) < dist) then
+						
+						local smart = SIMBOARD.smarts_by_names["agr_smart_terrain_5_3"]           
+						local squad = SIMBOARD:create_squad(smart,"karmov_pack_snorks_1")
+						tsk.stage = 1
+						GI("alyosha_karmov_trouble_1_init")
+						return
+					end
+				end
+			end
+		end
+	end
+	if (tsk.stage == 1) then
+		printe("Control AK stage 5")
+		if HI("alyosha_karmov_1_go") then
+			
+			local dist = 25
+			local smart = SIMBOARD.smarts_by_names["agr_smart_terrain_4_4"]
+			if smart and smart.online then
+				
+				local smrt = SIMBOARD.smarts[smart.id]
+				if smrt and (db.actor:position():distance_to(smart.position) < dist) then
+					GI("alyosha_karmov_1_you_arrived")
+					
+					return
+				end
+			end
+		end
+	end
+end
+
+
+
+
+--- Brotherhood 4 ---
+function task_status_functor.give_task_kill_pack_snorks_2_status_f(tsk,task_id) 
+	if (tsk.stage == 0) then	
+		if (NI("task_kill_pack_snorks_2_init")) then
+			if not (get_story_se_object("pack_snorks_2")) then 
+				local dist = 100
+				local smart = SIMBOARD.smarts_by_names["agr_smart_terrain_7_5"]
+				if smart and smart.online then
+					xr_effects.clear_smart_terrain(nil,nil,{"agr_smart_terrain_7_5","true"})
+					local smrt = SIMBOARD.smarts[smart.id]
+					if smrt and (db.actor:position():distance_to(smart.position) < dist) then
+						
+						local smart = SIMBOARD.smarts_by_names["agr_smart_terrain_7_5"]           
+						local squad = SIMBOARD:create_squad(smart,"pack_snorks_2")
+						tsk.stage = 1
+						GI("task_kill_pack_snorks_1_init")
+						return
+					end
+				end
+			end
+		end
+	end
+	if (tsk.stage == 1) then
+		local dist = 50
+		local smart = SIMBOARD.smarts_by_names["agr_smart_terrain_7_5"]
+		if smart and smart.online then
+			local smrt = SIMBOARD.smarts[smart.id]
+			if smrt and (db.actor:position():distance_to(smart.position) < dist) then
+			GI("butcher_ilya_back_home")
+			end
+		end
+	end
+end
+
+--- Railway Assault ---
+
+function task_status_functor.give_sidorovich_railway_assault_status_f(tsk,task_id) 
+	if (tsk.stage == 0) then
+		if HI("assault_csky_leader_esc_5_7_start_dialog_done") then	
+			xr_effects.clear_smart_terrain(nil,nil,{"esc_smart_terrain_4_9","true"})
+			xr_effects.clear_smart_terrain(nil,nil,{"esc_smart_terrain_5_9","true"})
+			if (NI("railway_assault_stalker_init")) then
+				
+				if not (get_story_se_object("stalker_assault_esc_5_9")) then 
+					printe("!Control railway assault stage 1")
+					local smart = SIMBOARD.smarts_by_names["esc_smart_terrain_4_9"]           
+					local squad = SIMBOARD:create_squad(smart,"stalker_assault_esc_5_9")
+					local squad_2 = SIMBOARD:create_squad(smart,"stalker_assault_esc_5_9_leader")
+					GI("railway_assault_stalker_init")
+					tsk.stage = 1
+					return
+				end        
+			end
+		end
+	end
+	if (tsk.stage == 1) then
+		printe("!Control railway assault stage 2")
+		local dist = 75
+		local smart = SIMBOARD.smarts_by_names["esc_smart_terrain_6_8"]
+		if smart and smart.online then
+			local smrt = SIMBOARD.smarts[smart.id]
+			if smrt and (db.actor:position():distance_to(smart.position) < dist) then
+				if (NI("railway_assault_bandit_ref_init")) then
+					if not (get_story_se_object("bandit_reinforcment_esc_6_8")) then 
+						printe("Control vengeance stage 2")
+						local smart_2 = SIMBOARD.smarts_by_names["esc_smart_terrain_7_11"]           
+						local squad = SIMBOARD:create_squad(smart_2,"bandit_reinforcment_esc_6_8")
+						GI("railway_assault_bandit_ref_init")
+						
+						return
+					end        
+				end			
+			end
+		end	
+	end	
+end
+
+
+function task_status_functor.give_sidorovich_railway_assault_2_status_f(tsk,task_id) 
+	if (tsk.stage == 0) then
+		local dist = 150
+		local smart = SIMBOARD.smarts_by_names["esc_smart_terrain_7_11"]
+		if smart and smart.online then				
+			local smrt = SIMBOARD.smarts[smart.id]
+			if smrt and (db.actor:position():distance_to(smart.position) < dist) then
+				xr_effects.clear_smart_terrain(nil,nil,{"esc_smart_terrain_7_11","true"})
+				if NI("bandit_reinforcment_esc_7_11") then
+					local smart = SIMBOARD.smarts_by_names["esc_smart_terrain_7_11"]           
+					local squad = SIMBOARD:create_squad(smart,"bandit_reinforcment_esc_7_11")
+					GI("bandit_reinforcment_esc_7_11")
+					tsk.stage = 1
+					return					
+				end	
+			end
+		end
+	end
+	if (tsk.stage == 1) then
+		local dist = 50
+		local smart = SIMBOARD.smarts_by_names["esc_smart_terrain_7_11"]
+		if smart and smart.online then				
+			local smrt = SIMBOARD.smarts[smart.id]
+			if smrt and (db.actor:position():distance_to(smart.position) < dist) then
+				xr_effects.clear_smart_terrain(nil,nil,{"esc_smart_terrain_4_9","true"})
+				xr_effects.clear_smart_terrain(nil,nil,{"esc_smart_terrain_5_9","true"})
+				if NI("railway_assault_stalker_init") then
+					local smart = SIMBOARD.smarts_by_names["esc_smart_terrain_4_9"]           
+					local squad = SIMBOARD:create_squad(smart,"stalker_assault_esc_5_9")
+					local squad_2 = SIMBOARD:create_squad(smart,"stalker_assault_esc_5_9_leader")
+					GI("railway_assault_stalker_init")
+					GI("esc_railway_assault_go")
+					dialogs_brotherhood.send_railway_assault_message_1()
+					return
+				end
+			end
+		end
+	end
+end
+--- Dolg Hunter ---
+
+function task_status_functor.give_dolg_bloodsucker_village_2_status_f(tsk,task_id)
+    local npc_1 = get_story_object("dolg_vadim_bloodsucker")
+	local npc_2 = get_story_object("dolg_sasha_bloodsucker")
+	local npc_3 = get_story_object("dolg_sergey_bloodsucker")
+	local hrs = level.get_time_hours()
+	if (tsk.stage == 0) then
+			
+		if npc_1 and npc_1:object("killer_patch") and npc_2 and npc_2:object("killer_patch") and npc_3 and npc_3:object("killer_patch") then
+			
+			if (hrs >= 5) and (hrs < 22) then
+				give_info("bloodsucker_raid_has_killer_patch_fail")
+				news_manager.send_tip(db.actor, game.translate_string("st_freedom_voronin_bloodsucker_news_0"), 0, "freedom", 11000, 1)
+				
+			else
+				give_info("bloodsucker_raid_has_killer_patch_done")
+				
+			return	
+			end
+			
+		end
+	end
+end
+
+function task_status_functor.give_dolg_bloodsucker_village_1_status_f(tsk,task_id) 
+	if (tsk.stage == 0) then			
+		if HI("pack_bloodsuckers_dolg_1_dead") and HI("pack_bloodsuckers_dolg_2_dead") and HI("pack_bloodsuckers_dolg_3_dead") then
+			
+				give_info("pack_bloodsuckers_dolg_1_all_dead")
+				return		
+		end
+	end
+end
+
+function task_status_functor.give_dolg_bloodsucker_village_3_status_f(tsk,task_id) 
+	if (tsk.stage == 0) then
+		
+		local dist = 50
+		local smart = SIMBOARD.smarts_by_names["mil_smart_terrain_7_4"]
+		if smart and smart.online then
+			local smrt = SIMBOARD.smarts[smart.id]
+			if smrt and (db.actor:position():distance_to(smart.position) < dist) then
+				if NI("dolg_artyom_bloodsucker_0_done") then
+					if (NI("dolg_ilya_bloodsucker_init")) then
+						if not (get_story_se_object("dolg_ilya_bloodsucker_squad")) then 
+							
+							local smart_2 = SIMBOARD.smarts_by_names["mil_smart_terrain_8_3"]           
+							local squad = SIMBOARD:create_squad(smart_2,"dolg_ilya_bloodsucker_og_squad")
+							local squad_2 = SIMBOARD:create_squad(smart_2,"dolg_ilya_bloodsucker_squad")
+							GI("dolg_ilya_bloodsucker_init")
+							return
+						end        
+					end
+				else
+					if (NI("dolg_ilya_bloodsucker_init")) then
+						if not (get_story_se_object("dolg_ilya_bloodsucker_2_squad")) then 
+							
+							local smart_2 = SIMBOARD.smarts_by_names["mil_smart_terrain_8_3"]
+							local squad = SIMBOARD:create_squad(smart_2,"dolg_ilya_bloodsucker_og_squad")
+							local squad_2 = SIMBOARD:create_squad(smart_2,"dolg_ilya_bloodsucker_2_squad")
+							GI("dolg_ilya_bloodsucker_init")
+							return
+						end        
+					end				
+				end
+			end
+		end
+	end
+end
+
+
+function task_status_functor.give_hunt_legendary_1_status_f(tsk,task_id) 
+	if (tsk.stage == 0) then
+		printe("Control vengeance stage 0")
+		local hrs = level.get_time_hours()
+		if not (hrs >= 5) and (hrs < 22) then
+			local dist = 75
+			local smart = SIMBOARD.smarts_by_names["red_smart_terrain_monsters"]
+			if smart and smart.online then
+				local smrt = SIMBOARD.smarts[smart.id]
+				if smrt and (db.actor:position():distance_to(smart.position) < dist) then
+					if NI("forester_news_legendary_1") then
+					news_manager.send_tip(db.actor, game.translate_string("st_forester_legendary_1_info"), 0, "stalker", 11000, 1)
+					GI("forester_news_legendary_1")
+					printe("Control vengeance stage 1")
+						if db.actor:item_in_slot(7) ~= nil and db.actor:item_in_slot(7):section() == "trenchcoat_green_outfit_brotherhood_forester" then
+							if (NI("hunt_vlad_drakul_1_init")) then
+								if not (get_story_se_object("legendary_bloodsucker_1")) then 
+								printe("Control vengeance stage 2")
+								local smart_2 = SIMBOARD.smarts_by_names["red_smart_terrain_monsters"]           
+								local squad = SIMBOARD:create_squad(smart_2,"legendary_bloodsucker_1")
+								GI("hunt_vlad_drakul_1_init")
+								tsk.stage = 1
+								return
+								end        
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+	if (tsk.stage == 1) then
+		printe("Control vengeance stage 3")
+		if HI("legendary_bloodsucker_1_dead") then
+			local hrs = level.get_time_hours()
+			if not (hrs >= 5) and (hrs < 22) then
+				if NI("forester_news_legendary_2") then
+				news_manager.send_tip(db.actor, game.translate_string("st_forester_legendary_2_info"), 0, "stalker", 11000, 1)
+				GI("forester_news_legendary_2")
+				local dist = 75
+				local smart = SIMBOARD.smarts_by_names["red_smart_terrain_monsters"]
+					if smart and smart.online then
+						local smrt = SIMBOARD.smarts[smart.id]
+						if smrt and (db.actor:position():distance_to(smart.position) < dist) then
+							if db.actor:item_in_slot(7) ~= nil and db.actor:item_in_slot(7):section() == "trenchcoat_green_outfit_brotherhood_forester" then
+							printe("Control vengeance stage 4")
+								if (NI("hunt_vlad_drakul_2_init")) then
+									if not (get_story_se_object("legendary_bloodsucker_2")) then 
+										printe("Control vengeance stage 5")
+										local smart_2 = SIMBOARD.smarts_by_names["red_smart_terrain_monsters"]           
+										local squad = SIMBOARD:create_squad(smart_2,"legendary_bloodsucker_2")
+										GI("hunt_vlad_drakul_2_init")
+								
+									return
+								end        
+							end
+						end
+					end
+				end
+				end
+			else
+				if NI("forester_news_legendary_3") then
+				news_manager.send_tip(db.actor, game.translate_string("st_forester_legendary_3_info"), 0, "stalker", 11000, 1)
+				GI("forester_news_legendary_3")
+				end
+			end
+		end
+	end
+end
+
+
+function task_status_functor.give_rpg_missile_in_the_sky_status_f(tsk,task_id) 
+	if (tsk.stage == 0) then
+	printe("Control RPG in the sky running")
+		if level.name() == "l01_escape" then
+			printe("Control RPG in the sky on level")
+			if (is_empty(db.heli)) then
+				printe("Control RPG in the sky spawning heli")
+				local pos = vector():set( -25.020586013794,-12.214082717896,-117.88251495361 )
+				local heli_se = alife_create("helicopter",pos,268396,555)
+				tsk.stage = 1
+			else
+				printe("Control RPG in the sky heli already spawned")
+				tsk.stage = 1
+			end
+		end
+	end
+	if (tsk.stage == 1) then
+		printe("Control RPG in the sky task stage 1")
+		
+	end	
+end

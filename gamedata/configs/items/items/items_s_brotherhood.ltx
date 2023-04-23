@@ -1,0 +1,434 @@
+;;--;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;--;;;;;;; Items for Stories from the Zone ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;--;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;-- Section configs for 'cooking kits' - items which initiate the manual cooking UI. Kits are allowed to use other items as 'materials' boosting cooking efficiency. 19.10.2013 ponney68
+
+
+;;--==========================< Strange Sausage >=============================
+[kolbasa_strange]:booster
+$spawn 						                       = "food and drugs\kolbasa_strange"
+visual						                       = dynamics\devices\dev_kolbasa\dev_kolbasa.ogf
+kind			                               = i_food
+description					                       = st_kolbasa_strange_descr
+cost						                       = 437
+inv_name					                       = st_kolbasa_strange
+inv_name_short				                       = st_kolbasa_strange
+inv_weight					                       = 0.328
+inv_grid_width				                       = 1
+inv_grid_height				                       = 1
+inv_grid_x					                       = 2
+inv_grid_y					                       = 63
+attach_angle_offset			                       = 0.440521, 1.378287, -0.644026
+attach_position_offset		                       = 0.104196, -0.010821, 0.076969
+attach_bone_name			                       = bip01_r_hand
+auto_attach					                       = false
+bone_name					                       = bip01_r_hand
+position_offset				                       = 0.0,0.0,0.0 0.117
+angle_offset				                       = 1.570790,1.570790,3.92699
+eat_health					                       = -0.048
+eat_satiety					                       = 0.732
+eat_sleepiness				                       = 0.0192
+eat_thirstiness				                       = 0.6
+use_sound					                       = interface\inv_eat_paperwrap
+
+
+
+;;--==========================< Brotherhood Questline >=============================
+[quest_package_vybegallo]:tch_quest
+$spawn                                   = "quest_items\quest_package_vybegallo"
+kind			                     = i_quest
+visual                                   = dynamics\equipments\trade\kit_hunt.ogf
+story_id                                 = quest_package_vybegallo
+;quest_item                             = true
+inv_weight                               = 5.42
+inv_grid_width                           = 2
+inv_grid_height                          = 2
+inv_grid_x                               = 4
+inv_grid_y                               = 77
+inv_name                                 = quest_package_vybegallo_name
+inv_name_short                           = quest_package_vybegallo_name
+description                              = quest_package_vybegallo_desc
+can_trade                                = false
+cost                                     = 0
+
+
+
+
+
+;;--==========================< Fake Artifact Questline >=============================
+
+[af_gold_fish_fake_1]:af_base
+
+kind			                     			= i_quest
+can_trade                                        = false
+quest_item                             			 = true
+class				                             = ARTEFACT
+visual				                             = dynamics\artefacts\af_gold_fish.ogf
+description			                             = st_af_gold_fish_fake_1_descr
+inv_name			                             = st_af_gold_fish_fake_1_name
+inv_name_short		                             = st_af_gold_fish_fake_1_name
+inv_weight			                             = 1.49		;5.09
+inv_grid_x			                             = 3
+inv_grid_y			                             = 71
+cost				                             = 66200
+jump_height			                             = 1
+particles					                     = artefact\af_gravi_idle
+det_show_particles		                         = artefact\af_gravi_show
+det_hide_particles		                         = artefact\af_gravi_hide
+af_rank				                             = 3
+lights_enabled                                   = true
+trail_light_color 		                         = 0.4,0.4,0
+trail_light_range 		                         = 2.0
+artefact_activation_seq		                     = af_activation_gravi
+hit_absorbation_sect                             = af_gold_fish_fake_absorbation
+radiation_restore_speed = 0.00047
+
+
+
+
+
+[af_gold_fish_fake_1_lead_box]:lead_box_closed
+inv_weight                               = 2.59 ;8.56;;--12.97 W;;--
+description                              = st_af_gold_fish_fake_1_lead_box_descr
+inv_name                                 = st_af_gold_fish_fake_1_lead_box_name
+inv_name_short                           = st_af_gold_fish_fake_1_lead_box_name
+1icon_layer                              = af_gold_fish
+
+[af_gold_fish_fake_2]:af_base
+
+kind			                     			= i_quest
+can_trade                                        = false
+quest_item                             			 = true
+class				                             = ARTEFACT
+visual				                             = dynamics\artefacts\af_gold_fish.ogf
+description			                             = st_af_gold_fish_fake_2_descr
+inv_name			                             = st_af_gold_fish_fake_2_name
+inv_name_short		                             = st_af_gold_fish_fake_2_name
+inv_weight			                             = 1.49		;5.09
+inv_grid_x			                             = 3
+inv_grid_y			                             = 71
+cost				                             = 66200
+jump_height			                             = 1
+particles					                     = artefact\af_gravi_idle
+det_show_particles		                         = artefact\af_gravi_show
+det_hide_particles		                         = artefact\af_gravi_hide
+af_rank				                             = 3
+lights_enabled                                   = true
+trail_light_color 		                         = 0.4,0.4,0
+trail_light_range 		                         = 2.0
+artefact_activation_seq		                     = af_activation_gravi
+hit_absorbation_sect                             = af_gold_fish_fake_absorbation
+radiation_restore_speed = 0.00047
+
+
+[af_gold_fish_fake_absorbation]:af_base_absorbation
+strike_immunity = 0
+explosion_immunity = 0
+wound_immunity = 0
+
+[af_gold_fish_fake_2_lead_box]:lead_box_closed
+inv_weight                               = 2.59 ;8.56;;--12.97 W;;--
+description                              = st_af_gold_fish_fake_2_lead_box_descr
+inv_name                                 = st_af_gold_fish_fake_2_lead_box_name
+inv_name_short                           = st_af_gold_fish_fake_2_lead_box_name
+1icon_layer                              = af_gold_fish
+
+
+
+
+----- Market Share -----
+
+[itm_pda_mercenary_1]:tch_quest
+
+kind			                     = i_quest
+visual                                   = dynamics\devices\dev_pda\dev_pda.ogf
+can_trade                                              = false
+quest_item                              = true
+description                                            = st_pda_mercenary_1_descr
+inv_name                                               = st_pda_mercenary_1_name
+inv_name_short                                         = st_pda_mercenary_1_name
+cost                                     = 0
+inv_grid_x                                         = 7
+inv_grid_y                                         = 3
+upgr_icon_path								 = ui\actor_items\ui_actor_items_1
+upgr_icon_x								 	 = 150
+upgr_icon_y								 	 = 0
+upgr_icon_width						 	 	 = 150
+upgr_icon_height						 	 = 100
+
+[itm_usb_mercenary_1]:tch_quest
+quest_item                              = true
+can_trade                                              = false
+description                                            = st_itm_usb_mercenary_1_descr
+inv_grid_x                                             = 8
+inv_grid_y                                             = 3
+inv_name                                               = st_itm_usb_mercenary_1_name
+inv_name_short                                         = st_itm_usb_mercenary_1_name
+kind								                   = i_device
+
+[ms_owl_documents_1]:tch_quest
+
+kind			                     = i_quest
+can_trade                                              = false
+quest_item                              = true
+visual				                     = dynamics\equipments\quest\notes_document_case_2.ogf
+description                              = st_ms_owl_documents_1_desc
+inv_name			                     = st_ms_owl_documents_1_name
+inv_name_short		                     = st_ms_owl_documents_1_name
+inv_weight			                     = 0.5
+inv_grid_width                           = 2
+inv_grid_height                          = 1
+inv_grid_x                               = 2
+inv_grid_y                               = 15
+cost				                     = 0
+story_id			                     = ms_owl_documents_1
+
+
+
+
+
+
+
+
+
+
+------Vybegallo------
+
+
+
+[sakharov_order_vybegallo]:tch_quest
+kind			                     = i_quest
+can_trade                                              = false
+quest_item                              = true
+inv_grid_x                               = 0
+inv_grid_y                               = 14
+cost                                     = 0
+visual                                   = dynamics\equipments\trade\book1.ogf
+description                              = st_sakharov_order_vybegallo_descr
+inv_name                                 = st_sakharov_order_vybegallo_name
+inv_name_short                           = st_sakharov_order_vybegallo_name
+
+[vybegallo_order_mercenary]:tch_quest
+kind			                     = i_quest
+can_trade                                              = false
+quest_item                              = true
+inv_grid_x                               = 3
+inv_grid_y                               = 14
+cost                                     = 0
+visual                                   = dynamics\equipments\quest\notes_letter_1.ogf
+description                              = st_vybegallo_order_mercenary_descr
+inv_name                                 = st_vybegallo_order_mercenary_name
+inv_name_short                           = st_vybegallo_order_mercenary_name
+
+[af_grid_prototype]:af_base
+$spawn				                               = "artefacts\af_grid_up_s"
+kind			                               = i_attach
+class				                               = SCRPTART  	; будет подпрыгивать
+visual                                             = dynamics\equipments\aa\frames
+description			                               = st_af_grid_prototype_descr
+inv_name			                               = st_af_grid_prototype_name
+inv_name_short			                           = st_af_grid_prototype_name
+inv_weight			                               = 1.00
+inv_grid_x			                               = 2
+inv_grid_y			                               = 19
+inv_grid_width			                           = 1
+inv_grid_height			                           = 1
+cost				                               = 24800 ; 6200
+1icon_layer_x       	                           = 0
+1icon_layer_y      		                           = 0
+1icon_layer_scale   	                           = 1
+1icon_layer        	                               = tch_upgr_ico
+jump_height			                               = 0.0
+;particles		                                   = artefact\af_thermal_idle
+det_show_particles		                           = artefact\af_thermal_show
+det_hide_particles		                           = artefact\af_thermal_hide
+particles_bone			                           = joint2
+af_rank				                               = 0
+lights_enabled                                     = false
+trail_light_color 		                           = 0.9,0.4,0.2
+trail_light_range 		                           = 2.0
+attach_angle_offset		                           = 1.922,1.551,-0.740   
+attach_position_offset                             = 0.15,0.002,0.25
+attach_bone_name		                           = bip01_r_hand
+auto_attach			                               = false
+;скорости увеличения (уменьшения)
+health_restore_speed		                       = 0
+radiation_restore_speed		                       = 0
+satiety_restore_speed		                       = 0
+power_restore_speed		                           = 0
+bleeding_restore_speed		                       = 0
+hit_absorbation_sect		                       = af_grid_up_absorbation
+additional_inventory_weight		                   = 10.97	;20.97
+additional_inventory_weight2		               = 10.97	;20.97
+artefact_activation_seq		                       = af_activation_bold
+repair_part_bonus	 	                           = 0.11
+tier = 6
+[af_grid_up_s_absorbation]
+burn_immunity 			                           = 0				;коэффициенты иммунитета
+strike_immunity 		                           = 0
+shock_immunity 			                           = -0.032
+wound_immunity 			                           = 0
+radiation_immunity 		                           = 0
+telepatic_immunity 		                           = 0.00862	; 200 mT
+chemical_burn_immunity 		                       = 0
+explosion_immunity 		                           = 0
+fire_wound_immunity  		                       = 0
+
+
+
+
+
+
+
+
+
+----- Morphine ------
+
+
+
+[polyakov_note_1]:tch_quest
+inv_grid_x                               = 3
+inv_grid_y                               = 14
+cost                                     = 0
+visual                                   = dynamics\equipments\quest\notes_letter_1.ogf
+description                              = st_polyakov_note_1_descr
+inv_name                                 = st_polyakov_note_1_name
+inv_name_short                           = st_polyakov_note_1_name
+kind			                     = i_quest
+can_trade                                              = false
+quest_item                              = true
+
+[polyakov_note_2]:tch_quest
+inv_grid_x                               = 3
+inv_grid_y                               = 14
+cost                                     = 0
+visual                                   = dynamics\equipments\quest\notes_letter_1.ogf
+description                              = st_polyakov_note_2_descr
+inv_name                                 = st_polyakov_note_2_name
+inv_name_short                           = st_polyakov_note_2_name
+kind			                     = i_quest
+can_trade                                              = false
+quest_item                              = true
+
+[polyakov_note_3]:tch_quest
+inv_grid_x                               = 3
+inv_grid_y                               = 14
+cost                                     = 0
+visual                                   = dynamics\equipments\quest\notes_letter_1.ogf
+description                              = st_polyakov_note_3_descr
+inv_name                                 = st_polyakov_note_3_name
+inv_name_short                           = st_polyakov_note_3_name
+kind			                     = i_quest
+can_trade                                              = false
+quest_item                              = true
+
+[polyakov_note_4]:tch_quest
+inv_grid_x                               = 3
+inv_grid_y                               = 14
+cost                                     = 0
+visual                                   = dynamics\equipments\quest\notes_letter_1.ogf
+description                              = st_polyakov_note_4_descr
+inv_name                                 = st_polyakov_note_4_name
+inv_name_short                           = st_polyakov_note_4_name
+kind			                     = i_quest
+can_trade                                              = false
+quest_item                              = true
+
+[polyakov_note_5]:tch_quest
+inv_grid_x                               = 3
+inv_grid_y                               = 14
+cost                                     = 0
+visual                                   = dynamics\equipments\quest\notes_letter_1.ogf
+description                              = st_polyakov_note_5_descr
+inv_name                                 = st_polyakov_note_5_name
+inv_name_short                           = st_polyakov_note_5_name
+kind			                     = i_quest
+can_trade                                              = false
+quest_item                              = true
+
+
+
+[polyakov_note_6]:tch_quest
+inv_grid_x                               = 3
+inv_grid_y                               = 14
+cost                                     = 0
+visual                                   = dynamics\equipments\quest\notes_letter_1.ogf
+description                              = st_polyakov_note_6_descr
+inv_name                                 = st_polyakov_note_6_name
+inv_name_short                           = st_polyakov_note_6_name
+kind			                     = i_quest
+can_trade                                              = false
+quest_item                              = true
+
+[polyakov_note_7]:tch_quest
+inv_grid_x                               = 3
+inv_grid_y                               = 14
+cost                                     = 0
+visual                                   = dynamics\equipments\quest\notes_letter_1.ogf
+description                              = st_polyakov_note_7_descr
+inv_name                                 = st_polyakov_note_7_name
+inv_name_short                           = st_polyakov_note_7_name
+kind			                     = i_quest
+can_trade                                              = false
+quest_item                              = true
+
+[polyakov_note_8]:tch_quest
+inv_grid_x                               = 3
+inv_grid_y                               = 14
+cost                                     = 0
+visual                                   = dynamics\equipments\quest\notes_letter_1.ogf
+description                              = st_polyakov_note_8_descr
+inv_name                                 = st_polyakov_note_8_name
+inv_name_short                           = st_polyakov_note_8_name
+kind			                     = i_quest
+can_trade                                              = false
+quest_item                              = true
+
+[polyakov_note_9]:tch_quest
+inv_grid_x                               = 3
+inv_grid_y                               = 14
+cost                                     = 0
+visual                                   = dynamics\equipments\quest\notes_letter_1.ogf
+description                              = st_polyakov_note_9_descr
+inv_name                                 = st_polyakov_note_9_name
+inv_name_short                           = st_polyakov_note_9_name
+kind			                     = i_quest
+can_trade                                              = false
+quest_item                              = true
+
+[polyakov_note_10]:tch_quest
+inv_grid_x                               = 3
+inv_grid_y                               = 14
+cost                                     = 0
+visual                                   = dynamics\equipments\quest\notes_letter_1.ogf
+description                              = st_polyakov_note_10_descr
+inv_name                                 = st_polyakov_note_10_name
+inv_name_short                           = st_polyakov_note_10_name
+kind			                     = i_quest
+can_trade                                              = false
+quest_item                              = true
+
+[polyakov_note_11]:tch_quest
+inv_grid_x                               = 3
+inv_grid_y                               = 14
+cost                                     = 0
+visual                                   = dynamics\equipments\quest\notes_letter_1.ogf
+description                              = st_polyakov_note_11_descr
+inv_name                                 = st_polyakov_note_11_name
+inv_name_short                           = st_polyakov_note_11_name
+kind			                     = i_quest
+can_trade                                              = false
+quest_item                              = true
+
+[polyakov_note_12]:tch_quest
+inv_grid_x                               = 3
+inv_grid_y                               = 14
+cost                                     = 0
+visual                                   = dynamics\equipments\quest\notes_letter_1.ogf
+description                              = st_polyakov_note_12_descr
+inv_name                                 = st_polyakov_note_12_name
+inv_name_short                           = st_polyakov_note_12_name
+kind			                     = i_quest
+can_trade                                              = false
+quest_item                              = true

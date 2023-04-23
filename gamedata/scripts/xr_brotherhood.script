@@ -1,0 +1,11 @@
+---Custom conditions for Stories from the Zone
+
+
+xr_conditions.dist_to_beh = function(actor,npc,p)   --- Ghentuong
+	local st = npc and db.storage[npc:id()]
+	local dt = st and st.beh and st.beh.desired_target
+	if (dt and (st.active_section == dt.active_section) and dt.position) then
+		return p and p[1] and npc:position():distance_to_sqr(dt.position) < p[1]*p[1]
+	end
+	return false
+end

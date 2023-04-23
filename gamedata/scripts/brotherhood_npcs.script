@@ -1,0 +1,236 @@
+---remove spawn zaton_mercenary_1_squad
+
+
+
+
+local HI = has_alife_info
+local GI = give_info
+local DI = disable_info
+function NI(str)
+	return not (has_alife_info(str))
+end
+------- GENERAL Functions --------
+function actor_on_first_update()
+    marlo_stanfield_init()
+    chris_partlow_init()
+    zaton_eitri_init()
+    zaton_brokkr_init()
+	anna_morphine_init()
+	zaton_achilles_init()
+	vybegallo_init()
+	sasha_tolstoy_init()
+	ilya_muromets_init()
+end
+
+
+
+function on_game_start()
+    RegisterScriptCallback("actor_on_first_update",actor_on_first_update)
+    RegisterScriptCallback("npc_on_net_spawn", npc_on_net_spawn_1)
+	RegisterScriptCallback("npc_on_net_spawn", npc_on_net_spawn_2)
+end
+
+function marlo_stanfield_init()
+    if (NI("marlo_stanfield_init")) then
+        if not (get_story_se_object("marlo_stanfield")) then            
+            local pos = vector():set( -7.0992422103882,23.103616714478,245.94242858887 )           
+            local se_obj = alife_create( "marlo_stanfield", pos, 703991, 4556 )
+			
+			
+        end        
+        if (get_story_se_object("marlo_stanfield")) then            
+            GI("marlo_stanfield_init")
+        end
+    end
+	
+end
+
+function chris_partlow_init()
+    if (NI("chris_partlow_init")) then
+        if not (get_story_se_object("chris_partlow")) then            
+            local pos = vector():set( -9.5265302658081,23.103614807129,245.18560791016 )           
+            local se_obj = alife_create( "chris_partlow", pos, 699550, 4556 )
+			
+        end        
+        if (get_story_se_object("chris_partlow")) then            
+            GI("chris_partlow_init")
+        end
+    end
+	
+end
+
+function ilya_muromets_init()
+    if (NI("ilya_muromets_init")) then
+        if not (get_story_se_object("ilya_muromets_squad")) then            
+            local smart = SIMBOARD.smarts_by_names["gar_smart_terrain_3_5"]           
+            local squad = SIMBOARD:create_squad(smart,"ilya_muromets_squad")
+        end        
+        if (get_story_se_object("ilya_muromets_squad")) then            
+            GI("ilya_muromets_init")
+        end
+    end
+end
+
+
+function zaton_brokkr_init()
+    if (NI("zaton_brokkr_init")) then
+        if not (get_story_se_object("zaton_brokkr_squad")) then            
+            local smart = SIMBOARD.smarts_by_names["jup_b41"]           
+            local squad = SIMBOARD:create_squad(smart,"zaton_brokkr_squad")
+        end        
+        if (get_story_se_object("zaton_brokkr_squad")) then            
+            GI("zaton_brokkr_init")
+        end
+    end
+end
+
+function zaton_eitri_init()
+    if (NI("zaton_eitri_init")) then
+        if not (get_story_se_object("zaton_eitri_squad")) then            
+            local smart = SIMBOARD.smarts_by_names["zat_stalker_base_smart"]           
+            local squad = SIMBOARD:create_squad(smart,"zaton_eitri_squad")
+        end        
+        if (get_story_se_object("zaton_eitri_squad")) then            
+            GI("zaton_eitri_init")
+        end
+    end
+end
+
+function zaton_achilles_init()
+    if (NI("zaton_achilles_init")) then
+        if not (get_story_se_object("zaton_achilles_squad")) then            
+            local smart = SIMBOARD.smarts_by_names["zat_stalker_base_smart"]           
+            local squad = SIMBOARD:create_squad(smart,"zaton_achilles_squad")
+        end        
+        if (get_story_se_object("zaton_achilles_squad")) then            
+            GI("zaton_achilles_init")
+        end
+    end
+end
+
+function sasha_tolstoy_init()
+    if (NI("sasha_tolstoy_init")) then
+        if not (get_story_se_object("sasha_tolstoy_squad")) then            
+            local smart = SIMBOARD.smarts_by_names["mar_smart_terrain_base"]           
+            local squad = SIMBOARD:create_squad(smart,"sasha_tolstoy_squad")
+        end        
+        if (get_story_se_object("sasha_tolstoy_squad")) then            
+            GI("sasha_tolstoy_init")
+        end
+    end
+end
+
+function vybegallo_init()
+    if (NI("vybegallo_init")) then
+        if not (get_story_se_object("vybegallo_squad")) then            
+            local smart = SIMBOARD.smarts_by_names["agr_smart_terrain_4_4"]           
+            local squad = SIMBOARD:create_squad(smart,"vybegallo_squad")
+        end        
+        if (get_story_se_object("vybegallo_squad")) then            
+            GI("vybegallo_init")
+        end
+    end
+end
+
+
+function zaton_mercenary_1_init()
+    if (NI("zaton_mercenary_1_init")) then
+        if not (get_story_se_object("zaton_mercenary_1_squad")) then            
+            local smart = SIMBOARD.smarts_by_names["zat_b40_smart_terrain"]           
+            local squad = SIMBOARD:create_squad(smart,"zaton_mercenary_1_squad")
+        end        
+        if (get_story_se_object("zaton_mercenary_1_squad")) then            
+            GI("zaton_mercenary_1_init")
+        end
+    end
+end
+
+function anna_morphine_init()
+    if (NI("anna_morphine_init")) then
+        if not (get_story_se_object("anna_morphine_squad")) then            
+            local smart = SIMBOARD.smarts_by_names["jup_a6"]           
+            local squad = SIMBOARD:create_squad(smart,"anna_morphine_squad")
+        end        
+        if (get_story_se_object("anna_morphine_squad")) then            
+            GI("anna_morphine_init")
+        end
+    end
+end
+
+function npc_on_net_spawn_1(npc,se_obj)
+    local chris_partlow = get_story_object("chris_partlow")
+    if chris_partlow and npc:id() == chris_partlow:id() then
+      setup_npc_logic_brotherhood_1()
+    end
+end
+
+function npc_on_net_spawn_2(npc,se_obj)
+    local marlo_stanfield = get_story_object("marlo_stanfield")
+    if marlo_stanfield and npc:id() == marlo_stanfield:id() then
+      setup_npc_logic_brotherhood_2()
+    end
+end
+
+function setup_npc_logic_brotherhood_1()
+	
+		local npc = get_story_object("chris_partlow")
+		npc:give_info_portion("npc_not_move")
+	
+			
+		local ltx_name = "scripts\\brotherhood_npc_control_chris.ltx"
+		local ltx = ini_file(ltx_name)
+		if not (ltx) then 
+			log("ERROR: do not have access to scripts\\brotherhood_npc_control_chris.ltx! Make sure you installed properly!")
+		return
+		end
+	
+		local id = npc:id()
+		local sim = alife()
+		local se_npc = sim:object(id)
+		local unreg_id = se_npc and se_npc.m_smart_terrain_id
+		if (unreg_id and unreg_id ~= 65535) then
+			local unreg = sim:object(unreg_id)
+			if (unreg) then
+				unreg:unregister_npc(se_npc)
+			end
+		end
+	
+		xr_logic.configure_schemes(npc, ltx, ltx_name, modules.stype_stalker, loaded and st.loaded_section_logic or "logic", "")
+	
+		local section = loaded and st.loaded_active_section or xr_logic.determine_section_to_activate(npc, ltx, "logic", db.actor)
+		xr_logic.activate_by_section(npc, ltx, section, "", loaded)
+		--printf("setup complete")
+	
+end 
+
+function setup_npc_logic_brotherhood_2()
+	
+		local npc = get_story_object("marlo_stanfield")
+		npc:give_info_portion("npc_not_move")
+	
+			
+		local ltx_name = "scripts\\brotherhood_npc_control_marlo.ltx"
+		local ltx = ini_file(ltx_name)
+		if not (ltx) then 
+			log("ERROR: do not have access to scripts\\brotherhood_npc_control.ltx! Make sure you installed properly!")
+		return
+		end
+	
+		local id = npc:id()
+		local sim = alife()
+		local se_npc = sim:object(id)
+		local unreg_id = se_npc and se_npc.m_smart_terrain_id
+		if (unreg_id and unreg_id ~= 65535) then
+			local unreg = sim:object(unreg_id)
+			if (unreg) then
+				unreg:unregister_npc(se_npc)
+			end
+		end
+	
+		xr_logic.configure_schemes(npc, ltx, ltx_name, modules.stype_stalker, loaded and st.loaded_section_logic or "logic", "")
+	
+		local section = loaded and st.loaded_active_section or xr_logic.determine_section_to_activate(npc, ltx, "logic", db.actor)
+		xr_logic.activate_by_section(npc, ltx, section, "", loaded)
+		--printf("setup complete")
+	
+end 

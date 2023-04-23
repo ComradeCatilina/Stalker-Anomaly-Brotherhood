@@ -1,0 +1,30 @@
+[logic@anna_morphine]
+   suitable = {=check_npc_name(anna_morphine)} true
+   prior = 140
+   active = beh@anna_morphine_job
+
+[beh@anna_morphine_job]
+	gather_items_enabled = false
+	behaviour_state = beh_move
+	target = waypoint
+	walk_anim = patrol
+	combat_ignore_cond = {=is_warfare} false, {=actor_true_enemy =check_enemy_name(actor)} false, true
+	combat_ignore_keep_when_attacked = {=is_warfare} false, true
+	invulnerable = {=is_warfare} false, {!actor_true_enemy} true, false
+	on_info = {=is_night} beh@sleeper_1
+	path_end = loop
+	pt1 = 100000,idle | pos:-55.309734344482,3.4870157241821,219.63102722168 look:-56.068666696548,3.4870157241821,218.98036283255
+	pt2 = 10000,idle | pos:-47.160739898682,3.5420007705688,203.17910766602 look:-48.150680363178,3.5420007705688,203.09981298447
+
+[beh@sleeper_1]
+target = waypoint
+walk_anim = patrol
+gather_items_enabled = false
+help_wounded_enabled = false
+corpse_detection_enabled = false
+combat_ignore_cond = {=is_warfare} false, {=actor_true_enemy =check_enemy_name(actor)} false, true
+combat_ignore_keep_when_attacked = {=is_warfare} false, true
+invulnerable = {=is_warfare} false, {!actor_true_enemy} true, false
+on_info = {!is_night} beh@anna_morphine_job
+path_end = loop
+pt1 = 100000,idle | pos:-50.714637756348,-0.54972273111343,202.07873535156 look:-51.613694667816,-0.54972273111343,201.88527929783

@@ -1,0 +1,431 @@
+;==============================================================
+;
+; TASKS PROVIDED FOR STORIES FROM THE ZONE (Name might be subject to changes)
+;	Anomaly 1.5.2.
+;
+;	Made by: Catilina
+;
+;==============================================================
+;------------------------------------------------------------------------------------------
+; Brotherhood QUESTLINES
+;------------------------------------------------------------------------------------------
+
+
+[give_task_kill_pack_dogs_1]
+icon = ui_inGame2_Laboratoriya_X8
+prior = 75
+storyline = false
+
+title = give_task_kill_pack_dogs_1_name
+target = 
+descr = {+delievered_package_vybegallo} give_task_kill_pack_dogs_3_descr, {=actor_has_item(quest_package_vybegallo)} give_task_kill_pack_dogs_2_descr, give_task_kill_pack_dogs_1_descr
+status_functor          = give_task_kill_pack_dogs_1_status_f
+
+condlist_0 = {+butcher_1_done} complete
+on_init = 
+on_complete = %=inc_faction_goodwill_to_actor(stalker:10) =inc_faction_goodwill_to_actor(csky:5)%
+
+[give_task_kill_pack_boars_1]
+icon = ui_inGame2_Laboratoriya_X8
+prior = 75
+storyline = false
+
+title = give_task_kill_pack_boars_1_name
+target = 
+descr = {+pack_boars_1_dead} give_task_kill_pack_boars_2_descr, give_task_kill_pack_boars_1_descr
+status_functor          = give_task_kill_pack_boars_1_status_f
+
+condlist_0 = {+butcher_2_done} complete
+on_init = 
+on_complete = %=reward_money(5000) =reward_item(meat_boar_a) =inc_faction_goodwill_to_actor(stalker:25) =inc_faction_goodwill_to_actor(dolg:10)%
+
+[give_task_kill_pack_snorks_1]
+icon = ui_inGame2_Laboratoriya_X8
+prior = 75
+storyline = false
+
+title = give_task_kill_pack_snorks_1_name
+target = 
+descr = {+pack_snorks_1_dead} give_task_kill_pack_snorks_2_descr, give_task_kill_pack_snorks_1_descr
+status_functor          = give_task_kill_pack_snorks_1_status_f
+
+condlist_0 = {+butcher_3_done} complete
+on_init = 
+on_complete = %=reward_money(5000) =reward_item(meat_flesh_a) =inc_faction_goodwill_to_actor(stalker:25) =inc_faction_goodwill_to_actor(dolg:10)%
+
+[give_task_kill_pack_snorks_2]
+icon = ui_inGame2_Laboratoriya_X8
+prior = 75
+storyline = false
+
+title = give_task_kill_pack_snorks_2_name
+target = 
+descr = {+pack_snorks_2_dead} give_task_kill_pack_snorks_2_2_descr, give_task_kill_pack_snorks_2_1_descr
+status_functor          = give_task_kill_pack_snorks_2_status_f
+
+condlist_0 = {+butcher_4_done} complete
+on_init = 
+on_complete = %=reward_money(7000) =reward_item(meat_flesh_a) =inc_faction_goodwill_to_actor(stalker:25) =inc_faction_goodwill_to_actor(dolg:10)%
+
+
+
+
+	;-------------;
+	; Dolg Quests ;
+	;-------------;
+[give_meet_aspirin_quest_1]
+icon = ui_iconsTotal_bar_crazy_veterans_quest
+prior = 20
+storyline = false
+
+title = give_meet_aspirin_quest_1_name
+target = 
+descr = give_meet_aspirin_quest_1_descr
+
+condlist_0 = {+give_meet_aspirin_quest_1_done} complete
+
+[give_meet_aspirin_quest_2]
+icon = ui_iconsTotal_bar_crazy_veterans_quest
+prior = 20
+storyline = false
+
+title = give_meet_aspirin_quest_2_name
+target = 
+descr = give_meet_aspirin_quest_2_descr
+
+condlist_0 = {+give_meet_aspirin_quest_2_done} complete
+
+[give_meet_voronin_quest_1]
+icon = ui_iconsTotal_bar_crazy_veterans_quest
+prior = 20
+storyline = false
+
+title = give_meet_voronin_quest_1_name
+target = 
+descr = give_meet_voronin_quest_1_descr
+
+condlist_0 = {+give_meet_voronin_quest_1_done} complete
+
+[give_dolg_bloodsucker_village_1]
+icon = ui_inGame2_Laboratoriya_X8
+prior = 75
+storyline = false
+
+title = give_dolg_bloodsucker_village_1_name
+target = 
+descr = {+pack_bloodsuckers_dolg_1_all_dead} give_dolg_bloodsucker_village_1_2_descr, give_dolg_bloodsucker_village_1_1_descr
+status_functor          = give_dolg_bloodsucker_village_1_status_f
+
+condlist_0 = {+give_dolg_bloodsucker_village_1_done} complete
+condlist_1 = {+give_dolg_bloodsucker_village_1_out_of_time} fail
+on_init = %=dolg_bloodsucker_out_of_time =clear_smart_terrain(mil_smart_terrain_4_2:true) =create_squad(pack_bloodsuckers_dolg_1:mil_smart_terrain_4_2) =clear_smart_terrain(mil_smart_terrain_4_3:true) =create_squad(pack_bloodsuckers_dolg_2:mil_smart_terrain_4_3) =clear_smart_terrain(mil_smart_terrain_2_10:true) =create_squad(pack_bloodsuckers_dolg_3:mil_smart_terrain_2_10)%
+on_complete = %=reward_money(7000) =inc_faction_goodwill_to_actor(dolg:120)%
+on_fail = %+give_dolg_bloodsucker_village_1_fail%
+
+[give_dolg_bloodsucker_village_2]
+icon = ui_inGame2_Laboratoriya_X8
+prior = 75
+storyline = false
+
+title = give_dolg_bloodsucker_village_2_name
+target = 
+descr = {+bloodsucker_raid_has_killer_patch_fail} give_dolg_bloodsucker_village_2_3_descr, {+bloodsucker_raid_has_killer_patch_done} give_dolg_bloodsucker_village_2_2_descr, give_dolg_bloodsucker_village_2_1_descr
+status_functor          = give_dolg_bloodsucker_village_2_status_f
+
+condlist_0 = {+give_dolg_bloodsucker_village_2_done} complete
+condlist_1 = {+give_dolg_bloodsucker_village_2_day} fail
+on_init = %=clear_smart_terrain(mil_smart_terrain_4_2:true) =create_squad(pack_bloodsuckers_dolg_1:mil_smart_terrain_4_2) =clear_smart_terrain(mil_smart_terrain_4_3:true) =create_squad(pack_bloodsuckers_dolg_2:mil_smart_terrain_4_3) =clear_smart_terrain(mil_smart_terrain_2_10:true) =create_squad(pack_bloodsuckers_dolg_3:mil_smart_terrain_2_10) =spawn_dolg_vadim_bloodsucker_dead =spawn_dolg_sasha_bloodsucker_dead =spawn_dolg_sergey_bloodsucker_dead%
+on_complete = %=inc_faction_goodwill_to_actor(dolg:-110)%
+on_fail = %=reward_money(3000)%
+
+[give_dolg_bloodsucker_village_3]
+icon = ui_iconsTotal_bar_crazy_veterans_quest
+prior = 140
+storyline = true
+
+title = give_dolg_bloodsucker_village_3_name
+target = 
+descr = give_dolg_bloodsucker_village_3_1_descr
+status_functor          = give_dolg_bloodsucker_village_3_status_f
+
+on_init = %=clear_smart_terrain(mil_smart_terrain_8_3:true) =clear_smart_terrain(mil_smart_terrain_7_4:true)%
+condlist_0 =  
+on_complete = 
+
+
+
+	;------------------;
+	; Legendary Quests ;
+	;------------------;
+
+[give_forester_hunt_vlad_drakul]
+icon = ui_iconsTotal_bar_crazy_veterans_quest
+prior = 140
+storyline = true
+
+title = give_forester_hunt_vlad_drakul_name
+target = 
+descr = {+legendary_bloodsucker_2_dead} give_forester_hunt_vlad_drakul_2_descr, give_forester_hunt_vlad_drakul_1_descr
+status_functor          = give_hunt_legendary_1_status_f
+
+on_init = 
+condlist_0 =  
+on_complete = 
+
+;------------------------------------------------------------------------------------------
+; Doctor Alyosha Karmov QUESTLINES
+;------------------------------------------------------------------------------------------
+
+[give_alyosha_karmov_trouble_1]
+icon = ui_iconsTotal_bar_crazy_veterans_quest
+prior = 140
+storyline = true
+
+title = give_alyosha_karmov_trouble_1_name
+target = 
+descr = {+alyosha_karmov_1_you_arrived} give_alyosha_karmov_trouble_1_3_descr, {+alyosha_karmov_1_go} give_alyosha_karmov_trouble_1_2_descr, give_alyosha_karmov_trouble_1_1_descr
+status_functor          = give_alyosha_karmov_trouble_1_status_f
+
+on_init = %=clear_smart_terrain(agr_smart_terrain_6_4:true) =create_squad(alyosha_karmov_squad:agr_smart_terrain_6_4) =clear_smart_terrain(agr_smart_terrain_5_3:true)%
+condlist_0 = {+alyosha_karmov_0_done} complete
+on_complete = 
+
+;------------------------------------------------------------------------------------------
+; Vybegallo QUESTLINES
+;------------------------------------------------------------------------------------------
+
+[give_vybegallo_pseudogiant]
+icon = ui_icons_cordon22
+prior = 72
+storyline = false
+
+title = bring_pseudogiant_vybegallo_name
+descr = {=actor_has_item(mutant_part_pseudogigant_eye)} bring_eye_vybegallo_descr, {=actor_has_item(mutant_part_pseudogigant_hand)} bring_hand_vybegallo_descr, {=actor_has_item(hide_pseudogiant)} bring_hide_vybegallo_descr, bring_part_vybegallo_descr
+target = {=actor_has_item(mutant_part_pseudogiant_eye)} vybegallo, {=actor_has_item(mutant_part_pseudogiant_hand)} vybegallo, {=actor_has_item(hide_pseudogiant)} vybegallo
+
+condlist_0 = {+vybegallo_quest_1_done} complete
+condlist_1 = {+vybegallo_sakharov_order_done} fail
+
+[give_meet_vybegallo_quest]
+icon = ui_iconsTotal_bar_crazy_veterans_quest
+prior = 20
+storyline = true
+
+title = give_meet_vybegallo_quest_name
+target = 
+descr = give_meet_vybegallo_quest_descr
+
+condlist_0 = {+give_meet_vybegallo_quest_done} complete
+
+
+[give_sakharov_order_vybegallo_quest]
+icon = ui_iconsTotal_bar_crazy_veterans_quest
+prior = 20
+storyline = true
+
+title = give_sakharov_order_vybegallo_quest_name
+target = 
+descr = {+vybegallo_sakharov_order_done} give_sakharov_order_vybegallo_quest_2_descr, give_sakharov_order_vybegallo_quest_1_descr
+
+condlist_0 = {+give_sakharov_order_vybegallo_quest_done} complete
+on_complete = %=spawn_vybegallo_order_mercenary =reward_item(medkit) =reward_item(antirad) =reward_money(1000)%
+
+
+[give_vybegallo_must_die]
+icon = ui_iconsTotal_bar_crazy_veterans_quest
+prior = 20
+storyline = true
+
+title = give_vybegallo_must_die_name
+target = 
+descr = {+vybegallo_dead} give_vybegallo_must_die_2_descr, give_vybegallo_must_die_1_descr
+
+condlist_0 = {+give_vybegallo_must_die_done} complete
+on_complete = %=reward_item(af_grid_prototype)%
+
+;------------------------------------------------------------------------------------------
+; Cordon QUESTLINES
+;------------------------------------------------------------------------------------------
+
+[give_sidorovich_railway_assault]
+icon = ui_inGame2_Laboratoriya_X8
+prior = 75
+storyline = false
+
+title = give_sidorovich_railway_assault_name
+target =
+descr = {+bandit_reinforcment_esc_6_8_dead} give_sidorovich_railway_assault_5_descr, {+bandit_guards_esc_6_8_dead} give_sidorovich_railway_assault_4_descr, {+esc_railway_assault_go} give_sidorovich_railway_assault_3_descr, {+esc_railway_assault_ready} give_sidorovich_railway_assault_2_descr, give_sidorovich_railway_assault_1_descr
+status_functor = give_sidorovich_railway_assault_status_f
+
+
+condlist_0 = {+esc_railway_assault_done} complete
+on_init = %=clear_smart_terrain(esc_smart_terrain_5_9:true) =clear_smart_terrain(esc_smart_terrain_4_9:true) =create_squad(csky_assault_esc_5_7:esc_smart_terrain_5_7) =create_squad(csky_assault_esc_5_7_leader:esc_smart_terrain_5_7) =clear_smart_terrain(esc_smart_terrain_6_8:true) =create_squad(bandit_guards_esc_6_8:esc_smart_terrain_6_8)%
+on_complete = %=reward_money(3500) =inc_faction_goodwill_to_actor(stalker:25)%
+
+[give_sidorovich_railway_assault_2]
+icon = ui_inGame2_Laboratoriya_X8
+prior = 75
+storyline = false
+
+title = give_sidorovich_railway_assault_2_name
+target =
+descr = {+bandit_guards_esc_6_8_dead +bandit_reinforcment_esc_7_11_dead} give_sidorovich_railway_assault_2_3_descr, {+bandit_reinforcment_esc_7_11_dead} give_sidorovich_railway_assault_2_2_descr, give_sidorovich_railway_assault_2_1_descr
+status_functor = give_sidorovich_railway_assault_2_status_f
+
+
+condlist_0 = {+esc_railway_assault_done} complete
+on_init = %=clear_smart_terrain(esc_smart_terrain_7_11:true) =clear_smart_terrain(esc_smart_terrain_5_9:true) =clear_smart_terrain(esc_smart_terrain_4_9:true) =create_squad(csky_assault_esc_5_7:esc_smart_terrain_5_7) =create_squad(csky_assault_esc_5_7_leader:esc_smart_terrain_5_7) =clear_smart_terrain(esc_smart_terrain_6_8:true) =create_squad(bandit_guards_esc_6_8:esc_smart_terrain_6_8)%
+on_complete = %=reward_money(5000) =inc_faction_goodwill_to_actor(stalker:50)%
+
+
+
+
+
+;------------------------------------------------------------------------------------------
+; Marketshare QUESTLINES
+;------------------------------------------------------------------------------------------
+
+
+[give_marlo_pda]
+icon = ui_icons_cordon22
+prior = 80
+storyline = false
+
+title = give_marlo_pda_name
+descr = {=actor_has_item(itm_pda_mercenary_1)} bring_pda_marlo_3_descr, {+zaton_mercenary_1_dead} bring_pda_marlo_2_descr, bring_pda_marlo_1_descr
+target = {=actor_has_item(itm_pda_mercenary_1)} chris_partlow
+
+condlist_0 = {+give_marlo_pda_done} complete
+on_init = 
+on_complete = %=reward_item(light_repair_kit) =reward_item(toolkit_r5)%
+
+[give_intercept_courrier_1]
+icon = ui_icons_cordon22
+prior = 80
+storyline = false
+
+title = give_intercept_courrier_1_name
+descr = {=actor_has_item(itm_usb_mercenary_1)} bring_usb_marlo_2_descr, bring_usb_marlo_1_descr
+target = {=actor_has_item(itm_usb_mercenary_1)} chris_partlow
+
+condlist_0 = {+give_intercept_courrier_1_done} complete
+on_init = %=clear_smart_terrain(jup_sim_2:true) =create_squad(zaton_mercenary_courrier_1_squad:jup_sim_2)%
+on_complete = 
+
+[give_intercept_courrier_2]
+icon = ui_icons_cordon22
+prior = 80
+storyline = false
+
+title = give_intercept_courrier_2_name
+descr = {+zaton_mercenary_2_delivered} give_intercept_courrier_2_2_descr, give_intercept_courrier_2_1_descr
+target = {+zaton_mercenary_2_delivered)} chris_partlow
+
+condlist_0 = {+give_intercept_courrier_2_done} complete
+on_init = %=create_squad(zaton_mercenary_2_squad:zat_b40_smart_terrain)%
+on_complete = %=reward_money(7000)%
+
+
+
+[give_intercept_delivery_1]
+icon = ui_icons_cordon22
+prior = 80
+storyline = false
+
+title = give_intercept_delivery_1_name
+descr = {+zaton_mercenary_2_delivered} give_intercept_delivery_1_2_descr, give_intercept_delivery_1_1_descr
+target = 
+
+
+condlist_0 = {+give_intercept_courrier_2_done} complete
+on_init = %=clear_smart_terrain(jup_b202:true) =clear_smart_terrain(jup_b207:true) =create_squad(jupiter_stalker_assault_leader_squad:jup_a6) =create_squad(jupiter_stalker_assault_1_squad:jup_a6) =create_squad(jupiter_mercenary_1_squad:jup_b207)%
+on_complete = %=reward_money(7000)%
+
+---- Stage 2 ----
+
+[give_hostile_takeover_main]
+icon = ui_icons_cordon22
+prior = 80
+storyline = false
+
+title = give_hostile_takeover_main_name
+descr = give_hostile_takeover_main_descr
+target = 
+
+condlist_0 = {+give_hostile_takeover_main_done} complete
+on_init = 
+on_complete = 
+
+[give_diplomatic_takeover_main]
+icon = ui_icons_cordon22
+prior = 80
+storyline = false
+
+title = give_diplomatic_takeover_main_name
+descr = give_diplomatic_takeover_main_descr
+target = 
+
+condlist_0 = {+give_diplomatic_takeover_main_done} complete
+on_init = 
+on_complete = 
+
+
+;------------------------------------------------------------------------------------------
+; Fake Artifact QUESTLINES
+;------------------------------------------------------------------------------------------
+[give_sidorovich_fake_artifact_1]
+icon = ui_icons_cordon22
+prior = 80
+storyline = false
+
+title = give_sidorovich_fake_artifact_1_name
+descr = give_sidorovich_fake_artifact_1_descr
+target = 
+
+condlist_0 = {+give_sidorovich_fake_artifact_done} complete
+on_init = %=create_squad(ecologist_sidorovich_squad:esc_smart_terrain_2_12)%
+on_complete = %=reward_money(25000)%
+
+[give_tambov_debt_1]
+icon = ui_icons_cordon22
+prior = 80
+storyline = false
+
+title = give_tambov_debt_1_name
+descr = give_tambov_debt_1_descr
+target = 
+
+condlist_0 = {+bandit_debt_tambov_1_dead} complete
+on_init = %=clear_smart_terrain(val_smart_terrain_4_0:true) =create_squad(bandit_debt_tambov_1:val_smart_terrain_4_0)%
+on_complete =  %=tambov_debt_1_info()%
+
+[give_tambov_debt_2]
+icon = ui_icons_cordon22
+prior = 80
+storyline = false
+
+title = give_tambov_debt_2_name
+descr = {+bandit_debt_tambov_2_dead} give_tambov_debt_2_2_descr, give_tambov_debt_2_1_descr
+target = {+bandit_debt_tambov_2_dead} ecologist_sidorovich
+
+condlist_0 = {+give_tambov_debt_2_done} complete
+on_init = %=clear_smart_terrain(val_smart_terrain_4_0:true) =create_squad(bandit_debt_tambov_2:val_smart_terrain_4_0)%
+on_complete = 
+
+
+;------------------------------------------------------------------------------------------
+; What a night QUESTLINES
+;------------------------------------------------------------------------------------------
+
+[give_what_a_night]
+icon = ui_icons_cordon22
+prior = 80
+storyline = false
+
+title = give_what_a_night_name
+descr = give_what_a_night_descr
+target = 
+
+condlist_0 = {+give_what_a_night_done} complete
+on_init = %=spawn_blackout_knife =spawn_blackout_shotgun%
+on_complete = 

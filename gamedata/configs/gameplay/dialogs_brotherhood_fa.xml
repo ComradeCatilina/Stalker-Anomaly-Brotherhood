@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+
+<game_dialogs>
+----to be done:
+--- add has info bar_deactivate_radar_done to Sidorovich start
+	
+-- fake artifact--
+<dialog id="zaton_eitri_start_dialog">
+		<dont_has_info>zaton_eitri_start_dialog_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>zaton_eitri_start_dialog_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">
+				
+				<text>zaton_eitri_start_dialog_1</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>zaton_eitri_start_dialog_2</text>
+				
+			</phrase>
+			<phrase id="3">
+				<text>zaton_eitri_start_dialog_3</text>
+				<give_info>zaton_eitri_start_dialog_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+<dialog id="zaton_brokkr_start_dialog">
+		<dont_has_info>zaton_brokkr_start_dialog_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>zaton_brokkr_start_dialog_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">				
+				<text>zaton_brokkr_start_dialog_1</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>zaton_brokkr_start_dialog_2</text>				
+			</phrase>
+			<phrase id="3">
+				<text>zaton_brokkr_start_dialog_3</text>
+				<give_info>zaton_brokkr_start_dialog_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+
+
+	
+<dialog id="sidorovich_fake_artifact_1">
+		<dont_has_info>sidorovich_fake_artifact_start</dont_has_info>
+		
+		<phrase_list>
+			<phrase id="0">
+				<text>sidorovich_fake_artifact_1_0</text>
+				<next>1</next>				
+			</phrase>
+			<phrase id="1">				
+				<text>sidorovich_fake_artifact_1_1</text>
+				<next>2</next>
+				<action>dialogs_brotherhood.transfer_fake_artifact_1</action>
+			</phrase>
+			<phrase id="2">
+				<text>sidorovich_fake_artifact_1_2</text>
+				<action>dialogs.break_dialog</action>
+				<give_info>sidorovich_fake_artifact_start</give_info>
+				
+			</phrase>
+			
+		</phrase_list>
+	</dialog>
+
+<dialog id="sidorovich_fake_artifact_2">
+		<precondition>dialogs_brotherhood.is_has_fake_artifact_1</precondition>
+		<dont_has_info>sidorovich_fake_artifact_2_done</dont_has_info>
+		<has_info>sidorovich_fake_artifact_start</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>sidorovich_fake_artifact_2_0</text>
+				<next>1</next>
+				<action>dialogs_brotherhood.transfer_fake_artifact_2</action>
+			</phrase>
+			<phrase id="1">				
+				<text>sidorovich_fake_artifact_2_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>sidorovich_fake_artifact_2_2</text>	
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>sidorovich_fake_artifact_2_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>sidorovich_fake_artifact_2_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">				
+				<text>sidorovich_fake_artifact_2_5</text>
+				<next>6</next>
+				<next>8</next>
+				<next>10</next>
+				<next>12</next>
+				<next>14</next>
+				<next>16</next>
+			</phrase>
+			<phrase id="6">
+				<text>sidorovich_fake_artifact_2_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>sidorovich_fake_artifact_2_7</text>
+				
+				<next>8</next>
+				<next>10</next>
+				<next>12</next>
+				<next>14</next>
+				<next>16</next>
+			</phrase>
+			<phrase id="8">
+				<text>sidorovich_fake_artifact_2_8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">				
+				<text>sidorovich_fake_artifact_2_9</text>
+				<next>6</next>
+				
+				<next>10</next>
+				<next>12</next>
+				<next>14</next>
+				<next>16</next>
+			</phrase>
+			<phrase id="10">
+				<text>sidorovich_fake_artifact_2_10</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>sidorovich_fake_artifact_2_11</text>
+				<next>6</next>
+				<next>8</next>
+				
+				<next>12</next>
+				<next>14</next>
+				<next>16</next>
+			</phrase>
+			<phrase id="12">
+				<text>sidorovich_fake_artifact_2_12</text>
+				<next>13</next>
+			</phrase>
+			<phrase id="13">
+				<text>sidorovich_fake_artifact_2_13</text>
+				<next>6</next>
+				<next>8</next>
+				<next>10</next>
+				
+				<next>14</next>
+				<next>16</next>
+			</phrase>
+			<phrase id="14">
+				<text>sidorovich_fake_artifact_2_14</text>
+				<next>15</next>
+			</phrase>
+			<phrase id="15">
+				<text>sidorovich_fake_artifact_2_15</text>
+				<next>6</next>
+				<next>8</next>
+				<next>10</next>
+				<next>12</next>
+				
+				<next>16</next>
+			</phrase>
+			<phrase id="16">
+				<text>sidorovich_fake_artifact_2_16</text>
+				<next>17</next>
+			</phrase>
+			<phrase id="17">
+				<text>sidorovich_fake_artifact_2_18</text>
+				<next>18</next>
+				<next>19</next>
+			</phrase>
+			<phrase id="18">
+				<text>sidorovich_fake_artifact_2_18</text>
+				<next>20</next>
+			</phrase>
+			<phrase id="19">
+				<text>sidorovich_fake_artifact_2_19</text>
+				<next>21</next>
+			</phrase>
+			<phrase id="20">
+				<text>sidorovich_fake_artifact_2_20</text>
+				<next>22</next>
+			</phrase>
+			<phrase id="21">
+				<text>sidorovich_fake_artifact_2_21</text>
+				<give_info>sidorovich_fake_artifact_2_done</give_info>
+				<give_info>sidorovich_fake_artifact_2_time</give_info>
+			</phrase>
+			<phrase id="22">
+				<text>sidorovich_fake_artifact_2_22</text>
+				<next>23</next>
+			</phrase>
+			<phrase id="23">
+				<text>sidorovich_fake_artifact_2_23</text>
+				<next>24</next>
+				<next>26</next>
+				<next>28</next>
+			</phrase>
+			<phrase id="24">
+				<text>sidorovich_fake_artifact_2_24</text>
+				<next>25</next>
+			</phrase>
+			<phrase id="25">
+				<text>sidorovich_fake_artifact_2_25</text>
+				<next>26</next>
+				<next>28</next>
+			</phrase>
+			<phrase id="26">
+				<text>sidorovich_fake_artifact_2_26</text>
+				<next>27</next>
+			</phrase>
+			<phrase id="27">
+				<text>sidorovich_fake_artifact_2_27</text>
+				<next>24</next>
+				<next>28</next>
+			</phrase>
+			<phrase id="28">
+				<text>sidorovich_fake_artifact_2_28</text>
+				<next>29</next>
+			</phrase>
+			<phrase id="29">
+				<text>sidorovich_fake_artifact_2_29</text>
+				<next>30</next>
+				<next>31</next>
+			</phrase>
+			<phrase id="30">
+				<text>sidorovich_fake_artifact_2_30</text>
+				<next>32</next>
+			</phrase>
+			<phrase id="31">
+				<text>sidorovich_fake_artifact_2_31</text>
+				<next>33</next>
+			</phrase>
+			<phrase id="32">
+				<text>sidorovich_fake_artifact_2_32</text>
+				<give_info>sidorovich_fake_artifact_2_done</give_info>
+				<action>dialogs_brotherhood.transfer_money_sidorovich_bribe</action>
+				<action>dialogs_brotherhood.give_sidorovich_fake_artifact_1</action>
+				<action>dialogs_brotherhood.transfer_fake_artifact_3</action>
+				<give_info>sidorovich_fake_artifact_quest_active_1</give_info>
+			</phrase>
+			<phrase id="33">
+				<text>sidorovich_fake_artifact_2_33</text>
+				<give_info>sidorovich_fake_artifact_2_done</give_info>
+				<action>dialogs_brotherhood.give_sidorovich_fake_artifact_1</action>
+				<action>dialogs_brotherhood.transfer_fake_artifact_3</action>
+				<give_info>sidorovich_fake_artifact_quest_active_1</give_info>
+			</phrase>
+		
+		</phrase_list>
+	</dialog>
+
+
+
+<dialog id="sidorovich_fake_artifact_2_time">
+		<dont_has_info>sidorovich_fake_artifact_2_time_done</dont_has_info>
+		<has_info>sidorovich_fake_artifact_time</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>sidorovich_fake_artifact_2_0_time</text>
+				<next>1</next>				
+			</phrase>
+			<phrase id="1">				
+				<text>sidorovich_fake_artifact_2_1_time</text>
+				<next>18</next>
+				<next>19</next>		
+			</phrase>
+			<phrase id="18">
+				<text>sidorovich_fake_artifact_2_18</text>
+				<next>20</next>
+			</phrase>
+			<phrase id="19">
+				<text>sidorovich_fake_artifact_2_19</text>
+				<next>21</next>
+			</phrase>
+			<phrase id="20">
+				<text>sidorovich_fake_artifact_2_20</text>
+				<next>22</next>
+			</phrase>
+			<phrase id="21">
+				<text>sidorovich_fake_artifact_2_21</text>
+			</phrase>
+			<phrase id="22">
+				<text>sidorovich_fake_artifact_2_22</text>
+				<next>23</next>
+			</phrase>
+			<phrase id="23">
+				<text>sidorovich_fake_artifact_2_23</text>
+				<next>24</next>
+				<next>26</next>
+				<next>28</next>
+			</phrase>
+			<phrase id="24">
+				<text>sidorovich_fake_artifact_2_24</text>
+				<next>25</next>
+			</phrase>
+			<phrase id="25">
+				<text>sidorovich_fake_artifact_2_25</text>
+				<next>26</next>
+				<next>28</next>
+			</phrase>
+			<phrase id="26">
+				<text>sidorovich_fake_artifact_2_26</text>
+				<next>27</next>
+			</phrase>
+			<phrase id="27">
+				<text>sidorovich_fake_artifact_2_27</text>
+				<next>24</next>
+				<next>28</next>
+			</phrase>
+			<phrase id="28">
+				<text>sidorovich_fake_artifact_2_28</text>
+				<next>29</next>
+			</phrase>
+			<phrase id="29">
+				<text>sidorovich_fake_artifact_2_29</text>
+				<next>30</next>
+				<next>31</next>
+			</phrase>
+			<phrase id="30">
+				<text>sidorovich_fake_artifact_2_30</text>
+				<next>32</next>
+			</phrase>
+			<phrase id="31">
+				<text>sidorovich_fake_artifact_2_31</text>
+				<next>33</next>
+			</phrase>
+			<phrase id="32">
+				<text>sidorovich_fake_artifact_2_32</text>
+				<give_info>sidorovich_fake_artifact_2_time_done</give_info>
+				<give_info>sidorovich_fake_artifact_quest_active_1</give_info>
+				<action>dialogs_brotherhood.transfer_money_sidorovich_bribe</action>
+				<action>dialogs_brotherhood.give_sidorovich_fake_artifact_1</action>
+				<action>dialogs_brotherhood.transfer_fake_artifact_3</action>
+			</phrase>
+			<phrase id="33">
+				<text>sidorovich_fake_artifact_2_33</text>
+				<give_info>sidorovich_fake_artifact_2_time_done</give_info>
+				<give_info>sidorovich_fake_artifact_quest_active_1</give_info>
+				<action>dialogs_brotherhood.give_sidorovich_fake_artifact_1</action>
+				<action>dialogs_brotherhood.transfer_fake_artifact_3</action>
+			</phrase>			
+		</phrase_list>
+	</dialog>
+
+
+
+
+
+
+
+
+
+<dialog id="ecologist_sidorovich_start_dialog">
+		<dont_has_info>ecologist_sidorovich_start_dialog_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>ecologist_sidorovich_start_dialog_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">				
+				<text>ecologist_sidorovich_start_dialog_1</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>ecologist_sidorovich_start_dialog_3</text>				
+			</phrase>
+			<phrase id="3">
+				<text>ecologist_sidorovich_start_dialog_2</text>
+				<give_info>ecologist_sidorovich_start_dialog_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+	
+<dialog id="ecologist_sidorovich_0">
+		<has_info>ecologist_sidorovich_start_dialog_done</has_info>
+		<dont_has_info>ecologist_sidorovich_0_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>ecologist_sidorovich_0_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">				
+				<text>ecologist_sidorovich_0_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="2">
+				<text>ecologist_sidorovich_0_2</text>
+				<next>6</next>				
+			</phrase>
+			<phrase id="3">
+				<text>ecologist_sidorovich_0_3</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="4">
+				<text>ecologist_sidorovich_0_4</text>
+				<next>9</next>				
+			</phrase>
+			<phrase id="5">
+				<text>ecologist_sidorovich_0_5</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="6">
+				<text>ecologist_sidorovich_0_6</text>
+				<next>10</next>		
+				<next>11</next>
+			</phrase>
+			<phrase id="7">
+				<text>ecologist_sidorovich_0_7</text>
+				<next>12</next>
+				<next>11</next>
+			</phrase>
+			<phrase id="8">
+				<text>ecologist_sidorovich_0_8</text>
+				<next>13</next>
+				<next>11</next>					
+			</phrase>
+			<phrase id="9">
+				<text>ecologist_sidorovich_0_9</text>
+				<next>15</next>
+				<next>11</next>	
+			</phrase>
+			<phrase id="10">
+				<precondition>dialogs_brotherhood.tambov_5000_money</precondition>
+				<text>ecologist_sidorovich_0_10</text>
+				<action>dialogs_brotherhood.tambov_5000_money_pay</action>
+				<next>14</next>
+			</phrase>
+			<phrase id="11">
+				<text>ecologist_sidorovich_0_11</text>
+			</phrase>
+			<phrase id="12">
+				<precondition>dialogs_brotherhood.tambov_17500_money</precondition>
+				<text>ecologist_sidorovich_0_12</text>
+				<action>dialogs_brotherhood.tambov_17500_money_pay</action>
+				<next>14</next>
+			</phrase>
+			<phrase id="13">
+				<text>ecologist_sidorovich_0_13</text>
+				<action>dialogs_brotherhood.give_tambov_debt_1</action>
+				<next>14</next>
+			</phrase>
+			<phrase id="14">
+				<text>ecologist_sidorovich_0_14</text>
+				<give_info>ecologist_sidorovich_0_done</give_info>
+			</phrase>
+			<phrase id="15">
+				<text>ecologist_sidorovich_0_13</text>
+				<action>dialogs_brotherhood.give_tambov_debt_2</action>
+				<next>14</next>
+			</phrase>			
+		</phrase_list>
+	</dialog>
+
+
+<dialog id="ecologist_sidorovich_1">
+		<has_info>bandit_debt_tambov_2_dead</has_info>
+		<dont_has_info>ecologist_sidorovich_1_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>ecologist_sidorovich_1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">				
+				<text>ecologist_sidorovich_1_1</text>
+				<give_info>ecologist_sidorovich_1_done</give_info>
+				<give_info>give_tambov_debt_2_done</give_info>
+				<action>dialogs_brotherhood.transfer_money_tambov</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+
+
+---- Sakharov and other ecologists ----
+
+<dialog id="sakharov_fake_artifact_0">
+		<precondition>dialogs_brotherhood.is_has_fake_artifact_2</precondition>
+		
+		<dont_has_info>sakharov_fake_artifact_0_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>sakharov_fake_artifact_0_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">				
+				<text>sakharov_fake_artifact_0_1</text>
+				<next>2</next>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>sakharov_fake_artifact_0_2</text>
+				<next>4</next>	
+				<action>dialogs_brotherhood.transfer_fake_artifact_box_1</action>
+			</phrase>
+			<phrase id="3">
+				<text>sakharov_fake_artifact_0_3</text>
+				<next>5</next>
+				<action>dialogs_brotherhood.transfer_fake_artifact_box_1</action>
+			</phrase>
+			<phrase id="4">
+				<text>sakharov_fake_artifact_0_4</text>
+				<next>6</next>
+				<next>7</next>
+			</phrase>
+			<phrase id="5">
+				<text>sakharov_fake_artifact_0_5</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="6">
+				<precondition>dialogs_brotherhood.sakharov_fake_artifact_has_money</precondition>
+				<text>sakharov_fake_artifact_0_6</text>
+				<action>dialogs_brotherhood.sakharov_fake_artifact_money_pay</action>
+				<next>9</next>		
+				
+			</phrase>
+			<phrase id="7">
+				<text>sakharov_fake_artifact_0_7</text>				
+				<next>11</next>
+			</phrase>
+			<phrase id="8">
+				<text>sakharov_fake_artifact_0_8</text>
+				<next>10</next>
+				<next>7</next>					
+			</phrase>
+			<phrase id="9">
+				<text>sakharov_fake_artifact_0_9</text>
+				<give_info>sakharov_fake_artifact_0_done</give_info>
+			</phrase>
+			<phrase id="10">
+				
+				<text>sakharov_fake_artifact_0_10</text>
+				<give_info>sakharov_fake_artifact_0_done</give_info>
+			</phrase>
+			<phrase id="11">
+				<text>sakharov_fake_artifact_0_11</text>
+				<action>dialogs_brotherhood.transfer_fake_artifact_3</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</game_dialogs>

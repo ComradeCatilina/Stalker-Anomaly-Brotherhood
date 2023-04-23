@@ -1,0 +1,704 @@
+
+------- GENERAL Functions --------
+local HI = has_alife_info
+local GI = give_info
+local DI = disable_info
+function NI(str)
+	return not (has_alife_info(str))
+end
+
+function poluchit_po_litsu(actor, npc)                                            
+    npc:force_set_goodwill(-5000, actor)
+end
+
+
+
+function give_task(name)
+	task_manager.get_task_manager():give_task(name)
+end
+
+-------Stories from the Zone --------
+
+------ Brotherhood rewards ------
+function transfer_brotherhood_reward_1(first_speaker, second_speaker)
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "bottle_metal", 1)
+end
+
+function transfer_brotherhood_reward_2(first_speaker, second_speaker)
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "cigar2", 1)
+end
+
+------Butcher Quest 1 (now 3) ------
+
+function give_task_kill_pack_dogs_1()
+	dialogs_brotherhood.give_task('give_task_kill_pack_dogs_1')
+end
+
+function is_has_package_vybegallo()
+  if db.actor:object("quest_package_vybegallo") then
+    return true
+  end
+  return false
+end
+
+function transfer_package_to_vybegallo(first_speaker, second_speaker)
+  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "quest_package_vybegallo")
+  dialogs.relocate_money_to_actor(first_speaker, second_speaker, 7500)
+end
+
+
+------Butcher Quest 2 ------
+
+function give_task_kill_pack_boars_1()
+	dialogs_brotherhood.give_task('give_task_kill_pack_boars_1')
+end
+
+function transfer_grenades_boars(first_speaker, second_speaker)
+  dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "grenade_f1", 2)
+end
+
+------Butcher Quest 3 ------
+
+function give_task_kill_pack_snorks_1()
+	dialogs_brotherhood.give_task('give_task_kill_pack_snorks_1')
+end
+
+function transfer_bandage_snorks(first_speaker, second_speaker)
+  dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "bandage")
+end
+
+------Butcher Quest 4 ------
+
+function give_task_kill_pack_snorks_2()
+	dialogs_brotherhood.give_task('give_task_kill_pack_snorks_2')
+end
+
+function give_meet_vybegallo_quest()
+	dialogs_brotherhood.give_task('give_meet_vybegallo_quest')
+end
+
+function transfer_bandages_snorks(first_speaker, second_speaker)
+  dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "bandage", 2)
+end
+
+---- Alyosha Karmov ----
+function give_alyosha_karmov_trouble_1()
+	dialogs_brotherhood.give_task('give_alyosha_karmov_trouble_1')
+end
+
+---- Dolg Butcher ----
+function give_meet_aspirin_quest_1()
+	dialogs_brotherhood.give_task('give_meet_aspirin_quest_1')
+end
+
+function give_meet_aspirin_quest_2()
+	dialogs_brotherhood.give_task('give_meet_aspirin_quest_2')
+end
+
+function give_meet_voronin_quest_1()
+	dialogs_brotherhood.give_task('give_meet_voronin_quest_1')
+end
+
+function give_dolg_bloodsucker_village_1()
+	dialogs_brotherhood.give_task('give_dolg_bloodsucker_village_1')
+end
+
+function transfer_dolg_bloodsucker_village_raid_1(first_speaker, second_speaker)
+  dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "batteries_dead", 2)
+  dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "device_torch_nv_1")
+  dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "medkit")
+  dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "drug_coagulant", 2)
+end
+
+---Dolg Hunter botched ---
+
+function give_dolg_bloodsucker_village_2()
+	dialogs_brotherhood.give_task('give_dolg_bloodsucker_village_2')
+end
+
+function spawn_artyom_bloodsucker_wounded()
+	local smart_2 = SIMBOARD.smarts_by_names["bar_dolg_general"]           
+	local squad = SIMBOARD:create_squad(smart_2,"dolg_artyom_bloodsucker_squad")
+end
+
+function xr_effects.spawn_dolg_sergey_bloodsucker_dead()
+    local pos = vector():set( -281.60269165039,-22.027982711792,193.5417175293 )
+    local se_obj = alife_create( "dolg_sergey_bloodsucker", pos, 55874, 2029 )
+	if (se_obj) then
+		se_obj:kill()
+	end
+    if ( not se_obj ) then
+          printe("!ERROR: unable to spawn dolg_sergey_bloodsucker" )
+    end
+end
+
+function xr_effects.spawn_dolg_vadim_bloodsucker_dead()
+    local pos = vector():set( -228.06121826172,-21.856832504272,210.08169555664 )
+    local se_obj = alife_create( "dolg_vadim_bloodsucker", pos, 95993, 2055 )
+	if (se_obj) then
+		se_obj:kill()
+	end
+    if ( not se_obj ) then
+          printe("!ERROR: unable to spawn dolg_vadim_bloodsucker" )
+    end
+end
+
+function xr_effects.spawn_dolg_sasha_bloodsucker_dead()
+    local pos = vector():set( -300.43096923828,-22.203056335449,290.10729980469 )
+    local se_obj = alife_create( "dolg_sasha_bloodsucker", pos, 81237, 2058 )
+	if (se_obj) then
+		se_obj:kill()
+	end
+    if ( not se_obj ) then
+          printe("!ERROR: unable to spawn dolg_sasha_bloodsucker" )
+    end
+end
+
+function transfer_dolg_bloodsucker_village_killer_patches(first_speaker, second_speaker)
+  dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "killer_patch", 3)
+end
+
+function transfer_dolg_bloodsucker_village_botched_money_1(first_speaker, second_speaker)
+  dialogs.relocate_money_to_actor(first_speaker, second_speaker, 15000)
+end
+
+function transfer_dolg_bloodsucker_village_botched_money_2(first_speaker, second_speaker)
+  dialogs.relocate_money_to_actor(first_speaker, second_speaker, 20000)
+end
+
+-- Dolg Hunter payback --
+
+
+function give_dolg_bloodsucker_village_3()
+	dialogs_brotherhood.give_task('give_dolg_bloodsucker_village_3')
+end
+
+function transfer_morphine_to_artyom(first_speaker, second_speaker)
+  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "morphine")
+end
+
+function is_has_moprhine_artyom()
+  if db.actor:object("morphine") then
+    return true
+  end
+  return false
+end
+
+function artyom_bloodsucker_overdose()
+	local npc = get_story_object("dolg_artyom_bloodsucker")
+	if npc then
+		npc:kill(npc)
+	end
+end
+
+function poluchit_po_ebala(actor, npc, p)	
+	
+	local squad = get_story_squad("dolg_ilya_bloodsucker_squad")
+	local commander = alife_object(squad:commander_id())
+	if squad == nil then
+		printf("There is no squad with id[%s]", tostring(story_id))
+		return
+	end
+	
+	squad:set_squad_relation("enemy")
+	commander:force_set_goodwill(-5000, actor)
+	npc:force_set_goodwill(-5000, actor)
+end
+function poluchit_po_ebala_2(actor, npc, p)	
+	
+	local squad = get_story_squad("dolg_ilya_bloodsucker_2_squad")
+	local commander = alife_object(squad:commander_id())
+	if squad == nil then
+		printf("There is no squad with id[%s]", tostring(story_id))
+		return
+	end
+	
+	squad:set_squad_relation("enemy")
+	commander:force_set_goodwill(-5000, actor)
+	npc:force_set_goodwill(-5000, actor)
+end
+
+
+---- Legendary Mutants ----
+
+--- Vlad and Drakul ---
+function give_forester_hunt_vlad_drakul()
+	dialogs_brotherhood.give_task('give_forester_hunt_vlad_drakul')
+end
+
+function is_has_trenchcoat_forester()
+  if db.actor:object("trenchcoat_green_outfit_brotherhood_forester") then
+    return true
+  end
+  return false
+end
+
+function transfer_trenchcoat_to_forester(first_speaker, second_speaker)
+  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "trenchcoat_green_outfit_brotherhood_forester")
+end
+
+function transfer_trenchoat_from_forester(first_speaker, second_speaker)
+  dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "trenchcoat_green_outfit_brotherhood_forester")
+end
+
+function is_has_trenchcoat_forester_on()
+  if db.actor:item_in_slot(7) ~= nil and db.actor:item_in_slot(7):section() == "trenchcoat_green_outfit_brotherhood_forester" then
+    return true
+  end
+  return false
+end
+
+---- Vybegallo ----
+function give_vybegallo_pseudogiant()
+	dialogs_brotherhood.give_task('give_vybegallo_pseudogiant')
+end
+
+function is_has_eye_vybegallo()
+  if db.actor:object("mutant_part_pseudogigant_eye") then
+    return true
+  end
+  return false
+end
+
+function transfer_eye_to_vybegallo(first_speaker, second_speaker)
+  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "mutant_part_pseudogigant_eye")
+  dialogs.relocate_money_to_actor(first_speaker, second_speaker, 10000)
+end
+
+function is_has_hand_vybegallo()
+  if db.actor:object("mutant_part_pseudogiant_hand") then
+    return true
+  end
+  return false
+end
+
+function transfer_hand_to_vybegallo(first_speaker, second_speaker)
+  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "mutant_part_pseudogigant_hand")
+  dialogs.relocate_money_to_actor(first_speaker, second_speaker, 10000)
+end
+
+function is_has_hide_vybegallo()
+  if db.actor:object("hide_pseudogiant") then
+    return true
+  end
+  return false
+end
+
+function transfer_hide_to_vybegallo(first_speaker, second_speaker)
+  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "hide_pseudogigant")
+  dialogs.relocate_money_to_actor(first_speaker, second_speaker, 10000)
+end
+
+function give_sakharov_order_vybegallo_quest()
+	dialogs_brotherhood.give_task('give_sakharov_order_vybegallo_quest')
+end
+function transfer_sakharov_order_vybegallo_to_actor(first_speaker, second_speaker)
+  dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "sakharov_order_vybegallo")
+end
+
+function transfer_sakharov_order_to_vybegallo(first_speaker, second_speaker)
+  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "sakharov_order_vybegallo")
+end
+
+function hiding_vybegallo()
+	local squad = get_story_se_object("vybegallo_squad")
+	local pos = vector():set( 42.025260925293,10.499049186707,16.939895629883 )
+	if (pos and squad) then
+		TeleportSquad(squad,pos,3591,3715)
+		
+	GI("vybegallo_hiding")
+	end
+end
+
+
+
+---in news_tips_icons Sakharov is written Saharov---
+function sakharov_vybegallo_1_info()
+    news_manager.send_tip(db.actor, game.translate_string("st_sakharov_vybegallo_1_info"), 3, "saharov", 11000, 1)
+end
+
+function xr_effects.spawn_vybegallo_order_mercenary()
+		local pos = vector():set( 348.31338500977,34.241146087646,-398.91174316406 )
+		alife():create('vybegallo_order_mercenary', pos, 1546321, 4138)
+end
+
+function is_has_vybegallo_order_mercenary()
+  if db.actor:object("vybegallo_order_mercenary") then
+    return true
+  end
+  return false
+end
+
+function transfer_vybegallo_order_mercenary(first_speaker, second_speaker)
+  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "vybegallo_order_mercenary")
+end
+
+function transfer_hush_money_vybegallo(first_speaker, second_speaker)
+  dialogs.relocate_money_to_actor(first_speaker, second_speaker, 5000)
+end
+
+function give_vybegallo_must_die()
+	dialogs_brotherhood.give_task('give_vybegallo_must_die')
+end
+---- Escape ----
+
+---Sidorovich---
+
+function give_sidorovich_railway_assault()
+	dialogs_brotherhood.give_task('give_sidorovich_railway_assault')
+end
+
+function transfer_grenade_railway_assault(first_speaker, second_speaker)
+  dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "grenade_f1")
+end
+
+function is_has_no_grenade_railway_assault()
+  if db.actor:object("grenade_f1") or db.actor:object("grenade_rgd5") then
+    return false
+  end
+  return true
+end
+
+function is_has_vodka_for_grenade_assault_1()
+  if db.actor:object("bottle_metal") then
+    return true
+  end
+  return false
+end
+function is_has_vodka_for_grenade_assault_2()
+  if db.actor:object("vodka") then
+    return true
+  end
+  return false
+end
+function is_has_vodka_for_grenade_assault_3()
+  if db.actor:object("vodka2") then
+    return true
+  end
+  return false
+end
+
+function is_has_vodka_for_grenade_assault_4()
+  if db.actor:object("vodka_quality") then
+    return true
+  end
+  return false
+end
+
+function transfer_vodka_for_grenade_1(first_speaker, second_speaker)
+  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "bottle_metal", 1)
+  xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"stalker", 5})
+end
+
+function transfer_vodka_for_grenade_2(first_speaker, second_speaker)
+  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "vodka", 1)
+  xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"stalker", 10})
+end
+
+function transfer_vodka_for_grenade_3(first_speaker, second_speaker)
+  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "vodka2", 1)
+  xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"stalker", 15})
+end
+
+function transfer_vodka_for_grenade_4(first_speaker, second_speaker)
+  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "vodka_quality", 1)
+  xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"stalker", 30})
+end
+
+
+function send_railway_assault_message_1()
+    news_manager.send_tip(db.actor, game.translate_string("st_assault_railway_info_1"), 1, "stalker", 11000, 1)
+	news_manager.send_tip(db.actor, game.translate_string("st_assault_railway_info_2"), 4, "csky", 11000, 1)
+end
+
+function give_sidorovich_railway_assault_2()
+	dialogs_brotherhood.give_task('give_sidorovich_railway_assault_2')
+end
+
+-- Fake Artifact--
+
+function transfer_fake_artifact_1(first_speaker, second_speaker)
+  dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "af_gold_fish_fake_1")
+end
+
+function is_has_fake_artifact_1()
+  if db.actor:object("af_gold_fish_fake_1") then
+    return true
+  end
+  return false
+end
+
+function transfer_fake_artifact_2(first_speaker, second_speaker)
+  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "af_gold_fish_fake_1")
+end
+
+function transfer_fake_artifact_3(first_speaker, second_speaker)
+  dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "af_gold_fish_fake_2_lead_box")
+end
+
+
+function give_sidorovich_fake_artifact_1()
+	dialogs_brotherhood.give_task('give_sidorovich_fake_artifact_1')
+end
+
+function transfer_money_sidorovich_bribe(first_speaker, second_speaker)
+  dialogs.relocate_money_to_actor(first_speaker, second_speaker, 10000)
+end
+
+function give_tambov_debt_1()
+	dialogs_brotherhood.give_task('give_tambov_debt_1')
+end
+
+function xr_effects.tambov_debt_1_info()
+    news_manager.send_tip(db.actor, game.translate_string("st_tambov_debt_1_info"), 3, "default", 11000, 1)
+	news_manager.send_tip(db.actor, game.translate_string("st_tambov_debt_2_info"), 6, "ecolog", 11000, 1)
+end
+
+
+
+
+
+
+function give_tambov_debt_2()
+	dialogs_brotherhood.give_task('give_tambov_debt_2')
+end
+function transfer_money_tambov(first_speaker, second_speaker)
+  dialogs.relocate_money_to_actor(first_speaker, second_speaker, 10000)
+end
+
+function tambov_5000_money(first_speaker, second_speaker)
+    return first_speaker:money() >= 5000
+end
+function tambov_5000_money_pay(first_speaker, second_speaker) 
+ 	dialogs.relocate_money_from_actor(first_speaker, second_speaker, 5000)
+end
+function tambov_17500_money(first_speaker, second_speaker)
+    return first_speaker:money() >= 17500
+end
+function tambov_17500_money_pay(first_speaker, second_speaker) 
+ 	dialogs.relocate_money_from_actor(first_speaker, second_speaker, 17500)
+end
+
+
+--- Sakharov and other scientists ---
+function sakharov_fake_artifact_money_pay(first_speaker, second_speaker) 
+ 	dialogs.relocate_money_from_actor(first_speaker, second_speaker, 10000)
+end
+
+function sakharov_fake_artifact_has_money(first_speaker, second_speaker)
+    return first_speaker:money() >= 10000
+end
+
+function is_has_fake_artifact_2()
+  if db.actor:object("af_gold_fish_fake_2_lead_box") then
+    return true
+  end
+  return false
+end
+
+function transfer_fake_artifact_box_1(first_speaker, second_speaker)
+  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "af_gold_fish_fake_2_lead_box")
+end
+-----Market Share -----
+
+function transfer_drinking_marlo_1(first_speaker, second_speaker)  
+  dialogs.relocate_money_to_actor(first_speaker, second_speaker, 2000)
+end
+
+
+---Start Up---
+
+function give_marlo_pda()
+	dialogs_brotherhood.give_task('give_marlo_pda')
+end
+
+function is_has_mercenary_pda_marlo()
+  if db.actor:object("itm_pda_mercenary_1") then
+    return true
+  end
+  return false
+end
+
+function transfer_mercenary_pda_to_chris(first_speaker, second_speaker)
+  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "itm_pda_mercenary_1")
+end
+
+function give_intercept_courrier_1()
+	dialogs_brotherhood.give_task('give_intercept_courrier_1')
+end
+
+function xr_effects.zaton_mercenary_courrier_deathrattle()
+    news_manager.send_tip(db.actor, game.translate_string("st_zaton_mercenary_courrier_deathrattle_info"), 0, "killer", 11000, 1)
+	
+end
+
+function is_has_mercenary_usb_marlo()
+  if db.actor:object("itm_usb_mercenary_1") then
+    return true
+  end
+  return false
+end
+
+function transfer_mercenary_usb_to_chris(first_speaker, second_speaker)
+  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "itm_usb_mercenary_1")
+end
+
+function transfer_mercenary_usb_back(first_speaker, second_speaker)
+  dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "itm_usb_mercenary_1")
+end
+
+function give_intercept_courrier_2()
+	dialogs_brotherhood.give_task('give_intercept_courrier_2')
+end
+
+function give_intercept_delivery_1()
+	dialogs_brotherhood.give_task('give_intercept_delivery_1')
+end
+
+function xr_effects.spawn_reinforcment_mercenary_1()
+	 local smart = SIMBOARD.smarts_by_names["jup_b202"]           
+     local squad = SIMBOARD:create_squad(smart,"jupiter_mercenary_2_squad")
+end
+
+
+
+--- Owl documents ---
+
+function xr_effects.spawn_ms_owl_documents_1()
+		local pos = vector():set( 447.71743774414,32.602996826172,-455.80853271484 )
+		alife():create('ms_owl_documents_1', pos, 1427937, 4700)
+end
+
+function is_has_ms_owl_documents_1_owl()
+  if db.actor:object("ms_owl_documents_1") then
+    return true
+  end
+  return false
+end
+
+function transfer_ms_owl_documents_1_to_owl(first_speaker, second_speaker)
+  dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "ms_owl_documents_1")
+end
+
+
+
+
+function give_hostile_takeover_main()
+	dialogs_brotherhood.give_task('give_hostile_takeover_main')
+end
+
+function give_diplomatic_takeover_main()
+	dialogs_brotherhood.give_task('give_diplomatic_takeover_main')
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--- What a Night ---
+
+
+function give_what_a_night()
+	dialogs_brotherhood.give_task('give_what_a_night')
+end
+
+
+function create_stash_and_transfer_items()  --- courtesy of xcvb
+	local se_obj = alife_create("inv_backpack", db.actor:position(), db.actor:level_vertex_id(), db.actor:game_vertex_id())
+	if se_obj then
+		local txt = strformat(game.translate_string("st_itm_stash_of_character"), db.actor:character_name())
+		level.map_add_object_spot_ser(se_obj.id, "treasure", txt)
+
+		local m_data = alife_storage_manager.get_state()
+		if not (m_data.player_created_stashes) then 
+			m_data.player_created_stashes = {}
+		end
+
+		local bp = db.actor:item_in_slot(13)
+		m_data.player_created_stashes[se_obj.id] = bp:section()
+		alife_release_id(bp:id())
+
+		CreateTimeEvent("transfer_to_bp_e", "transfer_to_bp_a", 0.5, transf_itms, se_obj.id)
+	end
+
+end
+
+function transf_itms(stash_id)	--- courtesy of xcvb
+	local stash = level.object_by_id(stash_id)
+	if stash then
+
+		local function itr(_, itm)
+			if not (string.find(itm:section(), "outfit")) then
+				db.actor:transfer_item(itm, stash)
+			end
+		end
+
+		db.actor:iterate_inventory(itr, db.actor)
+	end
+
+	return true
+end
+
+
+
+function blackout_drink()
+		
+		xr_effects.disable_ui_only(db.actor, nil)
+		level.add_cam_effector("camera_effects\\surge_02.anm", 10, false, "bind_stalker_ext.anabiotic_callback")
+		level.add_pp_effector("surge_fade.ppe", 11, false)
+		
+		_G.mus_vol = get_console_cmd(2,"snd_volume_music")
+		_G.amb_vol = get_console_cmd(2,"snd_volume_eff")
+		exec_console_cmd("snd_volume_music 0")
+		exec_console_cmd("snd_volume_eff 0")
+		level.change_game_time(0,10,0)
+		surge_manager.get_surge_manager().time_forwarded = true
+		psi_storm_manager.get_psi_storm_manager().time_forwarded = true
+		level_weathers.get_weather_manager():forced_weather_change()
+		
+end
+
+function blackout_teleportation()
+	local out_position = vector():set( 293.83453369141,0.39302235841751,25.673402786255 )
+	db.actor:set_actor_position(out_position)
+end
+
+function xr_effects.spawn_blackout_knife()
+		local pos = vector():set( 290.24829101563,0.66161745786667,24.540012359619 )
+		alife():create('wpn_knife3', pos, 328476, 189)
+end
+
+function xr_effects.spawn_blackout_shotgun()
+		local pos = vector():set( 297.06683349609,-0.20075908303261,24.5491065979 )
+		alife():create('wpn_bm16', pos, 333148, 189)
+end
+
+function drink_with_me()
+	level.add_cam_effector("camera_effects\\drunk.anm", 10, false, "bind_stalker_ext.anabiotic_callback")
+end
+
+
+function give_zakuski_drinking(first_speaker, second_speaker)
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "sausage")
+end
+
+function is_has_blackout_backpack()
+  
+	if db.actor:item_in_slot(13) ~= nil then
+		return true
+	end
+  return false
+end
+
+

@@ -1,0 +1,41 @@
+[logic@zaton_mercenary_1]
+   suitable = {=check_npc_name(zaton_mercenary_1)} true
+   prior = 500
+   active = beh@zaton_mercenary_1_job
+
+[beh@zaton_mercenary_1_job]
+	behaviour_state = beh_move
+	target = waypoint
+	walk_anim = patrol
+	on_info = {=surge_started} beh@surge
+	on_info2 = {=is_night} beh@drink_1
+	path_end = loop
+	pt1 = 88860000,idle | pos:328.00573730469,38.341678619385,-403.95764160156 look:327.82991215587,38.341678619385,-402.97818154097
+
+[beh@surge]
+path_walk = surge_hide_1_walk	;guard_2_walk
+path_look = surge_hide_1_look	;guard_2_look
+on_info = {!surge_started} beh@zaton_mercenary_1_job
+gather_items_enabled = false
+help_wounded_enabled = false
+corpse_detection_enabled = false
+invulnerable = false
+
+[beh@drink_1]
+behaviour_state = beh_move
+target = waypoint
+walk_anim = patrol
+gather_items_enabled = false
+help_wounded_enabled = false
+corpse_detection_enabled = false
+invulnerable = false
+on_info = {=surge_started} beh@surge
+on_info2 = {!is_night} beh@zaton_mercenary_1_job
+on_game_timer = 2400 | remark@smoking_stand2
+path_end = loop
+pt1 = 88860000,sit_ass_drink_vodka | pos:405.10650634766,33.405792236328,-439.54626464844 look:405.02811595798,33.405792236328,-438.55846887827
+
+[remark@smoking_stand2]:beh@drink_1
+anim = smoking_sit
+on_game_timer = 900 | beh@drink_1
+on_info = {=surge_started} beh@surge

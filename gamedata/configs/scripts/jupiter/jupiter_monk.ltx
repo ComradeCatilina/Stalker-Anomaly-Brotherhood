@@ -1,0 +1,151 @@
+[logic@jupiter_monk]
+   suitable = {=check_npc_name(jupiter_monk)} true
+   prior = 500
+   active = beh@jupiter_monk_job
+
+[beh@base_1]
+	combat_ignore_cond = true
+	combat_ignore_keep_when_attacked =  true
+	invulnerable = true
+
+
+
+[beh@jupiter_monk_job]:beh@base_1
+	run_anim = rush
+	on_info = {+jupiter_mercenary_assault_go} beh@jupiter_monk_assault
+	behaviour_state = beh_move
+	target = waypoint	
+	path_end = loop
+	pt1 = 100000,idle | pos:-46.106330871582,3.4867804050446,199.37236022949 look:-45.110081613064,3.4867804050446,199.39352643304
+
+[beh@jupiter_monk_assault]	
+	combat_ignore_cond	= {!dist_to_beh(80)} true
+	run_anim = rush
+	behaviour_state = beh_move
+	target = waypoint	
+	path_end = loop
+	pt1 = 100000,idle | pos:148.66848754883,1.1857712268829,217.58020019531 look:147.73004955053,1.1857712268829,217.23507833481
+
+[logic@jupiter_stalker_assault_1]
+suitable = {=target_squad_name(jupiter_stalker_assault_1_squad)} true
+active = beh@jupiter_stalker_assault_job_1
+prior = 500
+
+[logic@jupiter_stalker_assault_2]
+suitable = {=target_squad_name(jupiter_stalker_assault_1_squad)} true
+active = beh@jupiter_stalker_assault_job_2
+prior = 500
+
+[logic@jupiter_stalker_assault_3]
+suitable = {=target_squad_name(jupiter_stalker_assault_1_squad)} true
+active = beh@jupiter_stalker_assault_job_3
+prior = 500
+
+[logic@jupiter_stalker_assault_4]
+suitable = {=target_squad_name(jupiter_stalker_assault_1_squad)} true
+active = beh@jupiter_stalker_assault_job_4
+prior = 500
+
+[beh@jupiter_stalker_assault_job_1]:beh@base_1
+	run_anim = rush
+	behaviour_state = beh_move
+	target = waypoint	
+	on_info = {+jupiter_mercenary_assault_go} beh@jupiter_stalker_assault_go_1
+	path_end = loop
+	pt1 = 100000,idle | pos:-46.474960327148,3.4870412349701,196.08959960938 look:-45.48581725359,3.4870412349701,196.1988914609
+
+[beh@jupiter_stalker_assault_job_2]:beh@base_1
+	run_anim = rush
+	behaviour_state = beh_move
+	target = waypoint	
+	on_info = {+jupiter_mercenary_assault_go} beh@jupiter_stalker_assault_go_2
+	path_end = loop
+	pt1 = 100000,idle | pos:-48.031265258789,3.4879033565521,195.95745849609 look:-47.040500760078,3.4879033565521,196.04049598426
+
+[beh@jupiter_stalker_assault_job_3]:beh@base_1
+	run_anim = rush
+	behaviour_state = beh_move
+	target = waypoint	
+	on_info = {+jupiter_mercenary_assault_go} beh@jupiter_stalker_assault_go_3
+	path_end = loop
+	pt1 = 100000,idle | pos:-48.205368041992,3.4880321025848,198.15892028809 look:-47.214603543282,3.4880321025848,198.24195777625
+	
+[beh@jupiter_stalker_assault_job_4]:beh@base_1
+	run_anim = rush
+	behaviour_state = beh_move
+	target = waypoint	
+	on_info = {+jupiter_mercenary_assault_go} beh@jupiter_stalker_assault_go_4
+	path_end = loop
+	pt1 = 100000,idle | pos:-48.375778198242,3.4881393909454,200.25389099121 look:-47.385013699532,3.4881393909454,200.33692847937
+	
+	
+[beh@jupiter_stalker_assault_go_1]	
+	combat_ignore_cond	= {!dist_to_beh(80)} true
+	run_anim = rush
+	behaviour_state = beh_move
+	target = waypoint	
+	path_end = loop
+	pt1 = 100000,guard | pos:143.21426391602,1.1840810775757,212.08804321289 look:142.24247145653,1.1840810775757,212.32130029798
+	
+[beh@jupiter_stalker_assault_go_2]	
+	combat_ignore_cond	= {!dist_to_beh(80)} true
+	run_anim = rush
+	behaviour_state = beh_move
+	target = waypoint	
+	path_end = loop
+	pt1 = 100000,guard | pos:135.09172058105,1.3675675392151,221.7939453125 look:134.12838965654,1.3675675392151,221.53200998902	
+	
+[beh@jupiter_stalker_assault_go_3]	
+	combat_ignore_cond	= {!dist_to_beh(80)} true
+	run_anim = rush
+	behaviour_state = beh_move
+	target = waypoint	
+	path_end = loop
+	pt1 = 100000,guard | pos:138.81401062012,1.3904740810394,213.62519836426 look:137.90040069818,1.3904740810394,213.21862828732
+
+[beh@jupiter_stalker_assault_go_4]	
+	combat_ignore_cond	= {!dist_to_beh(80)} true
+	run_anim = rush
+	behaviour_state = beh_move
+	target = waypoint	
+	path_end = loop
+	pt1 = 100000,guard | pos:142.30421447754,1.1840717792511,220.81008911133 look:141.41638469696,1.1840717792511,220.35097572207
+	
+[logic@jupiter_mercenary_2_squad_1]
+   suitable = {=check_squad_section(jupiter_mercenary_2_squad)} true
+   prior = 140
+   active = beh@jupiter_mercenary_2_squad
+   
+ [logic@jupiter_mercenary_2_squad_2]
+   suitable = {=check_squad_section(jupiter_mercenary_2_squad)} true
+   prior = 140
+   active = beh@jupiter_mercenary_2_squad
+
+[logic@jupiter_mercenary_2_squad_3]
+   suitable = {=check_squad_section(jupiter_mercenary_2_squad)} true
+   prior = 140
+   active = beh@jupiter_mercenary_2_squad
+   
+[logic@jupiter_mercenary_2_squad_4]
+   suitable = {=check_squad_section(jupiter_mercenary_2_squad)} true
+   prior = 140
+   active = beh@jupiter_mercenary_2_squad
+   
+[logic@jupiter_mercenary_2_squad_5]
+   suitable = {=check_squad_section(jupiter_mercenary_2_squad)} true
+   prior = 140
+   active = beh@jupiter_mercenary_2_squad
+   
+[logic@jupiter_mercenary_2_squad_6]
+   suitable = {=check_squad_section(jupiter_mercenary_2_squad)} true
+   prior = 140
+   active = beh@jupiter_mercenary_2_squad
+   
+
+[beh@jupiter_mercenary_2_squad]
+	
+	run_anim = rush
+	behaviour_state = beh_move
+	target = waypoint	
+	path_end = loop
+	pt1 = 100000,idle | pos:143.21426391602,1.1840810775757,212.08804321289 look:142.24247145653,1.1840810775757,212.32130029798
