@@ -13,6 +13,16 @@
 	<string id="quest_package_vybegallo_desc">
 		<text>Heavy bag, filled with Tuna Conserves. Vybegallo will be happy.</text>
 	</string>
+	
+	<string id="st_wpn_saiga12s_mutanthammer_name">
+		<text>Saiga-12S "Mutanthammer"</text>
+	</string>
+	<string id="st_wpn_saiga12s_mutanthammer_descr">
+		<text>A modified version of the Saiga-12S. Someone etched "Mutanthammer" on the side.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] EKP-8-02 Kobra, 1P29, PSO-1 scopes\n
+		%c[d_purple] • %c[ui_gray_2] PBS-1\n \n</text>
+	</string>
 
 	<string id="st_kolbasa_strange">
 		<text>Pack of strange meat</text>

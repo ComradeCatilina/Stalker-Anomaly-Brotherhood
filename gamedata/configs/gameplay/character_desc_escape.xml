@@ -52,6 +52,8 @@
 		<!-- Stories from the Zone -->
 		<actor_dialog>sidorovich_railway_1</actor_dialog>
 		<actor_dialog>sidorovich_railway_2</actor_dialog>
+		<actor_dialog>sidorovich_railway_3</actor_dialog>
+		<actor_dialog>sidorovich_railway_4</actor_dialog>
 		<actor_dialog>sidorovich_fake_artifact_1</actor_dialog>
 		<actor_dialog>sidorovich_fake_artifact_2</actor_dialog>
 		<actor_dialog>sidorovich_fake_artifact_2_time</actor_dialog>
@@ -89,6 +91,9 @@
 		<actor_dialog>wolf_st</actor_dialog> <!-- LTTZ -->
 		<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_ordered_task_dialog</actor_dialog>
+		
+		
+		
 		<actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
 
@@ -133,6 +138,12 @@
 		<actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
 		<actor_dialog>dm_ordered_task_cancel_dialog</actor_dialog>
 		<actor_dialog>fanatic_st</actor_dialog> <!-- LTTZ -->
+		
+		
+		<!-- StfZ -->
+		<actor_dialog>fanatic_north_0</actor_dialog> <!-- LTTZ -->
+		
+		
 		<actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
 
@@ -176,6 +187,8 @@
 		<actor_dialog>devushka_give_present</actor_dialog>
 		<actor_dialog>devushka_go_village</actor_dialog>
 		<actor_dialog>adventure_time_with_hip</actor_dialog>
+		
+		
 	</specific_character>
 	
 <!-- Xenotech  (Loner Mechanic at the Farm) -->

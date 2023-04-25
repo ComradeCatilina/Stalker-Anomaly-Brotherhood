@@ -2,9 +2,10 @@
 
 <game_dialogs>
 
-To do: 	
----- 
-
+--To do: 	
+---- add to barman_north_0 condition of brainscorcher
+---- add to fanatic_north_0 condition of brainscorcher
+---- add disable_info agr_snork_infestion to last brotherhood agroprom quest done
 
 ---- Hunter Guild ----
 
@@ -173,11 +174,12 @@ To do:
 			<phrase id="1">				
 				<text>butcher_2_done_1</text>
 				<give_info>butcher_2_done</give_info>
+				<give_info>agr_snork_infestion</give_info>
 				<action>dialogs_brotherhood.transfer_brotherhood_reward_1</action>
 			</phrase>
 		</phrase_list>
 	</dialog>		
-	
+agr_snork_infestion	
 --Quest3--
 
 <dialog id="butcher_3">
@@ -2154,8 +2156,6 @@ To do:
 
 
 
-
-
 	
 <dialog id="assault_csky_leader_esc_5_7_start_dialog">
 		<dont_has_info>assault_csky_leader_esc_5_7_start_dialog_done</dont_has_info>
@@ -2346,6 +2346,42 @@ To do:
 		</phrase_list>
 	</dialog>		
 
+<dialog id="sidorovich_railway_3">
+		<has_info>bandit_guards_esc_6_8_dead</has_info>
+		<has_info>bandit_reinforcment_esc_6_8_dead</has_info>
+		<dont_has_info>sidorovich_railway_3_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>sidorovich_railway_3_0</text>
+				<next>1</next>				
+			</phrase>
+			<phrase id="1">				
+				<text>sidorovich_railway_3_1</text>
+				<give_info>sidorovich_railway_3_done</give_info>
+				<give_info>esc_railway_assault_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>	
+	
+<dialog id="sidorovich_railway_4">
+		<has_info>bandit_guards_esc_6_8_dead</has_info>
+		<has_info>bandit_reinforcment_esc_7_11_dead</has_info>
+		<dont_has_info>sidorovich_railway_4_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>sidorovich_railway_4_0</text>
+				<next>1</next>				
+			</phrase>
+			<phrase id="1">				
+				<text>sidorovich_railway_4_1</text>
+				<give_info>sidorovich_railway_4_done</give_info>
+				<give_info>esc_railway_assault_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>	
+	
+	
+	
 
 
 	
@@ -2495,6 +2531,46 @@ To do:
 			</phrase_list>
 	</dialog>	
 	
+----- Rush to the North	-----
+	
+	
+<dialog id="barman_north_0">
+		
+		<dont_has_info>barman_north_0_done</dont_has_info>
+		
+		<phrase_list>
+				<phrase id="0">
+					<text>barman_north_0_0</text>
+					<next>1</next>
+				</phrase>
+				<phrase id="1">
+					<text>barman_north_0_1</text>
+					<give_info>barman_north_0_done</give_info>
+					<action>dialogs_brotherhood.give_barman_brainscorcher_1</action>
+				</phrase>	
+		</phrase_list>
+	</dialog>	
+	
+	
+	
+<dialog id="fanatic_north_0">
+		<has_info>sidorovich_railway_1_start</has_info>
+		
+		<dont_has_info>fanat_open_north_start_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>sidorovich_railway_3_0</text>
+				<next>1</next>				
+			</phrase>
+			<phrase id="1">				
+				<text>sidorovich_railway_3_1</text>
+				<give_info>fanat_open_north_start_done</give_info>
+				<give_info>esc_railway_assault_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>	
+	
+	
 <dialog id="barman_sektor_gaza_0">
 		
 		<dont_has_info>barman_sektor_gaza_0_done</dont_has_info>
@@ -2510,14 +2586,7 @@ To do:
 					<give_info>sektor_gaza_kashey_done</give_info>
 				</phrase>	
 		</phrase_list>
-	</dialog>	
-	
-	
-	
-	
-	
-	
-	
+	</dialog>		
 	
 
 </game_dialogs>

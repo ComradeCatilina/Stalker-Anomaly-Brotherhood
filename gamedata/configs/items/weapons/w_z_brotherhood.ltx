@@ -1,0 +1,28 @@
+--- maybe condition decay is too fast? it's 35 instead of 20 (og saiga12)
+
+
+
+;------------------------------------------------------------------------------------------------
+[wpn_saiga12s_mutanthammer]:wpn_saiga12s
+GroupControlSection                      = spawn_group
+discovery_dependency                     =
+$npc                                     = off
+$prefetch                                = 8
+$spawn                                   = "weapons\ak-74"
+scheduled                                = off
+
+inv_name                                 = st_wpn_saiga12s_mutanthammer_name
+inv_name_short                           = st_wpn_saiga12s_mutanthammer_name
+description                              = st_wpn_saiga12s_mutanthammer_descr
+
+kind                                     = w_shotgun
+inv_weight                               = 2.51
+cost                                     = 41680
+repair_type                              = shotgun
+weapon_class                             = shotgun
+
+ammo_mag_size                            = 12
+
+
+condition_queue_shot_dec                 = 0.0035
+condition_shot_dec                       = 0.0035

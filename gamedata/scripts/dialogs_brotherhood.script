@@ -702,3 +702,9 @@ function is_has_blackout_backpack()
 end
 
 
+----- Rush to the North ----
+
+function give_barman_brainscorcher_1(first_speaker, second_speaker)
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "vodka_quality", 1)
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"stalker", 5})
+end

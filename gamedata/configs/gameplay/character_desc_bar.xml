@@ -42,6 +42,7 @@
 		<actor_dialog>devushka_help</actor_dialog>
 		
 		<!-- Sftz -->
+		<actor_dialog>barman_north_0</actor_dialog>
 		<actor_dialog>barman_sektor_gaza_0</actor_dialog>
 	</specific_character>
 
