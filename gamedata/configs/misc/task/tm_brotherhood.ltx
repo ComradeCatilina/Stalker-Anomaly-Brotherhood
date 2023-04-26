@@ -233,7 +233,7 @@ on_complete = %=spawn_vybegallo_order_mercenary =reward_item(medkit) =reward_ite
 
 [give_vybegallo_must_die]
 icon = ui_iconsTotal_bar_crazy_veterans_quest
-prior = 20
+prior = 99
 storyline = true
 
 title = give_vybegallo_must_die_name
@@ -242,6 +242,22 @@ descr = {+vybegallo_dead} give_vybegallo_must_die_2_descr, give_vybegallo_must_d
 
 condlist_0 = {+give_vybegallo_must_die_done} complete
 on_complete = %=reward_item(af_grid_prototype)%
+
+[give_vybegallo_satisfied_man]
+icon = ui_iconsTotal_bar_crazy_veterans_quest
+prior = 99
+storyline = true
+
+title = give_vybegallo_satisfied_man_name
+target = 
+descr = {+satisfied_man_dead} give_vybegallo_satisfied_man_2_descr, give_vybegallo_satisfied_man_1_descr
+status_functor          = give_vybegallo_satisfied_man_status_f
+
+condlist_0 = {+give_vybegallo_satisfied_man_done} complete
+on_complete = %=reward_item(af_grid_prototype)%
+
+
+
 
 ;------------------------------------------------------------------------------------------
 ; Cordon QUESTLINES
@@ -429,3 +445,19 @@ target =
 condlist_0 = {+give_what_a_night_done} complete
 on_init = %=spawn_blackout_knife =spawn_blackout_shotgun%
 on_complete = 
+
+
+;------------------------------------------------------------------------------------------
+; Rush to the North
+;------------------------------------------------------------------------------------------
+
+[give_task_fanat_rookie_supplies_1]
+icon = ui_iconsTotal_bar_crazy_veterans_quest
+prior = 20
+storyline = true
+
+title = give_task_fanat_rookie_supplies_1_name
+target = 
+descr = {+fanatic_north_help_10} give_task_fanat_rookie_supplies_10_descr, {+fanatic_north_help_5} give_task_fanat_rookie_supplies_5_descr, {+fanatic_north_help_4} give_task_fanat_rookie_supplies_4_descr, {+fanatic_north_help_3} give_task_fanat_rookie_supplies_3_descr, {+fanatic_north_help_2} give_task_fanat_rookie_supplies_2_descr, {+fanatic_north_help_1} give_task_fanat_rookie_supplies_1_descr
+
+condlist_0 = {+fanatic_north_1_done} complete

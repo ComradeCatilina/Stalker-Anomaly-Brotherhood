@@ -141,8 +141,8 @@
 		
 		
 		<!-- StfZ -->
-		<actor_dialog>fanatic_north_0</actor_dialog> <!-- LTTZ -->
-		
+		<actor_dialog>fanatic_north_0</actor_dialog> 
+		<actor_dialog>fanatic_north_1</actor_dialog>
 		
 		<actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>

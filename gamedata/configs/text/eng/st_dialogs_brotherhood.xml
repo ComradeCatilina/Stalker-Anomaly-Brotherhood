@@ -112,7 +112,7 @@
 		<text>The snorks are dead.</text>
 	</string>	
 	<string id="butcher_3_done_1">
-		<text>Well done! Here, have a drink and some food. Here, have a smoke too. And of course, a reward for your troubles. Have a rest and come see me, we have to do something about this snork problem.</text>
+		<text>Well done! Here, have a drink and some food. Here, have a smoke too. And of course, a reward for your troubles. Have a rest and come see me - I have a job for you concerning some lost cargo in the Swamp.</text>
 	</string>	
 	
 -- Quest 4 --
@@ -670,6 +670,25 @@
 		<text>Artyom! Artyom!!! Don't fall asleep!!! Artyom, wake up!!!</text>
 	</string>
 	
+------ Forester -------
+<string id="forester_mutanthammer_0">
+		<text>[Mutanthammer] I found this gun on [XXX].</text>
+	</string>	
+	<string id="forester_mutanthammer_1">
+		<text>Ah yes, the Mutanthammer. I remember this gun, it was me who modified it! 
+			Mainly I fluted the barrel and replaced some of it's components with a lighter material to cut off some weight. Of course it also comes with a downside - the gun will wear faster than a standard Saiga.
+			Took me some time, but I'm really proud of it. So you're the new owner - I hope it will serve you well! Here, let me clean it for you and repair it in order to make it pristine again. </text>
+	</string>	
+	<string id="forester_mutanthammer_2">
+		<text>Thank you!</text>
+	</string>
+	<string id="forester_mutanthammer_3">
+		<text>No problem! \n \n...\n \n Here, as good as new! Good hunting with it!</text>
+	</string>
+
+
+
+
 	
 	
 ---- Doctor Alyosha Karmov ----	
@@ -1734,6 +1753,40 @@
 
 ---- Rush to the North and Brainscorcher reactions ------
 
+<string id="fanatic_north_1_0">
+		<text>About the rookie supplies.</text>
+	</string>
+	<string id="fanatic_north_1_1">
+		<text>Yeah?</text>
+	</string>
+	<string id="fanatic_north_1_2">
+		<text>I gathered the supplies. Here!</text>
+	</string>
+	<string id="fanatic_north_1_8">
+		<text>I need more time to gather the supplies.</text>
+	</string>
+	<string id="fanatic_north_1_9">
+		<text>Fucking awesome dude! You are a hero to me and I'll make sure that everyone hears about your generosity.</text>
+	</string>
+	<string id="fanatic_north_1_10">
+		<text>Awesome dude! You are a rare breed in the Zone, I'll make sure that everyone hears about your generosity.</text>
+	</string>	
+	<string id="fanatic_north_1_11">
+		<text>Great! You are a great benefactor for the rookies, I'll make sure that everyone hears about your generosity.</text>
+	</string>	
+	<string id="fanatic_north_1_12">
+		<text>Excellent! You are a benefactor for the rookies, I'll make sure that everyone hears about your generosity.</text>
+	</string>	
+	<string id="fanatic_north_1_13">
+		<text>Perfect! Thanks a lot for your help, I'll make sure that everyone hears about your help.</text>
+	</string>	
+	<string id="fanatic_north_1_14">
+		<text>Cool, thanks a lot! I'll make sure the other hear about your help.</text>
+	</string>	
+	<string id="fanatic_north_1_15">
+		<text>No rush! Take your time.</text>
+	</string>
+	
 <string id="fanatic_north_0_0">
 		<text>Hy Fanat, how are you doing? What happened since I left?</text>
 	</string>
@@ -1776,10 +1829,11 @@
 		<text>I don't believe in hand outs!</text>
 	</string>
 	<string id="fanatic_north_0_12">
-		<text>I'm glad to hear that! 10.000 roubles would be nice!</text>
+		<text>I'm glad to hear that! Enough material to kit out three rookies would be great! Say, three Echo detectors, three bottles of Nemiroff and thirty shells of buckshot.</text>
 	</string>
+	
 	<string id="fanatic_north_0_13">
-		<text>You know, considering the rising prices of detectors and so on... 8.000 roubles?</text>
+		<text>I would need enough material to kit out a couple of rookies, ideally for three rookies... Say, three Echo detectors, three bottles of Nemiroff and thirty shells of buckshot.</text>
 	</string>
 	<string id="fanatic_north_0_14">
 		<text>I understand, forget I asked about it.</text>
@@ -1788,55 +1842,63 @@
 		<text>I see... Forget I asked...</text>
 	</string>
 	<string id="fanatic_north_0_16">
-		<text>[10.000] No problem!</text>
+		<text>I can do that, no problem! I'll be back with goods!</text>
 	</string>
 	<string id="fanatic_north_0_17">
-		<text>Shiieet man, only 10.000? Are you sure you don't need more?</text>
+		<text>Shiieet man, only for three rookies? Are you sure you don't need more?</text>
 	</string>
 	<string id="fanatic_north_0_18">
 		<text>Damn, I have to say, that's quite steep...</text>
 	</string>
+	<string id="fanatic_north_0_181">
+		<text>That's too much, I'm sorry, I can't help you out.</text>
+	</string>
+	
 	<string id="fanatic_north_0_19">
-		<text>Wouldn't it be better if I brought you the stuff you need instead of the money?</text>
+		<text>Great, thank you Stalker!</text>
 	</string>
 	<string id="fanatic_north_0_20">
-		<text>Let me first gather the money, I'll be back!</text>
+		<text>To be honest, I need much more, but I don't want to abuse your generosity.</text>
 	</string>
 	<string id="fanatic_north_0_21">
-		<text>[8.000] Sure man, here!</text>
+		<text>Understandable. Two of each would also help out a lot.</text>
 	</string>
 	<string id="fanatic_north_0_22">
-		<text>Thank you very much! I appreciate your help, and I'm sure the rookies will too!</text>
+		<text>I appreciate what you're doing here for the rookies and I want to help you out. I'll come back with ten of each.</text>
 	</string>
 	<string id="fanatic_north_0_23">
-		<text>Well to be honest...</text>
+		<text>I appreciate what you're doing here for the rookies and I want to help you out. I'll come back with five of each.</text>
 	</string>
 	<string id="fanatic_north_0_24">
-		<text>I understand, maybe you could help out with 8.000?</text>
+		<text>I appreciate what you're doing here for the rookies and I want to help you out. I'll come back with four of each.</text>
 	</string>
 	<string id="fanatic_north_0_25">
-		<text>Of course, that would be much better. To be honest, I would need three Echo detectors, three bottles of Nemiroff Vodka and thirty shots for a shotgun. 
-			That would be enough for three rookies, but of course, if you that's too much, two of each would be enough...</text>
+		<text>On second thoughts, three of each is already a lot, but I will do it for you. I'll come back with the material.</text>
 	</string>
 	<string id="fanatic_north_0_26">
-		<text>Sure no problem! I appreciate any help!</text>
+		<text>Ten? That would be fucking awesome, thanks a lot!</text>
 	</string>
 	<string id="fanatic_north_0_27">
-		<text>[50.000] Here man, I appreciate your work!</text>
+		<text>Five? Wow, that would help the rookies out a lot! Thanks!</text>
 	</string>
 	<string id="fanatic_north_0_28">
-		<text>[25.000] Here man, always glad to help good people out!</text>
+		<text>That's very generous. Thanks!</text>
 	</string>
 	<string id="fanatic_north_0_29">
-		<text>[20.000] Here man, this should be enough to cover your good deeds!</text>
+		<text>I understand, three is all I ask for! Thank you a lot for your help!</text>
 	</string>
 	<string id="fanatic_north_0_30">
-		<text>[15.000] Here man, this should help you out!</text>
+		<text>Yeah I can do two. I'll come back with the material.</text>
 	</string>
 	<string id="fanatic_north_0_31">
-		<text>Wait, I need to get some money first.</text>
+		<text>One of each will have to suffice, I'll give you back what you once gave me.</text>
 	</string>
-
+	<string id="fanatic_north_0_32">
+		<text>Alright, thank you for helping the rookies out.</text>
+	</string>
+	<string id="fanatic_north_0_33">
+		<text>I guess that's better than nothing. Thank you nevertheless.</text>
+	</string>
 
 
 
@@ -1847,7 +1909,7 @@
 	<string id="barkeep_north_0_1">
 		<text>And all thanks to you! By disabling the Brainscorcher you opened up the north for anyone who dares to go! 
 			You triggered a rush for the north - and people gather here to buy supplies before setting off! Here, a drink on the house - you deserved it! \n \n
-			If you're looking to make some money, now is a great opportunity!</text>
+			If you're looking to make some money, now is a great opportunity! Prices are soaring, I hope you don't need any supplies as demand is huge at the moment.</text>
 	</string>
 
 

@@ -154,7 +154,7 @@
 --- Vybegallo ---	
 	
 <string id="give_meet_vybegallo_quest_name">
-		<text>Meet Vybegallo: has science gone too far?</text>
+		<text>Meet Vybegallo: science gone too far?</text>
 	</string>
 	<string id="give_meet_vybegallo_quest_descr">
 		<text>Vybegallo requested my urgent help. I should go see him.</text>
@@ -269,7 +269,29 @@
 
 
 
+----- Rush to the North
 
+<string id="give_task_fanat_rookie_supplies_1_name">
+	<text>Gathering supplies for the rookies</text>
+	</string>
+<string id="give_task_fanat_rookie_supplies_10_descr">
+	<text>Fanatic asked me to gather 10 Echo detectors, 10 Nemiroff Vodka bottles and 100 buckshot shells for the rookies.</text>
+	</string>
+	<string id="give_task_fanat_rookie_supplies_5_descr">
+	<text>Fanatic asked me to gather 5 Echo detectors, 5 Nemiroff Vodka bottles and 50 buckshot shells for the rookies.</text>
+	</string>
+	<string id="give_task_fanat_rookie_supplies_4_descr">
+	<text>Fanatic asked me to gather 4 Echo detectors, 4 Nemiroff Vodka bottles and 40 buckshot shells for the rookies.</text>
+	</string>
+	<string id="give_task_fanat_rookie_supplies_3_descr">
+	<text>Fanatic asked me to gather 3 Echo detectors, 3 Nemiroff Vodka bottles and 30 buckshot shells for the rookies.</text>
+	</string>
+	<string id="give_task_fanat_rookie_supplies_2_descr">
+	<text>Fanatic asked me to gather 2 Echo detectors, 2 Nemiroff Vodka bottles and 20 buckshot shells for the rookies.</text>
+	</string>
+	<string id="give_task_fanat_rookie_supplies_1_descr">
+	<text>Fanatic asked me to gather 1 Echo detectors, 1 Nemiroff Vodka bottles and 10 buckshot shells for the rookies.</text>
+	</string>
 
 
 	
