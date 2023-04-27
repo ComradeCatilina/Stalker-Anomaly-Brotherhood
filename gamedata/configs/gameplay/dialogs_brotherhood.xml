@@ -1500,7 +1500,68 @@ agr_snork_infestion
 		</phrase_list>
 	</dialog>	
 	
-	
+<dialog id="forester_legendary_3">
+		<has_info>forester_legendary_info</has_info>
+		<dont_has_info>all_legendary_dead</dont_has_info>		
+		<phrase_list>
+				<phrase id="0">
+					<text>forester_legendary_3_0</text>
+					<next>1</next>
+				</phrase>
+				<phrase id="1">
+					<text>forester_legendary_3_1</text>
+					<next>2</next>
+					<next>3</next>
+					<next>4</next>
+					<next>5</next>					
+				</phrase>
+				<phrase id="2">
+					<text>forester_legendary_3_2</text>
+					<next>6</next>
+				</phrase>
+				<phrase id="3">
+					<text>forester_legendary_3_3</text>
+					<next>7</next>
+				</phrase>
+				<phrase id="4">
+					<text>forester_legendary_3_4</text>
+					<next>8</next>
+				</phrase>
+				<phrase id="5">
+					<text>forester_legendary_3_5</text>
+					<next>10</next>
+				</phrase>
+				<phrase id="6">
+					<text>forester_legendary_3_6</text>
+					
+					<next>3</next>
+					<next>4</next>
+					<next>5</next>	
+				</phrase>
+				<phrase id="7">
+					<text>forester_legendary_3_7</text>
+					<next>2</next>
+					
+					<next>4</next>
+					<next>5</next>	
+				</phrase>
+				<phrase id="8">
+					<text>forester_legendary_3_8</text>
+					<next>2</next>
+					<next>3</next>
+					
+					<next>5</next>	
+				</phrase>
+				
+				<phrase id="10">
+					<text>forester_legendary_3_10</text>
+					
+				</phrase>
+
+
+				
+		</phrase_list>
+	</dialog>		
 	
 --Vybegallo--
 
