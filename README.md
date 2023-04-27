@@ -9,7 +9,7 @@ Special thanks to the Anomaly discord coder community which helped me throughout
 - xcvb for always helping out and providing some scripts used in this mod
 - NLTP-Ashes for sharing his huge knowledge
 - Ghentuong for being an inspiration and a reference, and providing some scripts used in this mod
-- Ravenascendant for helping out if I had a question
+- RavenAscendant for helping out if I had a question
 - igigog for helping out if I had a question
 - demonized for helping out if I had a question
 
