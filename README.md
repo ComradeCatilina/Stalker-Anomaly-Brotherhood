@@ -7,8 +7,8 @@ Thank you for visiting my mod project. For the moment it's still in the early ph
 Special thanks to the Anomaly discord coder community which helped me throughout this project, especially
 
 - xcvb for always helping out and providing some scripts used in this mod
-- NLTP-Ashes for sharing his huge knowledge
-- Ghentuong for being an inspiration and a reference, and providing some scripts used in this mod
+- NLTP-ASHES for sharing his huge knowledge
+- GhenTuong for being an inspiration and a reference, and providing some scripts used in this mod
 - RavenAscendant for helping out if I had a question
 - igigog for helping out if I had a question
 - demonized for helping out if I had a question
