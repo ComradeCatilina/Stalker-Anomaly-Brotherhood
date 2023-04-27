@@ -15,11 +15,11 @@ Special thanks to the Anomaly discord coder community which helped me throughout
 
 and not to forget, the devs of Anomaly themselves who made all of this possible.
 
-#What to expect?
+# What to expect?
 
 Not much to be honest.
 
-#Compatibility:
+# Compatibility:
 
     DLTX adaptation will follow in the endphase
 
