@@ -1,5 +1,5 @@
 # Stalker-Anomaly-Brotherhood
-
+Version 0.1a
 
 Compatibility:
 
