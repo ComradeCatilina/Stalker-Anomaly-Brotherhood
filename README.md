@@ -1,4 +1,6 @@
 # Stalker-Anomaly-Brotherhood
+Version 0.1a
+
 
 Thank you for visiting my mod project. For the moment it's still in the early phase of developpment.
 
@@ -13,9 +15,11 @@ Special thanks to the Anomaly discord coder community which helped me throughout
 
 and not to forget, the devs of Anomaly themselves who made all of this possible.
 
-Version 0.1a
+#What to expect?
 
-Compatibility:
+Not much to be honest.
+
+#Compatibility:
 
     DLTX adaptation will follow in the endphase
 
