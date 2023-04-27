@@ -19,7 +19,7 @@ Compatibility:
 
     DLTX adaptation will follow in the endphase
 
-- For the moment I recommend playing this mod without any other mods - at least none which would be in conflict. If you really want to use other mods, use this guide to make your own monkey patch.
+- For the moment I recommend playing this mod without any other mods - at least none which would be in conflict. If you really want to use other mods, use this guide to make your own compatibility patch.
 
 - If you want to use other mods which use these three files, you have to include my mod too. You can do this by opening the concerned file with notepad++ and adding the required lines
 
