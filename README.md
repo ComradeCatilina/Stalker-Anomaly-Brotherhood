@@ -1,4 +1,18 @@
 # Stalker-Anomaly-Brotherhood
+
+Thank you for visiting my mod project. For the moment it's still in the early phase of developpment.
+
+Special thanks to the Anomaly discord community which helped me throughout this project, especially
+
+- xcvb for always helping out and providing some scripts used in this mod
+- NLTP-Ashes for sharing his huge knowledge
+- Ghentuong for being an inspiration and a reference, and providing some scripts used in this mod
+- Ravenascendant for helping out if I had a question
+- igigog for helping out if I had a question
+- demonized for helping out if I had a question
+
+
+
 Version 0.1a
 
 Compatibility:
