@@ -2,7 +2,7 @@
 
 Thank you for visiting my mod project. For the moment it's still in the early phase of developpment.
 
-Special thanks to the Anomaly discord community which helped me throughout this project, especially
+Special thanks to the Anomaly discord coder community which helped me throughout this project, especially
 
 - xcvb for always helping out and providing some scripts used in this mod
 - NLTP-Ashes for sharing his huge knowledge
@@ -11,7 +11,7 @@ Special thanks to the Anomaly discord community which helped me throughout this 
 - igigog for helping out if I had a question
 - demonized for helping out if I had a question
 
-
+and not to forget, the devs of Anomaly themselves who made all of this possible.
 
 Version 0.1a
 
