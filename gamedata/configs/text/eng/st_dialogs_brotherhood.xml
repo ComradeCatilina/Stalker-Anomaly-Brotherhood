@@ -698,10 +698,10 @@
 	<string id="forester_legendary_0_3">
 		<text>Since I gave a name to these mutants. Of course they are not any Bloodsuckers - they are very ancient beings... they've been around since the earlier days of the Zone - and around here, being old means something.</text>
 	</string>	
-	<string id="forester_legendary_0_4">
+	<string id="forester_legendary_0_04">
 		<text>Vlad and Drakul? That doesn't sound very original for Bloodsuckers?</text>
 	</string>
-	<string id="forester_legendary_0_5">
+	<string id="forester_legendary_0_05">
 		<text>I don't care if it's original, what matters to me is that it suits them. Besides, if you believe you're more creative - find a mutant deserving a name and prove it.</text>
 	</string>
 	<string id="forester_legendary_0_4">
@@ -725,52 +725,127 @@
 		</text>
 	</string>
 	<string id="forester_legendary_0_8">
-		<text>Damn... but you managed to shoot Morloch? How did that happen?</text>
+		<text>Damn... but you managed to shoot Moloch? How did that happen?</text>
 	</string>	
 	<string id="forester_legendary_0_9">
 		<text>I met the brothers many times since then! At first I shunned that forest, until I noticed that they are night creatures. I started to track them, gather informations on this new danger lurking in my wood. I tried to lay traps - the first worked but I wasn't able to capitalise on it, but the brothers also learned and started to avoid them.
 			Sometimes I managed to wound one - sometimes they managed to wound me. I tried to find their lair by following their foodsteps - to no avail, I never found the exact location. This continued until one day, some bandits tried to jump me. They tried to extort me - I refused. It escalated and they ended up dead - except one! He was wounded and out cold - bleeding to death. 
 			So I decided not to let a good corpse go to waste and I carried him into the forest as bait. I tied him to a tree and waited in ambush for the brothers. And sure enough they came - surrounding that poor fellow. Yes, it was not right for me to do that to a fellow man - to expose him to such horros without giving him a fighting chance... But back then I thought it was a good idea.
-			While they were gulping on their easy prey, I took aim and patiently waiting for my shot. And I shot - it went right through Morloch's heart. Vlad and Drakul screached up in fright and took off - and I took my trophy. \n \n
+			While they were gulping on their easy prey, I took aim and patiently waiting for my shot. And I shot - it went right through Moloch's heart. Vlad and Drakul screached up in fright and took off - and I took my trophy. \n \n
 			Since then I never saw them again, they retreated deep into the forest and rarely come out anymore - they let most of their hunting be done by their conspecifics.</text>
 	</string>
 	<string id="forester_legendary_0_10">
 		<text>Tell me where to find them - I will hunt them!</text>
 	</string>
 	<string id="forester_legendary_0_11">
-		<text>Good, and I hope that they will remain there!</text>
+		<text>I believe that is enough - I still want to be able to sleep.</text>
 	</string>	
 	<string id="forester_legendary_0_12">
 		<text>Then you are a fool! They mean certain death - don't be so rash as to believe you'll be able to master them!</text>
 	</string>
 	<string id="forester_legendary_0_13">
-		<text>I agree...</text>
+		<text>They are mutants, Forester, you don't honestly believe they stopped killing, do you? They have to be destroyed - especially if they are as dangerous as you say!</text>
 	</string>
 	<string id="forester_legendary_0_14">
-		<text>They are mutants, Forester, you don't honestly believe they stopped killing humans, do you? They have to be destroyed!</text>
+		<text>You're right - patience is in order. We have to wait for an opportune moment.</text>
 	</string>
 	<string id="forester_legendary_0_15">
-		<text>I have proven myself capable Forester, tell me how to rid the Zone from these creatures!</text>
+		<text>Of course I don't believe they stopped murdering - but it's not your duty putting an end to them! Maybe I wasn't clear enough - they are not your normal Bloodsuckers, they are much worse. They are like a force of nature - we have to live with them.</text>
 	</string>
 	<string id="forester_legendary_0_16">
-		<text>Do you want to do it for your fellow Stalkers, or do you want to do it for glory?</text>
+		<text>I protest - I have proven myself, I'm a capable hunter! I faced and mastered many terrors here - I can do it.</text>
 	</string>
 	<string id="forester_legendary_0_17">
-		<text>Don't be so rash young ranger - there is fate in life and she is merciless. You shouldn't rush, don't play with fate!</text>
+		<text>I know - you're valant and your skills are great! But this is an order of magnitude which you haven't faced yet - you're overestimating your own strenght - you're rash and want to hurry and this makes you prone to mistakes. Don't ask of me to be guilty of your death - keep your strenght for other mutants, don't waste away your life.</text>
 	</string>
 	<string id="forester_legendary_0_18">
-		<text>I want to do it for my fellow Stalkers.</text>
+		<text>Forester, have trust in younger people! At some point they have to be stopped, and our chances are better if you would help instead of trying to shelter me. Tell me, how to prepare and I will!</text>
 	</string>
 	<string id="forester_legendary_0_19">
-		<text>I want to do it for glory!</text>
+		<text>Aah, young people... so overconfident. You don't understand - you will not face them alone, but also their brethren! \n \n... \n \nBut I can see it in your eyes, you're determined.
+		Tell you what, bring me the hearts of ten Bloodsuckers, and I'll tell you how to find them... at least you will have experience facing these devils... </text>
 	</string>
 	<string id="forester_legendary_0_20">
-		<text>I want to do it for both.</text>
+		<text>I will not disappoint you! Consider it done</text>
 	</string>
 	<string id="forester_legendary_0_21">
-		<text>I want to do it for both.</text>
+		<text>Be careful out there young Stalker! </text>
+	</string>
+	<string id="forester_legendary_0_22">
+		<text>Yes, I'm glad you're seeing reason.</text>
+	</string>
+	<string id="forester_legendary_0_23">
+		<text>Well said, let's turn our minds to more pleasant things.</text>
 	</string>
 
+<string id="forester_legendary_1_0">
+		<text>About Vlad and Drakul. </text>
+	</string>	
+	<string id="forester_legendary_1_1">
+		<text>What is it? </text>
+	</string>
+	<string id="forester_legendary_1_2">
+		<text>I want to hunt them.</text>
+	</string>
+	<string id="forester_legendary_1_3">
+		<text>Tell me the story again how you first met them.</text>
+	</string>
+	<string id="forester_legendary_1_4">
+		<text>Tell me the story again how you shot Moloch.</text>
+	</string>
+	<string id="forester_legendary_1_5">
+		<text>It was not long after the second great explosion, the one which created this hell. 
+			I picked up a distress radio call of survivors - a military scout squad which got lost in the Zaton swamps. Apparently their commander walked into a Vortex and with him their only map got shredded. 
+			Imagine giving only one map for a whole squad - but it seems some things didn't change since the old days. Nevertheless, I found the two survivors and promised to lead them back to their headquarters - back in the days the Military still had a presence in the Army Warehouses.
+			We reached this forest at dusk - I wanted to overnight at this complex, but these boys were eager to rejoin their base. Nowadays, crossing the forest at night would mean certain death, but you know back then most of these mutants were quite rare and didn't yet reach the southern parts of the Zone. 
+			So we made a compromise - we were to take a rest and have something to eat and continue our journey after having warmed our bellies with food and our spirit with vodka. We entered the forest to gather some firewood and cooked some meat on a clearing. I don't know what attracted them - the smell of food or maybe the laughter...
+			I left the fireplace to take a piss while the two soldiers continued fooling around. When returned to the fire I saw one of them lying on the ground - hissing from laughter I thought... it was only when I stood next to him that I noticed the blood gurgling out of his throat. I looked up - the other stood there with wide eyes and behind him...
+			I don't know which of the brothers it was, but that was the first Bloodsucker I saw in my life. I didn't understand - I simply froze. That's when I felt tentacles grapling around my neck - strong and hot was that grip! I wasn't thinking - I grabbed a piece of burning wood and struck behind me! 
+			The Bloodsucker immediately let go of me, and I scrambled off, running for my life! That's how I met Moloch, Vlad and Drakul!</text>
+	</string>
+	<string id="forester_legendary_1_6">
+		<text>I started to track the brothers, gather informations on this new danger lurking in my wood. I tried to lay traps - the first worked but I wasn't able to capitalise on it, but the brothers also learned and started to avoid them.
+			Sometimes I managed to wound one - sometimes they managed to wound me. I tried to find their lair by following their foodsteps - to no avail, I never found the exact location. This continued until one day, some bandits tried to jump me. They tried to extort me - I refused. It escalated and they ended up dead - except one! He was wounded and out cold - bleeding to death. 
+			So I decided not to let a good corpse go to waste and I carried him into the forest as bait. I tied him to a tree and waited in ambush for the brothers. And sure enough they came - surrounding that poor fellow. Yes, it was not right for me to do that to a fellow man - to expose him to such horros without giving him a fighting chance... But back then I thought it was a good idea.
+			While they were gulping on their easy prey, I took aim and patiently waiting for my shot. And I shot - it went right through Moloch's heart. Vlad and Drakul screached up in fright and took off - and I took my trophy.</text>
+	</string>
+	<string id="forester_legendary_1_7">
+		<text>[Bloodsucker Jaws] I brought proof that I'm able to hunt Bloodsuckers.</text>
+	</string>
+	<string id="forester_legendary_1_8">
+		<text>I killed Gullinbursti! And Vlad and Drakul will meet the same fate if you tell me where to find them.</text>
+	</string>
+	<string id="forester_legendary_1_9">
+		<text>Impressive... I'm reluctant to tell you this, but I believe a promise is a promise... So listen carefully - their lair is deep in the forest to the east of here - in the proximity of an old soviet tank. Where exactly - I don't know but that doesn't matter.
+			You will have to bait them out, and I believe to know how to do it but you won't like it... You will have to adone my old overcoat - it's the one I had while I was hunting them in the old days, it will have my smell and they will believe that it's me who dares to meet them. 
+			It's old - so don't expect good protection... I did some repairs and added two fasteners so you can use two attachments - so choose wisely! And of course you will have to do it during the night, when they feel confident in the protection the dark provides - else they will not dare to affront "me"...
+			\n \nAre you still up to it?</text>
+	</string>
+	<string id="forester_legendary_1_10">
+		<text>Impressive... I might have underestimated your skill and experience! I'm reluctant to tell you this, but you might be ready... Alright, so listen carefully - their lair is deep in the forest to the east of here - in the proximity of an old soviet tank. Where exactly - I don't know but that doesn't matter.
+			You will have to bait them out, and I believe to know how to do it but you won't like it... You will have to adone my old overcoat - it's the one I had while I was hunting them in the old days, it will have my smell and they will believe that it's me who dares to meet them. 
+			It's old - so don't expect good protection... I did some repairs and added two fasteners so you can use two attachments - so choose wisely! And of course you will have to do it during the night, when they feel confident in the protection the dark provides - else they will not dare to affront "me"...
+			\n \nAre you still up to it?</text>
+	</string>
+	<string id="forester_legendary_1_23">
+		<text>Yes, I still am.</text>
+	</string>
+	<string id="forester_legendary_1_24">
+		<text>To be honest I have to think about it...</text>
+	</string>
+	<string id="forester_legendary_1_25">
+		<text>Alright, then come see me the night you want to set out. Prepare for a prolonged battle, it's very likely that you will have to affront their brethren too! Stock up on shells, medecine and so on. Don't underestimate this.</text>
+	</string>
+	<string id="forester_legendary_1_26">
+		<text>There is no shame in being afraid of mortal danger! Take your time to think about it!</text>
+	</string>
+	<string id="forester_legendary_1_27">
+		<text>Can you tell me about the plan again?</text>
+	</string>
+	<string id="forester_legendary_1_28">
+		<text>Sure, listen carefully: </text>
+	</string>
+	
 
 <string id="forester_legendary_3_0">
 		<text>Are there other named mutants?</text>
@@ -1747,7 +1822,43 @@
 
 
 
+<string id="achilles_joke_0_0">	
+	<text>Several centuries ago, the Pope decreed that all the Jews had to convert to Catholicism or leave Italy. 
+	There was a huge outcry from the Jewish community, so the Pope offered a deal. He'd have a religious debate with the leader of the Jewish community. 
+	If the Jews won, they could stay in Italy; if the Pope won, they'd have to convert or leave.
+	The Jewish people met and picked an aged and wise Rabbi to represent them in the debate.
+	However, as the Rabbi spoke no Italian, and the Pope spoke no Hebrew, they agreed that it would be a 'silent' debate.
+	On the chosen day, the Pope and the Rabbi sat opposite each other. \n
+The Pope raised his hand and showed three fingers. \n
+The Rabbi looked back and raised one finger. \n
+Next, the Pope waved his finger around his head. The Rabbi pointed to the ground where he sat. \n
+The Pope brought out a communion wafer and a chalice of wine. \n
+The Rabbi pulled out an apple. \n
+With that, the Pope stood up and declared himself beaten and said that the Rabbi was too clever. The Jews could stay in Italy!
+Later the cardinals met with the Pope and asked him what had happened. The Pope said, 'First I held up three fingers to represent the Trinity. 
+He responded by holding up a single finger to remind me there is still only one God common to both our beliefs.' 
+'Then, I waved my finger around my head to show him that God was all around us. 
+He responded by pointing to the ground to show that God was also right here with us.' 
+'Finally, I pulled out the wine and wafer to show that God absolves us of all our sins. 
+He pulled out an apple to remind me of the original sin.' 'He bested me at every move and I could not continue!' \n
 
+Meanwhile, the Jewish community gathered to ask the Rabbi how he had won. 
+'I don't have a clue!!!' the Rabbi said. 'First, he told me that we had three days to get out of Italy, so I gave him the finger.' 
+Then he tells me that the whole country would be cleared of Jews, so I told him that we were staying right here.' 
+And then what?' asked a woman. Who knows...' said the Rabbi. 'He took out his lunch, so I took out mine!'</text>
+	</string>
+	<string id="achilles_joke_0_1">
+		<text>Hahahaha</text>
+	</string>
+	<string id="achilles_joke_0_2">
+		<text>Not very funny.</text>
+	</string>
+	<string id="achilles_joke_0_3">
+		<text>Ah it's great to drink with a man who understands humor.</text>
+	</string>
+	<string id="achilles_joke_0_4">
+		<text>That's because you have a potato instead of a heart my friend. Don't worry, one day I'll make you smile.</text>
+	</string>
 
 ---- What a Night ----
 

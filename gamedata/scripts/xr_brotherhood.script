@@ -9,3 +9,39 @@ xr_conditions.dist_to_beh = function(actor,npc,p)   --- Ghentuong
 	end
 	return false
 end
+
+--- mutant loot inject ---
+
+local loot_table = {
+    bloodsucker_vlad = {
+        bread = { chance = 1, count = 2 },
+        vodka = { chance = 0.25, count = 1 },
+    },
+
+}
+
+function monster_on_loot_init(obj, t)
+    local sec = obj:section()
+    local sec_str
+    for mut_name, _ in pairs(loot_table) do
+        if string.find(sec, mut_name) then
+            sec_str = mut_name
+            break
+        end
+    end
+    if not sec_str then return end
+
+    for item_sec, item_table in pairs(loot_table[sec_str]) do
+        for i = 1, item_table.count do
+            if math.random() <= item_table.chance then
+                t.item_sec = t.item_sec or {}
+                t.item_sec.count = (t.item_sec.count and t.item_sec.count + 1) or 1
+            end
+        end
+    end
+
+end
+
+function on_game_start()
+    RegisterScriptCallback("monster_on_loot_init", monster_on_loot_init)
+end

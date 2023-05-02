@@ -35,8 +35,10 @@
 		<actor_dialog>dm_tech_repair</actor_dialog>
 		<actor_dialog>awr_tech_dialog_drink_1</actor_dialog>
 		<!--SftZ -->
+		<actor_dialog>forester_legendary_0</actor_dialog>
 		<actor_dialog>forester_legendary_hunt_0</actor_dialog>
 		<actor_dialog>forester_mutanthammer</actor_dialog>
+		<actor_dialog>forester_legendary_3</actor_dialog>
 		
 		
 		
