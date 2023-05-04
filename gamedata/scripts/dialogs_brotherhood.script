@@ -239,6 +239,43 @@ end
 ---- Legendary Mutants ----
 
 --- Vlad and Drakul ---
+
+function is_has_bloodsucker_hearts_10()
+	local cnt = utils_item.get_amount(db.actor, "mutant_part_heart_bloodsucker")
+    if (cnt >= 10) then
+        return true
+    end
+    return false
+end
+
+function is_night_vlad_drakul()
+	local hrs = level.get_time_hours()
+	if (hrs >= 21) or (hrs < 1) then
+	return true
+	end
+	return false
+end
+
+function is_day_vlad_drakul()
+	local hrs = level.get_time_hours()
+	if (hrs >= 1) and (hrs < 21) then
+	return true
+	end
+	return false
+end
+
+function vlad_drakul_task_reset()
+	DI("forester_news_legendary_1")
+	
+	DI("hunt_vlad_drakul_1_init")
+	DI("legendary_bloodsucker_1_dead")
+	
+	DI("forester_news_legendary_3")
+	DI("give_forester_hunt_vlad_drakul_fail")
+	
+	DI("forester_legendary_2_done")
+end
+
 function give_forester_hunt_vlad_drakul()
 	dialogs_brotherhood.give_task('give_forester_hunt_vlad_drakul')
 end

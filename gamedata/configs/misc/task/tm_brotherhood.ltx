@@ -165,12 +165,14 @@ storyline = true
 
 title = give_forester_hunt_vlad_drakul_name
 target = 
-descr = {+legendary_bloodsucker_2_dead} give_forester_hunt_vlad_drakul_2_descr, give_forester_hunt_vlad_drakul_1_descr
+descr = {+forester_news_legendary_3} give_forester_hunt_vlad_drakul_3_descr, {+legendary_bloodsucker_2_dead} give_forester_hunt_vlad_drakul_2_descr, give_forester_hunt_vlad_drakul_1_descr
 status_functor          = give_hunt_legendary_1_status_f
 
 on_init = 
-condlist_0 =  
-on_complete = 
+condlist_0 =  {+give_forester_hunt_vlad_drakul_done} complete
+condlist_1 = {+give_forester_hunt_vlad_drakul_fail} fail
+on_complete = %=reward_item(vodka_quality) =inc_faction_goodwill_to_actor(stalker:75)%
+on_fail = 
 
 ;------------------------------------------------------------------------------------------
 ; Doctor Alyosha Karmov QUESTLINES

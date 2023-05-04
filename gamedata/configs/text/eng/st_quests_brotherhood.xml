@@ -135,7 +135,22 @@
 	<string id="give_dolg_bloodsucker_village_3_1_descr">
 		<text>The Duty soldiers want to take vengeance on the Blooduscker. I should meet their squad in Army Warehouse in the farmstead south of the path to Rostok.</text>
 	</string>	
-	
+
+---- Legendary Hunts ----	
+<string id="give_forester_hunt_vlad_drakul_name">
+		<text>From Dusk till Dawn</text>
+	</string>
+	<string id="give_forester_hunt_vlad_drakul_1_descr">
+		<text>I'm about to hunt Vlad and Drakul - the Bloodsucker brothers. They will only fight me during the night and I have to wear Forester's old coat. 
+		Their lair is somwhere near an old tank. I first have to go through and old mine tunnel and then north east, deep into the forest. </text>
+	</string>
+	<string id="give_forester_hunt_vlad_drakul_2_descr">
+		<text>Vlad and Drakul are dead. I should go see Forester to bring him the news.</text>
+	</string>
+	<string id="give_forester_hunt_vlad_drakul_3_descr"> 
+		<text>The sun has risen and I failed to kill Vlad and Drakul today. I should go back to Forester.</text>
+	</string>
+
 	
 ---- Alyosha Karmov----
 <string id="give_alyosha_karmov_trouble_1_name">

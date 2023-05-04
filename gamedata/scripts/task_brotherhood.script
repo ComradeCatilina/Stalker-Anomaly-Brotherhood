@@ -341,7 +341,7 @@ function task_status_functor.give_dolg_bloodsucker_village_2_status_f(tsk,task_i
 			
 		if npc_1 and npc_1:object("killer_patch") and npc_2 and npc_2:object("killer_patch") and npc_3 and npc_3:object("killer_patch") then
 			
-			if (hrs >= 5) and (hrs < 22) then
+			if (hrs >= 5) and (hrs < 21) then
 				give_info("bloodsucker_raid_has_killer_patch_fail")
 				news_manager.send_tip(db.actor, game.translate_string("st_freedom_voronin_bloodsucker_news_0"), 0, "freedom", 11000, 1)
 				
@@ -406,20 +406,22 @@ function task_status_functor.give_hunt_legendary_1_status_f(tsk,task_id)
 	if (tsk.stage == 0) then
 		printe("Control vengeance stage 0")
 		local hrs = level.get_time_hours()
-		if not (hrs >= 5) and (hrs < 22) then
+		if (hrs >= 21) or (hrs < 5) then
+			printe("Control vengeance stage 1")
 			local dist = 75
 			local smart = SIMBOARD.smarts_by_names["red_smart_terrain_monsters"]
 			if smart and smart.online then
+				printe("Control vengeance stage 2")
 				local smrt = SIMBOARD.smarts[smart.id]
 				if smrt and (db.actor:position():distance_to(smart.position) < dist) then
 					if NI("forester_news_legendary_1") then
 					news_manager.send_tip(db.actor, game.translate_string("st_forester_legendary_1_info"), 0, "stalker", 11000, 1)
 					GI("forester_news_legendary_1")
-					printe("Control vengeance stage 1")
+					printe("Control vengeance stage 3")
 						if db.actor:item_in_slot(7) ~= nil and db.actor:item_in_slot(7):section() == "trenchcoat_green_outfit_brotherhood_forester" then
 							if (NI("hunt_vlad_drakul_1_init")) then
 								if not (get_story_se_object("legendary_bloodsucker_1")) then 
-								printe("Control vengeance stage 2")
+								printe("Control vengeance stage 4")
 								local smart_2 = SIMBOARD.smarts_by_names["red_smart_terrain_monsters"]           
 								local squad = SIMBOARD:create_squad(smart_2,"legendary_bloodsucker_1")
 								GI("hunt_vlad_drakul_1_init")
@@ -437,7 +439,7 @@ function task_status_functor.give_hunt_legendary_1_status_f(tsk,task_id)
 		printe("Control vengeance stage 3")
 		if HI("legendary_bloodsucker_1_dead") then
 			local hrs = level.get_time_hours()
-			if not (hrs >= 5) and (hrs < 22) then
+			if (hrs >= 21) or (hrs < 5) then
 				if NI("forester_news_legendary_2") then
 				news_manager.send_tip(db.actor, game.translate_string("st_forester_legendary_2_info"), 0, "stalker", 11000, 1)
 				GI("forester_news_legendary_2")
