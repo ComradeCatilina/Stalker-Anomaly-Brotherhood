@@ -282,7 +282,14 @@
 		<text>The bandits are dead - I have to return to Tambov to get my money.</text>
 	</string>
 
+----- What a Night -----
 
+<string id="give_what_a_night_name">
+		<text>What a night - what happend?</text>
+	</string>
+	<string id="give_what_a_night_descr">
+		<text>I woke up in fucking no-where - what happend last night?</text>
+	</string>
 
 ----- Rush to the North
 

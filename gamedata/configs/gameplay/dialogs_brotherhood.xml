@@ -2207,23 +2207,253 @@ agr_snork_infestion
 					
 		</phrase_list>
 	</dialog>
-	
+
 <dialog id="vybegallo_3">
+		
 		<has_info>vybegallo_request_help_satisfied_man</has_info>
-		<dont_has_info>vybegallo_3_done</dont_has_info>		
+		<dont_has_info>vybegallo_3_done</dont_has_info>
+		<phrase_list>	
+		<phrase id="0">
+			<text>vybegallo_3_0</text>
+			<give_info>give_meet_vybegallo_quest_done</give_info>
+			<next>1</next>	
+			
+		</phrase>
+		<phrase id="1">
+			<text>vybegallo_3_1</text>
+			<next>2</next>				
+		</phrase>
+		<phrase id="2">
+			<text>vybegallo_3_2</text>
+			<next>3</next>			
+		</phrase>
+		<phrase id="3">
+			<text>vybegallo_3_3</text>
+			<next>10</next>
+			<next>12</next>	
+			<next>5</next>
+			<next>4</next>
+			<next>16</next>	
+			
+		</phrase>
+		<phrase id="4">
+			<text>vybegallo_3_4</text>
+			<next>6</next>				
+		</phrase>
+		<phrase id="5">
+			<text>vybegallo_3_5</text>
+			<next>7</next>			
+		</phrase>
+		<phrase id="6">
+			<text>vybegallo_3_6</text>
+			<next>10</next>
+			<next>12</next>	
+			<next>5</next>
+			<next>4</next>
+			<next>16</next>	
+			<give_info>vybegallo_satisfied_man_he</give_info>
+			
+		</phrase>
+		<phrase id="7">
+			<text>vybegallo_3_7</text>
+			<next>8</next>				
+		</phrase>
+		<phrase id="8">
+			<text>vybegallo_3_8</text>
+			<next>9</next>			
+		</phrase>
+		<phrase id="9">
+			<text>vybegallo_3_9</text>
+			<next>10</next>
+			<next>12</next>	
+			<next>5</next>
+			<next>4</next>
+			<next>16</next>	
+			
+		</phrase>
+		<phrase id="10">
+			<has_info>vybegallo_satisfied_man_he</has_info>
+			<text>vybegallo_3_10</text>
+			<next>11</next>	
+			
+		</phrase>
+		<phrase id="11">
+			<text>vybegallo_3_11</text>
+			<next>10</next>
+			<next>12</next>	
+			<next>5</next>
+			<next>4</next>
+			<next>16</next>	
+		</phrase>
+		<phrase id="12">
+			<has_info>vybegallo_satisfied_man_he</has_info>
+			<text>vybegallo_3_12</text>
+			<next>13</next>			
+		</phrase>
+		<phrase id="13">
+			<text>vybegallo_3_13</text>
+			<next>14</next>	
+			
+		</phrase>
+		<phrase id="14">
+			<text>vybegallo_3_14</text>
+			<next>15</next>				
+		</phrase>
+		<phrase id="15">
+			<text>vybegallo_3_15</text>
+			<next>10</next>
+			<next>12</next>	
+			<next>5</next>
+			<next>4</next>
+			<next>16</next>			
+		</phrase>
+		<phrase id="16">
+			<text>vybegallo_3_16</text>
+			<next>17</next>	
+			
+		</phrase>
+		<phrase id="17">
+			<text>vybegallo_3_17</text>
+			<next>18</next>
+			<next>20</next>
+			<next>22</next>	
+			<next>23</next>	
+		</phrase>
+		<phrase id="18">
+			<text>vybegallo_3_18</text>
+			<next>19</next>			
+		</phrase>
+		<phrase id="19">
+			<text>vybegallo_3_19</text>
+			<next>20</next>
+			<next>22</next>	
+			<next>23</next>				
+		</phrase>
+		<phrase id="20">
+			<text>vybegallo_3_20</text>
+			<next>21</next>	
+			
+		</phrase>
+		<phrase id="21">
+			<text>vybegallo_3_21</text>
+			<next>18</next>
+			<next>22</next>	
+			<next>23</next>					
+		</phrase>
+		<phrase id="22">
+			<text>vybegallo_3_22</text>
+			<next>24</next>			
+		</phrase>
+		<phrase id="23">
+			<text>vybegallo_3_23</text>
+			<next>25</next>	
+			
+		</phrase>
+		<phrase id="24">
+			<text>vybegallo_3_24</text>
+			<give_info>vybegallo_3_done</give_info>				
+		</phrase>
+		<phrase id="25">
+			<text>vybegallo_3_25</text>
+			<give_info>vybegallo_3_done</give_info>		
+		</phrase>
+			
+		
+	</phrase_list>
+</dialog>	
+
+	
+<dialog id="vybegallo_4">
+		<has_info>vybegallo_3_done</has_info>
+		<dont_has_info>vybegallo_4_done</dont_has_info>		
 		<phrase_list>
 				<phrase id="0">
-					<text>vybegallo_3_0</text>
-					<next>1</next>
-					<give_info>give_meet_vybegallo_quest_done</give_info>
+					<text>vybegallo_4_0</text>
+					<next>1</next>					
 				</phrase>
 				<phrase id="1">
-					<text>vybegallo_3_1</text>
+					<text>vybegallo_4_1</text>
+					<next>2</next>
+					<next>3</next>					
+				</phrase>
+				<phrase id="2">
+					<text>vybegallo_4_2</text>
+					<next>4</next>					
+				</phrase>
+				<phrase id="3">
+					<text>vybegallo_4_3</text>
+					<next>5</next>					
+				</phrase>
+				<phrase id="4">
+					<text>vybegallo_4_4</text>
 					<action>dialogs_brotherhood.give_vybegallo_satisfied_man</action>
-					<give_info>vybegallo_3_done</give_info>
+					<give_info>vybegallo_4_done</give_info>				
+				</phrase>
+				
+				<phrase id="5">
+					<text>vybegallo_4_5</text>
+					
 				</phrase>	
 		</phrase_list>
 	</dialog>	
+
+<dialog id="vybegallo_5">
+		<has_info>satisfied_man_dead</has_info>
+		<dont_has_info>vybegallo_5_done</dont_has_info>		
+		<phrase_list>
+				<phrase id="0">
+					<text>vybegallo_5_0</text>
+					<next>1</next>					
+				</phrase>
+				<phrase id="1">
+					<text>vybegallo_5_1</text>
+					<next>6</next>
+					<next>2</next>					
+				</phrase>
+				<phrase id="2">
+					<text>vybegallo_5_2</text>
+					<next>3</next>					
+				</phrase>
+				<phrase id="3">
+					<text>vybegallo_5_3</text>
+					<next>4</next>					
+				</phrase>
+				<phrase id="4">
+					<text>vybegallo_5_4</text>
+					<next>5</next>			
+				</phrase>
+				
+				<phrase id="5">
+					<text>vybegallo_5_5</text>
+					<give_info>give_vybegallo_satisfied_man_done</give_info>
+					<next>8</next>	
+					<next>9</next>	
+				</phrase>
+				<phrase id="6">
+					<text>vybegallo_5_6</text>
+					<next>7</next>					
+				</phrase>
+				<phrase id="7">
+					<text>vybegallo_5_7</text>
+					<give_info>give_vybegallo_satisfied_man_done</give_info>
+					<next>9</next>					
+				</phrase>
+				<phrase id="8">
+					<text>vybegallo_5_8</text>
+					<action>dialogs.break_dialog</action>
+					<give_info>vybegallo_5_done</give_info>
+				</phrase>
+				<phrase id="9">
+					<text>vybegallo_5_9</text>
+					<action>dialogs.break_dialog</action>	
+					<give_info>vybegallo_5_done</give_info>
+				</phrase>
+				
+					
+		</phrase_list>
+	</dialog>
+
+
 	
 <dialog id="sakharov_vybegallo_1">
 		<has_info>vybegallo_snitch</has_info>

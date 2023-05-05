@@ -27,6 +27,8 @@
 		<actor_dialog>vybegallo_1</actor_dialog>
 		<actor_dialog>vybegallo_2</actor_dialog>
 		<actor_dialog>vybegallo_3</actor_dialog>
+		<actor_dialog>vybegallo_4</actor_dialog>
+		<actor_dialog>vybegallo_5</actor_dialog>
 		
 		<actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>

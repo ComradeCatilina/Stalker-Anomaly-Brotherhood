@@ -1141,14 +1141,134 @@
 		<text>You wanted to see me?</text>
 	</string>
 	<string id="vybegallo_3_1">
-		<text>Yes mon cher, we... we have a problem. My experiment has been a tremendous success, but...</text>
+		<text>Yes mon cher, we... we have a problem. My experiment was on the way to become a tremendous success, oui mon cher, truly a scientific revolution! But...</text>
 	</string>
 	<string id="vybegallo_3_2">
-		<text>PLACE HOLDER</text>
+		<text>...but?</text>
 	</string>
 	<string id="vybegallo_3_3">
-		<text>PLACE HOLDER</text>
+		<text>But he's not there anymore! I went down to check upon him, and he's gone!</text>
 	</string>
+	<string id="vybegallo_3_4">
+		<text>"He"?</text>
+	</string>
+	<string id="vybegallo_3_5">
+		<text>What happened, did someone steal your experiment?</text>
+	</string>
+	<string id="vybegallo_3_6">
+		<text>Yes, the Partially Satisfied Man - the necessary intermediary to the Fully Satisfied Man! Ah, imagine a man who is able to satisfy all his needs by himself! 
+		Wouldn't that be a scientific marvel mon cher? \n \n And now he's gone!</text>
+	</string>
+	<string id="vybegallo_3_7">
+		<text>An eventuality which should not be ruled out, but... I rather believe he broke out... Maybe I didn't give him enough food?</text>
+	</string>
+	<string id="vybegallo_3_8">
+		<text>Broke out? How is that possible?</text>
+	</string>
+	<string id="vybegallo_3_9">
+		<text>How it is possible? By being a colossal scientific success mon cher, that's how it is possible!</text>
+	</string>
+	<string id="vybegallo_3_10">
+		<text>Is "he" dangerous?</text>
+	</string>
+	<string id="vybegallo_3_11">
+		<text>Barely mon cher, barely. But we cannot allow him to run off, that would attract unwarranted attention... n'est-ce pas?</text>
+	</string>
+	<string id="vybegallo_3_12">
+		<text>What exactly is "he"?</text>
+	</string>
+	<string id="vybegallo_3_13">
+		<text>The Partially Satisfied Man, mon cher! You need to pay attention when I'm telling you about this!</text>
+	</string>
+	<string id="vybegallo_3_14">
+		<text>No I mean, what is he really? What does he look like?</text>
+	</string>
+	<string id="vybegallo_3_15">
+		<text>Difficult to say, I never saw him after he hatched... He should probably resemble me, as he has part of my DNA? But these are details mon cher, don't bother about it!</text>
+	</string>
+	<string id="vybegallo_3_16">
+		<text>What do you want me to do about it?</text>
+	</string>
+	<string id="vybegallo_3_17">
+		<text>Mon cher, it's with a heavy heart that I have to ask you to liquidate my experiment. 
+			What a shame, what a loss for science! But we cannot allow him to run off - that would only attract unnecessary attention to my experiments!
+			You wouldn't believe how reactionary some of my collegues are. But at least I should be able to gather his remains in order to conduct further experiments - progress cannot be stopped, n'est-ce pas mon cher?</text>
+	</string>
+	<string id="vybegallo_3_18">
+		<text>Where can I find "him"?</text>
+	</string>
+	<string id="vybegallo_3_19">
+		<text>He should still be somewhere in the Underground.</text>
+	</string>
+	<string id="vybegallo_3_20">
+		<text>What is the pay?</text>
+	</string>
+	<string id="vybegallo_3_21">
+		<text>Always so materialistic! But yes, don't worry about the pay - it will be more than enough.</text>
+	</string>
+	<string id="vybegallo_3_22">
+		<text>Alright, I'll do it.</text>
+	</string>
+	<string id="vybegallo_3_23">
+		<text>I have to think about it.</text>
+	</string>
+	<string id="vybegallo_3_24">
+		<text>Excellent mon cher, excellent! Make your preparations and come see me before setting off!</text>
+	</string>
+	<string id="vybegallo_3_25">
+		<text>Then hurry up mon cher, time is running out!</text>
+	</string>
+	
+<string id="vybegallo_4_0">
+		<text>About your "experiment".</text>
+	</string>
+	<string id="vybegallo_4_1">
+		<text>What is it, mon cher?</text>
+	</string>
+	<string id="vybegallo_4_2">
+		<text>I'm ready to set out.</text>
+	</string>
+	<string id="vybegallo_4_3">
+		<text>I need more time.</text>
+	</string>
+	<string id="vybegallo_4_4">
+		<text>Excellent! Don't make him suffer!</text>
+	</string>
+	<string id="vybegallo_4_5">
+		<text>Then hurry up mon cher, time is running out!</text>
+	</string>
+	
+<string id="vybegallo_5_0">
+		<text>I killed your "experiment".</text>
+	</string>
+	<string id="vybegallo_5_1">
+		<text>Marvellous, excellent work mon cher!</text>
+	</string>
+	<string id="vybegallo_5_2">
+		<text>You didn't fucking tell me that you were breeding a fucking Pseudogiant!</text>
+	</string>
+	<string id="vybegallo_5_3">
+		<text>Ah very interesting, so the Pseudogiant DNA took the overhand? This is extraordinary! It was only supposed to improve his resilience in this climate, but the Pseudogiant took completely over?</text>
+	</string>
+	<string id="vybegallo_5_4">
+		<text>What the fuck are you doing? There are enough dangers in the Zone - why are you creating new ones?</text>
+	</string>
+	<string id="vybegallo_5_5">
+		<text>Mon cher, this is scientific progress! Some risks have to be taken! Marie Curie took risks for humankind - Yuri Gagarin too! The list is long, mon cher! Now we know more, and we won't repeat the mistakes! Consider it a scientific success!
+			But I see that you're new to the scientific method - and I believe that I owe you a reward. Take this! I... borrowed it from the institute after a disagreement. It's a prototype - but I believe it should be quite useful to... more practical oriented people. Thank you very much mon cher!</text>
+	</string>
+	<string id="vybegallo_5_6">
+		<text>Yes, now please give me the money.</text>
+	</string>
+	<string id="vybegallo_5_7">
+		<text>Straight to the point as always. Alright, here are the funds. Enjoy - and thank you for helping me... cover up this incident!</text>
+	</string>
+	<string id="vybegallo_5_8">
+		<text>Fuck you - don't contact me again.</text>
+	</string>
+	<string id="vybegallo_5_9">
+		<text>...</text>
+	</string>		
 
 
 
