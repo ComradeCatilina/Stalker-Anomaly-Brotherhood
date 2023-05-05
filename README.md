@@ -2,7 +2,7 @@
 Version 0.1a
 
 
-Thank you for visiting my mod project. For the moment it's still in the early phase of developpment.
+Thank you for visiting my mod project. For the moment it's still in the early phase of developpment - as such it's not ready for distribution and is meant to be alpha tested.
 
 Special thanks to the Anomaly discord coder community which helped me throughout this project, especially
 
@@ -16,8 +16,10 @@ Special thanks to the Anomaly discord coder community which helped me throughout
 and not to forget, the devs of Anomaly themselves who made all of this possible.
 
 # What to expect?
+At the moment not much, it's still work in progress.
 
-Not much to be honest.
+At the moment two+ side quests and two side questlines: One with Butcher in Garbage and one with Marlo & Chris in Yanov.
+
 
 # Compatibility:
 
@@ -63,4 +65,4 @@ Not much to be honest.
                                         --play_anm = true
 
             - this means, if a mod also modified actor_effects and is loaded after my mod - you might get problems (or not - tell me)
-            - you can monkey patch this by diasbling these three lines in the other mod
+            - you can "patch" this by diasbling these three lines in the other mod
