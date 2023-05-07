@@ -87,9 +87,12 @@
 		<text>The great culling</text>
 	</string>
 	<string id="give_task_kill_pack_snorks_2_1_descr">
-		<text>Butcher wants me to check if the snork population oin Agroprom on the border to Garbage has grown too large. He told me to check the hill between the two passages to Garbage, and kill everz snork I see.</text>
+		<text>Butcher wants me to check if the snork population in Agroprom on the border to Garbage has grown too large. He told me to take Ilya Muromets with me. The snorks might be on the hill between the two passages to Garbage.</text>
 	</string>
 	<string id="give_task_kill_pack_snorks_2_2_descr">
+		<text> The snorks are dead - I should return with Ilya to the Train Hangar and talk to him.</text>
+	</string>
+	<string id="give_task_kill_pack_snorks_2_3_descr">
 		<text>I should report to Butcher and tell him that the snorks shouldn't be a problem anymore.</text>
 	</string>
 	

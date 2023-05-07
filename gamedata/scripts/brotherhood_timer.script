@@ -243,6 +243,7 @@ function actor_on_update_4()
 
 end
 
+--- Dolg snitches get stitches ---
 function dolg_bloodsucker_aspirin_1()
     if not time_to_poof_5 then
         time_to_poof_5 = ctime_to_t_5(game.get_game_time())
@@ -262,7 +263,7 @@ function actor_on_update_5()
     
 	news_manager.send_tip(db.actor, game.translate_string("st_dolg_aspirin_bloodsucker_news_0"), 0, "dolg", 11000, 1)
 	dialogs_brotherhood.give_meet_aspirin_quest_2()
-		
+	GI("meet_aspirin_snitches_stitches")	
       time_to_poof_5 = nil
     end
 
@@ -274,6 +275,7 @@ function dolg_bloodsucker_aspirin_2()
     end
 end
 
+--- Dolg Aspirin quest 2 ---
 
 function actor_on_update_6()
     local poof_timer_6 = 86400*7 

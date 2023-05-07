@@ -14,6 +14,7 @@ end
 
 function actor_on_update()
     scouting_esc_smart_terrain_7_11_init()
+	
 end
 
 function scouting_esc_smart_terrain_7_11_init()
@@ -29,6 +30,8 @@ function scouting_esc_smart_terrain_7_11_init()
 			end
 	end
 end
+
+
 --- Brotherhood 1 and 2 ---
 
 function task_status_functor.give_task_kill_pack_boars_1_status_f(tsk,task_id) 
@@ -458,11 +461,11 @@ function task_status_functor.give_hunt_legendary_1_status_f(tsk,task_id)
 										GI("hunt_vlad_drakul_2_init")
 								
 									return
-								end        
+									end        
+								end
 							end
 						end
 					end
-				end
 				end
 			else
 				if NI("forester_news_legendary_3") then
@@ -474,6 +477,19 @@ function task_status_functor.give_hunt_legendary_1_status_f(tsk,task_id)
 	end
 end
 
+function task_status_functor.give_task_kill_controller_1_status_f(tsk,task_id) 
+	if (tsk.stage == 0) then
+	
+		if (NI("give_task_kill_controller_1_init")) then
+			if HI("agru_controller__brotherhood_death") then
+			
+			end
+			else
+			
+			end
+		end
+	end
+end
 
 function task_status_functor.give_rpg_missile_in_the_sky_status_f(tsk,task_id) 
 	if (tsk.stage == 0) then

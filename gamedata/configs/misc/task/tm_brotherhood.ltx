@@ -60,7 +60,7 @@ storyline = false
 
 title = give_task_kill_pack_snorks_2_name
 target = 
-descr = {+pack_snorks_2_dead} give_task_kill_pack_snorks_2_2_descr, give_task_kill_pack_snorks_2_1_descr
+descr = {+ilya_muromets_2_done} give_task_kill_pack_snorks_2_3_descr, {+pack_snorks_2_dead} give_task_kill_pack_snorks_2_2_descr, give_task_kill_pack_snorks_2_1_descr
 status_functor          = give_task_kill_pack_snorks_2_status_f
 
 condlist_0 = {+butcher_4_done} complete
@@ -149,7 +149,7 @@ descr = give_dolg_bloodsucker_village_3_1_descr
 status_functor          = give_dolg_bloodsucker_village_3_status_f
 
 on_init = %=clear_smart_terrain(mil_smart_terrain_8_3:true) =clear_smart_terrain(mil_smart_terrain_7_4:true)%
-condlist_0 =  
+condlist_0 =  {+dolg_ilya_bloodsucker_start_dialog_done} complete
 on_complete = 
 
 

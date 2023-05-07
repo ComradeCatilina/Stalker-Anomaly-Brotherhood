@@ -61,6 +61,33 @@
 		<actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
 
+<specific_character id="hunter_orion" team_default = "1">
+		<name>hunter_orion_name</name>
+		<icon>ui_inGame2_neutral_2_gp5</icon>
+		<bio></bio>
+		<class>hunter_orion</class>
+		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<map_icon x="1" y="0"/>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>9457</rank>
+		<reputation>430</reputation>
+		<money min="600" max="700" infinitive="0"/>
+		<snd_config>characters_voice\human\stalker_3\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\stalker_neutral\stalker_neutral2a_gp5</visual>
+		<supplies>
+        [spawn] \n
+        wpn_pm \n
+        ammo_9x18_fmj = 2 \n
+        wpn_saiga12s_mutanthammer \n
+        hand_radio \n
+		</supplies>
+#include "gameplay\character_criticals.xml"
+
+		
+		
+		<actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
 
 
 
@@ -94,7 +121,7 @@
 		</supplies>
 #include "gameplay\character_criticals.xml"
 
-		<start_dialog>assault_stalker_leader_esc_5_9_start_dialog</start_dialog>
+		<actor_dialog>assault_stalker_leader_esc_5_9_start_dialog</actor_dialog>
 		<actor_dialog>assault_stalker_leader_esc_5_9_1</actor_dialog>
 		<actor_dialog>assault_stalker_leader_esc_5_9_2</actor_dialog>
 		
@@ -126,12 +153,11 @@
 		</supplies>
 #include "gameplay\character_criticals.xml"
 
-		<start_dialog>assault_csky_leader_esc_5_7_start_dialog</start_dialog>
+		<actor_dialog>assault_csky_leader_esc_5_7_start_dialog</actor_dialog>
 		<actor_dialog>assault_csky_leader_esc_5_7_1</actor_dialog>
 		
 		<actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
-
 
 
 
@@ -670,7 +696,7 @@
 		<supplies>
         [spawn] \n
      
-		device_torch_nv_1 \n
+		
         hand_radio \n
 		</supplies>
 #include "gameplay\character_criticals.xml"

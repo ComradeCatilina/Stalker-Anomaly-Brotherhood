@@ -121,7 +121,7 @@
 		<text>You said you wanted to talk to me about the snork problem?</text>
 	</string>
 	<string id="butcher_4_start_1">
-		<text>Yes. \n \nYou see, this snork incursion worries me. It sometimes happend in the past, but never in these numbers! I've been thinking, probably the snork population in Agroprom grew too much and that's the reason why they come over in larger numbers now... Can you have a look and if my suspicion is right - cull them? </text>
+		<text>Yes. \n \nYou see, this snork incursion worries me. It sometimes happened in the past, but never in these numbers! I've been thinking, probably the snork population in Agroprom grew too much and that's the reason why they come over in larger numbers now... Can you have a look and if my suspicion is right - cull them? </text>
 	</string>
 	<string id="butcher_4_start_2">
 		<text>I will take a look.</text>
@@ -174,6 +174,13 @@
 	</string>	
 	<string id="ilya_muromets_1_1">
 		<text>Yeah, butcher told me to give you a hand. Lead the way, I'm behind you.</text>
+	</string>
+
+<string id="ilya_muromets_2_0">
+		<text>That was brutal!</text>
+	</string>	
+	<string id="ilya_muromets_2_1">
+		<text>Yeah, I never saw that many Snorks in one spot! This is very very strange - I will have to investigate. Thanks a lot for your help - you're quite good at thisu!</text>
 	</string>
 
 	
@@ -283,20 +290,71 @@
 	<string id="bar_dolg_medic_hunter_0_yes_7">
 		<text>Alright, come see me when you are.</text>
 	</string>	
+	
+<string id="bar_dolg_medic_hunter_1_0">
+		<text>The job is done.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_1_1">
+		<text>Excellent work! I knew you would pull through!</text>
+	</string>	
+
+<string id="bar_dolg_medic_hunter_2_0">
+		<text>I'm sorry, I couldn't get the job done in time.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_2_1">
+		<text>Don't worry Stalker! We will get some scolding from Voronin, but at least no life is lost.</text>
+	</string>	
+	
 
 <string id="bar_dolg_medic_hunter_0_snitch_0">
-		<text>What happend in the Bloodsucker Village?</text>
+		<text>What happened in the Bloodsucker Village?</text>
 	</string>
 	<string id="bar_dolg_medic_hunter_0_snitch_1">
-		<text>You ratted us out, that's was happened. And afterwards, our fears became true, the boys were unprepared for what waited for them in that cursed village.</text>
+		<text>You ratted us out, that's what happened. Why?</text>
 	</string>
 	<string id="bar_dolg_medic_hunter_0_snitch_2">
 		<text>I believe in following orders.</text>
 	</string>
 	<string id="bar_dolg_medic_hunter_0_snitch_3">
-		<text>FINISH DIALOG</text>
-	</string>	
+		<text>I wanted to see what would happen.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_0_snitch_4">
+		<text>I did it for the money.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_0_snitch_5">
+		<text>You're an asshole. You could simply have ignored this and we would have hired someone else - instead three of our boys are dead and Artyom is in a critical condition.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_0_snitch_6">
+		<text>You wanted to see what would happen? Three dead - one wounded - that's what would happen! You're an asshole - get lost.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_0_snitch_7">
+		<text>For the money? You're an asshole - your greed cost the life of our boys!</text>
+	</string>
 
+<string id="bar_dolg_medic_hunter_about_artyom_0">
+		<text>What happened to the guy on the floor?</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_about_artyom_1">
+		<text>Artyom - a collateral of your ratting. Artyom is the only survivor - he managed to run away when everything went to shit.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_about_artyom_2">
+		<text>Will he make it?</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_about_artyom_3">
+		<text>Probably yeah, I managed to stabilize him. But he still is in great pain and he seems to be badly traumatized - he has panic fits and I have to give him Morphine in order to calm him down.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_about_artyom_4">
+		<text>I'm sorry for what happened.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_about_artyom_5">
+		<text>Humpf. Your regret will not bring back Vadim, Sasha and Sergey, but at least you admit to your fault.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_about_artyom_6">
+		<text>Don't try to pin this on me.</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_about_artyom_7">
+		<text>Fuck off asshole, this is your fault. </text>
+	</string>
 
 <string id="voronin_bloodsucker_snitch_0">
 		<text>I need to tell you something.</text>
@@ -579,7 +637,18 @@
 		<text>Okay...?</text>
 	</string>
 
-
+<string id="bar_dolg_medic_hunter_5_0">
+		<text>You asshole set me up!</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_5_1">
+		<text>Fuck you, you deserve it asshole!</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_5_2">
+		<text>Your friends were about to kill me!</text>
+	</string>
+	<string id="bar_dolg_medic_hunter_5_3">
+		<text>I told them to only fuck you up, but I can't blame them for hating your guts. Now fuck off asshole!</text>
+	</string>
 
 	
 <string id="dolg_ilya_bloodsucker_start_0">

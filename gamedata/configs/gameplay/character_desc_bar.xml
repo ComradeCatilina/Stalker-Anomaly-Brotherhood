@@ -430,8 +430,13 @@
 		<actor_dialog>bar_dolg_medic_hunter_0_time</actor_dialog>
 		<actor_dialog>bar_dolg_medic_hunter_0_no</actor_dialog>
 		<actor_dialog>bar_dolg_medic_hunter_0_yes</actor_dialog>
+		<actor_dialog>bar_dolg_medic_hunter_1</actor_dialog>
+		<actor_dialog>bar_dolg_medic_hunter_2</actor_dialog>
 		<actor_dialog>bar_dolg_medic_hunter_3</actor_dialog>
 		<actor_dialog>bar_dolg_medic_hunter_4</actor_dialog>
+		<actor_dialog>bar_dolg_medic_hunter_0_snitch</actor_dialog>
+		<actor_dialog>bar_dolg_medic_hunter_about_artyom</actor_dialog>
+		<actor_dialog>bar_dolg_medic_hunter_5</actor_dialog>
 		
 		
 		<actor_dialog>actor_break_dialog</actor_dialog>

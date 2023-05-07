@@ -81,6 +81,21 @@ function transfer_bandages_snorks(first_speaker, second_speaker)
   dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "bandage", 2)
 end
 
+---- Butcher Quest 5 ----
+
+function xr_effects.spawn_hunter_orion_dead()
+    local pos = vector():set( 103.59690856934,-6.9258880615234,0.13123401999474 )
+    local se_obj = alife_create( "hunter_orion", pos, 7833, 3727 )
+	if (se_obj) then
+		se_obj:kill()
+	end
+    if ( not se_obj ) then
+          printe("!ERROR: unable to spawn hunter_orion" )
+    end
+end
+
+
+
 ---- Alyosha Karmov ----
 function give_alyosha_karmov_trouble_1()
 	dialogs_brotherhood.give_task('give_alyosha_karmov_trouble_1')

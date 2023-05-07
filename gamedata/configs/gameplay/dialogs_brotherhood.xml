@@ -346,6 +346,8 @@ agr_snork_infestion
 	</dialog>		
 
 <dialog id="butcher_4_done">
+
+		<has_info>ilya_muromets_2_done</has_info>
 		<has_info>pack_snorks_2_dead</has_info>
 		<dont_has_info>butcher_4_done</dont_has_info>
 		<phrase_list>
@@ -366,7 +368,7 @@ agr_snork_infestion
 			<phrase id="3">				
 				<text>butcher_4_done_3</text>
 				<give_info>butcher_4_done</give_info>
-				
+				<action>dialogs_brotherhood.give_meet_aspirin_quest_1</action>
 			</phrase>
 		</phrase_list>
 	</dialog>
@@ -405,6 +407,29 @@ agr_snork_infestion
 			
 		</phrase_list>
 	</dialog>
+
+<dialog id="ilya_muromets_2">
+		<has_info>butcher_ilya_back_home</has_info>
+		<dont_has_info>ilya_muromets_2_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>ilya_muromets_2_0</text>
+				<next>1</next>				
+			</phrase>
+			<phrase id="1">
+				<text>ilya_muromets_2_1</text>
+				<give_info>ilya_muromets_2_done</give_info>
+				<action>dialogs_axr_companion.remove_companions_from_squad</action>
+			</phrase>
+			
+		</phrase_list>
+	</dialog>
+
+---- Brotherhood 5 ----
+
+
+
+ ---- Dolg Hunter Questline---
 
 <dialog id="bar_dolg_medic_hunter_0">
 		
@@ -658,10 +683,136 @@ agr_snork_infestion
 		</phrase_list>
 	</dialog>
 
+<dialog id="bar_dolg_medic_hunter_1">
+		<has_info>pack_bloodsuckers_dolg_1_all_dead</has_info>
+		<dont_has_info>bar_dolg_medic_hunter_1_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>bar_dolg_medic_hunter_1_0</text>
+				<next>1</next>				
+			</phrase>
+			<phrase id="1">				
+				<text>bar_dolg_medic_hunter_1_1</text>
+				<give_info>bar_dolg_medic_hunter_1_done</give_info>
+				<give_info>give_dolg_bloodsucker_village_1_done</give_info>
+			</phrase>
+			
+		</phrase_list>
+	</dialog>
+
+<dialog id="bar_dolg_medic_hunter_2">
+		<has_info>give_dolg_bloodsucker_village_1_out_of_time</has_info>
+		<dont_has_info>bar_dolg_medic_hunter_2_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>bar_dolg_medic_hunter_2_0</text>
+				<next>1</next>				
+			</phrase>
+			<phrase id="1">				
+				<text>bar_dolg_medic_hunter_2_1</text>
+				<give_info>bar_dolg_medic_hunter_2_done</give_info>
+				
+			</phrase>
+			
+		</phrase_list>
+	</dialog>
+
+
+
+
+
+<dialog id="bar_dolg_medic_hunter_0_snitch">
+		<dont_has_info>meet_aspirin_snitches_stitches</dont_has_info>
+		<has_info>voronin_bloodsucker_snitch_0_done</has_info>
+		<dont_has_info>bar_dolg_medic_hunter_0_snitch_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>bar_dolg_medic_hunter_0_snitch_0</text>
+				<next>1</next>				
+			</phrase>
+			<phrase id="1">				
+				<text>bar_dolg_medic_hunter_0_snitch_1</text>
+				<next>2</next>
+				<next>3</next>	
+				<next>4</next>	
+			</phrase>
+			<phrase id="2">
+				<text>bar_dolg_medic_hunter_0_snitch_2</text>
+				<next>5</next>				
+			</phrase>
+			<phrase id="3">				
+				<text>bar_dolg_medic_hunter_0_snitch_3</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="4">
+				<text>bar_dolg_medic_hunter_0_snitch_4</text>
+				<next>7</next>				
+			</phrase>
+			<phrase id="5">				
+				<text>bar_dolg_medic_hunter_0_snitch_5</text>
+				<give_info>bar_dolg_medic_hunter_0_snitch_done</give_info>						
+			</phrase>
+			<phrase id="6">
+				<text>bar_dolg_medic_hunter_0_snitch_6</text>
+				<give_info>bar_dolg_medic_hunter_0_snitch_done</give_info>
+			</phrase>
+			<phrase id="7">				
+				<text>bar_dolg_medic_hunter_0_snitch_7</text>
+				<give_info>bar_dolg_medic_hunter_0_snitch_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	
+<dialog id="bar_dolg_medic_hunter_about_artyom">
+		<dont_has_info>bloodsucker_raid_has_killer_patch_fail</dont_has_info>
+		<dont_has_info>bloodsucker_raid_has_killer_patch_done</dont_has_info>
+		<has_info>bar_dolg_medic_hunter_0_snitch_done</has_info>
+		<dont_has_info>bar_dolg_medic_hunter_about_artyom_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>bar_dolg_medic_hunter_about_artyom_0</text>
+				<next>1</next>				
+			</phrase>
+			<phrase id="1">				
+				<text>bar_dolg_medic_hunter_about_artyom_1</text>
+				<next>2</next>
+					
+			</phrase>
+			<phrase id="2">
+				<text>bar_dolg_medic_hunter_about_artyom_2</text>
+				<next>3</next>				
+			</phrase>
+			<phrase id="3">				
+				<text>bar_dolg_medic_hunter_about_artyom_3</text>
+				<next>4</next>
+				<next>6</next>
+			</phrase>
+			<phrase id="4">
+				<text>bar_dolg_medic_hunter_about_artyom_4</text>
+				<next>5</next>				
+			</phrase>
+			<phrase id="5">				
+				<text>bar_dolg_medic_hunter_about_artyom_5</text>
+				<give_info>bar_dolg_medic_hunter_about_artyom_done</give_info>						
+			</phrase>
+			<phrase id="6">
+				<text>bar_dolg_medic_hunter_about_artyom_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">				
+				<text>bar_dolg_medic_hunter_about_artyom_7</text>
+				<give_info>bar_dolg_medic_hunter_about_artyom_done</give_info>	
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+
+
+
 <dialog id="voronin_bloodsucker_snitch_0">
 		<has_info>bar_dolg_medic_hunter_0_done</has_info>
 		<dont_has_info>voronin_bloodsucker_snitch_0_done</dont_has_info>
-		
+		<dont_has_info>give_dolg_bloodsucker_village_1_done</dont_has_info>
 		<phrase_list>
 				<phrase id="0">
 					<text>voronin_bloodsucker_snitch_0</text>
@@ -692,7 +843,7 @@ agr_snork_infestion
 				</phrase>
 				<phrase id="6">
 					<text>voronin_bloodsucker_snitch_6</text>
-					<next>7</next>
+					<next>11</next>
 				</phrase>
 				<phrase id="7">
 					<text>voronin_bloodsucker_snitch_7</text>
@@ -717,6 +868,7 @@ agr_snork_infestion
 					<text>voronin_bloodsucker_snitch_11</text>
 					<give_info>voronin_bloodsucker_snitch_0_done</give_info>
 					<action>brotherhood_timer.dolg_bloodsucker_voronin_1</action>
+					<action>dialogs_brotherhood.transfer_hush_money_vybegallo</action>
 				</phrase>				
 			</phrase_list>
 	</dialog>
@@ -945,6 +1097,9 @@ agr_snork_infestion
 					<give_info>voronin_bloodsucker_botched_2_done</give_info>
 					<give_info>give_dolg_bloodsucker_village_2_done</give_info>
 					<action>dialogs_brotherhood.transfer_dolg_bloodsucker_village_botched_money_1</action>
+					<action>brotherhood_timer.dolg_bloodsucker_aspirin_1</action>
+					
+					
 				</phrase>
 		</phrase_list>
 	</dialog>		
@@ -963,6 +1118,7 @@ agr_snork_infestion
 					<give_info>voronin_bloodsucker_botched_2_done</give_info>
 					<give_info>give_dolg_bloodsucker_village_2_done</give_info>
 					<action>dialogs_brotherhood.transfer_dolg_bloodsucker_village_botched_money_2</action>
+					<action>brotherhood_timer.dolg_bloodsucker_aspirin_1</action>
 				</phrase>
 		</phrase_list>
 	</dialog>
@@ -979,13 +1135,14 @@ agr_snork_infestion
 					<text>voronin_bloodsucker_botched_3_1</text>
 					<give_info>voronin_bloodsucker_botched_3_done</give_info>
 					<give_info>give_dolg_bloodsucker_village_2_day</give_info>
-					
+					<action>brotherhood_timer.dolg_bloodsucker_aspirin_1</action>
 				</phrase>
 		</phrase_list>
 	</dialog>	
 
 <dialog id="bar_dolg_medic_hunter_3">
 		
+		<has_info>meet_aspirin_snitches_stitches</has_info>
 		<dont_has_info>bar_dolg_medic_hunter_3_done</dont_has_info>
 		<phrase_list>
 			<phrase id="0">
@@ -1203,6 +1360,33 @@ agr_snork_infestion
 				</phrase>
 			</phrase_list>
 	</dialog>	
+
+<dialog id="bar_dolg_medic_hunter_5">	
+		<dont_has_info>bar_dolg_medic_hunter_5_done</dont_has_info>
+		<has_info>dolg_ilya_bloodsucker_start_dialog_done</has_info>
+		<phrase_list>
+				<phrase id="0">
+					<text>bar_dolg_medic_hunter_5_0</text>
+					<next>1</next>
+				</phrase>
+				<phrase id="1">
+					<text>bar_dolg_medic_hunter_5_1</text>
+					<next>2</next>
+				</phrase>
+				<phrase id="2">
+					<text>bar_dolg_medic_hunter_5_2</text>
+					<next>3</next>
+				</phrase>
+				<phrase id="3">
+					<text>bar_dolg_medic_hunter_5_3</text>
+					<give_info>bar_dolg_medic_hunter_5_done</give_info>
+					
+				</phrase>
+		</phrase_list>
+	</dialog>	
+
+
+
 
 -- Artyom Morphine --
 <dialog id="dolg_artyom_bloodsucker_start_dialog">		
@@ -2915,13 +3099,10 @@ agr_snork_infestion
 		<has_info>sidorovich_railway_assault_start</has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>assault_csky_leader_esc_5_7_start_dialog_0</text>
-				<next>1</next>
-			</phrase>
-			<phrase id="1">				
 				<text>assault_csky_leader_esc_5_7_start_dialog_1</text>
 				<next>2</next>
 			</phrase>
+			
 			<phrase id="2">
 				<text>assault_csky_leader_esc_5_7_start_dialog_2</text>
 				<next>3</next>
@@ -2944,13 +3125,10 @@ agr_snork_infestion
 		<has_info>assault_csky_leader_esc_5_7_start_dialog_done</has_info>
 		<phrase_list>
 			<phrase id="0">
-				<text>assault_stalker_leader_esc_5_9_start_dialog_0</text>
-				<next>1</next>
-			</phrase>
-			<phrase id="1">				
 				<text>assault_stalker_leader_esc_5_9_start_dialog_1</text>
 				<next>2</next>
 			</phrase>
+			
 			<phrase id="2">				
 				<text>assault_stalker_leader_esc_5_9_start_dialog_2</text>
 				<next>3</next>
