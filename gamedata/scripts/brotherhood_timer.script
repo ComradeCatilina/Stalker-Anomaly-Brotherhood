@@ -1,7 +1,11 @@
 
-
-
-
+;-----------------------------------------------;
+;Timer script for Brotherhood					;
+;												;
+;curtesy of xcvb								;
+;												;
+;the script gore is my fault(ComradeCatilina)	;
+;-----------------------------------------------;
 
 local HI = has_alife_info
 local GI = give_info
@@ -19,6 +23,7 @@ local time_to_poof_5
 local time_to_poof_6
 local time_to_poof_7
 local time_to_poof_8
+local time_to_poof_9
 
 local tmr_1 = 0
 local tmr_2 = 0
@@ -28,6 +33,7 @@ local tmr_5 = 0
 local tmr_6 = 0
 local tmr_7 = 0
 local tmr_8 = 0
+local tmr_9 = 0
 
 local ctime_to_t_1 = utils_data.CTime_to_table
 local t_to_ctime_1 = utils_data.CTime_from_table
@@ -53,6 +59,9 @@ local t_to_ctime_7 = utils_data.CTime_from_table
 local ctime_to_t_8 = utils_data.CTime_to_table
 local t_to_ctime_8 = utils_data.CTime_from_table
 
+local ctime_to_t_9 = utils_data.CTime_to_table
+local t_to_ctime_9 = utils_data.CTime_from_table
+
 function save_state_1(m_data)
     m_data.time_to_poof_1 = time_to_poof_1
 	m_data.time_to_poof_2 = time_to_poof_2
@@ -62,6 +71,7 @@ function save_state_1(m_data)
 	m_data.time_to_poof_6 = time_to_poof_6
 	m_data.time_to_poof_7 = time_to_poof_7
 	m_data.time_to_poof_8 = time_to_poof_8
+	m_data.time_to_poof_9 = time_to_poof_9  
 end
 
 function load_state_1(m_data)
@@ -73,6 +83,7 @@ function load_state_1(m_data)
 	time_to_poof_6 = m_data.time_to_poof_6
 	time_to_poof_7 = m_data.time_to_poof_7
 	time_to_poof_8 = m_data.time_to_poof_8
+	time_to_poof_9 = m_data.time_to_poof_9
 end
 
 function on_game_start()
@@ -100,6 +111,9 @@ function on_game_start()
 	RegisterScriptCallback("actor_on_update", actor_on_update_8)
     RegisterScriptCallback("save_state", save_state_8)
 	RegisterScriptCallback("load_state", load_state_8)
+	RegisterScriptCallback("actor_on_update", actor_on_update_9)
+    RegisterScriptCallback("save_state", save_state_9)
+	RegisterScriptCallback("load_state", load_state_9)
 end
 
 
@@ -319,6 +333,35 @@ function actor_on_update_8()
 	GI("vybegallo_request_help_satisfied_man")
 		
       time_to_poof_8 = nil
+    end
+
+end
+
+
+----- Brotherhood Quest 5 ------
+
+function butcher_brotherhood_help()
+    if not time_to_poof_9 then
+        time_to_poof_9 = ctime_to_t_9(game.get_game_time())
+    end
+end
+
+
+function actor_on_update_9()
+    local poof_timer_9 = 86400*3
+	local tg = time_global()
+    if tg < tmr_9 then return end
+    tmr_9 = tg + 1000
+
+    local cur_time = game.get_game_time()
+    if time_to_poof_9 and cur_time:diffSec(t_to_ctime_9(time_to_poof_9)) > poof_timer_9 then
+        
+    
+	news_manager.send_tip(db.actor, game.translate_string("st_butcher_5_help_info"), 0, "stalker", 11000, 1)
+	dialogs_brotherhood.give_rescue_orion_quest()
+	GI("butcher_5_help")
+		
+      time_to_poof_9 = nil
     end
 
 end

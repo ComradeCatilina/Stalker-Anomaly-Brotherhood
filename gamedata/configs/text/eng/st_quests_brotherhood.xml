@@ -90,13 +90,24 @@
 		<text>Butcher wants me to check if the snork population in Agroprom on the border to Garbage has grown too large. He told me to take Ilya Muromets with me. The snorks might be on the hill between the two passages to Garbage.</text>
 	</string>
 	<string id="give_task_kill_pack_snorks_2_2_descr">
-		<text> The snorks are dead - I should return with Ilya to the Train Hangar and talk to him.</text>
+		<text>The snorks are dead - I should return with Ilya to the Train Hangar and talk to him.</text>
 	</string>
 	<string id="give_task_kill_pack_snorks_2_3_descr">
 		<text>I should report to Butcher and tell him that the snorks shouldn't be a problem anymore.</text>
 	</string>
 	
-	
+	<string id="give_rescue_orion_quest_name">
+		<text>Lost during a Hunt</text>
+	</string>
+	<string id="give_rescue_orion_quest_1_descr">
+		<text>I got an urgent help request from Butcher - a hunter called "Orion" is lost and Ilya is wounded and waiting in the Agroprom Factory. I should go help them.</text>
+	</string>
+	<string id="give_rescue_orion_quest_2_descr">
+		<text>Orion is lost somwhere in the Agroprom Underground. I should go find him and kill whatever causes all this trouble.</text>
+	</string>
+	<string id="give_rescue_orion_quest_3_descr">
+		<text>I killed the Controller who was behind the Snork infestation. Sadly Orion is dead. I should report back to Ilya.</text>
+	</string>
 ---- Duty Hunter ----
 <string id="give_meet_aspirin_quest_1_name">
 		<text>A potential client: Aspirin</text>

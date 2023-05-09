@@ -439,7 +439,7 @@ function task_status_functor.give_hunt_legendary_1_status_f(tsk,task_id)
 		end
 	end
 	if (tsk.stage == 1) then
-		printe("Control vengeance stage 3")
+		
 		if HI("legendary_bloodsucker_1_dead") then
 			local hrs = level.get_time_hours()
 			if (hrs >= 21) or (hrs < 5) then
@@ -477,17 +477,63 @@ function task_status_functor.give_hunt_legendary_1_status_f(tsk,task_id)
 	end
 end
 
-function task_status_functor.give_task_kill_controller_1_status_f(tsk,task_id) 
+function task_status_functor.give_rescue_orion_quest_status_f(tsk,task_id) 
 	if (tsk.stage == 0) then
-	
+		printe("Control Orion stage 1")
+		if level.name() == "l03u_agr_underground" then	--spawns common mutants if on the Agroprom Underground level
+			printe("Control Orion stage 2")
+			if NI("agru_orion_mutants_1_init") then
+				printe("Control Orion stage 3")
+				local smart_1 = SIMBOARD.smarts_by_names["agr_u_bloodsucker"]           
+				local squad_1 = SIMBOARD:create_squad(smart_1,"pack_agru_mutants_1")
+				local smart_2 = SIMBOARD.smarts_by_names["agr_u_bloodsucker_2"]           
+				local squad_2 = SIMBOARD:create_squad(smart_2,"pack_agru_mutants_2")
+				local smart_3 = SIMBOARD.smarts_by_names["agr_u_soldiers"]           
+				local squad_3 = SIMBOARD:create_squad(smart_3,"pack_agru_mutants_3")
+				GI("agru_orion_mutants_1_init")
+				tsk.stage = 1
+				return
+			end	
+		end
+	end
+	if (tsk.stage == 1) then
 		if (NI("give_task_kill_controller_1_init")) then
-			if HI("agru_controller__brotherhood_death") then
+			if HI("agru_controller_brotherhood_death") then --if the player already killed the Controller in the agr_u_monsters smart_terrain
+				local smart_1 = SIMBOARD.smarts_by_names["agr_u_monsters"]           
+				local squad_1 = SIMBOARD:create_squad(smart_1,"pack_agru_mutants_4")
+				local smart_2 = SIMBOARD.smarts_by_names["agr_u_monsters"]           
+				local squad_2 = SIMBOARD:create_squad(smart_2,"pack_agru_controller_1")
+				local smart_3 = SIMBOARD.smarts_by_names["agr_u_monsters"]           
+				local squad_3 = SIMBOARD:create_squad(smart_3,"pack_agru_burer_1")
+				tsk.stage = 2
+				GI("give_task_kill_controller_1_init")
+				return
 			
+			else --if the player didn't yet kill that Controller
+				local smart_1 = SIMBOARD.smarts_by_names["agr_u_monsters"]           
+				local squad_1 = SIMBOARD:create_squad(smart_1,"pack_agru_mutants_4")
+				GI("give_task_kill_controller_1_init")
+				GI("give_orion_alt_spawn")
+				tsk.stage = 2
+				return
 			end
-			else
-			
+		end	
+	end
+	if (tsk.stage == 2) then
+		if HI("give_orion_alt_spawn") then
+			if HI("agru_controller_brotherhood_death") then
+				GI("brotherhood_agru_controller_dead")
+				DI("agr_snork_infestion")
+				return
+			end
+		
+		else
+			if HI("brotherhood_agru_controller_dead") then
+				DI("agr_snork_infestion")
+				return
 			end
 		end
+		
 	end
 end
 

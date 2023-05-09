@@ -66,6 +66,44 @@ faction         = monster_special
 npc      = snork_strong3, snork_strong3
 npc_in_squad    = 2, 2
 
+[pack_agru_mutants_1]:online_offline_group
+faction         = monster_special
+npc      = snork_strong3, snork_normal3, bloodsucker_black_strong, snork_normal3
+npc_in_squad    = 4, 4
+target_smart = agr_u_bloodsucker
+
+[pack_agru_mutants_2]:online_offline_group
+faction         = monster_special
+npc      = snork_strong3, snork_normal3, bloodsucker_black_strong
+npc_in_squad    = 3, 3
+target_smart = agr_u_bloodsucker_2
+
+[pack_agru_mutants_3]:online_offline_group
+faction         = monster_special
+npc      = snork_strong3, snork_normal3, bloodsucker_black_strong, snork_strong3, snork_normal3
+npc_in_squad    = 5, 5
+target_smart = agr_u_soldiers
+
+[pack_agru_mutants_4]:online_offline_group
+faction         = monster_special
+npc      = snork_strong3, snork_normal3, snork_strong3, snork_weak3, snork_normal3, snork_weak3
+npc_in_squad    = 6, 6
+target_smart = agr_u_monsters
+
+[pack_agru_controller_1]:online_offline_group
+faction         = monster_special
+npc      = m_controller_normal, 
+npc_in_squad    = 1, 1
+target_smart = agr_u_monsters
+on_death = %+brotherhood_agru_controller_dead%
+
+[pack_agru_burer_1]:online_offline_group
+faction         = monster_special
+npc      = burer_normal, burer_normal
+npc_in_squad    = 2, 2
+target_smart = agr_u_monsters
+
+
 
 [vybegallo_squad]:online_offline_group
 faction = ecolog

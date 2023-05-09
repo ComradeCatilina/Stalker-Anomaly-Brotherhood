@@ -58,6 +58,12 @@
 		
 		<start_dialog>ilya_muromets_start_dialog</start_dialog>
 		<actor_dialog>ilya_muromets_1</actor_dialog>
+		<actor_dialog>ilya_muromets_2</actor_dialog>
+		<actor_dialog>ilya_muromets_3</actor_dialog>
+		
+		
+		
+		
 		<actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
 

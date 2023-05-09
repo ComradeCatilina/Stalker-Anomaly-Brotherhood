@@ -158,6 +158,57 @@
 		\n \nThanks for your help! Take a rest, and if you feel able to do some work again, go meet Aspirin, the Duty medic. He contacted me, seems they need some discrete help. </text>
 	</string>			
 
+---- Quest 5 ----
+<string id="st_butcher_5_help_info">
+		<text>Butcher: My friend, we need your urgent help. Ilya has been wounded in Agroprom and the other hunter, Orion, is missing in action. Please, go as soon as possible to Agroprom and find Ilya in the factory - he will be able to give you details.</text>
+	</string>
+
+
+
+<string id="butcher_5_start_0">
+		<text>What is going on?</text>
+	</string>
+	<string id="butcher_5_start_1">
+		<text>Good that you're here - Ilya set off with another hunter, Orion, to find the cause of that Snork infestation. They were able to trace it back to the Agroprom Underground - 
+		apparently something in there drives the Snorks out. Both of them undertook the mission to explore the Underground, but Ilya got wounded. They returned, but Orion set off again... young fool... that was yesterday and since then we haven't heard of him.
+		I now this is a lot to ask, but can you go down there and check the situation out? We expect the worst, but we can't leave a brother behind. \n \nWould you be ready for such an undertaking?</text>
+	</string>
+	<string id="butcher_5_start_2">
+		<text>Yes, of course, I'll head over there now.</text>
+	</string>
+	<string id="butcher_5_start_3">
+		<text>I don't know, that sounds very dangerous. I will have to think about it.</text>
+	</string>
+	<string id="butcher_5_start_4">
+		<text>Great! Find Ilya, he is recovering from his wounds in the Agroprom Factory. And here, take this - you will need it.</text>
+	</string>
+	<string id="butcher_5_start_5">
+		<text>Understandable - but I'm afraid to insist on the urgency of this matter. Go find Ilya if you believe you're up to it.</text>
+	</string>
+
+<string id="butcher_5_start_0">
+		<text>What is going on?</text>
+	</string>
+	<string id="butcher_5_start_1">
+		<text>Good that you're here - we ran into some trouble and I'm wounded... I will make it, don't worry, but I'm incapacitated. I came here with another hunter - Orion, a young blood, to find the cause of that Snork infestation. We noticed that during the night, a lot of these bastards came pouring out of the Underground.
+		There is something down there that drives them out - something nefarious... We went down there and it was brutal... our heads began to hurt and suddenly we were surrounded by Snorks and I got bitten in the arm and leg - luckily Orion was there to carry me out! But... that fool went back! I begged him to wait, but he was eager, how young people are!
+		Shit, and now I haven't heard of him. My friend, please go down there and find him! I would like to come with you, but my leg won't carry me.</text>
+	</string>
+	<string id="butcher_5_start_2">
+		<text>Don't worry, I'll find Orion and bring him back here!</text>
+	</string>
+	<string id="butcher_5_start_3">
+		<text>I don't know, I don't think I'm ready to head down there yet!</text>
+	</string>
+	<string id="butcher_5_start_4">
+		<text>I know I could count on you! And here, take this - I'm afraid you might need it.</text>
+	</string>
+	<string id="butcher_5_start_5">
+		<text>Understandable - but please hurry! And here, take this - if you're ready to go down there, I'm afraid you might need it.</text>
+	</string>
+
+
+
 --- Ilya Muromets ---
 <string id="ilya_muromets_start_dialog_0">
 		<text>Hello Stalker, how can I help you?</text>

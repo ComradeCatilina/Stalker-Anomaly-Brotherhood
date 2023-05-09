@@ -298,7 +298,7 @@ agr_snork_infestion
 				
 				<action>dialogs_brotherhood.transfer_bandages_snorks</action>
 				<action>dialogs_brotherhood.transfer_grenades_boars</action>
-				<give_info>butcher_3_start</give_info>
+				<give_info>butcher_4_start</give_info>
 				
 			</phrase>
 			<phrase id="5">
@@ -425,10 +425,84 @@ agr_snork_infestion
 		</phrase_list>
 	</dialog>
 
+
+
 ---- Brotherhood 5 ----
+<dialog id="butcher_5">
+		<dont_has_info>butcher_5_start</dont_has_info>
+		<dont_has_info>brotherhood_agru_controller_dead</dont_has_info>
+		<has_info>butcher_5_help</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>butcher_5_start_0</text>
+				<next>1</next>				
+			</phrase>
+			<phrase id="1">				
+				<text>butcher_5_start_1</text>
+				<next>2</next>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>butcher_5_start_2</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+				<text>butcher_5_start_3</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="4">
+				<text>butcher_5_start_4</text>
+						
+				<action>dialogs_brotherhood.transfer_supplies_agru_controller</action>
+				
+				<give_info>butcher_5_start</give_info>
+				
+			</phrase>
+			<phrase id="5">
+				<text>butcher_5_start_5</text>
+				<give_info>butcher_5_start</give_info>
+				
+			</phrase>
+		</phrase_list>
+	</dialog>	
 
-
-
+<dialog id="ilya_muromets_3">
+		<dont_has_info>ilya_muromets_3_done</dont_has_info>
+		<dont_has_info>brotherhood_agru_controller_dead</dont_has_info>
+		<has_info>butcher_5_help</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>ilya_muromets_3_0</text>
+				<next>1</next>				
+			</phrase>
+			<phrase id="1">				
+				<text>ilya_muromets_3_1</text>
+				<next>2</next>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>ilya_muromets_3_2</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+				<text>ilya_muromets_3_3</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="4">
+				<text>ilya_muromets_3_4</text>
+						
+				<action>dialogs_brotherhood.transfer_supplies_agru_controller_2</action>
+				
+				<give_info>ilya_muromets_3_done</give_info>
+				
+			</phrase>
+			<phrase id="5">
+				<text>ilya_muromets_3_5</text>
+				<give_info>ilya_muromets_3_done</give_info>
+				
+			</phrase>
+		</phrase_list>
+	</dialog>	
  ---- Dolg Hunter Questline---
 
 <dialog id="bar_dolg_medic_hunter_0">
