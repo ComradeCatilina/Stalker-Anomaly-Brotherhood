@@ -13,7 +13,7 @@ end
 --- mutant loot inject ---
 
 local loot_table = {
-    bloodsucker_vlad = {
+    bloodsucker_vlad_disabled = {
         bread = { chance = 1, count = 2 },
         vodka = { chance = 0.25, count = 1 },
     },
