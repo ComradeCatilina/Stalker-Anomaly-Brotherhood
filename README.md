@@ -1,7 +1,7 @@
 # Stalker-Anomaly-Brotherhood
 Version 0.1a
 
-Due to hardware problems I can' continue writing on the mod.
+Due to hardware problems I can't continue writing on the mod.
 
 Thank you for visiting my mod project. For the moment it's still in the early phase of developpment - as such it's not ready for distribution and is meant to be alpha tested.
 
