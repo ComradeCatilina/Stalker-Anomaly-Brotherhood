@@ -15,7 +15,7 @@ function actor_on_first_update()
     chris_partlow_init()
     zaton_eitri_init()
     zaton_brokkr_init()
-	anna_morphine_init()
+	
 	zaton_achilles_init()
 	vybegallo_init()
 	sasha_tolstoy_init()
