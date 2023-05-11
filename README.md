@@ -1,6 +1,7 @@
 # Stalker-Anomaly-Brotherhood
 Version 0.1a
 
+Due to hardware problems I can' continue writing on the mod.
 
 Thank you for visiting my mod project. For the moment it's still in the early phase of developpment - as such it's not ready for distribution and is meant to be alpha tested.
 
@@ -18,7 +19,9 @@ and not to forget, the devs of Anomaly themselves who made all of this possible.
 # What to expect?
 At the moment not much, it's still work in progress.
 
-At the moment two+ side quests and two side questlines: One with Butcher in Garbage and one with Marlo & Chris in Yanov.
+At the moment two+ side quests and one side questlines with Butcher.
+
+Marlo and Chris in Yanov are nearly ready, but due to hardware problems, I wouldn't talk to any new NPC in Yanov or Zaton.
 
 
 # Compatibility:
