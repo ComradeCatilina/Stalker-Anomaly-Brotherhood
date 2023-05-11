@@ -166,7 +166,7 @@
 
 
 <string id="butcher_5_start_0">
-		<text>What is going on?</text>
+		<text>I got your message, what is going on?</text>
 	</string>
 	<string id="butcher_5_start_1">
 		<text>Good that you're here - Ilya set off with another hunter, Orion, to find the cause of that Snork infestation. They were able to trace it back to the Agroprom Underground - 
@@ -186,27 +186,52 @@
 		<text>Understandable - but I'm afraid to insist on the urgency of this matter. Go find Ilya if you believe you're up to it.</text>
 	</string>
 
-<string id="butcher_5_start_0">
-		<text>What is going on?</text>
+<string id="ilya_muromets_3_0">
+		<text>I got the message from Butcher, what is going on?</text>
 	</string>
-	<string id="butcher_5_start_1">
+	<string id="ilya_muromets_3_1">
 		<text>Good that you're here - we ran into some trouble and I'm wounded... I will make it, don't worry, but I'm incapacitated. I came here with another hunter - Orion, a young blood, to find the cause of that Snork infestation. We noticed that during the night, a lot of these bastards came pouring out of the Underground.
 		There is something down there that drives them out - something nefarious... We went down there and it was brutal... our heads began to hurt and suddenly we were surrounded by Snorks and I got bitten in the arm and leg - luckily Orion was there to carry me out! But... that fool went back! I begged him to wait, but he was eager, how young people are!
 		Shit, and now I haven't heard of him. My friend, please go down there and find him! I would like to come with you, but my leg won't carry me.</text>
 	</string>
-	<string id="butcher_5_start_2">
+	<string id="ilya_muromets_3_2">
 		<text>Don't worry, I'll find Orion and bring him back here!</text>
 	</string>
-	<string id="butcher_5_start_3">
+	<string id="ilya_muromets_3_3">
 		<text>I don't know, I don't think I'm ready to head down there yet!</text>
 	</string>
-	<string id="butcher_5_start_4">
+	<string id="ilya_muromets_3_4">
 		<text>I know I could count on you! And here, take this - I'm afraid you might need it.</text>
 	</string>
-	<string id="butcher_5_start_5">
+	<string id="ilya_muromets_3_5">
 		<text>Understandable - but please hurry! And here, take this - if you're ready to go down there, I'm afraid you might need it.</text>
 	</string>
 
+<string id="ilya_muromets_4_0">
+		<text>I found Orion...</text>
+	</string>
+	<string id="ilya_muromets_4_1">
+		<text>I understand... What got him?</text>
+	</string>
+	<string id="ilya_muromets_4_2">
+		<text>I... I'm not sure. There is a huge room underneath, with somemachinery... and there was a Controller surrounded by Snorks and Burers who tried to protect him!</text>
+	</string>
+	<string id="ilya_muromets_4_3">
+		<text>A Controller? You don't say... and he was friendly with the Snorks? I thought these mutants hated each other? Strange... I don't understand - if the Snorks were friendly to him, why did they flee the Underground?</text>
+	</string>
+	<string id="ilya_muromets_4_4">
+		<text>I don't know man... but he had an army surrounding him.</text>
+	</string>
+	<string id="ilya_muromets_4_5">
+		<text>This place will never stop to confuse me. You know what, it's time for you to speak to Forester. After what you did here for us, you deserve to become part of our guild. I'm sure Butcher will vouch for you too! Go see him, and tell him what you saw down under.
+		 I'll stay here for a while to recover and keep an eye on the situation. I'll find you later.</text>
+	</string>
+	<string id="ilya_muromets_4_6">
+		<text>Guild?</text>
+	</string>
+	<string id="ilya_muromets_4_7">
+		<text>Yeah man, a fucking guild - or how Forester likes to call it, a Brotherhood. Go see him, he'll be able to explain all of this much better than I can.</text>
+	</string>
 
 
 --- Ilya Muromets ---

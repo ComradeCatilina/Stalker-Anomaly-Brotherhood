@@ -359,9 +359,10 @@ function actor_on_update_9()
     
 	news_manager.send_tip(db.actor, game.translate_string("st_butcher_5_help_info"), 0, "stalker", 11000, 1)
 	dialogs_brotherhood.give_rescue_orion_quest()
+	relocation_ilya_1()
 	GI("butcher_5_help")
 		
-      time_to_poof_9 = nil
+    time_to_poof_9 = nil
     end
 
 end

@@ -81,6 +81,16 @@ function transfer_bandages_snorks(first_speaker, second_speaker)
   dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "bandage", 2)
 end
 
+
+function relocation_ilya_1()
+	local squad = get_story_se_object("ilya_muromets_squad")
+	local pos = vector():set( 20.758554458618,0.15221303701401,11.817081451416 )
+	if (pos and squad) then
+		TeleportSquad(squad,pos,217755,1026)
+		
+	GI("relocation_ilya_1_init")
+	end
+end
 ---- Butcher Quest 5 ----
 
 function give_rescue_orion_quest()

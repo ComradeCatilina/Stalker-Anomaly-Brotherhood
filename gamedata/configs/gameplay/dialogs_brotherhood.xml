@@ -502,7 +502,53 @@ agr_snork_infestion
 				
 			</phrase>
 		</phrase_list>
-	</dialog>	
+	</dialog>
+
+<dialog id="ilya_muromets_4">
+		<dont_has_info>ilya_muromets_4_done</dont_has_info>
+		<has_info>brotherhood_agru_controller_dead</has_info>
+		
+		<phrase_list>
+			<phrase id="0">
+				<text>ilya_muromets_4_0</text>
+				<next>1</next>				
+			</phrase>
+			<phrase id="1">				
+				<text>ilya_muromets_4_1</text>
+				<next>2</next>
+				<give_info>butcher_5_done</give_info>
+			</phrase>
+			<phrase id="2">
+				<text>ilya_muromets_4_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>ilya_muromets_4_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>ilya_muromets_4_4</text>
+						
+				<next>5</next>
+				
+			</phrase>
+			<phrase id="5">
+				<text>ilya_muromets_4_5</text>
+				<next>6</next>
+				
+			</phrase>
+			<phrase id="6">
+				<text>ilya_muromets_4_6</text>
+				<next>7</next>
+				
+			</phrase>
+			<phrase id="7">
+				<text>ilya_muromets_4_7</text>
+				<give_info>ilya_muromets_4_done</give_info>
+				
+			</phrase>
+		</phrase_list>
+	</dialog>		
  ---- Dolg Hunter Questline---
 
 <dialog id="bar_dolg_medic_hunter_0">
@@ -513,6 +559,7 @@ agr_snork_infestion
 				<text>bar_dolg_medic_hunter_0_0</text>
 				<next>1</next>	
 				<give_info>give_meet_aspirin_quest_1_done</give_info>
+				<action>brotherhood_timer.butcher_brotherhood_help</action>
 			</phrase>
 			<phrase id="1">				
 				<text>bar_dolg_medic_hunter_0_1</text>
