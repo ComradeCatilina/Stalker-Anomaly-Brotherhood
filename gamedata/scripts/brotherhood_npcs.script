@@ -51,7 +51,7 @@ local logic_data = {
 --- @return nil
 function setup_squads()
     for sec,data in pairs(spawn_data) do
-        init_squad(sec, data)
+        this.init_squad(sec, data)
     end
 end
 
@@ -87,7 +87,7 @@ end
 function check_custom_logic(obj,se_obj)
     local data = logic_data[se_obj:section_name()]
     if data then
-        setup_custom_logic(data.sid, data.ltx_name)
+        this.setup_custom_logic(data.sid, data.ltx_name)
     end
 end
 
