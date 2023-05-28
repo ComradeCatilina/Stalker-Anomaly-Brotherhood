@@ -1,20 +1,23 @@
+--- Original Author(s) : ComradeCatilina
+--- Edited : NLTP_ASHES
+--- Date : 15/05/2023
+--- License : <you choose that>
+---
+--- Timer script for Brotherhood. Courtesy of xcvb. The script gore is my fault (ComradeCatilina).
 
-;-----------------------------------------------;
-;Timer script for Brotherhood					;
-;												;
-;curtesy of xcvb								;
-;												;
-;the script gore is my fault(ComradeCatilina)	;
-;-----------------------------------------------;
+-- ---------------------------------------------------------------------------------------------------------------------
+-- Constants, global variables and imported functions
+-- ---------------------------------------------------------------------------------------------------------------------
 
+-- Imported functions
 local HI = has_alife_info
 local GI = give_info
 local DI = disable_info
-function NI(str)
-	return not (has_alife_info(str))
-end
-------- GENERAL Functions --------
+local NI = function(str) return not (has_alife_info(str)) end
+local ctime_to_t = utils_data.CTime_to_table
+local ctime_from_t = utils_data.CTime_from_table
 
+-- Variables
 local time_to_poof_1
 local time_to_poof_2
 local time_to_poof_3
@@ -35,334 +38,269 @@ local tmr_7 = 0
 local tmr_8 = 0
 local tmr_9 = 0
 
-local ctime_to_t_1 = utils_data.CTime_to_table
-local t_to_ctime_1 = utils_data.CTime_from_table
+-- ---------------------------------------------------------------------------------------------------------------------
+-- General functions
+-- ---------------------------------------------------------------------------------------------------------------------
 
-local ctime_to_t_2 = utils_data.CTime_to_table
-local t_to_ctime_2 = utils_data.CTime_from_table
-
-local ctime_to_t_3 = utils_data.CTime_to_table
-local t_to_ctime_3 = utils_data.CTime_from_table
-
-local ctime_to_t_4 = utils_data.CTime_to_table
-local t_to_ctime_4 = utils_data.CTime_from_table
-
-local ctime_to_t_5 = utils_data.CTime_to_table
-local t_to_ctime_5 = utils_data.CTime_from_table
-
-local ctime_to_t_6 = utils_data.CTime_to_table
-local t_to_ctime_6 = utils_data.CTime_from_table
-
-local ctime_to_t_7 = utils_data.CTime_to_table
-local t_to_ctime_7 = utils_data.CTime_from_table
-
-local ctime_to_t_8 = utils_data.CTime_to_table
-local t_to_ctime_8 = utils_data.CTime_from_table
-
-local ctime_to_t_9 = utils_data.CTime_to_table
-local t_to_ctime_9 = utils_data.CTime_from_table
-
-function save_state_1(m_data)
-    m_data.time_to_poof_1 = time_to_poof_1
-	m_data.time_to_poof_2 = time_to_poof_2
-	m_data.time_to_poof_3 = time_to_poof_3
-	m_data.time_to_poof_4 = time_to_poof_4
-	m_data.time_to_poof_5 = time_to_poof_5
-	m_data.time_to_poof_6 = time_to_poof_6
-	m_data.time_to_poof_7 = time_to_poof_7
-	m_data.time_to_poof_8 = time_to_poof_8
-	m_data.time_to_poof_9 = time_to_poof_9  
-end
-
-function load_state_1(m_data)
-    time_to_poof_1 = m_data.time_to_poof_1
-	time_to_poof_2 = m_data.time_to_poof_2
-	time_to_poof_3 = m_data.time_to_poof_3
-	time_to_poof_4 = m_data.time_to_poof_4
-	time_to_poof_5 = m_data.time_to_poof_5
-	time_to_poof_6 = m_data.time_to_poof_6
-	time_to_poof_7 = m_data.time_to_poof_7
-	time_to_poof_8 = m_data.time_to_poof_8
-	time_to_poof_9 = m_data.time_to_poof_9
-end
-
-function on_game_start()
-    RegisterScriptCallback("actor_on_update", actor_on_update_1)
-    RegisterScriptCallback("save_state", save_state_1)
-    RegisterScriptCallback("load_state", load_state_1)
-	RegisterScriptCallback("actor_on_update", actor_on_update_2)
-    RegisterScriptCallback("save_state", save_state_2)
-    RegisterScriptCallback("load_state", load_state_2)
-	RegisterScriptCallback("actor_on_update", actor_on_update_3)
-    RegisterScriptCallback("save_state", save_state_3)
-    RegisterScriptCallback("load_state", load_state_3)
-	RegisterScriptCallback("actor_on_update", actor_on_update_4)
-    RegisterScriptCallback("save_state", save_state_4)
-    RegisterScriptCallback("load_state", load_state_4)
-	RegisterScriptCallback("actor_on_update", actor_on_update_5)
-    RegisterScriptCallback("save_state", save_state_5)
-    RegisterScriptCallback("load_state", load_state_5)
-	RegisterScriptCallback("actor_on_update", actor_on_update_6)
-    RegisterScriptCallback("save_state", save_state_6)
-    RegisterScriptCallback("load_state", load_state_6)
-	RegisterScriptCallback("actor_on_update", actor_on_update_7)
-    RegisterScriptCallback("save_state", save_state_7)
-	RegisterScriptCallback("load_state", load_state_7)
-	RegisterScriptCallback("actor_on_update", actor_on_update_8)
-    RegisterScriptCallback("save_state", save_state_8)
-	RegisterScriptCallback("load_state", load_state_8)
-	RegisterScriptCallback("actor_on_update", actor_on_update_9)
-    RegisterScriptCallback("save_state", save_state_9)
-	RegisterScriptCallback("load_state", load_state_9)
-end
-
-
-
---- Alyosha Karmov ---
--- Help 1 --
+-- Alyosha Karmov
+-- Help 1
 
 function alyosha_karmov_help_1()
     if not time_to_poof_1 then
-        time_to_poof_1 = ctime_to_t_1(game.get_game_time())
+        time_to_poof_1 = ctime_to_t(game.get_game_time())
     end
 end
 
-
 function actor_on_update_1()
-    local poof_timer_1 = 20  
-	local tg = time_global()
+    local poof_timer_1 = 20
+    local tg = time_global()
     if tg < tmr_1 then return end
     tmr_1 = tg + 1000
 
     local cur_time = game.get_game_time()
-    if time_to_poof_1 and cur_time:diffSec(t_to_ctime_1(time_to_poof_1)) > poof_timer_1 then
-        
-    
-	news_manager.send_tip(db.actor, game.translate_string("st_karmov_trouble_1_info"), 0, "ecolog", 11000, 1)
-	dialogs_brotherhood.give_alyosha_karmov_trouble_1()
-	news_manager.send_tip(db.actor, game.translate_string("st_karmov_trouble_2_info"), 35, "ecolog", 11000, 1)
-	news_manager.send_tip(db.actor, game.translate_string("st_karmov_trouble_3_info"), 70, "ecolog", 11000, 1)
-		
-      time_to_poof_1 = nil
+    if time_to_poof_1 and cur_time:diffSec(ctime_from_t(time_to_poof_1)) > poof_timer_1 then
+        news_manager.send_tip(db.actor, game.translate_string("st_karmov_trouble_1_info"), 0, "ecolog", 11000, 1)
+        dialogs_brotherhood.give_alyosha_karmov_trouble_1()
+        news_manager.send_tip(db.actor, game.translate_string("st_karmov_trouble_2_info"), 35, "ecolog", 11000, 1)
+        news_manager.send_tip(db.actor, game.translate_string("st_karmov_trouble_3_info"), 70, "ecolog", 11000, 1)
+        time_to_poof_1 = nil
     end
 
 end
 
----What a night---
--- Time 2 --
+-- What a night
+-- Time 2
 
 function create_stash_1()
     if not time_to_poof_2 then
-        time_to_poof_2 = ctime_to_t_2(game.get_game_time())
+        time_to_poof_2 = ctime_to_t(game.get_game_time())
     end
 end
 
-
 function actor_on_update_2()
-    local poof_timer_2 = 0.5 
-	local tg = time_global()
+    local poof_timer_2 = 0.5
+    local tg = time_global()
     if tg < tmr_2 then return end
     tmr_2 = tg + 1000
 
     local cur_time = game.get_game_time()
-    if time_to_poof_2 and cur_time:diffSec(t_to_ctime_2(time_to_poof_2)) > poof_timer_2 then
-        
-    dialogs_brotherhood.create_stash_and_transfer_items()
-	dialogs_brotherhood.blackout_drink()
-	dialogs_brotherhood.give_what_a_night()
-	brotherhood_timer.blackout_drink_time()
-		
-      time_to_poof_2 = nil
+    if time_to_poof_2 and cur_time:diffSec(ctime_from_t(time_to_poof_2)) > poof_timer_2 then
+        dialogs_brotherhood.create_stash_and_transfer_items()
+        dialogs_brotherhood.blackout_drink()
+        dialogs_brotherhood.give_what_a_night()
+        this.blackout_drink_time()
+        time_to_poof_2 = nil
     end
-
 end
 
--- Time 3 --
+-- Time 3
 
 function blackout_drink_time()
     if not time_to_poof_3 then
-        time_to_poof_3 = ctime_to_t_3(game.get_game_time())
+        time_to_poof_3 = ctime_to_t(game.get_game_time())
     end
 end
 
-
 function actor_on_update_3()
-    local poof_timer_3 = 1 
-	local tg = time_global()
+    local poof_timer_3 = 1
+    local tg = time_global()
     if tg < tmr_3 then return end
     tmr_3 = tg + 1000
 
     local cur_time = game.get_game_time()
-    if time_to_poof_3 and cur_time:diffSec(t_to_ctime_3(time_to_poof_3)) > poof_timer_3 then
-        
-    
-	dialogs_brotherhood.blackout_teleportation()
-	
-		
-      time_to_poof_3 = nil
+    if time_to_poof_3 and cur_time:diffSec(ctime_from_t(time_to_poof_3)) > poof_timer_3 then
+        dialogs_brotherhood.blackout_teleportation()
+        time_to_poof_3 = nil
     end
-
 end
 
------Time 4 and 5 -----
----- Dolg Hunter ----
+-- Time 4 and 5
+-- Dolg Hunter
+
 function dolg_bloodsucker_out_of_time()
     if not time_to_poof_7 then
-        time_to_poof_7 = ctime_to_t_7(game.get_game_time())
+        time_to_poof_7 = ctime_to_t(game.get_game_time())
     end
 end
-
 
 function actor_on_update_7()
     local poof_timer_7 = 21600
-	local tg = time_global()
+    local tg = time_global()
     if tg < tmr_7 then return end
     tmr_7 = tg + 1000
 
     local cur_time = game.get_game_time()
-    if time_to_poof_7 and cur_time:diffSec(t_to_ctime_7(time_to_poof_7)) > poof_timer_7 then
-        
-    
-	GI("give_dolg_bloodsucker_village_1_out_of_time")
-		
-      time_to_poof_7 = nil
+    if time_to_poof_7 and cur_time:diffSec(ctime_from_t(time_to_poof_7)) > poof_timer_7 then
+        GI("give_dolg_bloodsucker_village_1_out_of_time")
+        time_to_poof_7 = nil
     end
-
 end
 
 function dolg_bloodsucker_voronin_1()
     if not time_to_poof_4 then
-        time_to_poof_4 = ctime_to_t_4(game.get_game_time())
+        time_to_poof_4 = ctime_to_t(game.get_game_time())
     end
 end
 
-
 function actor_on_update_4()
-    local poof_timer_4 = 86400 
-	local tg = time_global()
+    local poof_timer_4 = 86400
+    local tg = time_global()
     if tg < tmr_4 then return end
     tmr_4 = tg + 1000
 
     local cur_time = game.get_game_time()
-    if time_to_poof_4 and cur_time:diffSec(t_to_ctime_4(time_to_poof_4)) > poof_timer_4 then
-        
-    
-	news_manager.send_tip(db.actor, game.translate_string("st_dolg_voronin_bloodsucker_news_0"), 0, "dolg", 11000, 1)
-	dialogs_brotherhood.give_meet_voronin_quest_1()
-	dialogs_brotherhood.spawn_artyom_bloodsucker_wounded()
-	GI("voronin_bloodsucker_botched_start")
-		
-      time_to_poof_4 = nil
+    if time_to_poof_4 and cur_time:diffSec(ctime_from_t(time_to_poof_4)) > poof_timer_4 then
+        news_manager.send_tip(db.actor, game.translate_string("st_dolg_voronin_bloodsucker_news_0"), 0, "dolg", 11000, 1)
+        dialogs_brotherhood.give_meet_voronin_quest_1()
+        dialogs_brotherhood.spawn_artyom_bloodsucker_wounded()
+        GI("voronin_bloodsucker_botched_start")
+        time_to_poof_4 = nil
     end
-
 end
 
---- Dolg snitches get stitches ---
+-- Dolg snitches get stitches
+
 function dolg_bloodsucker_aspirin_1()
     if not time_to_poof_5 then
-        time_to_poof_5 = ctime_to_t_5(game.get_game_time())
+        time_to_poof_5 = ctime_to_t(game.get_game_time())
     end
 end
 
-
 function actor_on_update_5()
-    local poof_timer_5 = 86400 
-	local tg = time_global()
+    local poof_timer_5 = 86400
+    local tg = time_global()
     if tg < tmr_5 then return end
     tmr_5 = tg + 1000
 
     local cur_time = game.get_game_time()
-    if time_to_poof_5 and cur_time:diffSec(t_to_ctime_5(time_to_poof_5)) > poof_timer_5 then
-        
-    
-	news_manager.send_tip(db.actor, game.translate_string("st_dolg_aspirin_bloodsucker_news_0"), 0, "dolg", 11000, 1)
-	dialogs_brotherhood.give_meet_aspirin_quest_2()
-	GI("meet_aspirin_snitches_stitches")	
-      time_to_poof_5 = nil
+    if time_to_poof_5 and cur_time:diffSec(ctime_from_t(time_to_poof_5)) > poof_timer_5 then
+        news_manager.send_tip(db.actor, game.translate_string("st_dolg_aspirin_bloodsucker_news_0"), 0, "dolg", 11000, 1)
+        dialogs_brotherhood.give_meet_aspirin_quest_2()
+        GI("meet_aspirin_snitches_stitches")
+        time_to_poof_5 = nil
     end
-
 end
 
 function dolg_bloodsucker_aspirin_2()
     if not time_to_poof_6 then
-        time_to_poof_6 = ctime_to_t_6(game.get_game_time())
+        time_to_poof_6 = ctime_to_t(game.get_game_time())
     end
 end
 
---- Dolg Aspirin quest 2 ---
+-- Dolg Aspirin quest 2
 
 function actor_on_update_6()
-    local poof_timer_6 = 86400*7 
-	local tg = time_global()
+    local poof_timer_6 = 86400*7
+    local tg = time_global()
     if tg < tmr_6 then return end
     tmr_6 = tg + 1000
 
     local cur_time = game.get_game_time()
-    if time_to_poof_6 and cur_time:diffSec(t_to_ctime_6(time_to_poof_6)) > poof_timer_6 then
-        
-    
-	news_manager.send_tip(db.actor, game.translate_string("st_dolg_aspirin_bloodsucker_news_1"), 0, "dolg", 11000, 1)
-	dialogs_brotherhood.give_meet_aspirin_quest_2()
-		
-      time_to_poof_6 = nil
+    if time_to_poof_6 and cur_time:diffSec(ctime_from_t(time_to_poof_6)) > poof_timer_6 then
+        news_manager.send_tip(db.actor, game.translate_string("st_dolg_aspirin_bloodsucker_news_1"), 0, "dolg", 11000, 1)
+        dialogs_brotherhood.give_meet_aspirin_quest_2()
+        time_to_poof_6 = nil
     end
-
 end
 
----- Vybegallo Satisfied Man ----
+-- Vybegallo Satisfied Man
 
 function vybegallo_help_satisfied_man()
     if not time_to_poof_8 then
-        time_to_poof_8 = ctime_to_t_8(game.get_game_time())
+        time_to_poof_8 = ctime_to_t(game.get_game_time())
     end
 end
 
-
 function actor_on_update_8()
-    local poof_timer_8 = 86400*10 
-	local tg = time_global()
+    local poof_timer_8 = 86400*10
+    local tg = time_global()
     if tg < tmr_8 then return end
     tmr_8 = tg + 1000
 
     local cur_time = game.get_game_time()
-    if time_to_poof_8 and cur_time:diffSec(t_to_ctime_8(time_to_poof_8)) > poof_timer_8 then
-        
-    
-	news_manager.send_tip(db.actor, game.translate_string("st_vybegallo_help_satisfied_man_info"), 0, "ecolog", 11000, 1)
-	dialogs_brotherhood.give_meet_vybegallo_quest()
-	GI("vybegallo_request_help_satisfied_man")
-		
-      time_to_poof_8 = nil
+    if time_to_poof_8 and cur_time:diffSec(ctime_from_t(time_to_poof_8)) > poof_timer_8 then
+        news_manager.send_tip(db.actor, game.translate_string("st_vybegallo_help_satisfied_man_info"), 0, "ecolog", 11000, 1)
+        dialogs_brotherhood.give_meet_vybegallo_quest()
+        GI("vybegallo_request_help_satisfied_man")
+        time_to_poof_8 = nil
     end
-
 end
 
-
------ Brotherhood Quest 5 ------
+-- Brotherhood Quest 5
 
 function butcher_brotherhood_help()
     if not time_to_poof_9 then
-        time_to_poof_9 = ctime_to_t_9(game.get_game_time())
+        time_to_poof_9 = ctime_to_t(game.get_game_time())
     end
 end
 
-
 function actor_on_update_9()
     local poof_timer_9 = 86400*3
-	local tg = time_global()
+    local tg = time_global()
     if tg < tmr_9 then return end
     tmr_9 = tg + 1000
 
     local cur_time = game.get_game_time()
-    if time_to_poof_9 and cur_time:diffSec(t_to_ctime_9(time_to_poof_9)) > poof_timer_9 then
-        
-    
-	news_manager.send_tip(db.actor, game.translate_string("st_butcher_5_help_info"), 0, "stalker", 11000, 1)
-	dialogs_brotherhood.give_rescue_orion_quest()
-	relocation_ilya_1()
-	GI("butcher_5_help")
-		
-    time_to_poof_9 = nil
+    if time_to_poof_9 and cur_time:diffSec(ctime_from_t(time_to_poof_9)) > poof_timer_9 then
+        news_manager.send_tip(db.actor, game.translate_string("st_butcher_5_help_info"), 0, "stalker", 11000, 1)
+        dialogs_brotherhood.give_rescue_orion_quest()
+        relocation_ilya_1()
+        GI("butcher_5_help")
+        time_to_poof_9 = nil
     end
+end
 
+-- ---------------------------------------------------------------------------------------------------------------------
+--	Data persistence
+-- ---------------------------------------------------------------------------------------------------------------------
+
+--- Function used to store information in the save file.
+--- @param m_data table
+--- @return nil
+function save_state(m_data)
+    m_data.time_to_poof_1 = time_to_poof_1
+    m_data.time_to_poof_2 = time_to_poof_2
+    m_data.time_to_poof_3 = time_to_poof_3
+    m_data.time_to_poof_4 = time_to_poof_4
+    m_data.time_to_poof_5 = time_to_poof_5
+    m_data.time_to_poof_6 = time_to_poof_6
+    m_data.time_to_poof_7 = time_to_poof_7
+    m_data.time_to_poof_8 = time_to_poof_8
+    m_data.time_to_poof_9 = time_to_poof_9
+end
+
+--- Function used to load information stored in the save file.
+--- @param m_data table
+--- @return nil
+function load_state(m_data)
+    time_to_poof_1 = m_data.time_to_poof_1
+    time_to_poof_2 = m_data.time_to_poof_2
+    time_to_poof_3 = m_data.time_to_poof_3
+    time_to_poof_4 = m_data.time_to_poof_4
+    time_to_poof_5 = m_data.time_to_poof_5
+    time_to_poof_6 = m_data.time_to_poof_6
+    time_to_poof_7 = m_data.time_to_poof_7
+    time_to_poof_8 = m_data.time_to_poof_8
+    time_to_poof_9 = m_data.time_to_poof_9
+end
+
+-- ---------------------------------------------------------------------------------------------------------------------
+-- Callbacks registration
+-- ---------------------------------------------------------------------------------------------------------------------
+
+--- Function used to register callbacks.
+--- @return nil
+function on_game_start()
+    RegisterScriptCallback("save_state", save_state)
+    RegisterScriptCallback("load_state", load_state)
+
+    RegisterScriptCallback("actor_on_update", actor_on_update_1)
+    RegisterScriptCallback("actor_on_update", actor_on_update_2)
+    RegisterScriptCallback("actor_on_update", actor_on_update_3)
+    RegisterScriptCallback("actor_on_update", actor_on_update_4)
+    RegisterScriptCallback("actor_on_update", actor_on_update_5)
+    RegisterScriptCallback("actor_on_update", actor_on_update_6)
+    RegisterScriptCallback("actor_on_update", actor_on_update_7)
+    RegisterScriptCallback("actor_on_update", actor_on_update_8)
+    RegisterScriptCallback("actor_on_update", actor_on_update_9)
 end
