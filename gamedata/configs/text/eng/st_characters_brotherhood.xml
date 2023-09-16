@@ -14,14 +14,19 @@
 		<text>Orion</text>
 	</string>		
 	
-	
-	
+<string id="nr_sorokin_name">
+		<text>Sorokin</text>
+	</string>	
+
+<string id="nr_scamlok_name">
+		<text>Strelok</text>
+	</string>		
 	
 <string id="assault_stalker_leader_esc_5_9_name">
-		<text>Alexander Peresvet</text>
+		<text>Pollux</text>
 	</string>
 <string id="assault_csky_leader_esc_5_7_name">
-		<text>Rodion Oslyabya</text>
+		<text>Castor</text>
 	</string>	
 <string id="zaton_brokkr_name">
 		<text>Brokkr</text>
@@ -60,8 +65,8 @@
 <string id="ecologist_sidorovich_name">
 		<text>Andrey Tambov</text>
 	</string>
-<string id="alyosha_karmov_name">
-		<text>Alyosha Karmov</text>
+<string id="alyosha_shyogolov_name">
+		<text>Alyosha Shyogolov</text>
 	</string>	
 	
 <string id="zaton_achilles_name">

@@ -1,0 +1,56 @@
+
+--- Vybegallo
+
+[logic@vybegallo]
+   suitable = {=check_npc_name(vybegallo)} true
+   prior = 500
+   active = beh@vybegallo_job
+
+[beh@vybegallo_job]
+	behaviour_state = beh_move
+	target = waypoint
+	path_end = loop
+	pt1 = 88860000,idle | pos:-0.96449947357178,2.4984850883484,5.1722574234009 look:-1.9572842717171,2.4984850883484,5.0705771446228
+
+[logic@vybegallo_2]
+   suitable = {=check_npc_name(vybegallo)} true
+   prior = 500
+   active = beh@vybegallo_job_2
+   
+[beh@vybegallo_job_2]
+	behaviour_state = beh_move
+	target = waypoint
+	walk_anim = patrol
+	combat_ignore_cond = {=actor_true_enemy =check_enemy_name(actor)} false, true
+	combat_ignore_keep_when_attacked = false
+	invulnerable = {!actor_true_enemy} true, false
+	path_end = loop
+	pt1 = 88860000,idle | pos:42.025260925293,10.499049186707,16.939895629883 look:42.941039323807,10.499049186707,17.068541884422
+	
+--- Alyosha
+	
+[logic@alyosha_shyogolov]
+   suitable = {=check_npc_name(alyosha_shyogolov)} true
+   prior = 500
+   active = beh@alyosha_shyogolov_job
+
+[beh@alyosha_shyogolov_job]
+	behaviour_state = beh_move
+	
+	target = waypoint
+	path_end = loop
+	pt1 = 88860000,guard | pos:252.66156005859,-0.2021781951189,76.431800842285 look:252.27964878082,-0.2021781951189,75.510967731476
+
+
+[logic@alyosha_shyogolov_2]
+   suitable = {=check_npc_name(alyosha_shyogolov)} true
+   prior = 500
+   active = beh@alyosha_shyogolov_job_2
+
+[beh@alyosha_shyogolov_job_2]
+	behaviour_state = beh_move
+	target = waypoint
+	path_end = loop
+	pt1 = 88860000,sit_ass_drink_vodka | pos:-6.3672633171082,7.4974012374878,4.344096660614 look:-5.3891610503197,7.4974012374878,4.4683983996511
+	
+

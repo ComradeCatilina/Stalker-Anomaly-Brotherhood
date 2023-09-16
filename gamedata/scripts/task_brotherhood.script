@@ -14,7 +14,8 @@ end
 
 function actor_on_update()
     scouting_esc_smart_terrain_7_11_init()
-	
+	trigger_northern_rush_init()
+	help_alyosha_shyogolov_init()
 end
 
 function scouting_esc_smart_terrain_7_11_init()
@@ -30,6 +31,66 @@ function scouting_esc_smart_terrain_7_11_init()
 			end
 	end
 end
+
+function trigger_northern_rush_init()
+	if NI("trigger_northern_rush_init_done") then
+		if HI("bar_deactivate_radar_done") then				
+			GI("northern_rush_dialogs_trigger_done")
+			nr_sorokin_init()
+			GI("trigger_northern_rush_init_done")
+		end
+	end
+end
+
+
+
+function nr_sorokin_init()
+    if (NI("nr_sorokin_init")) then
+        if not (get_story_se_object("nr_sorokin_squad")) then            
+            local smart = SIMBOARD.smarts_by_names["bar_visitors"]           
+            local squad = SIMBOARD:create_squad(smart,"nr_sorokin_squad")
+        end        
+        if (get_story_se_object("nr_sorokin_squad")) then            
+            GI("nr_sorokin_init")
+        end
+    end
+end
+
+function help_alyosha_shyogolov_init()
+    if (NI("help_alyosha_shyogolov_init")) then
+		if level.name() == "l03_agroprom" then
+			if (NI("help_alyosha_shyogolov_random")) then
+				local dist = 230
+				local smart = SIMBOARD.smarts_by_names["agr_smart_terrain_5_3"]
+				if smart and smart.online then					
+					local smrt = SIMBOARD.smarts[smart.id]
+					if smrt and (db.actor:position():distance_to(smart.position) > dist) then
+						if (math.random(100)  < 25) then						
+						
+							news_manager.send_tip(db.actor, game.translate_string("st_shyogolov_trouble_1_info"), 2, "ecolog", 11000, 1)
+							dialogs_brotherhood.give_alyosha_shyogolov_trouble_1()
+							news_manager.send_tip(db.actor, game.translate_string("st_shyogolov_trouble_2_info"), 25, "ecolog", 11000, 1)
+							news_manager.send_tip(db.actor, game.translate_string("st_shyogolov_trouble_3_info"), 50, "ecolog", 11000, 1)    
+							GI("help_alyosha_shyogolov_init")
+							
+						else
+						
+							
+							GI("help_alyosha_shyogolov_random")
+							brotherhood_timer.alyosha_shyogolov_help_random()
+						
+						end
+					end	
+				end		
+			end
+        end
+    end
+end
+
+
+
+	
+
 
 
 --- Brotherhood 1 and 2 ---
@@ -142,12 +203,12 @@ function xr_effects.spawn_vybegallo_trail_4()
      end
 end
 
-function task_status_functor.give_alyosha_karmov_trouble_1_status_f(tsk,task_id) 
+function task_status_functor.give_alyosha_shyogolov_trouble_1_status_f(tsk,task_id) 
 	if (tsk.stage == 0) then	
 		
-		if (NI("alyosha_karmov_trouble_1_init")) then
+		if (NI("alyosha_shyogolov_trouble_1_init")) then
 		
-			if not (get_story_se_object("karmov_pack_snorks_1")) then 
+			if not (get_story_se_object("shyogolov_pack_snorks_1")) then 
 				
 				local dist = 100
 				local smart = SIMBOARD.smarts_by_names["agr_smart_terrain_5_3"]
@@ -158,9 +219,9 @@ function task_status_functor.give_alyosha_karmov_trouble_1_status_f(tsk,task_id)
 					if smrt and (db.actor:position():distance_to(smart.position) < dist) then
 						
 						local smart = SIMBOARD.smarts_by_names["agr_smart_terrain_5_3"]           
-						local squad = SIMBOARD:create_squad(smart,"karmov_pack_snorks_1")
+						local squad = SIMBOARD:create_squad(smart,"shyogolov_pack_snorks_1")
 						tsk.stage = 1
-						GI("alyosha_karmov_trouble_1_init")
+						GI("alyosha_shyogolov_trouble_1_init")
 						return
 					end
 				end
@@ -168,8 +229,8 @@ function task_status_functor.give_alyosha_karmov_trouble_1_status_f(tsk,task_id)
 		end
 	end
 	if (tsk.stage == 1) then
-		printe("Control AK stage 5")
-		if HI("alyosha_karmov_1_go") then
+		
+		if HI("alyosha_shyogolov_1_go") then
 			
 			local dist = 25
 			local smart = SIMBOARD.smarts_by_names["agr_smart_terrain_4_4"]
@@ -177,7 +238,7 @@ function task_status_functor.give_alyosha_karmov_trouble_1_status_f(tsk,task_id)
 				
 				local smrt = SIMBOARD.smarts[smart.id]
 				if smrt and (db.actor:position():distance_to(smart.position) < dist) then
-					GI("alyosha_karmov_1_you_arrived")
+					GI("alyosha_shyogolov_1_you_arrived")
 					
 					return
 				end
@@ -557,4 +618,46 @@ function task_status_functor.give_rpg_missile_in_the_sky_status_f(tsk,task_id)
 		printe("Control RPG in the sky task stage 1")
 		
 	end	
+end
+
+------ Northern Rush -----
+
+---- Scamlok ----
+function task_status_functor.give_task_join_scamlok_1_status_f(tsk,task_id) 
+	if (tsk.stage == 0) then
+		
+	
+			local dist = 25
+			local smart = SIMBOARD.smarts_by_names["jup_a6"]
+			if smart and smart.online then
+				
+				local smrt = SIMBOARD.smarts[smart.id]
+				if smrt and (db.actor:position():distance_to(smart.position) < dist) then
+					GI("nr_fool_you_arrived")
+					
+					return
+				end
+			end
+	end
+	
+end
+
+
+function task_status_functor.give_task_escort_sorokin_1_status_f(tsk,task_id) 
+	if (tsk.stage == 0) then
+		
+	
+			local dist = 25
+			local smart = SIMBOARD.smarts_by_names["jup_a6"]
+			if smart and smart.online then
+				
+				local smrt = SIMBOARD.smarts[smart.id]
+				if smrt and (db.actor:position():distance_to(smart.position) < dist) then
+					GI("sorokin_1_you_arrived")
+					
+					return
+				end
+			end
+	end
+	
 end

@@ -36,14 +36,18 @@
         <!--actor_dialog>information_about_stash_barmen1</actor_dialog-->	
 		<!---------- mlr ----------->		
         <actor_dialog>dm_broker_dialog</actor_dialog>
-        <actor_dialog>actor_break_dialog</actor_dialog>
+       
         <!----------g0dl1ke--------->
 		<actor_dialog>devushka_4_help</actor_dialog>
 		<actor_dialog>devushka_help</actor_dialog>
 		
 		<!-- Sftz -->
 		<actor_dialog>barman_north_0</actor_dialog>
-		<actor_dialog>barman_sektor_gaza_0</actor_dialog>
+		<actor_dialog>barkeep_scamlok_believe_0</actor_dialog>
+		<actor_dialog>barkeep_scamlok_scammer_0</actor_dialog>
+		
+		
+		 <actor_dialog>actor_break_dialog</actor_dialog>
 	</specific_character>
 
 		

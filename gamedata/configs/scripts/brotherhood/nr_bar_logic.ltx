@@ -1,0 +1,25 @@
+[logic@nr_sorokin]
+   suitable = {=check_npc_name(nr_sorokin)} true
+   prior = 500
+   active = beh@nr_sorokin_job
+
+[beh@nr_sorokin_job]
+	behaviour_state = beh_move
+	target = waypoint
+	path_end = loop
+	pt1 = 88860000,idle | pos:131.9454498291,-4.8244047164917,25.538990020752 look:132.94496375322,-4.8244047164917,25.533007382881
+
+[logic@nr_scamlok_1]
+   suitable = {=check_npc_name(nr_scamlok)} true
+   prior = 500
+   active = beh@nr_scamlok_job
+
+[beh@nr_scamlok_job]
+	behaviour_state = beh_move
+	target = waypoint
+	combat_ignore_cond = {=is_warfare} false, {=actor_true_enemy =check_enemy_name(actor)} false, true
+	combat_ignore_keep_when_attacked = {=is_warfare} false, true
+	invulnerable = {=is_warfare} false, {!actor_true_enemy} true, false
+	path_end = loop
+	pt1 = 88860000,idle | pos:109.44784545898,-0.012278616428375,127.16125488281 look:110.41980904341,-0.012278616428375,126.92711761594
+

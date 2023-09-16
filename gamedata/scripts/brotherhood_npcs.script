@@ -16,10 +16,11 @@ function actor_on_first_update()
     zaton_eitri_init()
     zaton_brokkr_init()
 	
-	zaton_achilles_init()
+	
 	vybegallo_init()
 	sasha_tolstoy_init()
 	ilya_muromets_init()
+	
 end
 
 
@@ -29,6 +30,8 @@ function on_game_start()
     RegisterScriptCallback("npc_on_net_spawn", npc_on_net_spawn_1)
 	RegisterScriptCallback("npc_on_net_spawn", npc_on_net_spawn_2)
 end
+
+
 
 function marlo_stanfield_init()
     if (NI("marlo_stanfield_init")) then

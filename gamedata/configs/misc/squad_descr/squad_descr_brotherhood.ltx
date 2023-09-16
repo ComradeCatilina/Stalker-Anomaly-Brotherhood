@@ -362,7 +362,7 @@ npc = sim_default_killer_3, sim_default_killer_3, sim_default_killer_4, sim_defa
 npc_in_squad = 6, 6
 story_id = jupiter_mercenary_1_squad
 target_smart = jup_b207
-on_death = %=spawn_reinforcment_mercenary_1%
+on_death = %=spawn_reinforcment_mercenary_1 +jupiter_mercenary_1_squad_dead%
 
 [jupiter_mercenary_2_squad]:online_offline_group
 faction = killer
@@ -415,20 +415,20 @@ target_smart = jup_a6
 	
 	
 	
---- Alyosha Karmov ---
-[alyosha_karmov_squad]:online_offline_group
+--- Alyosha Shyogolov ---
+[alyosha_shyogolov_squad]:online_offline_group
 faction = ecolog
-npc = alyosha_karmov
+npc = alyosha_shyogolov
 npc_in_squad = 1, 1
-target_smart = {+alyosha_karmov_1_you_arrived} agr_smart_terrain_4_4, agr_smart_terrain_6_4 
-on_death = %+alyosha_karmov_dead%
+target_smart = {+alyosha_shyogolov_1_you_arrived} agr_smart_terrain_4_4, agr_smart_terrain_6_4 
+on_death = %+alyosha_shyogolov_dead%
 	
-[karmov_pack_snorks_1]:online_offline_group
+[shyogolov_pack_snorks_1]:online_offline_group
 faction         = monster_special
 npc      = snork_weak3, snork_weak3
 npc_in_squad    = 2, 2
 target_smart = agr_smart_terrain_5_3
-on_death = %+karmov_pack_snorks_1_dead%	
+on_death = %+shyogolov_pack_snorks_1_dead%	
 
 
 
@@ -438,3 +438,19 @@ npc = sasha_tolstoy
 npc_in_squad = 1, 1
 story_id = sasha_tolstoy_squad
 target_smart = mar_smart_terrain_base
+
+[nr_sorokin_squad]:online_offline_group
+faction = stalker
+npc = nr_sorokin
+npc_in_squad = 1, 1
+story_id = nr_sorokin_squad
+target_smart = {+sorokin_1_you_arrived} jup_a6, bar_visitors
+on_death = %+nr_sorokin_dead%	
+
+[nr_scamlok_squad]:online_offline_group
+faction = stalker
+npc = nr_scamlok
+npc_in_squad = 1, 1
+story_id = nr_scamlok_squad
+target_smart = bar_dolg_general
+on_death = %+nr_scamlok_dead%	

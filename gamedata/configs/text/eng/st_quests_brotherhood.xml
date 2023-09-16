@@ -18,11 +18,11 @@
 	</string>
 	<string id="give_sidorovich_railway_assault_1_descr">
 		<text>Sidorovich hired me to take part in the assault on the railway bridge. 
-		I have to make contact with the Clear Sky leader "Rodion Oslyabya" at the northern farm.</text>
+		I have to make contact with the Clear Sky leader "Castor" at the northern farm.</text>
 	</string>
 	<string id="give_sidorovich_railway_assault_2_descr">
 		<text>Sidorovich hired me to take part in the assault on the railway bridge. 
-		The Clear Sky squad is in place, I have to go back to the mill and find the Loner squad under "Alexander Peresvet".</text>
+		The Clear Sky squad is in place, I have to go back to the mill and find the Loner squad under "Pollux".</text>
 	</string>
 	<string id="give_sidorovich_railway_assault_3_descr">
 		<text>Everyone is in place, time to assault the Railway Bridge!</text>
@@ -50,7 +50,7 @@
 	----Brotherhood----
 	
 	<string id="give_task_kill_pack_dogs_1_name">
-		<text>No Glovo in the Zone</text>
+		<text>Lost in transit</text>
 	</string>
 	<string id="give_task_kill_pack_dogs_1_descr">
 		<text>I have to recover a package lost to a pack of dogs. It should be in the Great Swamp, near an old construction site. 
@@ -166,18 +166,18 @@
 	</string>
 
 	
----- Alyosha Karmov----
-<string id="give_alyosha_karmov_trouble_1_name">
+---- Alyosha Shyogolov----
+<string id="give_alyosha_shyogolov_trouble_1_name">
 		<text>A cry for help</text>
 	</string>
-	<string id="give_alyosha_karmov_trouble_1_1_descr">
-		<text>An Ecologist called "Alyosha Karmov" is besieged by Snorks in the Agroprom train tunnel. He is calling for help.</text>
+	<string id="give_alyosha_shyogolov_trouble_1_1_descr">
+		<text>An Ecologist called "Alyosha Shyogolov" is besieged by Snorks in the Agroprom train tunnel. He is calling for help.</text>
 	</string>	
-	<string id="give_alyosha_karmov_trouble_1_2_descr">
-		<text>Accompany Alyosha Karmov to the Agroprom Factory.</text>
+	<string id="give_alyosha_shyogolov_trouble_1_2_descr">
+		<text>Accompany Alyosha Shyogolov to the Agroprom Factory.</text>
 	</string>
-	<string id="give_alyosha_karmov_trouble_1_3_descr">
-		<text>Tell Alyosha Karmov that you arrived.</text>
+	<string id="give_alyosha_shyogolov_trouble_1_3_descr">
+		<text>Tell Alyosha Shyogolov that you arrived.</text>
 	</string>
 	
 --- Vybegallo ---	
@@ -192,18 +192,9 @@
 <string id="bring_pseudogiant_vybegallo_name">
 		<text>Vybegallo: for science!</text>
 	</string>
-	<string id="bring_eye_vybegallo_descr">
-		<text>I found a pseudogiant eye - I should bring it to Vybegallo</text>
-	</string>
-	<string id="bring_hand_vybegallo_descr">
-		<text>I found a pseudogiant hand - I should bring it to Vybegallo</text>
-	</string>
-	<string id="bring_hide_vybegallo_descr">
-		<text>I found a pseudogiant hide - I should bring it to Vybegallo</text>
-	</string>	
 	<string id="bring_part_vybegallo_descr">
-		<text>Vybegallo wants me to find him a pseudogiant body part: an eye, an hand or it's hide</text>
-	</string>	
+		<text>Vybegallo wants me to find him some mutant parts: two fracture hands, one bloodsucker heart and a pseudogiant body part: either an eye, an hand or it's hide</text>
+	</string>
 
 <string id="give_sakharov_order_vybegallo_quest_name">
 		<text>Vybegallo: for science?</text>
@@ -226,8 +217,17 @@
 
 
 ----- Market Share-----
+<string id="give_meet_marlo_chris_quest_1_name">
+		<text>An invitation</text>
+	</string>
+	<string id="give_meet_marlo_chris_quest_1_descr">
+		<text>Someone wants to meet me in Yanov, in the tower north of the train station.</text>
+	</string>
+
+
+
 <string id="give_marlo_pda_name">
-		<text>Market Share: Startup - </text>
+		<text>Startup - Corporate Spying</text>
 	</string>
 	<string id="bring_pda_marlo_3_descr">
 		<text>Harald Virtanen is dead and I have his PDA. I should bring it to Chris.</text>
@@ -240,7 +240,7 @@
 	</string>
 
 <string id="give_intercept_courrier_1_name">
-		<text>Market Share: Startup - </text>
+		<text>Startup - </text>
 	</string>
 	<string id="bring_usb_marlo_2_descr">
 		<text>I got the USB. I should bring it to Chris now.</text>
@@ -250,7 +250,7 @@
 	</string>
 
 <string id="give_intercept_courrier_2_name">
-		<text>Market Share: Startup - </text>
+		<text>Startup - </text>
 	</string>
 	<string id="bring_usb_marlo_2_1_descr">
 		<text>I have to disguise myself as a Mercenary, infiltrate their base in Zaton and deliver the USB to an officer called "Aivar Kuusk".</text>
@@ -259,7 +259,15 @@
 		<text>I managed to fool the mercenaries. I should report back to Chris and thell him that everything is going as planned.</text>
 	</string>
 	
-	
+<string id="give_intercept_delivery_1_name">
+		<text>Startup - asset interception</text>
+	</string>
+	<string id="give_intercept_delivery_1_1_descr">
+		<text>The mercenaries will hand over supplies to their northern outpost in the car fortress to the east of the Yanov Station. Monk and his squad will assist me - they're waiting in the Yanov Station for me.</text>
+	</string>
+	<string id="give_intercept_delivery_1_2_descr">
+		<text>The guards are dead - I should bring Chris the supply crates.</text>
+	</string>	
 	
 	
 ---Fake Artifact---
@@ -329,6 +337,25 @@
 	<text>Fanatic asked me to gather 1 Echo detectors, 1 Nemiroff Vodka bottles and 10 buckshot shells for the rookies.</text>
 	</string>
 
+<string id="give_task_escort_sorokin_1_name">
+	<text>Escort to Yanov</text>
+	</string>
+	<string id="give_task_escort_sorokin_1_1_descr">
+	<text>Sorokin asked you to escort him to Yanov Station.</text>
+	</string>
+	<string id="give_task_escort_sorokin_1_2_descr">
+	<text>Tell Sorokin that you arrived at your destination.</text>
+	</string>
+
+<string id="give_task_join_scamlok_1_name">
+	<text>Gathering a team</text>
+	</string>
+	<string id="give_task_join_scamlok_1_1_descr">
+	<text>Strelok is gathering a team. The first test is to reach Yanov Station and find him there.</text>
+	</string>
+	<string id="give_task_join_scamlok_1_2_descr">
+	<text>I reached Yanov Station. I should try to find Strelok.</text>
+	</string>
 
 	
 </string_table>

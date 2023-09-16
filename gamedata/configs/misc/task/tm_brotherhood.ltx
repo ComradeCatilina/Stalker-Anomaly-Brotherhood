@@ -187,21 +187,21 @@ on_complete = %=reward_item(vodka_quality) =inc_faction_goodwill_to_actor(stalke
 on_fail = 
 
 ;------------------------------------------------------------------------------------------
-; Doctor Alyosha Karmov QUESTLINES
+; Doctor Alyosha Shyogolov QUESTLINES
 ;------------------------------------------------------------------------------------------
 
-[give_alyosha_karmov_trouble_1]
+[give_alyosha_shyogolov_trouble_1]
 icon = ui_iconsTotal_bar_crazy_veterans_quest
 prior = 140
 storyline = true
 
-title = give_alyosha_karmov_trouble_1_name
+title = give_alyosha_shyogolov_trouble_1_name
 target = 
-descr = {+alyosha_karmov_1_you_arrived} give_alyosha_karmov_trouble_1_3_descr, {+alyosha_karmov_1_go} give_alyosha_karmov_trouble_1_2_descr, give_alyosha_karmov_trouble_1_1_descr
-status_functor          = give_alyosha_karmov_trouble_1_status_f
+descr = {+alyosha_shyogolov_1_you_arrived} give_alyosha_shyogolov_trouble_1_3_descr, {+alyosha_shyogolov_1_go} give_alyosha_shyogolov_trouble_1_2_descr, give_alyosha_shyogolov_trouble_1_1_descr
+status_functor          = give_alyosha_shyogolov_trouble_1_status_f
 
-on_init = %=clear_smart_terrain(agr_smart_terrain_6_4:true) =create_squad(alyosha_karmov_squad:agr_smart_terrain_6_4) =clear_smart_terrain(agr_smart_terrain_5_3:true)%
-condlist_0 = {+alyosha_karmov_0_done} complete
+on_init = %=clear_smart_terrain(agr_smart_terrain_6_4:true) =create_squad(alyosha_shyogolov_squad:agr_smart_terrain_6_4) =clear_smart_terrain(agr_smart_terrain_5_3:true)%
+condlist_0 = {+alyosha_shyogolov_0_done} complete
 on_complete = 
 
 ;------------------------------------------------------------------------------------------
@@ -214,8 +214,8 @@ prior = 72
 storyline = false
 
 title = bring_pseudogiant_vybegallo_name
-descr = {=actor_has_item(mutant_part_pseudogigant_eye)} bring_eye_vybegallo_descr, {=actor_has_item(mutant_part_pseudogigant_hand)} bring_hand_vybegallo_descr, {=actor_has_item(hide_pseudogiant)} bring_hide_vybegallo_descr, bring_part_vybegallo_descr
-target = {=actor_has_item(mutant_part_pseudogiant_eye)} vybegallo, {=actor_has_item(mutant_part_pseudogiant_hand)} vybegallo, {=actor_has_item(hide_pseudogiant)} vybegallo
+descr =  bring_part_vybegallo_descr
+target = 
 
 condlist_0 = {+vybegallo_quest_1_done} complete
 condlist_1 = {+vybegallo_sakharov_order_done} fail
@@ -242,7 +242,7 @@ target =
 descr = {+vybegallo_sakharov_order_done} give_sakharov_order_vybegallo_quest_2_descr, give_sakharov_order_vybegallo_quest_1_descr
 
 condlist_0 = {+give_sakharov_order_vybegallo_quest_done} complete
-on_complete = %=spawn_vybegallo_order_mercenary =reward_item(medkit) =reward_item(antirad) =reward_money(1000)%
+on_complete = %=spawn_vybegallo_order_mercenary =spawn_vybegallo_order_mercenary_2 =reward_item(medkit) =reward_item(antirad) =reward_money(1000)%
 
 
 [give_vybegallo_must_die]
@@ -255,7 +255,7 @@ target =
 descr = {+vybegallo_dead} give_vybegallo_must_die_2_descr, give_vybegallo_must_die_1_descr
 
 condlist_0 = {+give_vybegallo_must_die_done} complete
-on_complete = %=reward_item(af_grid_prototype)%
+on_complete = %=reward_item(af_cooler_up) =reward_money(7500)%
 
 [give_vybegallo_satisfied_man]
 icon = ui_iconsTotal_bar_crazy_veterans_quest
@@ -314,7 +314,16 @@ on_complete = %=reward_money(5000) =inc_faction_goodwill_to_actor(stalker:50)%
 ;------------------------------------------------------------------------------------------
 ; Marketshare QUESTLINES
 ;------------------------------------------------------------------------------------------
+[give_meet_marlo_chris_quest_1]
+icon = ui_iconsTotal_bar_crazy_veterans_quest
+prior = 100
+storyline = false
 
+title = give_meet_marlo_chris_quest_1_name
+target = 
+descr = give_meet_marlo_chris_quest_1_descr
+
+condlist_0 = {+give_meet_marlo_chris_quest_1_done} complete
 
 [give_marlo_pda]
 icon = ui_icons_cordon22
@@ -363,12 +372,12 @@ prior = 80
 storyline = false
 
 title = give_intercept_delivery_1_name
-descr = {+zaton_mercenary_2_delivered} give_intercept_delivery_1_2_descr, give_intercept_delivery_1_1_descr
+descr = {+jupiter_mercenary_1_squad_dead} give_intercept_delivery_1_2_descr, give_intercept_delivery_1_1_descr
 target = 
 
 
-condlist_0 = {+give_intercept_courrier_2_done} complete
-on_init = %=clear_smart_terrain(jup_b202:true) =clear_smart_terrain(jup_b207:true) =create_squad(jupiter_stalker_assault_leader_squad:jup_a6) =create_squad(jupiter_stalker_assault_1_squad:jup_a6) =create_squad(jupiter_mercenary_1_squad:jup_b207)%
+condlist_0 = {+give_intercept_delivery_1_done} complete
+on_init = %=spawn_mercenary_supplies_1 =spawn_mercenary_supplies_2 =spawn_mercenary_supplies_3 =spawn_mercenary_supplies_4 =spawn_mercenary_supplies_5 =spawn_mercenary_supplies_6 =clear_smart_terrain(jup_b202:true) =clear_smart_terrain(jup_b207:true) =create_squad(jupiter_stalker_assault_leader_squad:jup_a6) =create_squad(jupiter_stalker_assault_1_squad:jup_a6) =create_squad(jupiter_mercenary_1_squad:jup_b207)%
 on_complete = %=reward_money(7000)%
 
 ---- Stage 2 ----
@@ -475,3 +484,33 @@ target =
 descr = {+fanatic_north_help_10} give_task_fanat_rookie_supplies_10_descr, {+fanatic_north_help_5} give_task_fanat_rookie_supplies_5_descr, {+fanatic_north_help_4} give_task_fanat_rookie_supplies_4_descr, {+fanatic_north_help_3} give_task_fanat_rookie_supplies_3_descr, {+fanatic_north_help_2} give_task_fanat_rookie_supplies_2_descr, {+fanatic_north_help_1} give_task_fanat_rookie_supplies_1_descr
 
 condlist_0 = {+fanatic_north_1_done} complete
+
+
+[give_task_escort_sorokin_1]
+icon = ui_iconsTotal_bar_crazy_veterans_quest
+prior = 55
+storyline = true
+
+title = give_task_escort_sorokin_1_name
+target = 
+descr = {+sorokin_1_you_arrived} give_task_escort_sorokin_1_2_descr, give_task_escort_sorokin_1_1_descr
+status_functor          = give_task_escort_sorokin_1_status_f
+
+on_init = 
+condlist_0 = {+nr_sorokin_2_done} complete
+on_complete = 
+condlist_1 = {+nr_sorokin_dead} fail
+
+[give_task_join_scamlok_1]
+icon = ui_iconsTotal_bar_crazy_veterans_quest
+prior = 140
+storyline = true
+
+title = give_task_join_scamlok_1_name
+target = 
+descr = {+nr_fool_you_arrived} give_task_join_scamlok_1_2_descr, give_task_join_scamlok_1_1_descr
+status_functor          = give_task_join_scamlok_1_status_f
+
+on_init = 
+condlist_0 = {+give_task_join_scamlok_1_done} complete
+on_complete = 

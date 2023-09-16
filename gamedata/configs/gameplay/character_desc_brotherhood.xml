@@ -255,7 +255,9 @@
 #include "gameplay\character_criticals.xml"
 
 		<start_dialog>marlo_stanfield_start_dialog</start_dialog>
-		<actor_dialog>marlo_stanfield_11</actor_dialog>
+		<actor_dialog>marlo_stanfield_1</actor_dialog>
+		<actor_dialog>marlo_stanfield_2</actor_dialog>
+		
 		
 		<actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
@@ -290,6 +292,8 @@
 		<actor_dialog>chris_partlow_2</actor_dialog>
 		<actor_dialog>chris_partlow_3</actor_dialog>
 		<actor_dialog>chris_partlow_4</actor_dialog>
+		<actor_dialog>chris_partlow_5</actor_dialog>
+		<actor_dialog>chris_partlow_6</actor_dialog>
 		
 		<actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
@@ -537,12 +541,12 @@
 		<actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
 
-<specific_character id="alyosha_karmov" team_default = "1">
-		<name>alyosha_karmov_name</name>
+<specific_character id="alyosha_shyogolov" team_default = "1">
+		<name>alyosha_shyogolov_name</name>
 		<icon>ui_inGame2_nosorog</icon>
 		<map_icon x="0" y="6"></map_icon>
 		<bio></bio>
-		<class>alyosha_karmov</class>
+		<class>alyosha_shyogolov</class>
 		<community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
 		<rank>20</rank>
 		<money min="2000" max="3000" infinitive="1"/>
@@ -559,8 +563,8 @@
         detector_simple \n
 		</supplies>
 		
-		<start_dialog>alyosha_karmov_start_dialog</start_dialog>
-		<actor_dialog>alyosha_karmov_0</actor_dialog>
+		<start_dialog>alyosha_shyogolov_start_dialog</start_dialog>
+		<actor_dialog>alyosha_shyogolov_0</actor_dialog>
 		
 		
 		
@@ -598,7 +602,7 @@
 		
 		<actor_dialog>sasha_tolstoy_1</actor_dialog>
 		<actor_dialog>sasha_tolstoy_2</actor_dialog>
-		
+		<actor_dialog>sasha_tolstoy_3</actor_dialog>
 		<actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
 
@@ -739,5 +743,64 @@
 		<actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
 
+---- Northern Rush ---
+
+<specific_character id="nr_sorokin" team_default = "1">
+		<name>nr_sorokin_name</name>
+		<icon>ui_inGame2_neutral_2_gp5</icon>
+		<bio></bio>
+		<class>nr_sorokin</class>
+		<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+		<map_icon x="1" y="0"/>
+		<terrain_sect>stalker_terrain</terrain_sect>
+		<rank>100</rank>
+		<reputation>30</reputation>
+		<money min="600" max="700" infinitive="0"/>
+		<snd_config>characters_voice\human\stalker_3\</snd_config>
+		<crouch_type>-1</crouch_type>
+		<visual>actors\stalker_neutral\stalker_neutral2a_gp5</visual>
+		<supplies>
+        [spawn] \n
+        
+        hand_radio \n
+		</supplies>
+#include "gameplay\character_criticals.xml"
+
+		<start_dialog>nr_sorokin_start_dialog</start_dialog>
+		<actor_dialog>nr_sorokin</actor_dialog>
+		<actor_dialog>nr_sorokin_1</actor_dialog>
+		<actor_dialog>nr_sorokin_2</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+
+<specific_character id="nr_scamlok" team_default = "1">
+    <name>nr_scamlok_name</name>
+    <icon>ui_inGame2_strelok_ico</icon>
+    <map_icon x="1" y="0">
+    </map_icon>
+    <bio></bio>
+    <class>nr_scamlok</class>
+    <community>stalker</community>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human\stalker_2\</snd_config>
+    <rank>30056</rank>
+    <reputation>1250</reputation>
+    <visual>actors\stalker_neutral\stalker_neutral_strelok</visual>
+    <supplies>
+        [spawn] \n
+		wpn_sig550_sniper = 1 \n
+        ammo_5.56x45_ap = 3 \n
+		wpn_colt1911 = 1 \n
+        ammo_11.43x23_fmj = 1            
+		grenade_f1 = 1 \n
+#include "gameplay\supplies\character_food_army.xml"
+#include "gameplay\supplies\character_drugs_4.xml"
+#include "gameplay\supplies\character_drugs_sci.xml"
+#include "gameplay\supplies\character_drugs_mil.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+    <start_dialog>nr_scamlok_start_dialog</start_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
 
 </xml>

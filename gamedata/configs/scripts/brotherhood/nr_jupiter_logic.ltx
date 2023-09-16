@@ -1,0 +1,10 @@
+[logic@nr_sorokin_2]
+   suitable = {=check_npc_name(nr_sorokin)} true
+   prior = 500
+   active = beh@nr_sorokin_job
+
+[beh@nr_sorokin_job]
+	behaviour_state = beh_move
+	target = waypoint
+	path_end = loop
+	pt1 = 88860000,idle | pos:-43.189586639404,3.4878842830658,202.7116394043 look:-43.271250747144,3.4878842830658,201.74094808102

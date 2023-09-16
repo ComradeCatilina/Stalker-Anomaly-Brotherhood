@@ -82,10 +82,10 @@
 	</string>
 	
 	<string id="st_vybegallo_order_mercenary_name">
-		<text>Order from headquarters</text>
+		<text>Mission description</text>
 	</string>
 	<string id="st_vybegallo_order_mercenary_descr">
-		<text>From the headquarter: \n \nA scientist recently contacted us with an urgent order for some Pseudogiant parts. Go hunt one and send Dushman his parts. And no word about it, discretion is of essence.</text>
+		<text>A scientist recently contacted us with an urgent order for some Pseudogiant parts. Organise a hunting party and send the parts to Dushman - he takes a keen interest in the success of the mission, so don't screw it up! Take some experencied guys with you! And no word about it, discretion is of essence.</text>
 	</string>
 	
 	<string id="st_af_grid_prototype_name">
@@ -118,7 +118,12 @@
 
 
 
-
+<string id="st_quest_package_mercenary_name">
+		<text>Supplies cache</text>
+	</string>
+	<string id="st_quest_package_mercenary_desc">
+		<text>A cache of supplies from the mercenaries. Chris will be happy to lay his hands on all these weapons and ammo.</text>
+	</string>
 
 
 

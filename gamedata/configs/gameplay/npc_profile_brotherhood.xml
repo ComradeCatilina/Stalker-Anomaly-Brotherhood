@@ -13,7 +13,9 @@
 <character id="hunter_orion">
 		<class>hunter_orion</class>
 	</character>
-		
+<character id="nr_sorokin">
+		<class>nr_sorokin</class>
+	</character>		
 	
 	
 <character id="assault_stalker_leader_esc_5_9">
@@ -22,6 +24,12 @@
 <character id="assault_csky_leader_esc_5_7">
 		<class>assault_csky_leader_esc_5_7</class>
 	</character>
+	
+<character id="nr_scamlok">
+		<class>nr_scamlok</class>
+	</character>
+
+	
 <character id="zaton_brokkr">
 		<class>zaton_brokkr</class>
 	</character>
@@ -55,8 +63,8 @@
 		<class>ecologist_sidorovich</class>
 	</character>	
 
-<character id="alyosha_karmov">
-		<class>alyosha_karmov</class>
+<character id="alyosha_shyogolov">
+		<class>alyosha_shyogolov</class>
 	</character>		
 
 <character id="zaton_achilles">

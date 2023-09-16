@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+----Stories from the Zone----
+
+
+---- Northern Rush----
+
+<string id="barkeep_north_0_0">
+		<text>You seem to have a full-house here?</text>
+	</string>
+	<string id="barkeep_north_0_1">
+		<text>And all thanks to you! By disabling the Brainscorcher you opened up the north for anyone who dares to go! 
+			You triggered a rush for the north - and people gather here to buy supplies before setting off! Here, a drink on the house - you deserved it! \n \n
+			If you're looking to make some money, now is a great opportunity! Prices are soaring, I hope you don't need any supplies as demand is huge at the moment.</text>
+	</string>
+
+
+
+---- Scamlok ----
+
+-- Barman --
+
+
+<string id="barkeep_scamlok_believe_0">
+		<text>Hey, I just met Strelok!</text>
+	</string>
+	<string id="barkeep_scamlok_believe_1">
+		<text>Strelok? Here? Are you sure?</text>
+	</string>
+	<string id="barkeep_scamlok_believe_2">
+		<text>Yes! And he is gathering a team to reach the Wishgranter! The participation fee was a bit steep, but it will be worth it.</text>
+	</string>
+	<string id="barkeep_scamlok_believe_3">
+		<text>Strelok who is recruiting strangers? For a fee? Hahahaha \n \nYou got scammed my friend. Strelok would never do that!</text>
+	</string>
+	<string id="barkeep_scamlok_believe_4">
+		<text>...</text>
+	</string>
+	<string id="barkeep_scamlok_believe_5">
+		<text>The Zone is full of scammers, it can happen to anyone... but I have to say, you belong to the more naive ones - Strelok asking for money, hahaha. \n \nDon't be sad, here a drink on the house.</text>
+	</string>
+	
+<string id="barkeep_scamlok_scammer_0">
+		<text>Hey, I just met a man saying he is Strelok.</text>
+	</string>
+	<string id="barkeep_scamlok_scammer_1">
+		<text>Strelok? Here? What did he want?</text>
+	</string>
+	<string id="barkeep_scamlok_scammer_2">
+		<text>He said that he is gathering a team to reach the Wishgranter! Was asking for 10000 roubles particitpation fee...</text>
+	</string>
+	<string id="barkeep_scamlok_scammer_3">
+		<text>Ah a scammer. Happens sometimes that a man comes around pretending to be Strelok. The true one would never trust strangers and ask them money. I hope you didn't give him anything?</text>
+	</string>
+	<string id="barkeep_scamlok_scammer_4">
+		<text>No, I was not feeling it.</text>
+	</string>
+	<string id="barkeep_scamlok_scammer_5">
+		<text>Well done. I'll warn the customers and have my guys look for that imposer.</text>
+	</string>
+	
+	
+	
+	
+
+<string id="nr_sorokin_start_dialog_0">
+		<text>Hello Stalker, you look experienced!</text>
+	</string>
+	<string id="nr_sorokin_start_dialog_1">
+		<text>I just took down the Brain Scorcher, of course I'm experienced!</text>
+	</string>
+	<string id="nr_sorokin_start_dialog_2">
+		<text>You could say that...</text>
+	</string>
+	<string id="nr_sorokin_start_dialog_3">
+		<text>What makes you say that?</text>
+	</string>
+	<string id="nr_sorokin_start_dialog_4">
+		<text>No, I'm still a rookie learning the ropes</text>
+	</string>
+	<string id="nr_sorokin_start_dialog_5">
+		<text>DDDDAMN! You're the guy! It's an honour meeting you! I'm Sorokin! \n \nAre you also here to join Strelok?</text>
+	</string>
+	<string id="nr_sorokin_start_dialog_6">
+		<text>Nice to meet you! I'm Sorokin. I'm looking for the services of an experienced Stalker such as you. I need to go to Yanov Station, could you help me? 
+		I'm somewhat new here, so I don't have a team... yet, but I have money! It would mean a lot, I have a golden opportunity which I can't miss. </text>
+	</string>
+	<string id="nr_sorokin_start_dialog_7">
+		<text>Of course the gear, but most of all your expression. I'm Sorokin, nice to meet you! \n \nListen, I need an experienced Stalker to bring me to Yanov Station. I'm somewhat new here, so I don't have a team yet, but I have money!
+		It would mean a lot, I have a golden opportunity which I can't miss. Are you interested?</text>
+	</string>
+	<string id="nr_sorokin_start_dialog_8">
+		<text>Oh, me too! i thought with all your gear, you looked like a veteran. \n \nI'm Sorkin, nice to meet you! Are you also here to find a guide to Yanov?</text>
+	</string>
+	<string id="nr_sorokin_start_dialog_9">
+		<text>Strelok?? Have you seen him? Where is he?</text>
+	</string>
+	<string id="nr_sorokin_start_dialog_10">
+		<text>Why do you need to go to Yanov?</text>
+	</string>
+	
+	<string id="nr_sorokin_start_dialog_11">
+		<text>Yanov? Maybe, at some point. Why are you asking?</text>
+	</string>
+	<string id="nr_sorokin_start_dialog_12">
+		<text>Well... I'm not supposed to tell this to anyone, but I guess you're a hero of the Zone now. 
+		Yes, I've met him. He doesn't want to attract attention, but yes he's here, in Rostok! He's putting together a team! You should meet him! I'm sure that you're the perfect candidate.  </text>
+	</string>
+	
+	<string id="nr_sorokin_start_dialog_13">
+		<text>... Ok, I'm not supposed to tell this, but considering you're a veteran you'd make a great addition to the team. I suppose you know who Strelok is?</text>
+	</string>
+	<string id="nr_sorokin_start_dialog_14">
+		<text>... Ok, I'm not supposed to tell this, but as we're both new here we have to stick together. Do you know who is Strelok?</text>
+	</string>
+	<string id="nr_sorokin_start_dialog_15">
+		<text>Where is he?</text>
+	</string>
+	
+	<string id="nr_sorokin_start_dialog_16">
+		<text>Of course I know who he is. </text>
+	</string>
+	<string id="nr_sorokin_start_dialog_161">
+		<text>Of course I know who he is. </text>
+	</string>
+	<string id="nr_sorokin_start_dialog_17">
+		<text>I'll tell you, but remember me, and please take me with you to Yanov! He's in the hangar in the hangar north of the Arena.</text>
+	</string>
+	<string id="nr_sorokin_start_dialog_18">
+		<text>Of course. Well he's recruiting at the moment for a huge mission to the heart of the Zone. The Wishgranter, can you believe it?
+		There are trials and so on, but that shouldn't be a problem for you! Come see me before you go though, I want to join you! I'll pay of course, that's not a problem. You'll find him in the hangar north of the Arena.</text>
+	</string>
+	<string id="nr_sorokin_start_dialog_19">
+		<text>Of course, the guy is legend, right? Well he's recruiting at the moment for a huge mission to the heart of the Zone. The Wishgranter, can you believe it? 
+		There are trials though and an entry fee... But if you go, take me with you! I'm sure we'd make a great team! You'll find him in the hangar north of the Arena.</text>
+	</string>
+
+<string id="nr_sorokin_0">
+		<text>Hey man, about the expedition...</text>
+	</string>
+	<string id="nr_sorokin_1">
+		<text>Did you meet Strelok? He's great, right? And? Will you join us? Will you take me with you to Yanov?</text>
+	</string>
+	<string id="nr_sorokin_2">
+		<text>Yes I will join the expedition, and I'll bring you to Yanov with me.</text>
+	</string>
+	<string id="nr_sorokin_3">
+		<text>No I won't join the expedition, but I can bring you to Yanov nevertheless.</text>
+	</string>
+	<string id="nr_sorokin_4">
+		<text>I hate to break it to you, but that guy wasn't Strelok...</text>
+	</string>
+	
+	<string id="nr_sorokin_5">
+		<text>Great! Tell me when you're ready to leave, I already am!</text>
+	</string>
+	<string id="nr_sorokin_6">
+		<text>Oh...alright, you certainly have your reasons...but thanks for escorting me to Yanov! Tell me when you're ready to leave, I already am!</text>
+	</string>
+	<string id="nr_sorokin_7">
+		<text>What? How... how do you know?</text>
+	</string>
+	<string id="nr_sorokin_8">
+		<text>That guy was super sketchy, he certainly was a scammer.</text>
+	</string>
+	<string id="nr_sorokin_9">
+		<text>I talked to the barkeeper, he told me that there is no chance that the guy was legit.</text>
+	</string>
+	<string id="nr_sorokin_10">
+		<text>What? No fucking way, you're trying to cut me out in order to have less competition! Fuck you, I thought I could trust you! I'll find another way to go to Yanov!</text>
+	</string>
+	<string id="nr_sorokin_11">
+		<text>What? I mean... if the barkeeper is convinced... Fuck, this is horrible! I... I took a loan in order to join Strelok, I mean, whoever that was... Fuck, I'm screwed!</text>
+	</string>
+	<string id="nr_sorokin_12">
+		<text>I need some time</text>
+	</string>
+	<string id="nr_sorokin_13">
+		<text>Alright, but don't take too long, Strelok won't be waiting for us!</text>
+	</string>
+
+<string id="nr_sorokin_1_0">
+		<text>About the escort to Yanov</text>
+	</string>
+	<string id="nr_sorokin_1_1">
+		<text>Yes, are you ready, can we leave?</text>
+	</string>
+	<string id="nr_sorokin_1_2">
+		<text>We can leave.</text>
+	</string>
+	<string id="nr_sorokin_1_3">
+		<text>I need some more time to prepare.</text>
+	</string>
+	<string id="nr_sorokin_1_4">
+		<text>Alright, you lead the way!</text>
+	</string>
+	<string id="nr_sorokin_1_5">
+		<text>Alright, but don't take too long, Strelok won't be waiting for us!</text>
+	</string>
+
+<string id="nr_sorokin_2_0">
+		<text>We arrived.</text>
+	</string>
+	<string id="nr_sorokin_2_1">
+		<text>Thanks alot! Here is the money. I'll have a rest at the bar.</text>
+	</string>
+	<string id="nr_sorokin_2_2">
+		<text>Alright, I'll ask around if someone saw Strelok.</text>
+	</string>
+	<string id="nr_sorokin_2_3">
+		<text>See you soon!</text>
+	</string>
+
+
+
+
+<string id="nr_scamlok_start_dialog_0">
+		<text>What do you want?</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_1">
+		<text>Strelok? I've been looking for you!</text>
+	</string>	
+	<string id="nr_scamlok_start_dialog_2">
+		<text>Strelok? I've heard that you're putting together a team.</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_3">
+		<text>Are you really Strelok?</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_4">
+		<text>Pssht, not so loud! No need to attract the attention of whole Rostok! \n \nSo, you have been looking for me? Why? And how did you find me?</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_5">
+		<text>Pssht, not so loud! No need to attract the attention of whole Rostok! \n \nWhy are you asking about a team?</text>
+	</string>	
+	<string id="nr_scamlok_start_dialog_6">
+		<text>If you need to ask, you don't need to know.</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_7">
+		<text>What is the problem?</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_71">
+		<text>What is the problem?</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_8">
+		<text>Why? Because I'm Strelok! My enemies seek me, even my admires bother me! You have no idea how teadious it is to operate here when everyone tries to get something from you.
+			\n \nBut answer my question, you have been looking for me? Why? And how did you find me?</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_9">
+		<text>Why? Because I'm Strelok! My enemies seek me, even my admires bother me! You have no idea how teadious it is to operate here when everyone tries to get something from you.
+			\n \nWhy are you asking about a team?</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_10">
+		<text>I want to find the Wishgranter - Sidorovich told me you've done it before. I thought you were somewhere north of here, I even disabled the Brainscorcher in order to find you. And now, by coincidence, a guy at the bar told me where to find you. Can you help me get there?</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_11">
+		<text>A guy at the bar told me. He also told me that you want to go to the Wishgranter. Is it true?</text>
+	</string>	
+	<string id="nr_scamlok_start_dialog_12">
+		<text>I mean, I never met you, how do I know it's you?</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_13">
+		<text>The Wishgranter? You're in luck, that is indeed where I'm planning to go. I'm putting together a team for exactly that purpose - you wish to join me?</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_14">
+		<text>I told them to keep quiet about me and the team. Who was it? \n\n Ah fuck it, doesn't matter. 
+			Yes, I'm gathering a team, and yes - we're going after the Wishgranter. Are you interested?</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_15">
+		<text>Hmm, you're new here? Alright, see this tattoo? I'm the guy you're looking for. What is it you want?</text>
+	</string>	
+	<string id="nr_scamlok_start_dialog_16">
+		<text>Don't you already have a team? Why do you need strangers?</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_17">
+		<text>Of course I'm interested - when do we leave?</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_18">
+		<text>Don't you already have a team? Why do you need strangers?</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_19">
+		<text>Of course I'm interested - when do we leave?</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_20">
+		<text>Alright, I believe you.</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_21">
+		<text>But...</text>
+	</string>	
+	<string id="nr_scamlok_start_dialog_22">
+		<text>Of course I already have a team - the most grizzled veterans you could imagine... but finding the Wishgranter is no walk in the park. 
+	We need more people, and that's why I'm here to recruit candidates. \n\nMaybe you'd make a good fit?</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_23">
+		<text>Not so fast. You see, this enterprise is no walk in the park - I'm here to find worthy men and not rookies. So there will be a test and a fee.</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_24">
+		<text>A fee?</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_25">
+		<text>A test?</text>
+	</string>	
+	<string id="nr_scamlok_start_dialog_26">
+		<text>Then tell me, what do you want?</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_27">
+		<text>No "but"! Either you accept it or you fuck off. In the end, remember, you came to me, not the other way around! </text>
+	</string>
+	<string id="nr_scamlok_start_dialog_28">
+		<text>Yes a fee. We need supplies, weapons and armor to assault the CNPP. I know some guys who sell premium stuff, but it also comes with a premium price.
+	So, everyone who wishes to join has to put 10.000 roubles in the pot.</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_281">
+		<text>Yes a fee. We need supplies, weapons and armor to assault the CNPP. I know some guys who sell premium stuff, but it also comes with a premium price.
+	So, everyone who wishes to join has to put 10.000 roubles in the pot. \n\nWhat do you say? You seem to be perfect for the job, I'm sure you'll make the cut.</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_29">
+		<text>Of course. I cannot take rookies with me, so there will be a test in order to weed out the weak and unreliable. 
+		The first test is to reach Yanov Station to the north. There we will proceed to further tests to see if you're worthy to join our final assault.</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_291">
+		<text>Of course. I cannot take rookies with me, so there will be a test in order to weed out the weak and unreliable. 
+		The first test is to reach Yanov Station to the north. There we will proceed to further tests to see if you're worthy to join our final assault.
+		\n\nWhat do you say? You seem to be perfect for the job, I'm sure you'll make the cut.</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_30">
+		<text>[10.000 roubles] Count me in!</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_31">
+		<text>I don't know, I need time to think.</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_32">
+		<text>Excellent, I knew you would not miss such an opportunity! Keep this conversation quiet - I don't want everyone to know my plans. See you in Yanov!</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_33">
+		<text>I hate to break it to you, but there is no time to think about it. I will leave in the next hours, this is your last opportunity to grab the occasion of your life!</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_34">
+		<text>Count me in!</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_35">
+		<text>Then I have to refuse.</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_36">
+		<text>Get lost poor fool, you missed the opportunity of your life.</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_37">
+		<text>Go fuck yourself.</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_371">
+		<text>Fuck you, Tushkan fodder.</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_38">
+		<text>Relax, I believe you! I was looking for you for a long time - I want to go to the Wishgranter with you!</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_39">
+		<text>I don't know... are you really Strelok?</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_40">
+		<text>What the fuck? Of course I'm Strelok! The Marked One who diasbled not only the Brainscorcher, but also the Kaymanov emitter! Here, do you see this tattoo?</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_41">
+		<text>A tattoo? What does a tattoo have to do with Strelok?</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_42">
+		<text>I found a stash of yours - can you tell me where you hid it?</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_43">
+		<text>Can you show me your Psi-helmet?</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_44">
+		<text>I'm sorry - of course I believe you. I want to come with you.</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_45">
+		<text>Wh-what? You don't know shit about me, and yet you dare to question me? Fuck off fool!</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_46">
+		<text>What a moronic question, I have stashes all over the Zone - why would I tell you the location of even one of them? Fuck off scammer!</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_47">
+		<text>Are you trying to mug me for my Psi-helmet? Fuck off thief!</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_48">
+		<text>Alright, I forgive you. But for your insolence, you pay double!</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_49">
+		<text>[20.000 roubles] All right, here is the money!</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_50">
+		<text>I need time to gather the money.</text>
+	</string>
+	<string id="nr_scamlok_start_dialog_51">
+		<text>I changed my mind, I won't join.</text>
+	</string>
+	
+</string_table>
